@@ -1,0 +1,30 @@
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+      {{- .Content -}}
+    </section>
+    <section class="flex-ns flex-wrap justify-around mt5">
+      {{ $publications := where .Site.Pages "Section" "publications" }}
+      {{ $publications := symdiff $publications (slice .) }}
+      {{ $list := where $publications ".Params.tag" "QITI" }}
+      {{ with $list }}
+        {{- partial "pub-list-2.html" . -}}
+      {{ end }}
+      <h1 class="l"> Bosons in optical lattices, measurement of entanglement entropy (Harvard) </h1>
+      {{ $list := where $publications ".Params.tag" "Harvard" }}
+      {{ with $list }}
+        {{- partial "pub-list-2.html" . -}}
+      {{ end }}
+      <h1>Quantum simulation of interacting spin models with trapped ions (Maryland) </h1>
+      {{ $list := where $publications ".Params.tag" "Maryland" }}
+      {{ with $list }}
+        {{- partial "pub-list-2.html" . -}}
+      {{ end }}
+      <h1> Thesis </h1>
+      {{ $list := where $publications ".Params.tag" "Thesis" }}
+      {{ with $list }}
+        {{- partial "pub-list-2.html" . -}}
+      {{ end }}
+    </section>
+  </article>
+{{ end }}

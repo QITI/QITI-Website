@@ -1,0 +1,51 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="left cf pv5 ph3 ph4-ns mw7">
+      <header>
+        <p class="f6 b helvetica tracked">
+          {{ humanize .Section | upper  }}
+        </p>
+        <h1 class="f1">
+          {{ .Title }}
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links dark-gray">
+        <div class="dtc v-top">
+          {{ $img := .Params.image | absURL}}
+          <img src="{{ $img }}" class="mw5 db" alt="image from {{.Title}}" width="150px"/>
+        </div>
+        <div class="dtc v-top pl3">
+          <p class="lh-copy mv0">
+            <b>Email:</b> {{ .Params.email }}<br/>
+            <b>Extention:</b> {{ .Params.extention }}<br/>
+            <b>office:</b> {{ .Params.office }}<br/>
+          </p>
+        </div>
+      </div>
+      <h1>Publications</h1>
+            {{ .Content }}
+
+            {{ $authorTag := .Params.authorTag }}
+            {{$section :=  where .Site.Pages "Section" "publications"}}
+            {{$tmp_sec := $section }}
+            
+            {{ range $section }}
+              {{ $tmp := . }}
+              {{ range .Params.authors }}
+                {{ if and ( ge (len .) 2 ) (eq (index . 1) $authorTag ) }}
+                  {{ $tmp_sec = symdiff $tmp_sec (slice $tmp) }}
+                {{ end }}
+              {{end}}
+            {{ end }}
+
+            {{ $section := symdiff $section $tmp_sec }}
+
+            {{ if ge (len $section) 1 }}
+              {{ partial "pub-list-2.html" $section}}
+            {{ end }}
+
+
+    </article>
+  </div>
+{{ end }}

@@ -1,0 +1,18 @@
+
+{{ $section := . }}
+{{ $section_count := len $section }}
+{{ $section_name := "Publications" }}
+
+
+  <div class="nested-copy-line-height lh-copy f4">
+        <h1 class="flex-none f2">
+          {{ $section_name }}
+        </h1>
+    <section class="w-100 mw8">
+      {{ range $section }}
+        <div class="relative w-100 mb4">
+          {{ partial "summary-with-image.html" . }}
+        </div>
+      {{ end }}
+    </section>
+    </div>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Quantum Information with Trapped Ions</title>
+    <link>//localhost:1313/news/</link>
+    <description>Recent content in News on Quantum Information with Trapped Ions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Mar 2020 00:07:13 -0400</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nature Accepts HotIons</title>
+      <link>//localhost:1313/news/nature-accepts-hotions/</link>
+      <pubDate>Mon, 20 Apr 2020 15:42:24 -0400</pubDate>
+      
+      <guid>//localhost:1313/news/nature-accepts-hotions/</guid>
+      <description>Nature has accepted soandso&amp;rsquo;s manuscript for HotIon quantum computing. Likely to be published in the July issue. Some more words.</description>
+    </item>
+    
+    <item>
+      <title>Nik Joins QIon</title>
+      <link>//localhost:1313/news/nik-joins-qion/</link>
+      <pubDate>Mon, 20 Apr 2020 15:42:08 -0400</pubDate>
+      
+      <guid>//localhost:1313/news/nik-joins-qion/</guid>
+      <description>Welcome our new Masters student Nikolay!</description>
+    </item>
+    
+  </channel>
+</rss>

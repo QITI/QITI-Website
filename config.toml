@@ -1,0 +1,12 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Quantum Information with Trapped Ions"
+theme = "ananke"
+SectionPagesMenu = "main"
+aginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
+
+[Params]
+background_color_class = "bg-black"
+featured_image = "/images/header/MainHeader.gif"
+homeList = ["news", "publications"]
+

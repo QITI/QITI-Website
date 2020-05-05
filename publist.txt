@@ -1,0 +1,67 @@
+
+hugo new publications/2020-Programmable-Quantum-Simulations-of-Spin-Systems-with-Trapped-Ions.md
+hugo new publications/2020-Machine-learning-design-of-a-trapped-ion-quantum-spin-simulator.md
+hugo new publications/2019-Dynamic-Hamiltonian-engineering-of-2D-rectangular-lattices-in-a-one-dimensional-ion-chain.md
+hugo new publications/2018-Single-Atom-Heat-Machines-Enabled-by-Energy-Quantization.md
+hugo new publications/2017-Multislip-Friction-with-a-Single-Ion.md
+hugo new publications/2016-Ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control.md
+hugo new publications/2015-Measuring-entanglement-entropy-in-a-quantum-many-body-system.md
+hugo new publications/2015-Strongly-Correlated-Quantum-Walks-in-Optical-Lattices.md
+hugo new publications/2014-Beat-Note-Stabilization-of-Mode-Locked-Lasers-for-Quantum-Information-Processing.md
+hugo new publications/2013-Quantum-Catalysis-of-Magnetic-Phase-Transitions-in-a-Quantum-Simulator.md
+hugo new publications/2013-Emergence-and-Frustration-of-Magnetic-Order-with-Variable-Range-Interactions-in-a-Trapped-Ion-Quantum-Simulator.md
+hugo new publications/2011-Onset-of-a-Quantum-Phase-Transition-with-a-Trapped-Ion-Quantum-Simulator.md
+hugo new publications/2010-Quantum-simulation-of-frustrated-Ising-spins-with-trapped-ions.md
+hugo new publications/2009-Entanglement-and-Tunable-Spin-Spin-Couplings-Between-Trapped-Ions-Using-Multiple-Transverse-Modes.md
+hugo new publications/2009-Large-Scale-Quantum-Computation-in-an-Anharmonic-Linear-Ion-Trap.md
+hugo new publications/2018-Developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions.md
+hugo new publications/2012-Quantum-Simulation-of-Interacting-Spin-Models-with-Trapped-Ions.md
+
+
+
+Publications
+
+“Programmable Quantum Simulations of Spin Systems with Trapped Ions” 
+arxiv:1912.07845
+“Machine learning design of a trapped-ion quantum spin simulator”
+arXiv:1910.02496
+“Dynamic Hamiltonian engineering of 2D rectangular lattices in a one-dimensional ion chain”
+“Single-Atom Heat Machines Enabled by Energy Quantization”
+arXiv:1705.11180
+ “Multislip Friction with a Single Ion,”
+ arXiv:1705.00716 
+
+Bosons in optical lattices, measurement of entanglement entropy (Harvard)
+
+“Ultra-precise holographic beam shaping for microscopic quantum control,” 
+“Measuring entanglement entropy in a quantum many-body system,“
+arXiv:1509.01160
+“Strongly Correlated Quantum Walks in Optical Lattices,” 
+arXiv:1409.3100
+
+Quantum simulation of interacting spin models with trapped ions (Maryland)
+
+hugo new publications/2020-Beat-Note-Stabilization.md
+hugo new publications/2020-Emergence-and-Frustration.md
+hugo new publications/2020-Onset-of-a.md
+hugo new publications/2020-Quantum-simulation-of.md
+hugo new publications/2020-Entanglement-and-Tunable.md
+hugo new publications/2020-Large-Scale-Quantum.md
+
+
+“Beat Note Stabilization of Mode-Locked Lasers for Quantum Information Processing,”
+“Emergence and Frustration of Magnetic Order with Variable-Range Interactions in a Trapped Ion Quantum Simulator,”
+arXiv:1210.0142.
+“Onset of a Quantum Phase Transition with a Trapped Ion Quantum Simulator,”
+arXiv:1103.2400,
+“Quantum simulation of frustrated Ising spins with trapped ions,”
+“Entanglement and Tunable Spin-Spin Couplings Between Trapped Ions Using Multiple Transverse Modes,”
+“Large Scale Quantum Computation in an Anharmonic Linear Ion Trap,”
+
+THESIS
+
+hugo new publications/2020-Developing-theoretical-and.md
+hugo new publications/2020-Quantum-Simulation-of.md
+
+“Developing theoretical and experimental tools for a hybrid quantum simulator based on trapped ions”,
+“Quantum Simulation of Interacting Spin Models with Trapped Ions,”

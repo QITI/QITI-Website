@@ -1,0 +1,45 @@
+{{ $section := . }}
+{{ $section_count := len $section }}
+{{ $section_name := "Publications" }}
+  <div class="nested-copy-line-height lh-copy f4">
+        <h1 class="flex-none f3 mb0">
+          {{ $section_name }}
+        </h1>
+    <section class="w-100 mw8">
+      {{ range $section }}
+        <div class="relative w-100 ma1 nested-copy-line-height">
+          <div class="bg-white pa1 gray overflow-hidden">
+            <h1 class="f4 near-black mb0">
+              <a href="{{ .Permalink }}" class="link black dim">
+                {{ .Title }}
+              </a>
+            </h1>
+            <div class="mb0 f5">
+              {{ partial "authorList.html" . }}
+              <div>
+              {{ .Params.datePublished }}
+              </div>
+              <div>
+              </div>
+              {{ $needTab := 0 }}
+              {{ $journal := printf "%s %s, %s" .Params.journal .Params.volume .Params.issue }}
+              {{ with .Params.link }}
+                {{ $needTab = 1 }}
+                <a href="{{ . }}" target="_blank" class="link black dim">
+                  {{ $journal }}
+                </a>
+              {{ end }}
+              {{ with .Params.arxiv }}
+                {{ if $needTab }} 
+                  &nbsp &nbsp &nbsp &nbsp
+                {{ end }}
+                <a href="{{ printf "%s%s" "https://arxiv.org/abs/" . }}" target="_blank" class="link black dim">
+                  {{printf "%s%s" "arXiv:" .}}
+                </a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </section>
+    </div>

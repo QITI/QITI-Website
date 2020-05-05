@@ -1,0 +1,80 @@
+{{ define "main" }}
+  <article class="pa6 pa4-ns nested-copy-line-height nested-img">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+      {{- .Content -}}
+    </section>
+    <h1> Principle Investigator </h1>
+    <section class="flex-ns flex-wrap mt1 ph2-l">
+      {{ $peoplePages := where .Site.Pages "Section" "people" }}
+      {{ $peoplePages := symdiff $peoplePages (slice .) }}
+
+      {{ $list := where $peoplePages ".Params.position" "PI" }}
+      {{ with $list }}
+        {{ range . }}
+          <div class="relative w-100 w-30-l ma2 mid-gray">
+            <div class="bg-white">
+              {{- partial "summary-with-bubble-image.html" . -}}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+      </section>
+
+      <h1> Administrative Assistant </h1>
+      <section class="flex-ns flex-wrap mt1 ph2-l">
+      {{ $list := where $peoplePages ".Params.position" "adminAssistant" }}
+      {{ with $list }}
+        {{ range . }}
+          <div class="relative w-100 w-30-l ma2 mid-gray">
+            <div class="bg-white">
+              {{- partial "summary-with-bubble-image.html" . -}}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+      </section>
+
+      <h1> Postdoctoral Fellows </h1>
+      <section class="flex-ns flex-wrap mt1 ph2-l">
+      {{ $list := where $peoplePages ".Params.position" "postDoc" }}
+      {{ with $list }}
+        {{ range . }}
+          <div class="relative w-100 w-30-l ma2 mid-gray">
+            <div class="bg-white">
+              {{- partial "summary-with-bubble-image.html" . -}}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+      </section>
+
+      <h1> Graduate Students </h1>
+      <section class="flex-ns flex-wrap mt1 ph2-l">
+      {{ $list := where $peoplePages ".Params.position" "grad" }}
+      {{ with $list }}
+        {{ range . }}
+          <div class="relative w-100 w-30-l ma2 mid-gray">
+            <div class="bg-white">
+              {{- partial "summary-with-bubble-image.html" . -}}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+      </section>
+      
+      <h1> Undergraduate Research Associates </h1>
+      <section class="flex-ns flex-wrap mt1 ph2-l">
+      {{ $list := where $peoplePages ".Params.position" "COOP" }}
+      {{ with $list }}
+        {{ range . }}
+          <div class="relative w-100 w-30-l ma2 mid-gray">
+            <div class="bg-white">
+              {{- partial "summary-with-bubble-image.html" . -}}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+      </section>
+
+  </article>
+{{ end }}

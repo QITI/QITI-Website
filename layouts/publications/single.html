@@ -1,0 +1,34 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="left cf tj pv5 ph3 ph4-ns mw7">
+      <header>
+        <p class="f6 b helvetica tracked">
+          {{ humanize .Section | upper  }}
+        </p>
+        <p class="f3 b mv1 pv1">
+          {{ .Title }}
+        </p>
+        <p class="f4 dark-gray mv1 pv1">
+          {{ partial "authorList.html" . }}
+        </p>
+        <p class="f4 mid-gray mv1 pv1">
+          {{ partial "journal-link-bar.html" . }}
+        </p>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
+        {{ with .Params.image }}
+          <div class="dtc v-top">
+            {{ $img := . | absURL}}
+            <img src="{{ $img }}" class="mw5 db" alt="image from {{.Title}}" width="200px"/>
+          </div>
+        {{ end }}
+        <div class="dtc v-top">
+          <p class="lh-copy mv0">
+            {{ .Content }}
+          </p>
+        </div>
+      </div>
+    </article>
+  </div>
+{{ end }}

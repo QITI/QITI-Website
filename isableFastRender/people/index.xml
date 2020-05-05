@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>People on Quantum Information with Trapped Ions</title>
+    <link>//localhost:1313/people/</link>
+    <description>Recent content in People on Quantum Information with Trapped Ions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Mar 2020 00:04:23 -0400</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/people/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Austin Con</title>
+      <link>//localhost:1313/people/austin-con/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/austin-con/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chung-You (Gilbert) Shih</title>
+      <link>//localhost:1313/people/chung-you-shih/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/chung-you-shih/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lewis Hahn</title>
+      <link>//localhost:1313/people/lewis-hahn/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/lewis-hahn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nikhil Kotibhaskar</title>
+      <link>//localhost:1313/people/nikhil-kotibhaskar/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/nikhil-kotibhaskar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sainath Motlakunta</title>
+      <link>//localhost:1313/people/sainath-motlakunta/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/sainath-motlakunta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Fereshteh Rajabi</title>
+      <link>//localhost:1313/people/fereshteh-rajabi/</link>
+      <pubDate>Sat, 02 May 2020 21:16:47 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/fereshteh-rajabi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michele Roche</title>
+      <link>//localhost:1313/people/michele-roche/</link>
+      <pubDate>Sat, 02 May 2020 21:16:17 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/michele-roche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. K. Rajibul Islam</title>
+      <link>//localhost:1313/people/rajibul-islam/</link>
+      <pubDate>Sat, 02 May 2020 21:14:38 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/rajibul-islam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Roland Hablützel</title>
+      <link>//localhost:1313/people/roland-habl%C3%BCtzel/</link>
+      <pubDate>Sat, 02 May 2020 20:42:06 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/roland-habl%C3%BCtzel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Manas Sajjan</title>
+      <link>//localhost:1313/people/manas-sajjan/</link>
+      <pubDate>Thu, 30 Apr 2020 22:50:58 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/manas-sajjan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nikolay Videnov</title>
+      <link>//localhost:1313/people/nikolay-videnov/</link>
+      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/nikolay-videnov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yi Hong Teoh</title>
+      <link>//localhost:1313/people/yi-hong-teoh/</link>
+      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/yi-hong-teoh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zewen Sun</title>
+      <link>//localhost:1313/people/zewen-sun/</link>
+      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/zewen-sun/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

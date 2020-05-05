@@ -1,0 +1,23 @@
+  {{ $needTab := 0 }}
+  {{ $journal := .Params.journal }}
+  {{ if .Params.volume }}
+    {{ $journal = printf "%s %s" $journal .Params.volume }}
+    {{ if .Params.issue }}
+      {{ $journal = printf "%s, %s" $journal .Params.issue }}
+    {{ end }}
+  {{ end }}
+
+  {{ with .Params.link }}
+    {{ $needTab = 1 }}
+    <a href="{{ . }}" target="_blank" class="link dark-gray dim">
+      {{ $journal }}
+    </a>
+  {{ end }}
+  {{ with .Params.arxiv }}
+    {{ if $needTab }} 
+      &nbsp &nbsp &nbsp &nbsp
+    {{ end }}
+    <a href="{{ printf "%s%s" "https://arxiv.org/abs/" . }}" target="_blank" class="link dark-gray dim">
+      {{printf "%s%s" "arXiv:" .}}
+    </a>
+  {{ end }}

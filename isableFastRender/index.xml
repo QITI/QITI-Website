@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantum Information with Trapped Ions</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Quantum Information with Trapped Ions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Mar 2020 01:18:35 -0400</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Austin Con</title>
+      <link>//localhost:1313/people/austin-con/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/austin-con/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chung-You (Gilbert) Shih</title>
+      <link>//localhost:1313/people/chung-you-shih/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/chung-you-shih/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lewis Hahn</title>
+      <link>//localhost:1313/people/lewis-hahn/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/lewis-hahn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nikhil Kotibhaskar</title>
+      <link>//localhost:1313/people/nikhil-kotibhaskar/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/nikhil-kotibhaskar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sainath Motlakunta</title>
+      <link>//localhost:1313/people/sainath-motlakunta/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/sainath-motlakunta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Fereshteh Rajabi</title>
+      <link>//localhost:1313/people/fereshteh-rajabi/</link>
+      <pubDate>Sat, 02 May 2020 21:16:47 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/fereshteh-rajabi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michele Roche</title>
+      <link>//localhost:1313/people/michele-roche/</link>
+      <pubDate>Sat, 02 May 2020 21:16:17 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/michele-roche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. K. Rajibul Islam</title>
+      <link>//localhost:1313/people/rajibul-islam/</link>
+      <pubDate>Sat, 02 May 2020 21:14:38 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/rajibul-islam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Roland Hablützel</title>
+      <link>//localhost:1313/people/roland-habl%C3%BCtzel/</link>
+      <pubDate>Sat, 02 May 2020 20:42:06 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/roland-habl%C3%BCtzel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. Manas Sajjan</title>
+      <link>//localhost:1313/people/manas-sajjan/</link>
+      <pubDate>Thu, 30 Apr 2020 22:50:58 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/manas-sajjan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nikolay Videnov</title>
+      <link>//localhost:1313/people/nikolay-videnov/</link>
+      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/nikolay-videnov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yi Hong Teoh</title>
+      <link>//localhost:1313/people/yi-hong-teoh/</link>
+      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/yi-hong-teoh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zewen Sun</title>
+      <link>//localhost:1313/people/zewen-sun/</link>
+      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
+      
+      <guid>//localhost:1313/people/zewen-sun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nature Accepts HotIons</title>
+      <link>//localhost:1313/news/nature-accepts-hotions/</link>
+      <pubDate>Mon, 20 Apr 2020 15:42:24 -0400</pubDate>
+      
+      <guid>//localhost:1313/news/nature-accepts-hotions/</guid>
+      <description>Nature has accepted soandso&amp;rsquo;s manuscript for HotIon quantum computing. Likely to be published in the July issue. Some more words.</description>
+    </item>
+    
+    <item>
+      <title>Nik Joins QIon</title>
+      <link>//localhost:1313/news/nik-joins-qion/</link>
+      <pubDate>Mon, 20 Apr 2020 15:42:08 -0400</pubDate>
+      
+      <guid>//localhost:1313/news/nik-joins-qion/</guid>
+      <description>Welcome our new Masters student Nikolay!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2017-multislip-friction-with-a-single-ion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2017-multislip-friction-with-a-single-ion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2018-single-atom-heat-machines-enabled-by-energy-quantization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2018-single-atom-heat-machines-enabled-by-energy-quantization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2019-dynamic-hamiltonian-engineering-of-2d-rectangular-lattices-in-a-one-dimensional-ion-chain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2019-dynamic-hamiltonian-engineering-of-2d-rectangular-lattices-in-a-one-dimensional-ion-chain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/back/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2012 Quantum Simulation of Interacting Spin Models With Trapped Ions</title>
+      <link>//localhost:1313/back/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2012 Quantum Simulation of Interacting Spin Models With Trapped Ions</title>
+      <link>//localhost:1313/publications/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2015 Strongly Correlated Quantum Walks in Optical Lattices</title>
+      <link>//localhost:1313/back/2015-strongly-correlated-quantum-walks-in-optical-lattices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2015-strongly-correlated-quantum-walks-in-optical-lattices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2018 Developing Theoretical and Experimental Tools for a Hybrid Quantum Simulator Based on Trapped Ions</title>
+      <link>//localhost:1313/back/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2018 Developing Theoretical and Experimental Tools for a Hybrid Quantum Simulator Based on Trapped Ions</title>
+      <link>//localhost:1313/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2020 Programmable Quantum Simulations of Spin Systems With Trapped Ions</title>
+      <link>//localhost:1313/back/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/back/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2020 Programmable Quantum Simulations of Spin Systems With Trapped Ions</title>
+      <link>//localhost:1313/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beat note stabilization of mode-locked lasers for quantum information processing</title>
+      <link>//localhost:1313/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamical Hamiltonian engineering of 2D rectangular lattices in a one-dimensional ion chain</title>
+      <link>//localhost:1313/publications/2019-dynamic-hamiltonian-engineering-of-2d-rectangular-lattices-in-a-one-dimensional-ion-chain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2019-dynamic-hamiltonian-engineering-of-2d-rectangular-lattices-in-a-one-dimensional-ion-chain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergence and Frustration of Magnetism with Variable-Range Interactions in a Quantum Simulator</title>
+      <link>//localhost:1313/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entanglement and Tunable Spin-Spin Couplings between Trapped Ions Using Multiple Transverse Modes</title>
+      <link>//localhost:1313/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large-scale quantum computation in an anharmonic linear ion trap</title>
+      <link>//localhost:1313/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning design of a trapped-ion quantum spin simulator</title>
+      <link>//localhost:1313/publications/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring entanglement entropy in a quantum many-body system</title>
+      <link>//localhost:1313/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multislip Friction with a Single Ion</title>
+      <link>//localhost:1313/publications/2017-multislip-friction-with-a-single-ion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2017-multislip-friction-with-a-single-ion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Onset of a quantum phase transition with a trapped ion quantum simulator</title>
+      <link>//localhost:1313/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum Catalysis of Magnetic Phase Transitions in a Quantum Simulator</title>
+      <link>//localhost:1313/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum simulation of frustrated Ising spins with trapped ions</title>
+      <link>//localhost:1313/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single-Atom Heat Machines Enabled by Energy Quantization</title>
+      <link>//localhost:1313/publications/2018-single-atom-heat-machines-enabled-by-energy-quantization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2018-single-atom-heat-machines-enabled-by-energy-quantization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strongly correlated quantum walks in optical lattices</title>
+      <link>//localhost:1313/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ultra-precise holographic beam shaping for microscopic quantum control</title>
+      <link>//localhost:1313/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
