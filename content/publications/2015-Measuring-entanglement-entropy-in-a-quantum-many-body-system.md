@@ -10,7 +10,8 @@ datePublished: "2015/12"
 DOI: 10.1038/nature15750
 draft: true
 arXiv: "1509.01160"
-tag: "Harvard"
+tags:
+ - "Harvard"
 ---
 
 

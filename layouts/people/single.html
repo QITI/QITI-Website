@@ -36,14 +36,14 @@
       </div>
             {{ .Content }}
 
-            {{ $authorTag := .Params.authorTag }}
+            {{ $authorTag := .Params.tags }}
             {{$section :=  where .Site.Pages "Section" "publications"}}
             {{$tmp_sec := $section }}
             
             {{ range $section }}
               {{ $tmp := . }}
               {{ range .Params.authors }}
-                {{ if and ( ge (len .) 2 ) (eq (index . 1) $authorTag ) }}
+                {{ if and ( ge (len .) 2 ) (in $authorTag (index . 1) ) }}
                   {{ $tmp_sec = symdiff $tmp_sec (slice $tmp) }}
                 {{ end }}
               {{end}}

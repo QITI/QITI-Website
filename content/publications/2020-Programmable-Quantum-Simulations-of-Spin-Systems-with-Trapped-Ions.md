@@ -10,7 +10,8 @@ datePublished: ""
 DOI: 
 draft: true
 arXiv: "1912.07845"
-tag: "QITI"
+tags:
+ - "QITI"
 ---
 
 

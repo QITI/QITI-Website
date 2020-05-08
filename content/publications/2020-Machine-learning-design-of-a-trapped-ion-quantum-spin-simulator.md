@@ -10,7 +10,8 @@ datePublished: "2020/01"
 DOI: 10.1088/2058-9565/ab657a
 draft: true
 arXiv: "1910.02496"
-tag: "QITI"
+tags:
+ - "QITI"
 image: "images/publications/2020-Machine-Learning.png"
 ---
 

@@ -10,6 +10,7 @@ datePublished: "2018"
 DOI:
 draft: true
 arXiv:
-tag: 'Thesis'
+tags:
+ - 'Thesis'
 ---
 

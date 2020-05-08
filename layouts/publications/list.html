@@ -32,7 +32,7 @@
           </div>
         {{ end }}
 
-        {{ $list := where $publications ".Params.tag" (index $tags .) }}
+        {{ $list := where $publications ".Params.tags" "intersect" (slice (index $tags .)) }}
         {{ with $list }}
           {{- partial "pub-list-2.html" . -}}
         {{ end }}

@@ -3,13 +3,14 @@
 {{ with .Params.authors }}
   {{ $pun_count = len . }}
 {{ end }}
+
 {{ if eq $pun_count 2 }}
 
   {{ range .Params.authors }}
     {{ if (eq (len .) 2) }}
       {{ $author := . }} 
       {{ range $people }}
-        {{ if eq .Params.authorTag (index $author 1)}}
+        {{ if in .Params.tags (index $author 1)}}
           {{ if eq $pun_count 1 }}
             
             <a href="{{ .Permalink }}" class="link black bg-animate dim b">
@@ -38,7 +39,7 @@
     {{ if (eq (len .) 2) }}
       {{ $author := . }} 
       {{ range $people }}
-        {{ if eq .Params.authorTag (index $author 1)}}
+        {{ if in .Params.tags (index $author 1)}}
             <a href="{{ .Permalink }}" class="link black bg-animate dim b">
               {{ printf "%s" (index $author 0)}} 
             </a>
@@ -56,7 +57,7 @@
     {{ if (eq (len .) 2) }}
       {{ $author := . }} 
       {{ range $people }}
-        {{ if eq .Params.authorTag (index $author 1)}}
+        {{ if in .Params.tags (index $author 1)}}
           {{ if eq $pun_count 1 }}
             <a href="{{ .Permalink }}" class="link black bg-animate dim b">
               {{ printf "and %s." (index $author 0)}} 

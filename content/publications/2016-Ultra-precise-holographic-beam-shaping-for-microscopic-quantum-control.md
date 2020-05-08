@@ -10,7 +10,8 @@ datePublished: "2016/06"
 DOI: 10.1364/OE.24.013881
 draft: true
 arXiv: "1604.07653"
-tag: "Harvard"
+tags:
+ - "Harvard"
 ---
 
 

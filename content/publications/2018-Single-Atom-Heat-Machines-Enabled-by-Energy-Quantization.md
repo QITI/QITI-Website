@@ -10,7 +10,8 @@ datePublished: "2018/04"
 DOI: 10.1103/PhysRevLett.120.170601
 draft: true
 arXiv: "1705.11180"
-tag: "QITI"
+tags:
+ - "QITI"
 ---
 
 
