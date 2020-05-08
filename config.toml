@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "qiti-serv.iqc.uwaterloo/QITI/Projects/QITI-Website"
 languageCode = "en-us"
 title = "Quantum Information with Trapped Ions"
 theme = "ananke"
