@@ -1,7 +1,7 @@
 ---
 title: "Michele Roche"
 date: 2020-05-02T21:16:17-04:00
-draft: true
+draft: false
 image: "images/people/m2roche.jpg"
 tenure: 
 office: "QNC 4123"

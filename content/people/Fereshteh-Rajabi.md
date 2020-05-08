@@ -1,7 +1,7 @@
 ---
 title: "Dr. Fereshteh Rajabi"
 date: 2020-05-02T21:16:47-04:00
-draft: true
+draft: false
 image: "images/people/f3rajabi.jpg"
 tenure: 
 office: "QNC 3114"

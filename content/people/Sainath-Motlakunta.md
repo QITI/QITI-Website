@@ -1,7 +1,7 @@
 ---
 title: "Sainath Motlakunta"
 date: 2020-05-02T21:42:32-04:00
-draft: true
+draft: false
 image: "images/people/smotlakunta.jpg"
 tenure: 
 office: "QNC 3202"

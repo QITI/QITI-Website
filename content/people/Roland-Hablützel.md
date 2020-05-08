@@ -1,7 +1,7 @@
 ---
 title: "Dr. Roland Hablützel"
 date: 2020-05-02T20:42:06-04:00
-draft: true
+draft: false
 image: "images/people/rhabluet.jpg"
 tenure: 
 office: "QNC 3116"

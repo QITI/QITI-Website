@@ -1,7 +1,7 @@
 ---
 title: "Dr. Manas Sajjan"
 date: 2020-04-30T22:50:58-04:00
-draft: true
+draft: false
 image: "images/people/m2sajjan.jpg"
 tenure: 
 office: "QNC B213"

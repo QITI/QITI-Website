@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>m2sajjan on Quantum Information with Trapped Ions</title>
+    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/m2sajjan/</link>
+    <description>Recent content in m2sajjan on Quantum Information with Trapped Ions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Apr 2020 22:50:58 -0400</lastBuildDate>
+    
+	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/m2sajjan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dr. Manas Sajjan</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/manas-sajjan/</link>
+      <pubDate>Thu, 30 Apr 2020 22:50:58 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/manas-sajjan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

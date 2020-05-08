@@ -1,7 +1,7 @@
 ---
 title: "Dr. K. Rajibul Islam"
 date: 2020-05-02T21:14:38-04:00
-draft: true
+draft: false
 image: "images/people/krislam.jpg"
 tenure: 
 office: "Office – Quantum Nano Centre (QNC 4109)"

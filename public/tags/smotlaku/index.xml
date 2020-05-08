@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>smotlaku on Quantum Information with Trapped Ions</title>
+    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/smotlaku/</link>
+    <description>Recent content in smotlaku on Quantum Information with Trapped Ions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 May 2020 21:42:32 -0400</lastBuildDate>
+    
+	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/smotlaku/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sainath Motlakunta</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/sainath-motlakunta/</link>
+      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/sainath-motlakunta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harvard on Quantum Information with Trapped Ions</title>
+    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/harvard/</link>
+    <description>Recent content in Harvard on Quantum Information with Trapped Ions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/harvard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ultra-precise holographic beam shaping for microscopic quantum control</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</link>
+      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</guid>
+      <description>High-resolution addressing of individual ultracold atoms, trapped ions or solid state emitters allows for exquisite control in quantum optics experiments. This becomes possible through large aperture magnifying optics that project microscopic light patterns with diffraction limited performance. We use programmable amplitude holograms generated on a digital micromirror device to create arbitrary microscopic beam shapes with full phase and amplitude control. The system self-corrects for aberrations of up to several $\lambda$ and reduces them to $\lambda/50$, leading to light patterns with a precision on the $10^{-4}$ level.</description>
+    </item>
+    
+    <item>
+      <title>Measuring entanglement entropy in a quantum many-body system</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</link>
+      <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</guid>
+      <description>Entanglement is one of the most intriguing features of quantum mechanics. It describes non-local correlations between quantum objects, and is at the heart of quantum information sciences. Entanglement is rapidly gaining prominence in diverse fields ranging from condensed matter to quantum gravity. Despite this generality, measuring entanglement remains challenging. This is especially true in systems of interacting delocalized particles, for which a direct experimental measurement of spatial entanglement has been elusive.</description>
+    </item>
+    
+    <item>
+      <title>Strongly correlated quantum walks in optical lattices</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</link>
+      <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</guid>
+      <description>Full control over the dynamics of interacting, indistinguishable quantum particles is an important prerequisite for the experimental study of strongly correlated quantum matter and the implementation of high-fidelity quantum information processing. Here we demonstrate such control over the quantum walk - the quantum mechanical analogue of the classical random walk - in the strong interaction regime. Using interacting bosonic atoms in an optical lattice, we directly observe fundamental effects such as the emergence of correlations in two-particle quantum walks, as well as strongly correlated Bloch oscillations in tilted optical lattices.</description>
+    </item>
+    
+  </channel>
+</rss>

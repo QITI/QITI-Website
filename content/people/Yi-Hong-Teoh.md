@@ -1,7 +1,7 @@
 ---
 title: "Yi Hong Teoh"
 date: 2020-04-28T00:51:23-04:00
-draft: true
+draft: false
 image: "images/people/yhteoh.jpg"
 tenure: 
 office: "QNC B216"
