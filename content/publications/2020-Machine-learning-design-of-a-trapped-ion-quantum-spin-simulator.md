@@ -11,6 +11,7 @@ DOI: 10.1088/2058-9565/ab657a
 draft: true
 arXiv: "1910.02496"
 tag: "QITI"
+image: "images/publications/2020-Machine-Learning.png"
 ---
 
 

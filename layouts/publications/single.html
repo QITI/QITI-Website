@@ -17,10 +17,10 @@
         </p>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
-        {{ with .Params.image }}
+        {{ if .Params.image }}
           <div class="dtc v-top">
-            {{ $img := . | absURL}}
-            <img src="{{ $img }}" class="mw5 db" alt="image from {{.Title}}" width="200px"/>
+            {{ $img := .Params.image | absURL}}
+            <img src="{{ $img }}" class="mw5 db ma4" alt="image from {{.Title}}" width="200px"/>
           </div>
         {{ end }}
         <div class="dtc v-top">

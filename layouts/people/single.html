@@ -17,13 +17,23 @@
         </div>
         <div class="dtc v-top pl3">
           <p class="lh-copy mv0">
+          {{ if .Params.email }}
             <b>Email:</b> {{ .Params.email }}<br/>
+          {{ end }}
+          {{ if .Params.extention }}
             <b>Extention:</b> {{ .Params.extention }}<br/>
+          {{ end }}
+          {{ if .Params.office }}
             <b>office:</b> {{ .Params.office }}<br/>
+          {{ end }}
+          {{ if .Params.curentInstitution }}
+            <b>Current Institution:</b> {{ .Params.curentInstitution }}<br/>
+          {{ else if .Params.previousInstitution }}
+            <b>Previous Institution:</b> {{ .Params.previousInstitution }}<br/>
+          {{ end }}
           </p>
         </div>
       </div>
-      <h1>Publications</h1>
             {{ .Content }}
 
             {{ $authorTag := .Params.authorTag }}
@@ -42,6 +52,7 @@
             {{ $section := symdiff $section $tmp_sec }}
 
             {{ if ge (len $section) 1 }}
+              <h1>Publications</h1>
               {{ partial "pub-list-2.html" $section}}
             {{ end }}
 

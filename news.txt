@@ -1,0 +1,57 @@
+21 Jan 2020 – “Machine learning design of a trapped-ion quantum spin simulator” is published in Quantum Science and Technology 5 (2020) 024001, (arXiv.1910.02496). We numerically demonstrate that a machine learning neural network can be used to efficiently solve a non-linear inversion problem in an analog trapped-ion quantum simulator. The method generates experimental control parameters (such as laser intensities on each ions) needed to program a quantum simulator, in particular, to engineer an arbitrary spin lattice geometry in one, two, and three dimensions using a linear chain of ions! 
+
+17 Dec 2019 –  Here is a pre-print version of a review article on quantum simulation with trapped ions. The article focuses on analog spin simulation, and discusses the progress in this field so far. (arxiv.1912.07845).
+
+08 Oct 2019 –  Our manuscript “Machine learning design of a trapped-ion quantum spin simulator” is on arXiv.1910.02496. We demonstrate that a machine learning neural network can be used to efficiently engineer an arbitrary spin-spin interaction graph on an analog quantum simulator.
+
+24 Sept 2019 – Rajibul is recognized with the Ontario ‘Early Researcher Award’! Read the IQC news coverage.
+
+11 to 13 Sept 2019 – Congratulations to Gilbert and Nikhil for successfully defending their master’s thesis!
+
+19 July 2019 – We have have trapped, laser-cooled, and crystallized Ytterbium ions in a four-rod Paul trap!
+
+27 Jun 2019 – We have moved into our new lab-space in the basement of QNC building (QNC B221). 
+
+12 Jun 2019 – Sainath receives the Dean of Science Award for his MSc thesis! Congratulations!
+
+6 Jun 2019 – Rajibul gives an invited talk at the Canadian Association of Physicists (CAP) congress at Simon Fraser University. 
+
+27 May 2019 – Sainath, Gilbert, and Rajibul are attending the DAMOP meeting of the American Physical Society at Milwuakee, WI. Sainath will present a contributed talk and Gilbert will present a poster. Matt Day from Crystal Senko’s group will also present a poster highlighting ‘QuantumIon’ a joint research project between Rajibul’s and Crystal’s group to build an open-access trapped ion quantum computer for researchers.
+
+6 May 2019 –  Duale Omar and Josh Da Costa join the group as undergraduate co-op students for the Spring term. Welcome to the team!
+
+2 May 2019 – Rajibul gives a seminar and interacts with researchers at the Center for Quantum Information and Control (CQuIC), University of New Mexico.
+
+26 Apr 2019 – “Dynamical Hamiltonian engineering of 2D rectangular lattices in a one-dimensional ion chain” is published in npj Quantum Information (Nature Publishing Group).  npj Quantum Information 5, 32 (2019)
+
+16 Apr 2019 – Two talks from the QITI group by Chung-You (Gilbert) Shih and Yi Hong Teoh were presented at the second Toronto Ultra-cold Atom Network (TUCAN) meeting hosted by University of Waterloo. Gilbert talked about efficient algorithms to generate amplitude holograms for optical manipulation, and Yi Hong discussed machine learning methods to program a quantum simulator.
+
+7 Jan 2019 – Natasha Willis and Daniel Julien-Nietzert join the group for the Winter term as undergraduate co-op students. Welcome to the team!
+
+1 Sep 2018 – Dr. Manas Sajjan joins the group for a graduate school in experimental quantum physics, after successfully completing his first PhD at University of Chicago in theoretical chemistry!
+
+22 Aug 2018 – Rajibul gives the `experimentalist of the week’ talk at the Dynamics of Quantum Information program at KITP, UC Santa Barbara. [Video]
+
+18 Aug 2018 – Our experimentally feasible theoretical proposal to create 2D spin lattices from a one dimensional chain of ions is on arXiv! It is a collaboration with UC Berkeley and Army Research Laboratory. [See More]
+
+15 Aug 2018 – Undergraduate researcher Nikolay Videnov presents his work on making an injection locked diode laser at 369.5 nm at the Canadian Undergraduate Physics Conference (CUPC) at University of Alberta.
+
+07 Aug 2018 – Sainath defends his M.Sc thesis successfully! He will continue as a PhD student in the group. Congratulations, Sainath!
+
+28 May 2018 – Gilbert, Sainath, Nikhil, and Rajibul attend the annual meeting of the Division of Atomic Molecular and Optical Physics (DAMOP) of the American Physical Society (APS) in Fort Lauderdale. We present two posters.
+
+01 May 2018 – Dr. Roland Hablutzel joins the QITI team as a postdoc from the Centre for Quantum Technologies, Singapore. We also welcome undergraduate researcher Yi Hong Teoh!
+
+13 Apr 2018 – Entire QITI team visits McMaster University to attend the first Toronto Ultracold Atoms Network (TUCAN) meeting. Fereshteh and Sainath give talks.
+
+15 Mar 2018 – Undergraduate researcher Kaleb Ruscitti presents our research on holographic beam shaping with UV light at the PhUnC conference at Western University.
+
+01 Jan 2018 – Sainath Motlakunta joins the group to work on his M.Sc thesis project. Kaleb Ruscitti and Nikolay Videnov come back to the group as undergraduate researchers! Kaleb will spend his Jan-Apr co-op term, and Nik will spend his Jan-Aug co-op term in the lab!
+
+1 Sep 2017 – Chung-You (Gilbert) Shih from National Taiwan University and Nikhil Kotibhaskar from Indian Institute of Science join the IQC-QITI group as graduate students.
+
+28 Jun 2017 – We move into a temporary laboratory space on the third floor of the Quantum Nano Center! Our basement lab will undergo a major renovation before we can move into the space.
+
+1 May 2017 – Dr. Fereshteh Rajabi joins the group as an IQC theory postdoc!
+
+3 Jan 2017 – Tony Kappen and Kaleb Ruscitti join as the first two undergraduate researchers of the group! 

@@ -11,6 +11,7 @@
       {{ range $people }}
         {{ if eq .Params.authorTag (index $author 1)}}
           {{ if eq $pun_count 1 }}
+            
             <a href="{{ .Permalink }}" class="link black bg-animate dim b">
               {{ printf "and %s" (index $author 0)}} 
             </a>

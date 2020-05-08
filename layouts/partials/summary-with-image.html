@@ -1,9 +1,8 @@
-{{ $featured_image := printf "/%s" .Params.image }}
+{{ $featured_image := .Params.image | absURL }}
 <article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+  <div class="db pv4 ph3 no-underline dark-gray">
     <div class="flex flex-column flex-row-ns">
       {{ if .Params.image }}
-        {{ $featured_image := (trim $featured_image "/") | absURL }}
         <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <a href="{{.Permalink}}" class="db grow">
             <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
@@ -20,7 +19,7 @@
           {{ partial "authorList.html" . }}
         </div>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          {{ .Summary }}
+          {{- .Content -}}
         </div>
           <a href="{{.Permalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | default (i18n "readMore") }}</a>
         {{/* TODO: add author

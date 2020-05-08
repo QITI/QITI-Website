@@ -3,14 +3,14 @@ title: "Dr. K. Rajibul Islam"
 date: 2020-05-02T21:14:38-04:00
 draft: true
 image: "images/people/krislam.jpg"
-startDate: 2020-05-02T21:14:38-04:00
-endDate: 
+tenure: 
 office: "Office – Quantum Nano Centre (QNC 4109)"
 extention: "+1 519 888 4567 ext. 31995"
 email: "krislam@uwaterloo.ca"
-position: "PI"
 previousInstitution: "Postdoc, MIT (2015-16); Postdoc, Harvard (2012-15); PhD, University of Maryland (2007-12)"
 curentInstitution: 
-authorTag: "krislam"
+tags:
+ - "PI"
+ - "krislam"
 ---
 
