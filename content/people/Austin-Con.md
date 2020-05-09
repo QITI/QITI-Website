@@ -5,7 +5,7 @@ draft: false
 image: "images/people/ajcon.jpg"
 office:
 extention:
-email: "ajcon@edu-uwaterloo.ca"
+email: "ajcon@edu.uwaterloo.ca"
 previousInstitution: 
 curentInstitution: 
 tags:
