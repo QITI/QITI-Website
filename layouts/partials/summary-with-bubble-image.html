@@ -4,7 +4,7 @@
 {{ end }}
 {{ $featured_image := printf "/%s%s" $base "-bubble.png" }}
 <article class="bb b--black-20">
-  <div class="db pv2 ph0-l dark-gray bg-near-white">
+  <div class="db pv2 ph0-l dark-gray">
     <div class="flex flex-column flex-row-ns">
       {{ if .Params.image }}
         {{ $featured_image := (trim $featured_image "/") | absURL }}

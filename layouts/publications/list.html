@@ -3,30 +3,32 @@
 {{ $publications := symdiff $publications (slice .) }}
 {{ $tags := slice "QITI" "Harvard" "Maryland" "Thesis" }}
 {{ $titleCards := slice "Recent" "Bosons in optical lattices, measurement of entanglement entropy (Harvard)" "Quantum simulation of interacting spin models with trapped ions (Maryland)" "Thesis" }}
-<nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l items-center justify-between center">
-    <ul class="pl0 mr3">
-    {{ range seq 0 (sub (len $tags) 1) }}
-      {{ if (index $titleCards .) }}
-        <li class="list f5 f4-ns fw4 dib pr3">
-          <a href="{{ printf "#%s" (index $tags .) }}" class="hover-white no-underline black-90"> {{ index $tags . }} </a>
-        </li>
+<article class="pa3 pa4-ns nested-copy-line-height nested-img mw8-l center">
+  <nav class="pv3 ph3 pl0-l ph4-ns" role="navigation">
+    <div class="flex-l items-center justify-between center">
+      <ul class="pl0 mr3">
+      {{ range seq 0 (sub (len $tags) 1) }}
+        {{ if (index $titleCards .) }}
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a href="{{ printf "#%s" (index $tags .) }}" class="hover-white no-underline black-90"> {{ index $tags . }} </a>
+          </li>
+        {{ end }}
       {{ end }}
-    {{ end }}
-    </ul>
-  </div>
-</nav>
-  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+      </ul>
+    </div>
+  </nav>
+  {{ if .Content }}
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
       {{- .Content -}}
     </section>
+  {{ end }}
 
 
     <section class="flex-ns flex-wrap justify-around mt5">
       
       {{ range seq 0 (sub (len $tags) 1) }}
         {{ if (index $titleCards .) }}
-          <div>
+          <div class="w-100 tl">
             <a id="{{ index $tags . }}"></a>
             <h1>{{ index $titleCards . }}</h1>
           </div>

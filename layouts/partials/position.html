@@ -1,0 +1,9 @@
+{{ if in .Params.tags "grad" }}
+  <a href="{{ printf "%s/#%s" (.Section | absURL) "grad"}}" class="color-inherit dim link">Graduate Student</a>
+{{ else if in .Params.tags "postDoc" }}
+  <a href="{{ printf "%s/#%s" (.Section | absURL) "postDoc"}}" class="color-inherit dim link">Postdoctoral Fellow</a>
+{{ else if in .Params.tags "adminAssistant" }}
+  <a href="{{ printf "%s/#%s" (.Section | absURL) "adminAssistant"}}" class="color-inherit dim link">Administrative Assistant</a>
+{{ else if in .Params.tags "COOP" }}
+  <a href="{{ printf "%s/#%s" (.Section | absURL) "COOP"}}" class="color-inherit dim link">Undergraduate Research Associate</a>
+{{ end }}

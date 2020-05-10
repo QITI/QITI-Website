@@ -1,15 +1,17 @@
 {{ define "main" }}
-  <article class="pa6 pa4-ns nested-copy-line-height nested-img">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-      {{- .Content -}}
-    </section>
+  <article class="pa6 pa4jns nested-copy-line-height nested-img mw9-l center">
+    {{ if .Content }}
+      <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l measure-wide lh-copy mid-gray">
+        {{- .Content -}}
+      </section>
+    {{ end }}
       {{ $peoplePages := where .Site.Pages "Section" "people" }}
       {{ $peoplePages := symdiff $peoplePages (slice .) }}
 
       {{ $positions := slice "PI" "adminAssistant" "postDoc" "grad" "COOP" }}
       {{ $titleCards := slice "Principle Investigator" "Administrative Assistant" "Postdoctoral Fellows" "Graduate Students" "Undergraduate Research Associates" "Alumni" }}
       {{ range (seq 0 (sub (len $positions) 1) ) }}
-
+        <a id="{{ index $positions . }}"></a>
         <h1>{{ index $titleCards . }}</h1>
         <section class="flex-ns flex-wrap mt1 ph2-l">
           {{ $list := where $peoplePages ".Params.tags" "intersect" (slice (index $positions .))  }}
@@ -20,7 +22,7 @@
           {{ with $list }}
           {{ range . }}
             <div class="relative w-100 w-30-l ma2 mid-gray">
-              <div class="bg-white">
+              <div class="bg-near-white">
                 {{- partial "summary-with-bubble-image.html" . -}}
               </div>
             </div>
@@ -33,7 +35,7 @@
         <section class="flex-ns flex-wrap mt1 ph2-l">
           {{ range .Site.Taxonomies.tags.alumn }}
             <div class="relative w-100 w-30-l ma2 mid-gray">
-              <div class="bg-white">
+              <div class="bg-near-white">
                 {{- partial "summary-with-bubble-image.html" . -}}
               </div>
             </div>

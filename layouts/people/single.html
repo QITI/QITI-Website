@@ -4,9 +4,12 @@
     <article class="left cf pv5 ph3 ph4-ns mw7">
       <header>
         <p class="f6 b helvetica tracked">
-        <a href="{{.Section | absURL }}" class="color-inherit dim link">{{ humanize .Section | upper  }} </a>
+          <a href="{{.Section | absURL }}" class="color-inherit dim link">{{ humanize .Section | upper  }} </a>
+        <h3 class="mb0">
+          {{ partial "position.html" . }}
+        </h3>
         </p>
-        <h1 class="f1">
+        <h1 class="f1 mt0">
           {{ .Title }}
         </h1>
       </header>
