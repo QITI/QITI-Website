@@ -1,4 +1,4 @@
-{{ $people := where .Site.Pages "Section" "people"}}
+{{ $members := where .Site.Pages "Section" "members"}}
 {{ $pun_count := 0 }}
 {{ with .Params.authors }}
   {{ $pun_count = len . }}
@@ -9,7 +9,7 @@
   {{ range .Params.authors }}
     {{ if (eq (len .) 2) }}
       {{ $author := . }} 
-      {{ range $people }}
+      {{ range $members }}
         {{ if in .Params.tags (index $author 1)}}
           {{ if eq $pun_count 1 }}
             
@@ -38,7 +38,7 @@
   {{ range .Params.authors }}
     {{ if (eq (len .) 2) }}
       {{ $author := . }} 
-      {{ range $people }}
+      {{ range $members }}
         {{ if in .Params.tags (index $author 1)}}
             <a href="{{ .Permalink }}" class="link black bg-animate dim b">
               {{ printf "%s" (index $author 0)}} 
@@ -56,7 +56,7 @@
   {{ range .Params.authors }}
     {{ if (eq (len .) 2) }}
       {{ $author := . }} 
-      {{ range $people }}
+      {{ range $members }}
         {{ if in .Params.tags (index $author 1)}}
           {{ if eq $pun_count 1 }}
             <a href="{{ .Permalink }}" class="link black bg-animate dim b">

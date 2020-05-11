@@ -1,7 +1,6 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
-  <div class="flex-l mt2 mw8 center">
-    <article class="left cf pv5 ph3 ph4-ns mw7">
+    <article class="center cf mv2 ph3 ph4-ns mw7">
       <header>
         <p class="f6 b helvetica tracked">
           <a href="{{.Section | absURL }}" class="color-inherit dim link">{{ humanize .Section | upper  }} </a>
@@ -61,5 +60,4 @@
 
 
     </article>
-  </div>
 {{ end }}

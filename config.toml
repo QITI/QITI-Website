@@ -11,3 +11,5 @@ background_color_class = "bg-black"
 featured_image = "/images/header/MainHeader.gif"
 homeList = ["news", "publications"]
 
+[blackfriday]
+ hrefTargetBlank = true
