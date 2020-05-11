@@ -1,7 +1,7 @@
 ---
 title: "Research"
 date: 2020-05-10T15:07:47-04:00
-draft: true
+draft: false
 nav: [ "QSIM", "Assembly", "Resources", "Outreach"]
 ---
 <a id="QSIM"></a>

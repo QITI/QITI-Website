@@ -1,7 +1,7 @@
 ---
 title: "Group"
 date: 2020-05-10T13:52:35-04:00
-draft: true
+draft: false
 ---
 The research team
 {{< fig src="images/group/2019-GroupPhotoQITI.jpg" >}}
