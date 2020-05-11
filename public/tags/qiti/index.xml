@@ -26,7 +26,7 @@
       <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</guid>
-      <description>Trapped ions have emerged as one of the highest quality platforms for the quantum simulation of interacting spin models of interest to various fields of physics. In such simulators, two effective spins can be made to interact with arbitrary strengths by coupling to the collective vibrational or phonon states of ions, controlled by precisely tuned laser beams. However, the task of determining laser control parameters required for a given spin-spin interaction graph is a type of inverse problem, which can be highly mathematically complex.</description>
+      <description>Trapped ions have emerged as one of the highest quality platforms for the quantum simulation of interacting spin models of interest to various fields of physics. In such simulators, two effective spins can be made to interact with arbitrary strengths by coupling to the collective vibrational or phonon states of ions, controlled by precisely tuned laser beams.</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2018-single-atom-heat-machines-enabled-by-energy-quantization/</guid>
-      <description>Quantization of energy is a quintessential characteristic of quantum systems. Here we analyze its effects on the operation of Otto cycle heat machines and show that energy quantization alone may alter and increase machine performance in terms of output power, efficiency, and even operation mode. Our results demonstrate that quantum thermodynamics enable the realization of classically inconceivable Otto machines, such as those with an incompressible working fluid. We propose to measure these effects experimentally using a laser-cooled trapped ion as a microscopic heat machine.</description>
+      <description>Quantization of energy is a quintessential characteristic of quantum systems. Here we analyze its effects on the operation of Otto cycle heat machines and show that energy quantization alone may alter and increase machine performance in terms of output power, efficiency, and even operation mode. Our results demonstrate that quantum thermodynamics enable the realization of classically inconceivable Otto machines, such as those with an incompressible working fluid.</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2017-multislip-friction-with-a-single-ion/</guid>
-      <description>A trapped ion transported along a periodic potential is studied as a paradigmatic nanocontact frictional interface. The combination of the periodic corrugation potential and a harmonic trapping potential creates a one-dimensional energy landscape with multiple local minima, corresponding to multistable stick-slip friction. We measure the probabilities of slipping to the various minima for various corrugations and transport velocities. The observed probabilities show that the multislip regime can be reached dynamically at smaller corrugations than would be possible statically, and can be described by an equilibrium Boltzmann model.</description>
+      <description>A trapped ion transported along a periodic potential is studied as a paradigmatic nanocontact frictional interface. The combination of the periodic corrugation potential and a harmonic trapping potential creates a one-dimensional energy landscape with multiple local minima, corresponding to multistable stick-slip friction. We measure the probabilities of slipping to the various minima for various corrugations and transport velocities.</description>
     </item>
     
   </channel>

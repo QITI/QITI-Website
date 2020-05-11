@@ -11,12 +11,30 @@
     
     
     <item>
+      <title>Design and Construction of an Ion Trapping Apparatus for Quantum Simulation Experiments</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2019-design-and-construction-of-an-ion-trapping-apparatus-for-quantum-simulation-experiments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2019-design-and-construction-of-an-ion-trapping-apparatus-for-quantum-simulation-experiments/</guid>
+      <description>The trapped ions platform represents an excellent framework for Quantum information science experiments. Long coherence times, extremely high state initialization and detection fidelity, inherent full-connectivity between qubits are some features that make trapped ions the ideal qubits. It is the same features that make this platform extremely suitable for quantum simulation of various physical phenomenon, particularly quantum spin models.</description>
+    </item>
+    
+    <item>
       <title>Developing Theoretical and Experimental Tools for a Hybrid Quantum Simulator Based on Trapped Ions</title>
       <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Holographic Optical Manipulation of Trapped Ions for Quantum Simulation</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</guid>
+      <description>Trapped ion is one of the leading platforms for quantum simulation experiment due to its long coherence time and high fidelity state initialization, detection, and manipulation. To individually address ions at a single-ion level, it requires sophisticated optical engineering. In the thesis, we present a novel single qubit addressing system that is immune to imperfections of optical imaging and can scale to different size of the system.</description>
     </item>
     
     <item>

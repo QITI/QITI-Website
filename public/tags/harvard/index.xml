@@ -17,7 +17,7 @@
       <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</guid>
-      <description>High-resolution addressing of individual ultracold atoms, trapped ions or solid state emitters allows for exquisite control in quantum optics experiments. This becomes possible through large aperture magnifying optics that project microscopic light patterns with diffraction limited performance. We use programmable amplitude holograms generated on a digital micromirror device to create arbitrary microscopic beam shapes with full phase and amplitude control. The system self-corrects for aberrations of up to several $\lambda$ and reduces them to $\lambda/50$, leading to light patterns with a precision on the $10^{-4}$ level.</description>
+      <description>High-resolution addressing of individual ultracold atoms, trapped ions or solid state emitters allows for exquisite control in quantum optics experiments. This becomes possible through large aperture magnifying optics that project microscopic light patterns with diffraction limited performance. We use programmable amplitude holograms generated on a digital micromirror device to create arbitrary microscopic beam shapes with full phase and amplitude control.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</guid>
-      <description>Full control over the dynamics of interacting, indistinguishable quantum particles is an important prerequisite for the experimental study of strongly correlated quantum matter and the implementation of high-fidelity quantum information processing. Here we demonstrate such control over the quantum walk - the quantum mechanical analogue of the classical random walk - in the strong interaction regime. Using interacting bosonic atoms in an optical lattice, we directly observe fundamental effects such as the emergence of correlations in two-particle quantum walks, as well as strongly correlated Bloch oscillations in tilted optical lattices.</description>
+      <description>Full control over the dynamics of interacting, indistinguishable quantum particles is an important prerequisite for the experimental study of strongly correlated quantum matter and the implementation of high-fidelity quantum information processing. Here we demonstrate such control over the quantum walk - the quantum mechanical analogue of the classical random walk - in the strong interaction regime.</description>
     </item>
     
   </channel>

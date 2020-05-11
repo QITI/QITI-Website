@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/news/</loc>
+    <lastmod>2020-05-10T21:50:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/research/</loc>
+    <lastmod>2020-05-10T15:07:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/group/</loc>
+    <lastmod>2020-05-10T13:52:35-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/alumn/</loc>
     <lastmod>2020-05-07T22:01:38-04:00</lastmod>
   </url>
@@ -13,7 +28,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/sarah-mayer/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/sarah-mayer/</loc>
     <lastmod>2020-05-07T22:01:38-04:00</lastmod>
   </url>
   
@@ -23,67 +38,62 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/niel-mistry/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/niel-mistry/</loc>
     <lastmod>2020-05-07T22:01:37-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/joshua-da-costa/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/joshua-da-costa/</loc>
     <lastmod>2020-05-07T22:01:36-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/duale-omar/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/duale-omar/</loc>
     <lastmod>2020-05-07T22:01:35-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/natasha-willis/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/natasha-willis/</loc>
     <lastmod>2020-05-07T22:01:34-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/daniel-francis-julien-neitzert/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/daniel-francis-julien-neitzert/</loc>
     <lastmod>2020-05-07T22:01:32-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/luyao-wang/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/luyao-wang/</loc>
     <lastmod>2020-05-07T22:01:31-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/kaleb-ruscitti/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/kaleb-ruscitti/</loc>
     <lastmod>2020-05-07T22:01:30-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/ilango-maran/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/ilango-maran/</loc>
     <lastmod>2020-05-07T22:01:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/jieren-deng/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/jieren-deng/</loc>
     <lastmod>2020-05-07T22:01:28-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/louisa-huang/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/louisa-huang/</loc>
     <lastmod>2020-05-07T22:01:27-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/tony-kappen/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/tony-kappen/</loc>
     <lastmod>2020-05-07T22:01:26-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/news/21-jan-2020/</loc>
-    <lastmod>2020-05-05T22:25:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/news/</loc>
     <lastmod>2020-05-05T22:25:52-04:00</lastmod>
   </url>
   
@@ -233,7 +243,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/austin-con/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/austin-con/</loc>
     <lastmod>2020-05-02T21:42:32-04:00</lastmod>
   </url>
   
@@ -243,7 +253,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/chung-you-shih/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/chung-you-shih/</loc>
     <lastmod>2020-05-02T21:42:32-04:00</lastmod>
   </url>
   
@@ -253,12 +263,12 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/lewis-hahn/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/lewis-hahn/</loc>
     <lastmod>2020-05-02T21:42:32-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/nikhil-kotibhaskar/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/nikhil-kotibhaskar/</loc>
     <lastmod>2020-05-02T21:42:32-04:00</lastmod>
   </url>
   
@@ -273,7 +283,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/sainath-motlakunta/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/sainath-motlakunta/</loc>
     <lastmod>2020-05-02T21:42:32-04:00</lastmod>
   </url>
   
@@ -283,7 +293,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/fereshteh-rajabi/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/fereshteh-rajabi/</loc>
     <lastmod>2020-05-02T21:16:47-04:00</lastmod>
   </url>
   
@@ -308,12 +318,12 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/michele-roche/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/michele-roche/</loc>
     <lastmod>2020-05-02T21:16:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/rajibul-islam/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/rajibul-islam/</loc>
     <lastmod>2020-05-02T21:14:38-04:00</lastmod>
   </url>
   
@@ -328,7 +338,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/roland-habl%C3%BCtzel/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/roland-habl%C3%BCtzel/</loc>
     <lastmod>2020-05-02T20:42:06-04:00</lastmod>
   </url>
   
@@ -338,7 +348,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/manas-sajjan/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/manas-sajjan/</loc>
     <lastmod>2020-04-30T22:50:58-04:00</lastmod>
   </url>
   
@@ -348,7 +358,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/nikolay-videnov/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/nikolay-videnov/</loc>
     <lastmod>2020-04-28T00:51:23-04:00</lastmod>
   </url>
   
@@ -363,7 +373,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/yi-hong-teoh/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/yi-hong-teoh/</loc>
     <lastmod>2020-04-28T00:51:23-04:00</lastmod>
   </url>
   
@@ -373,7 +383,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/zewen-sun/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/zewen-sun/</loc>
     <lastmod>2020-04-28T00:51:23-04:00</lastmod>
   </url>
   
@@ -398,7 +408,7 @@
   </url>
   
   <url>
-    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/people/</loc>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/</loc>
     <lastmod>2020-03-25T00:04:23-04:00</lastmod>
   </url>
   
@@ -487,7 +497,15 @@
   </url>
   
   <url>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2019-design-and-construction-of-an-ion-trapping-apparatus-for-quantum-simulation-experiments/</loc>
+  </url>
+  
+  <url>
     <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</loc>
   </url>
   
   <url>
