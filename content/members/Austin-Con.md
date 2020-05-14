@@ -11,5 +11,5 @@ curentInstitution:
 tags:
  - "COOP"
  - "ajcon"
+ - "alumn"
 ---
-
