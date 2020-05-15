@@ -14,3 +14,4 @@ tags:
  - "rlhahn"
 ---
 
+Lewis Hahn was an undergraduate co-op student in Winter 2020. Currently, he is volunteering in the group in bringing up a 'dust trap' apparatus, which will be used in outreach to demonstrate levitation of charged particles using static and radiofrequency voltages. 
