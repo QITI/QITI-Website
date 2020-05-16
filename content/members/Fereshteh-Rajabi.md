@@ -1,6 +1,6 @@
 ---
 title: "Dr. Fereshteh Rajabi"
-date: 2020-05-02T21:16:47-04:00
+date: 2017-05-01T21:16:47-04:00
 draft: false
 image: "images/people/f3rajabi.jpg"
 tenure: 
