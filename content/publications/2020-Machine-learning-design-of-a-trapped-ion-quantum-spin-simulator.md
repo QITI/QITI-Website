@@ -15,8 +15,9 @@ tags:
 image: "images/publications/2020-Machine-Learning.png"
 ---
 
+Trapped ion quantum simulators can in principle simulate an arbitrarily connected spin model. This requires precise programming of the ions with laser beams. In this paper, we numerically show that modern machine learning methods can be employed to program a trapped ion quantum simulator to simulate spin Hamiltonians on an arbitrary lattice geometry. This work is a collaboration with Prof. Roger Melko's group.
 
-Trapped ions have emerged as one of the highest quality platforms for the
+**Abstract:** Trapped ions have emerged as one of the highest quality platforms for the
 quantum simulation of interacting spin models of interest to various fields of
 physics. In such simulators, two effective spins can be made to interact with
 arbitrary strengths by coupling to the collective vibrational or phonon states

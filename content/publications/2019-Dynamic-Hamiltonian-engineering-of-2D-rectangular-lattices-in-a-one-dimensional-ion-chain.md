@@ -12,10 +12,12 @@ draft: false
 arXiv: "1808.06124"
 tags:
  - "QITI"
+image: "images/publications/2019-Rajabi-hybrid.png"
 ---
 
+In this publication, we theoretically and numerically demonstrate a powerful analog-digital hybrid quantum simulation protocol that can be used to simulate spin-dynamics on a two dimensional lattice using a linear chain of ions. The simulation protocol makes use of native long range interactions between trapped ion spins, that are then digitally modified to achieve the target spin-spin interaction graph. On one hand, the hybrid simulation scheme is more flexible and requires less experimental control over individual ions than an analog quantum simulation, where the Hamiltonian is simulated by fine-tuning the control parameters. On the other hand, the hybrid simulation scheme does not build the entire time evolution out of quantum logic gates, unlike a fully digital quantum simulator, and therefore is more robust against Trotterization errors. This work is performed in collaboration with researchers from University of California, Berkeley and Army Research Laboratory, Maryland. 
 
-Controlling the interaction graph between spins or qubits in a quantum
+**Abstract:** Controlling the interaction graph between spins or qubits in a quantum
 simulator allows user-controlled tailoring of native interactions to achieve a
 target Hamiltonian. The flexibility of engineering long-ranged phonon-mediated
 spin-spin interactions in a trapped ion quantum simulator offers such a
