@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ $publications := where .Site.Pages "Section" "publications" }}
 {{ $publications := symdiff $publications (slice .) }}
-{{ $tags := slice "QITI" "Harvard" "Maryland" "Thesis" }}
-{{ $titleCards := slice "Recent" "Bosons in optical lattices, measurement of entanglement entropy (Harvard)" "Quantum simulation of interacting spin models with trapped ions (Maryland)" "Thesis" }}
+{{ $tags := slice "QITI" "Harvard/MIT" "Maryland" "Thesis" }}
+{{ $titleCards := slice "Recent" "Friction with ions (MIT), Bosons in optical lattices (Harvard)" "Quantum simulation of interacting spin models with trapped ions (Maryland)" "Thesis" }}
 <article class="mh4 mt2 mw7-l nested-copy-line-height nested-img center">
   {{ partial "nav-bar.html" $tags }}
   {{ if .Content }}
