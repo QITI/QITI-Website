@@ -2,8 +2,13 @@ import sys
 from crossref.restful import Works
 works = Works()
 
+overwrite = False
+verbose = False
+
 data = sys.stdin.read()
 files = data.split('\n')
+files = files[:-1]
+
 for fileName in files:
     print(fileName)
     f = open(fileName, 'r')
@@ -21,7 +26,9 @@ for fileName in files:
     f.close()
     if DOI == "":
         print(fileName)
-        raise NameError("No DOI found in input file")
+        print("No DOI found in input file")
+        #raise NameError("No DOI found in input file")
+        continue
 
     info = works.doi(DOI)
     title = info['title'][0]
@@ -67,23 +74,36 @@ for fileName in files:
     lines.insert( index-1, ( 'authors: {}\n'.format(author_list) ) )
     lines.insert( index-1, ( 'title: "{}"\n'.format(title) ) )
 
-    print( 'title: "{}"'.format(title) )
-    print( 'authors: "{}"'.format(author_list) )
-    print( 'URL: "{}"'.format(URL) )
-    print( 'journal: "{}"'.format(journal) )
-    print( 'volume: "{}"'.format(volume) )
-    print( 'issue: "{}"'.format(issue) )
-    print( 'date: {}'.format(niceDate) )
-    print( '\nabstract:\n{}'.format(abstract) )
+    if verbose:
+        print( 'title: "{}"'.format(title) )
+        print( 'authors: "{}"'.format(author_list) )
+        print( 'URL: "{}"'.format(URL) )
+        print( 'journal: "{}"'.format(journal) )
+        print( 'volume: "{}"'.format(volume) )
+        print( 'issue: "{}"'.format(issue) )
+        print( 'date: {}'.format(niceDate) )
+        print( '\nabstract:\n{}'.format(abstract) )
+
+    try:
+        print("AN: ", info['article-number'])
+    except:
+        try:
+            print("P: ", info['page'])
+        except:
+            try:
+                print("I: ", info['issue'])
+            except:
+                print("no AN, no page, no issue")
+    print()
 
 
-
-    f = open(fileName, 'w')
-    f.writelines(lines)
-    f.close()
-
-    if abstract != "":
-        f = open(fileName, 'a')
-        f.write("\n{}\n".format(abstract) )
+    if overwrite:
+        print("writing to files!")
+        f = open(fileName, 'w')
+        f.writelines(lines)
         f.close()
+        if abstract != "":
+            f = open(fileName, 'a')
+            f.write("\n{}\n".format(abstract) )
+            f.close()
 

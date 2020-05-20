@@ -1,7 +1,7 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
   <div class="flex-l mt2 mw8 center">
-    <article class="left cf tj pv5 ph3 ph4-ns mw7">
+    <article class="center cf tj pv5 ph3 ph4-ns mw7">
       <header>
         <p class="f6 b helvetica tracked">
         <a href="{{.Section | absURL }}" class="color-inherit dim link">{{ humanize .Section | upper  }} </a>
@@ -17,17 +17,15 @@
         </p>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
-        {{ if .Params.image }}
           <div class="dtc v-top">
-            {{ $img := .Params.image | absURL}}
-            <img src="{{ $img }}" class="mw5 db ma4" alt="image from {{.Title}}" width="200px"/>
+            {{ if .Params.image }}
+              {{ $img := .Params.image | absURL}}
+              <img src="{{ $img }}" class="fl-l ft db ma4-l w-100-l mw5-l" alt="image from {{.Title}}" />
+            {{ end }}
+            <p class="lh-copy mv0">
+              {{ .Content }}
+            </p>
           </div>
-        {{ end }}
-        <div class="dtc v-top">
-          <p class="lh-copy mv0">
-            {{ .Content }}
-          </p>
-        </div>
       </div>
     </article>
   </div>
