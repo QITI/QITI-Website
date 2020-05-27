@@ -2,12 +2,15 @@
 {{ with .Params.image }}
   {{ $base = substr . 0 -4 }}
 {{ end }}
-{{ $featured_image := printf "/%s%s" $base "-bubble.png" }}
+{{ $featured_image := printf "%s%s" $base "-bubble.png" }}
 <article class="bb b--black-10">
   <div class="db pv2 ph0-l dark-gray">
     <div class="flex flex-row">
-      {{ if .Params.image }}
-        {{ $featured_image := (trim $featured_image "/") | absURL }}
+    {{ if $featured_image }}
+      {{ if not ( fileExists (printf "static/%s" $featured_image ) )}}
+      	{{ $featured_image = "images/TheThinker_small-bubble.png"}}
+      {{ end }}
+        {{ $featured_image := $featured_image | absURL }}
         <div class="pa1 pl3-ns pr3-ns mb4 mb0-ns w-20 w-50-l">
           <a href="{{.Permalink}}" class="db grow">
             <img src="{{ $featured_image }}" class="w-100" alt="image from {{ .Title }}">
