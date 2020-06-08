@@ -2,7 +2,7 @@
 title: "Natasha Willis"
 date: 2020-05-07T22:01:34-04:00
 draft: false
-image: "images/TheThinker_small.png"
+image: "images/people/Natasha.jpg"
 tenure: "Undergraduate co-op student, Winter 2019"
 office:
 extention:
