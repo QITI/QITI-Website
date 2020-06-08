@@ -1,5 +1,5 @@
 {{ $tags := . }}
-<nav role="navigation" class="flex-l ph4 items-center justify-between center">
+<nav role="navigation" class="flex-l ph2 items-center justify-between center">
   <ul class="pa1 left">
   {{ range seq 0 (sub (len $tags) 1) }}
     {{ if (index $tags .) }}
