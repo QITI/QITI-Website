@@ -19,8 +19,10 @@
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
           <div class="dtc v-top">
             {{ if .Params.image }}
-              {{ $img := .Params.image | absURL}}
+			  {{ $img := .Params.image | absURL }}
+			  {{ if ( fileExists (printf "%s%s" "static/" .Params.image) ) }}
               <img src="{{ $img }}" class="fl-l ft db ma4-l w-100-l mw5-l" alt="image from {{.Title}}" />
+		    {{ end }}
             {{ end }}
             <p class="lh-copy mv0">
               {{ .Content }}

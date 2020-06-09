@@ -1,5 +1,11 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
+{{ $isImg := false }}
+{{ if .Params.image }}
+  {{ if ( fileExists (printf "%s%s" "static/" .Params.image) ) }}
+    {{ $isImg = true }}
+  {{ end }}
+{{ end }}
   <div class="flex-l mt2 mw8 center">
     <article class="left cf pv5 ph3 ph4-ns mw7">
       <header>
@@ -11,7 +17,7 @@
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
-        {{ if .Params.image }}
+        {{ if $isImg }}
         <div class="dtc v-top">
             {{ $img := .Params.image | absURL}}
             <img src="{{ $img }}" class="mw5 db" alt="image from {{.Title}}" width="200px"/>
