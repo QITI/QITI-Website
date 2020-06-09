@@ -1,14 +1,13 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-authors: 
-link: 
-journal: 
-volume: 
-issue: 
-date: {{ .Date }}
-datePublished: 
+authors:
+link:
+journal:
+volume:
+issue:
+date:
 DOI:
-draft: false
+draft: true
 arXiv:
 tags:
 ---
