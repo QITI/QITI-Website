@@ -6,7 +6,6 @@ journal: "Phys. Rev. Lett."
 volume: "120"
 issue: "170601"
 date: 2018-04-25T00:00:00-00:00
-datePublished: "2018/04"
 DOI: 10.1103/PhysRevLett.120.170601
 draft: false
 arXiv: "1705.11180"

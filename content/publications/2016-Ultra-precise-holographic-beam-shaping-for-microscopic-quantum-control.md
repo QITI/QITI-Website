@@ -6,7 +6,6 @@ journal: "Opt. Express"
 volume: "24"
 issue: "13881"
 date: 2016-06-14T00:00:00-00:00
-datePublished: "2016/06"
 DOI: 10.1364/OE.24.013881
 draft: false
 arXiv: "1604.07653"

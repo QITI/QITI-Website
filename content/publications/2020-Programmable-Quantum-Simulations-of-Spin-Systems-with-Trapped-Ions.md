@@ -6,7 +6,6 @@ journal: ""
 volume: ""
 issue: ""
 date: 2020-04-01T00:00:00-00:00
-datePublished: ""
 DOI: 
 draft: false
 arXiv: "1912.07845"

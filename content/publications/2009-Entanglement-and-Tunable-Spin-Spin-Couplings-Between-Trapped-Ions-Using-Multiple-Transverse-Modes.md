@@ -6,7 +6,6 @@ journal: "Phys. Rev. Lett."
 volume: "103"
 issue: "120502"
 date: 2009-09-16T00:00:00-00:00
-datePublished: "2009/09"
 DOI: 10.1103/PhysRevLett.103.120502
 draft: false
 arXiv: "0905.0225"

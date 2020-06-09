@@ -6,7 +6,6 @@ journal: "Europhys. Lett."
 volume: "86"
 issue: "60004"
 date: 2009-06-27T00:00:00-00:00
-datePublished: "2009/06"
 DOI: 10.1209/0295-5075/86/60004
 draft: false
 arXiv: "0901.0579"

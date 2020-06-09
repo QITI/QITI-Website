@@ -6,7 +6,6 @@ journal: "Nat Commun"
 volume: "2"
 issue: "377"
 date: 2011-07-05T00:00:00-00:00
-datePublished: "2011/09"
 DOI: 10.1038/ncomms1374
 draft: false
 arXiv: "1103.2400"

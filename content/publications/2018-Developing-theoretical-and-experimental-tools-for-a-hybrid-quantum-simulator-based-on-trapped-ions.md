@@ -6,7 +6,6 @@ journal: 'University of Waterloo'
 volume: 
 issue: 
 date: 2018-00-00T00:00:00-00:00
-datePublished: "2018"
 DOI:
 draft: false
 arXiv:
