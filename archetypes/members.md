@@ -10,6 +10,4 @@ previousInstitution:
 curentInstitution:
 draft: true
 tags:
- - "grad"
- - "m2sajjan"
 ---
