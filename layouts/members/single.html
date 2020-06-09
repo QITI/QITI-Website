@@ -16,7 +16,7 @@
         <div class="dtc v-top">
           {{ $img := .Params.image | absURL }}
 		  {{ if not ( fileExists (printf "%s%s" "static/" .Params.image) ) }}
-			{{ $img = "images/TheThinker_small.png" | absURL }}
+			{{ $img = "images/default.png" | absURL }}
 		  {{ end }}
           <img src="{{ $img }}" class="mw5 db" alt="image from {{.Title}}" width="150px"/>
         </div>

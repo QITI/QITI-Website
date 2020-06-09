@@ -25,12 +25,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="2311.9253"
-     inkscape:cy="2388.2639"
+     inkscape:zoom="1"
+     inkscape:cx="1338.1354"
+     inkscape:cy="1738.8495"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1916"
@@ -498,7 +498,7 @@
            height="23.999996"
            x="21.671099"
            y="125.39967"
-           style="fill:#3d99d5;fill-opacity:0.70646769;stroke:#000000;stroke-width:0.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#3d99d6;fill-opacity:0.70588237;stroke:#000000;stroke-width:0.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            ry="3.3408692" />
         <text
            xml:space="preserve"
@@ -530,12 +530,12 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="171.41394"
+           x="181.02647"
            y="155.85487"
            id="text4797-9-71"><tspan
              sodipodi:role="line"
              id="tspan4795-1-7"
-             x="171.41394"
+             x="181.02647"
              y="155.85487"
              style="stroke-width:0.26458332">Publications</tspan></text>
       </g>
@@ -746,6 +746,163 @@
              y="136.46277"
              style="stroke-width:0.26458332">partial journal-link-bar</tspan></text>
       </g>
+    </g>
+    <rect
+       id="rect3988-4"
+       width="192"
+       height="24"
+       x="240.00002"
+       y="-206.99997"
+       style="fill:#3dd567;fill-opacity:0.70646769;stroke:#000000;stroke-width:0.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       ry="3.3410001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="335.76749"
+       y="-193.89717"
+       id="text4797-4"><tspan
+         sodipodi:role="line"
+         id="tspan4795-4"
+         x="335.76749"
+         y="-193.89717"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">baseof</tspan></text>
+    <g
+       id="g5761"
+       transform="translate(-59.999956,-107.99999)">
+      <rect
+         ry="3.3408692"
+         style="fill:none;fill-opacity:0.70646769;stroke:#000000;stroke-width:0.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="-74.999969"
+         x="395.99997"
+         height="23.999992"
+         width="48.000011"
+         id="rect3988-6-7-3" />
+      <text
+         id="text4797-7-0-1"
+         y="-61.832085"
+         x="400.23065"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="-61.832085"
+           x="400.23065"
+           sodipodi:role="line"
+           id="tspan4876-7">partial site-favicon</tspan></text>
+    </g>
+    <g
+       id="g5779"
+       transform="translate(-11.999952,-131.99998)">
+      <rect
+         ry="3.3408692"
+         style="fill:none;fill-opacity:0.70646769;stroke:#000000;stroke-width:0.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="-50.999981"
+         x="251.99997"
+         height="24.000004"
+         width="48.000004"
+         id="rect3988-6-7-6-5" />
+      <text
+         id="text4797-7-0-0-9"
+         y="-37.832096"
+         x="275.80774"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="-37.832096"
+           x="275.80774"
+           sodipodi:role="line"
+           id="tspan4876-6-6">partial site-footer</tspan></text>
+    </g>
+    <g
+       id="g5766"
+       transform="translate(-35.999924,-131.99998)">
+      <rect
+         ry="3.3408692"
+         style="fill:none;fill-opacity:0.70646769;stroke:#000000;stroke-width:0.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="-50.999981"
+         x="323.99997"
+         height="24.000004"
+         width="47.999985"
+         id="rect3988-6-7-6-6-2" />
+      <text
+         id="text4797-7-0-0-1-1"
+         y="-37.832073"
+         x="347.80774"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="-37.832073"
+           x="347.80774"
+           sodipodi:role="line"
+           id="tspan4876-6-8-7">partial site-header</tspan></text>
+    </g>
+    <g
+       id="g5784"
+       transform="translate(118.58339,-155.99999)">
+      <rect
+         ry="3.3408692"
+         style="fill:none;fill-opacity:0.70646769;stroke:#000000;stroke-width:0.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="-26.99999"
+         x="265.4166"
+         height="24.000013"
+         width="48.000019"
+         id="rect3988-6-7-6-5-8" />
+      <text
+         id="text4797-7-0-0-9-5"
+         y="-13.30294"
+         x="289.32773"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="-13.30294"
+           x="289.32773"
+           sodipodi:role="line"
+           id="tspan4876-6-6-7">partial site-scripts</tspan></text>
+    </g>
+    <g
+       id="g5766-4"
+       transform="translate(-35.999914,-107.99997)">
+      <rect
+         ry="3.3408692"
+         style="fill:none;fill-opacity:0.70646769;stroke:#000000;stroke-width:0.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="-50.999981"
+         x="323.99997"
+         height="24.000004"
+         width="47.999985"
+         id="rect3988-6-7-6-6-2-1" />
+      <text
+         id="text4797-7-0-0-1-1-8"
+         y="-37.832073"
+         x="347.80774"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="-37.832073"
+           x="347.80774"
+           sodipodi:role="line"
+           id="tspan4876-6-8-7-5">partial site-navigation</tspan></text>
+    </g>
+    <g
+       id="g5766-4-9"
+       transform="translate(-35.999914,-83.999963)">
+      <rect
+         ry="3.3408692"
+         style="fill:none;fill-opacity:0.70646769;stroke:#000000;stroke-width:0.86500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="-50.999981"
+         x="323.99997"
+         height="24.000004"
+         width="47.999985"
+         id="rect3988-6-7-6-6-2-1-7" />
+      <text
+         id="text4797-7-0-0-1-1-8-5"
+         y="-37.832073"
+         x="347.80774"
+         style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="-37.832073"
+           x="347.80774"
+           sodipodi:role="line"
+           id="tspan4876-6-8-7-5-3">partial social-follow</tspan></text>
     </g>
   </g>
 </svg>

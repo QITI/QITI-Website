@@ -2,7 +2,7 @@
 title: "Lewis Hahn"
 date: 2020-05-01T21:42:32-04:00
 draft: false
-image: "images/TheThinker_small.png"
+image: "images/default.png"
 tenure: 
 office:
 extention:
