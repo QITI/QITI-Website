@@ -4,7 +4,7 @@ authors: [['R. Islam', 'krislam'], ['W. C. Campbell'], ['T. Choi'], ['S. M. Clar
 link: "http://dx.doi.org/10.1364/ol.39.003238"
 journal: "Opt. Lett."
 volume: "39"
-issue: "11"
+issue: "3238"
 date: 2014-06-01T00:00:00-00:00
 datePublished: "2014/06"
 DOI: 10.1364/OL.39.003238

@@ -4,7 +4,7 @@ authors: [['P. M. Preiss'], ['R. Ma'], ['M. E. Tai'], ['A. Lukin'], ['M. Rispoli
 link: "http://dx.doi.org/10.1126/science.1260364"
 journal: "Science"
 volume: "347"
-issue: "6227"
+issue: "1229-1233"
 date: 2015-03-12T00:00:00-00:00
 datePublished: "2015/03"
 DOI: 10.1126/science.1260364

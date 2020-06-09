@@ -4,7 +4,7 @@ authors: [['R. Islam', 'krislam'], ['R. Ma'], ['P. M. Preiss'], ['M. Eric Tai'],
 link: "http://dx.doi.org/10.1038/nature15750"
 journal: "Nature"
 volume: "528"
-issue: "7580"
+issue: "77-83"
 date: 2015-12-02T00:00:00-00:00
 datePublished: "2015/12"
 DOI: 10.1038/nature15750

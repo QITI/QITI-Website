@@ -4,7 +4,7 @@ authors: [['P. Zupancic'], ['P. M. Preiss'], ['R. Ma'], ['A. Lukin'], ['M. Eric 
 link: "http://dx.doi.org/10.1364/oe.24.013881"
 journal: "Opt. Express"
 volume: "24"
-issue: "13"
+issue: "13881"
 date: 2016-06-14T00:00:00-00:00
 datePublished: "2016/06"
 DOI: 10.1364/OE.24.013881

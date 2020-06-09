@@ -4,7 +4,7 @@ authors: [['R. Islam', 'krislam'], ['C. Senko'], ['W. C. Campbell'], ['S. Korenb
 link: "http://dx.doi.org/10.1126/science.1232296"
 journal: "Science"
 volume: "340"
-issue: "6132"
+issue: "583-587"
 date: 2013-05-03T00:00:00-00:00
 datePublished: "2013/05"
 DOI: 10.1126/science.1232296

@@ -4,7 +4,7 @@ authors: [['R. Islam', 'krislam'], ['E. Edwards'], ['K. Kim'], ['S. Korenblit'],
 link: "http://dx.doi.org/10.1038/ncomms1374"
 journal: "Nat Commun"
 volume: "2"
-issue: "1"
+issue: "377"
 date: 2011-07-05T00:00:00-00:00
 datePublished: "2011/09"
 DOI: 10.1038/ncomms1374

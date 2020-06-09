@@ -4,7 +4,7 @@ authors: [['I. Counts'], ['D. Gangloff'], ['A. Bylinskii'], ['J. Hur'], ['R. Isl
 link: "http://dx.doi.org/10.1103/physrevlett.119.043601"
 journal: "Phys. Rev. Lett."
 volume: "119"
-issue: "4"
+issue: "043601"
 date: 2017-07-24T00:00:00-00:00
 datePublished: "2017/07"
 DOI: 10.1103/PhysRevLett.119.043601

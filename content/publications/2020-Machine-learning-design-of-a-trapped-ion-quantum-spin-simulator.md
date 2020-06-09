@@ -4,7 +4,7 @@ authors: [['Y. H. Teoh', 'yhteoh'], ['M. Drygala'], ['R. G. Melko'], ['R. Islam'
 link: "http://dx.doi.org/10.1088/2058-9565/ab657a"
 journal: "Quantum Sci. Technol."
 volume: "5"
-issue: "2"
+issue: "024001"
 date: 2020-01-21T00:00:00-00:00
 datePublished: "2020/01"
 DOI: 10.1088/2058-9565/ab657a

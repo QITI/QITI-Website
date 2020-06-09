@@ -4,7 +4,7 @@ authors: [['G. Lin'], ['S. Zhu'], ['R. Islam', 'krislam'], ['K. Kim'], ['M. Chan
 link: "http://dx.doi.org/10.1209/0295-5075/86/60004"
 journal: "Europhys. Lett."
 volume: "86"
-issue: "6"
+issue: "60004"
 date: 2009-06-27T00:00:00-00:00
 datePublished: "2009/06"
 DOI: 10.1209/0295-5075/86/60004

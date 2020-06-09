@@ -4,7 +4,7 @@ authors: [['F. Rajabi', 'f3rajabi'], ['S. Motlakunta', 'smotlaku'], ['C. Shih', 
 link: "http://dx.doi.org/10.1038/s41534-019-0147-x"
 journal: "npj Quantum Inf"
 volume: "5"
-issue: "1"
+issue: "32"
 date: 2019-04-26T00:00:00-00:00
 datePublished: "2019/04"
 DOI: 10.1038/s41534-019-0147-x

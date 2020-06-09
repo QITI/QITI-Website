@@ -4,7 +4,7 @@ authors: [['D. Gelbwaser-Klimovsky'], ['A. Bylinskii'], ['D. Gangloff'], ['R. Is
 link: "http://dx.doi.org/10.1103/physrevlett.120.170601"
 journal: "Phys. Rev. Lett."
 volume: "120"
-issue: "17"
+issue: "170601"
 date: 2018-04-25T00:00:00-00:00
 datePublished: "2018/04"
 DOI: 10.1103/PhysRevLett.120.170601

@@ -4,7 +4,7 @@ authors: [['P. Richerme'], ['C. Senko'], ['S. Korenblit'], ['J. Smith'], ['A. Le
 link: "http://dx.doi.org/10.1103/physrevlett.111.100506"
 journal: "Phys. Rev. Lett."
 volume: "111"
-issue: "10"
+issue: "100506"
 date: 2013-09-05T00:00:00-00:00
 datePublished: "2013/09"
 DOI: 10.1103/PhysRevLett.111.100506
