@@ -22,6 +22,9 @@
         </div>
         <div class="dtc v-top pl3">
           <p class="lh-copy mv0">
+	  {{ if .Params.tenure }}
+            <b>Position/degree:</b> {{ .Params.tenure }}<br/>
+          {{ end }}
           {{ if .Params.email }}
             <b>Email:</b> {{ .Params.email }}<br/>
           {{ end }}
