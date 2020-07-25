@@ -10,5 +10,6 @@ email: "niel.mistry@edu.uwaterloo.ca"
 previousInstitution: 
 curentInstitution: 
 tags: 
+ - "alumn"
  - "COOP"
 ---
