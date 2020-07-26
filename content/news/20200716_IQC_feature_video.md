@@ -6,4 +6,4 @@ draft: false
 
 Here is a feature of our lab by IQC. The students look very happy playing with ions!
 
-[Watch](https://www.youtube.com/watch?time_continue=1&v=L7nipA12EWg&feature=emb_logo)
+{{< youtube L7nipA12EWg>}}
