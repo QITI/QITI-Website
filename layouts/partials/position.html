@@ -7,5 +7,5 @@
 {{ else if in .Params.tags "COOP" }}
   <a href="{{ printf "%s/#%s" (.Section | absURL) "COOP"}}" class="color-inherit dim link">Undergraduate Research Associate</a>
 {{ else if in .Params.tags "PI" }}
-  <a href="{{ printf "%s/#%s" (.Section | absURL) "PI"}}" class="color-inherit dim link">Principle Investigator</a>
+  <a href="{{ printf "%s/#%s" (.Section | absURL) "PI"}}" class="color-inherit dim link">Principal Investigator</a>
 {{ end }}
