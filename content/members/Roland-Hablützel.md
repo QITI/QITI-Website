@@ -3,7 +3,7 @@ title: "Dr. Roland Hablützel"
 date: 2020-05-02T20:42:06-04:00
 draft: false
 image: "images/people/rhabluet.jpg"
-tenure: 
+tenure: "Postdoctoral fellow"
 office: "QNC 3116"
 extention: "x39045"
 email: "rhabluet@uwaterloo.ca"
