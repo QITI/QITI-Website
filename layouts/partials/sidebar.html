@@ -1,0 +1,31 @@
+<!-- sidebar start -->
+<aside>
+    <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.mainmenu }}
+            {{ if .HasChildren }}
+                <li class="{{ if $currentPage.HasMenuCurrent "mainmenu" . }}active{{ end }}">
+                    <a href="#">
+                        {{ .Pre }}
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+                <ul class="sub-menu">
+                    {{ range .Children }}
+                        <li class="{{ if $currentPage.IsMenuCurrent "mainmenu" . }}active{{ end }}">
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ else }}
+                <li>
+                    <a href="{{ .URL }}">
+                        {{ .Pre }}
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+            {{ end }}
+        {{ end }}
+       
+    </ul>
+</aside>
