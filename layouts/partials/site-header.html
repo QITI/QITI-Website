@@ -4,7 +4,7 @@
   {{ $featured_image := (trim $featured_image "/") | absURL }}
   <header class="cover bg-top" style="background-image: url('{{ $featured_image }}'); background-attachment: fixed; background-size:contain; resize:both;">
     <div class="{{ .Site.Params.cover_dimming_class | default "bg-black-20" }}">
-      {{ partial "site-navigation-2.html" .}}
+      {{ partial "site-navigation.html" .}}
       <div class="tl pv5 pv6-l ph3 ph4-ns">
 {{/* change pv number above to change vertical padding, m for medium screen size, l for large e.g. pv3-m */}}
         <h2 class="f2 white-80 f-subheadline-2 fw2 mb0 1h-title">
@@ -21,7 +21,7 @@
 {{ else }}
   <header>
     <div class="pb2-m pb0-l {{ .Site.Params.background_color_class | default "bg-black" }}">
-      {{ partial "site-navigation-2.html" . }}
+      {{ partial "site-navigation.html" . }}
       <div class="tl pv0 pv4-l ph3 ph4-ns">
         <h2 class="f2 white-80 f-subheadline-2 ph3 fw2 white-70 mb0 lh-title">
           {{ .Title | default .Site.Title }}

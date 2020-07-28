@@ -4,13 +4,15 @@ date: 2020-05-10T15:07:47-04:00
 draft: false
 nav: [ "QSIM", "Assembly", "Resources", "Outreach"]
 ---
-<a id="QSIM"></a>
+<a id="#QSIM">QSIM</a>
+
 # Quantum Simulation With Trapped Ions
 Many outstanding problems of modern physics involve understanding the origin and properties of strongly interacting quantum systems. Such correlated quantum systems – such as the high-Tc superconductors and quark-gluon plasma in a particle collider –  are present in various energy scales. In an interacting quantum system, entanglement or non-classical correlations between parts often makes theoretical or numerical analysis intractable. An experimental way to solve this problem is to simulate quantum models using well-controlled quantum systems in the laboratory. In these experimental ‘quantum simulators’, it is possible to add complexities and increase the system size in a controlled way. The long quantum coherence in these systems allow their temporal evolution following the quantum laws of nature. The task of the experimentalist is then to initialize the system in a known state, engineer the desired quantum Hamiltonian, let the system evolve in isolation from its environment, and finally measure the outcome. The knowledge gained from studying non-trivial quantum models can potentially lead to the understanding of exotic quantum phases of matter, and give fundamental insights towards realizing quantum computers.
 
 The main research focus of the QITI laboratory is to use laser-cooled trapped Ytterbium ions (Yb+) to simulate non-trivial quantum Hamiltonians. The long range Coulomb interaction between the ions would be exploited to engineer versatile spin Hamiltonians. The spin interactions can be tuned, in principle arbitrarily, and the individual spins can be detected with near perfection. Multi-spin interactions can be created, allowing us to study interacting (spinless) Fermions. Further, the phonons associated with the collective vibrational modes enable us to study interacting bosonic Hamiltonians, such as the Bose-Hubbard model. While trapped ions normally have long quantum coherence, one can introduce dissipation in a controlled way for studying open quantum systems. Interacting Hamiltonians and open quantum systems are often hard to simulate on classical computers, and may become intractable beyond 30-40 spins. The QITI laboratory aims to work in the regime where classical computation is difficult or intractable.
 
-<a id="Assembly"></a>
+<a ref="/#Assembly">Assembly</a>
+
 # Assembling a quantum system atom-by-atom
 Laser-cooled trapped ions are among the most pristine quantum systems that can be controlled in a laboratory. In the ultrahigh vacuum of an ion trap apparatus (a Paul trap), we can build a quantum system bottom-up, starting with just one ion, adding a second, a third, … going up to many dozens! The ions are laser-cooled (Doppler cooling, Raman cooling etc) to their electronic and vibrational ground states. Two internal states of an ion can be chosen to represent the qubit or spin-1/2 states. Microwave or optical (Raman) fields can be used to generate an effective magnetic field that rotates the spins. Spin-dependent fluorescence when excited by a laser beam allows us to detect the spin states with near perfection. Quantum coherence of up to fifteen minutes has been demonstrated in a single trapped ion! The long coherence is exploited in building atomic clocks.
 

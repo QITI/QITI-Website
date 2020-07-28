@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Quantum Information with Trapped Ions"
 subtitle = "University of Waterloo"
 theme = "ananke"
-# SectionPagesMenu = "mainmenu" #comment
+#SectionPagesMenu = "mainmenu" #comment
 aginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
 summaryLength = 50
 
@@ -23,7 +23,7 @@ favicon = "favicon.ico"
     name = "Members"
     title = "Members"
     url = "/members/"
-    weight = 1
+    weight = 2
 
   [[menu.mainmenu]]
     identifier = "Group"
@@ -38,12 +38,19 @@ favicon = "favicon.ico"
     name = "Publications"
     title = "Publications"
     url = "/publications/"
-    weight = 2
+    weight = 3
 
  [[menu.mainmenu]]
     identifier = "Research"
     name = "Research"
     title = "Publication"
     url = "/research/"
-    parent = "Publications"
+    #parent = "Publications"
     weight = 1
+
+ [[menu.mainmenu]]
+    identifier = "News"
+    name = "News"
+    title = "News"
+    url = "/news/"
+    weight = 4
