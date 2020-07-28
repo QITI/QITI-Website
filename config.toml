@@ -13,8 +13,25 @@ featured_image = "images/header/4-rod trap_w_ions.jpg"
 homeList = ["news", "publications"]
 favicon = "favicon.ico"
 
-[blackfriday]
- hrefTargetBlank = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
 
 [menu]
 
