@@ -45,8 +45,10 @@ With these criteria in mind we will now explore the periodic table making notes:
 
 We will begin with an overview of the periodic table, using isotope data from the NIST database to identify favourable isotopes. We will then use NIST database data for atomic transitions to explore the electronic structure to answer the other criteria. The code used to do this is located [here](https://github.com/senkolab/ion-species-explorer).
 
+The shortcode takes the title of the markdown file for the pulblication of interest. With a small change I think the shortcode could also take a list of files and produce a formatted list
+{{< publist 2019-Dynamic-Hamiltonian-engineering-of-2D-rectangular-lattices-in-a-one-dimensional-ion-chain.md>}}
 
-<a id="Outreach">
+<a id="Outreach"></a>
 # Outreach
 
 ## Coop highlight
