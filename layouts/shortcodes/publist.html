@@ -1,0 +1,3 @@
+{{ with .Site.GetPage (printf "%s%s" "/content/publications/" (index .Params 0) ) }}
+  {{ partial "pub-list-2.html" (slice .) }}
+{{ end }}
