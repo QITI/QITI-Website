@@ -1,0 +1,9 @@
+{{ $publications := where .Site.Pages "Section" "publications" }}
+{{ $tags := slice "QITI" "Harvard/MIT" "Maryland" "Thesis" }}
+{{ print $tags }} 
+
+{{ $list := where $publications ".Params.tags" "intersect" "QITI" }}
+        {{ print $list}}
+{{ index $tags }}
+
+

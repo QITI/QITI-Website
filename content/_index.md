@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "Home"
 date: 2020-03-25T01:18:35-04:00
 draft: true
 description: " "
@@ -14,3 +14,4 @@ Laser-cooled trapped ions are among the most pristine and controllable quantum s
 - **Quantum simulation algorithms:** We research on classical and quantum algorithms to make quantum simulation more efficient, e.g. by using modern machine learning methods. We collaborate with the [Perimeter Institute Quantum Intelligence Laboratory](https://www.perimeterinstitute.ca/research/research-initiatives/perimeter-institute-quantum-intelligence-lab-piquil).
 
 We acknowledge financial support from University of Waterloo, NSERC, Government of Ontario, US ARO, and Transformative Quantum Technologies (TQT, CFREF).
+

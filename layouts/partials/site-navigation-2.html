@@ -3,38 +3,21 @@
     <a href="{{ .Site.BaseURL }}" class="f3 fw2 hover-white no-underline white-90 dib">
       {{ .Site.Title }}
     </a>
-       
-    <div class="flex-l items-center">
+<!-- <div class="flex-l items-center">
       {{ partial "i18nlist.html" . }}
-            <ul class="pl0 mr3">
-	
-	{{ $currentPage := . }}
-	        {{ range .Site.Menus.mainmenu }}
-	            {{ if .HasChildren }}
-         	 <li>
-                	 <a class="hover-white no-underline white-70" href="{{ .URL }}" title="{{ .Name }} page">
-              			{{ .Name }}
-            		</a>
-          	</li>
-
-  		   <ul class="sub-menu">
-                    {{ range .Children }}
-                	        <li>
-                	            <a class="hover-white no-underline white-90" href="{{ .URL }}">{{ .Name }}</a>
-                        </li>
-                    {{ end }}
-                
-		   {{ else }}
-                  <li>
-                    <a class="hover-white no-underline white-90" href="{{ .URL }}">
-                      {{ .Name }}
-                    </a>
-                </li>
-                        
+      {{ if .Site.Menus.mainmenu }}
+        <ul class="pl0 mr3">
+          {{ range .Site.Menus.mainmenu }}
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-70" href="{{ .URL }}" title="{{ .Name }} page">
+              {{ .Name }}
+            </a>
+          </li>
           {{ end }}
         </ul>
       {{ end }}
       {{ partialCached "social-follow.html" . }}
-    </div>
+    </div> --> 
+
   </div>
-</nav>
+  </nav>
