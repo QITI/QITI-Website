@@ -11,11 +11,15 @@
   <section class="flex-ns flex-wrap justify-around mt1 mt4-l">
     {{ $list := where .Site.Pages "Section" .Section }}
     {{ $list := symdiff $list (slice .) }}
-    {{ range $list}}
+
+    {{ $Paginator := .Paginate $list }}
+    {{- template "_internal/pagination.html" -}}
+    {{ range $Paginator.Pages }}
       <div class="relative w-100 mv2-l mv1 bg-white">
         {{- partial "summary-with-image.html" . -}}
       </div>
     {{ end }}
   </section>
+  {{- template "_internal/pagination.html" . -}}
 </article>
 {{ end }}
