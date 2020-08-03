@@ -1,16 +1,16 @@
 <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
-    <a href="{{ .Site.BaseURL }}" class="f3 fw2 hover-white no-underline white-90 dib">
-      {{ .Site.Title }}
+    <a href="{{ .Site.BaseURL }}" class="f3 pv0 fw4 hover-white no-underline white dib">
+      {{ .Site.Title }}<p class ="f5 white">Principal Investigator - Prof. Rajibul Islam, University of Waterloo</p>
     </a>
        
-    <div class="flex-l items-center">
+    <div class="flex-l items-start">
       {{ partial "i18nlist.html" . }}
       {{ if .Site.Menus.mainmenu }}
         <ul class="pl0 mr3">
           {{ range .Site.Menus.mainmenu }}
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-70" href="{{ .URL }}" title="{{ .Name }} page">
+            <a class="hover-white no-underline white-80" href="{{ .URL }}" title="{{ .Name }} page">
               {{ .Name }}
             </a>
           </li>
@@ -20,4 +20,4 @@
       {{ partialCached "social-follow.html" . }}
     </div>
   </div>
-</nav>
+  </nav>
