@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mmveenstra on Quantum Information with Trapped Ions</title>
+    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/mmveenstra/</link>
+    <description>Recent content in mmveenstra on Quantum Information with Trapped Ions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2020 21:16:47 -0400</lastBuildDate>
+    
+	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/mmveenstra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Michael Melvin Veenstra</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/michael-veenstra/</link>
+      <pubDate>Fri, 01 May 2020 21:16:47 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/michael-veenstra/</guid>
+      <description>Michael is an undergraduate co-op student in the QITI lab in Spring 2020. He is in his third year of studying Mechatronics Engineering at the University of Waterloo. In the QITI lab, Michael has been working on electronics projects related to ion trapping.
+Outside of work, Michael enjoys soccer, mountain biking, and hands-on projects.</description>
+    </item>
+    
+  </channel>
+</rss>

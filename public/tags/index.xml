@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2020 22:01:38 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 20:42:06 -0400</lastBuildDate>
     
 	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>m9day</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/m9day/</link>
+      <pubDate>Wed, 01 Jul 2020 20:42:06 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/m9day/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postDoc</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/postdoc/</link>
+      <pubDate>Wed, 01 Jul 2020 20:42:06 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/postdoc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>alumn</title>
@@ -26,24 +44,6 @@
       <pubDate>Thu, 07 May 2020 22:01:38 -0400</pubDate>
       
       <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/coop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ajcon</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/ajcon/</link>
-      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
-      
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/ajcon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>c5shih</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/c5shih/</link>
-      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
-      
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/c5shih/</guid>
       <description></description>
     </item>
     
@@ -66,38 +66,11 @@
     </item>
     
     <item>
-      <title>rlhahn</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/rlhahn/</link>
-      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
-      
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/rlhahn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>smotlaku</title>
       <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/smotlaku/</link>
       <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
       
       <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/smotlaku/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>f3rajabi</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/f3rajabi/</link>
-      <pubDate>Sat, 02 May 2020 21:16:47 -0400</pubDate>
-      
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/f3rajabi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>postDoc</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/postdoc/</link>
-      <pubDate>Sat, 02 May 2020 21:16:47 -0400</pubDate>
-      
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/postdoc/</guid>
       <description></description>
     </item>
     
@@ -147,6 +120,51 @@
     </item>
     
     <item>
+      <title>gatathed</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/gatathed/</link>
+      <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/gatathed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rlhahn</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/rlhahn/</link>
+      <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/rlhahn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rwditommaso</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/rwditommaso/</link>
+      <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/rwditommaso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mmveenstra</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/mmveenstra/</link>
+      <pubDate>Fri, 01 May 2020 21:16:47 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/mmveenstra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shubele</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/shubele/</link>
+      <pubDate>Fri, 01 May 2020 21:16:47 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/shubele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>m2sajjan</title>
       <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/m2sajjan/</link>
       <pubDate>Thu, 30 Apr 2020 22:50:58 -0400</pubDate>
@@ -192,11 +210,29 @@
     </item>
     
     <item>
-      <title>Harvard</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/harvard/</link>
-      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+      <title>ajcon</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/ajcon/</link>
+      <pubDate>Wed, 01 Jan 2020 21:42:32 -0400</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/harvard/</guid>
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/ajcon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c5shih</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/c5shih/</link>
+      <pubDate>Fri, 01 Sep 2017 21:42:32 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/c5shih/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>f3rajabi</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/f3rajabi/</link>
+      <pubDate>Mon, 01 May 2017 21:16:47 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/f3rajabi/</guid>
       <description></description>
     </item>
     
@@ -206,6 +242,15 @@
       <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
       
       <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/maryland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harvard/MIT</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/harvard/mit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/harvard/mit/</guid>
       <description></description>
     </item>
     

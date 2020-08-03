@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shubele on Quantum Information with Trapped Ions</title>
+    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/shubele/</link>
+    <description>Recent content in shubele on Quantum Information with Trapped Ions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2020 21:16:47 -0400</lastBuildDate>
+    
+	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/shubele/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scott Hubele</title>
+      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/scott-hubele/</link>
+      <pubDate>Fri, 01 May 2020 21:16:47 -0400</pubDate>
+      
+      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/scott-hubele/</guid>
+      <description>Scott joined the group for the Summer of 2020 through the IQC Undergraduate Research Award. His projects include simulating photon counts from trapped ion qubits onto multiple detectors to correlate measurements and increase detection fidelity, as well as designing an imaging system which minimizes aberration. He graduated from the University of Alberta in 2020 with a major in Engineering Physics (co-op program) and a minor in Linguistics.</description>
+    </item>
+    
+  </channel>
+</rss>
