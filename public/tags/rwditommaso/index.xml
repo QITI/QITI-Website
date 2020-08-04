@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rwditommaso on Quantum Information with Trapped Ions</title>
-    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/rwditommaso/</link>
+    <link>http://qiti-test.iqc.uwaterloo.ca/tags/rwditommaso/</link>
     <description>Recent content in rwditommaso on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 May 2020 21:42:32 -0400</lastBuildDate>
     
-	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/rwditommaso/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/tags/rwditommaso/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rachel DiTommaso</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/rachel-ditommaso/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/members/rachel-ditommaso/</link>
       <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/rachel-ditommaso/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/members/rachel-ditommaso/</guid>
       <description>Rachel is working on the QuantumION project as an undergraduate co-op student.</description>
     </item>
     

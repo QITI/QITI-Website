@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>z253sun on Quantum Information with Trapped Ions</title>
-    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/z253sun/</link>
+    <link>http://qiti-test.iqc.uwaterloo.ca/tags/z253sun/</link>
     <description>Recent content in z253sun on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Apr 2020 00:51:23 -0400</lastBuildDate>
     
-	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/z253sun/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/tags/z253sun/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Zewen Sun</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/zewen-sun/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/members/zewen-sun/</link>
       <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/zewen-sun/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/members/zewen-sun/</guid>
       <description>Zewen received his BSc degree in physics from Tianjin Normal University and Trent University via a joint program, in 2019. He joined the MSc program at Waterloo in Fall 2019. At Waterloo, Zewen&amp;rsquo;s research interest is in theoretical and numerical investigations on various aspects of light-matter interaction, especially the physics of ions trapped in optical potentials.</description>
     </item>
     

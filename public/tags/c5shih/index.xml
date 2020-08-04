@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>c5shih on Quantum Information with Trapped Ions</title>
-    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/c5shih/</link>
+    <link>http://qiti-test.iqc.uwaterloo.ca/tags/c5shih/</link>
     <description>Recent content in c5shih on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Sep 2017 21:42:32 -0400</lastBuildDate>
     
-	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/c5shih/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/tags/c5shih/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Chung-You (Gilbert) Shih</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/chung-you-shih/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/members/chung-you-shih/</link>
       <pubDate>Fri, 01 Sep 2017 21:42:32 -0400</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/chung-you-shih/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/members/chung-you-shih/</guid>
       <description></description>
     </item>
     

@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maryland on Quantum Information with Trapped Ions</title>
-    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/maryland/</link>
+    <link>http://qiti-test.iqc.uwaterloo.ca/tags/maryland/</link>
     <description>Recent content in Maryland on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jun 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/maryland/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/tags/maryland/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Beat note stabilization of mode-locked lasers for quantum information processing</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</link>
       <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</guid>
       <description>We stabilize a chosen radiofrequency beat note between two optical fields derived from the same mode-locked laser pulse train, in order to coherently manipulate quantum information. This scheme does not require access or active stabilization of the laser repetition rate. We implement and characterize this external lock, in the context of two-photon stimulated Raman transitions between the hyperfine ground states of trapped 171-Yb+ quantum bits.</description>
     </item>
     
     <item>
       <title>Quantum Catalysis of Magnetic Phase Transitions in a Quantum Simulator</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</link>
       <pubDate>Thu, 05 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</guid>
       <description>We control quantum fluctuations to create the ground state magnetic phases of a classical Ising model with a tunable longitudinal magnetic field using a system of 6 to 10 atomic ion spins. Due to the long-range Ising interactions, the various ground state spin configurations are separated by multiple first-order phase transitions, which in our zero temperature system cannot be driven by thermal fluctuations.</description>
     </item>
     
     <item>
       <title>Emergence and Frustration of Magnetism with Variable-Range Interactions in a Quantum Simulator</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</link>
       <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</guid>
       <description>Frustration, or the competition between interacting components of a network, is often responsible for the complexity of many body systems, from social and neural networks to protein folding and magnetism. In quantum magnetic systems, frustration arises naturally from competing spin-spin interactions given by the geometry of the spin lattice or by the presence of long-range antiferromagnetic couplings.</description>
     </item>
     
     <item>
       <title>Onset of a quantum phase transition with a trapped ion quantum simulator</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</link>
       <pubDate>Tue, 05 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</guid>
       <description>A quantum simulator is a well controlled quantum system that can simulate the behavior of another quantum system which may require exponentially large classical computing resources to understand otherwise. In the 1980s, Feynman proposed the use of quantum logic gates on a standard controllable quantum system to efficiently simulate the behavior of a model Hamiltonian.</description>
     </item>
     
     <item>
       <title>Quantum simulation of frustrated Ising spins with trapped ions</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</link>
       <pubDate>Thu, 03 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</guid>
       <description>Laser-cooled and trapped atomic ions form an ideal standard for the simulation of interacting quantum spin models. Effective spins are represented by appropriate internal energy levels within each ion, and the spins can be measured with near-perfect efficiency using state-dependent fluorescence techniques. By applying optical fields that exert optical dipole forces on the ions, their Coulomb interaction can be modulated in ways that give rise to long-range and tunable spin-spin interactions that can be reconfigured by shaping the spectrum and pattern of the laser fields.</description>
     </item>
     
     <item>
       <title>Entanglement and Tunable Spin-Spin Couplings between Trapped Ions Using Multiple Transverse Modes</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</link>
       <pubDate>Wed, 16 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</guid>
       <description>We demonstrate tunable spin-spin couplings between trapped atomic ions, mediated by laser forces on multiple transverse collective modes of motion. A $\sigma_x \sigma_x$-type Ising interaction is realized between quantum bits stored in the ground hyperfine clock states of Yb ions. We demonstrate entangling gates and tailor the spin-spin couplings with two and three trapped ions.</description>
     </item>
     
     <item>
       <title>Large-scale quantum computation in an anharmonic linear ion trap</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</link>
       <pubDate>Sat, 27 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</guid>
       <description>We propose a large-scale quantum computer architecture by stabilizing a single large linear ion chain in a very simple trap geometry. By confining ions in an anharmonic linear trap with nearly uniform spacing between ions, we show that high-fidelity quantum gates can be realized in large linear ion crystals under the Doppler temperature based on coupling to a near-continuum of transverse motional modes with simple shaped laser pulses.</description>
     </item>
     
