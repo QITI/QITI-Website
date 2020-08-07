@@ -5,6 +5,7 @@ draft: false
 featured_image: "images/research/QITI_lab_pic.jpg"
 nav: [ "QSim", "QuantumION", "Algorithms","Job opportunities"]
 ---
+
 <a id="QSIM"></a>
 
 ### Quantum Simulation With Trapped Ions
