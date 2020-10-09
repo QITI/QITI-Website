@@ -20,3 +20,4 @@ in an anharmonic linear trap with nearly uniform spacing between ions, we show
 that high-fidelity quantum gates can be realized in large linear ion crystals
 under the Doppler temperature based on coupling to a near-continuum of
 transverse motional modes with simple shaped laser pulses.
+

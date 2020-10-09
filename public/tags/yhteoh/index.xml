@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yhteoh on Quantum Information with Trapped Ions</title>
-    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/yhteoh/</link>
+    <link>http://qiti-test.iqc.uwaterloo.ca/tags/yhteoh/</link>
     <description>Recent content in yhteoh on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Apr 2020 00:51:23 -0400</lastBuildDate>
     
-	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/yhteoh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/tags/yhteoh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Yi Hong Teoh</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/yi-hong-teoh/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/members/yi-hong-teoh/</link>
       <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/yi-hong-teoh/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/members/yi-hong-teoh/</guid>
       <description></description>
     </item>
     

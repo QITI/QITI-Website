@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>m2roche on Quantum Information with Trapped Ions</title>
-    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/m2roche/</link>
+    <link>http://qiti-test.iqc.uwaterloo.ca/tags/m2roche/</link>
     <description>Recent content in m2roche on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 May 2020 21:16:17 -0400</lastBuildDate>
     
-	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/m2roche/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/tags/m2roche/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Michele Roche</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/michele-roche/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/members/michele-roche/</link>
       <pubDate>Sat, 02 May 2020 21:16:17 -0400</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/michele-roche/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/members/michele-roche/</guid>
       <description></description>
     </item>
     

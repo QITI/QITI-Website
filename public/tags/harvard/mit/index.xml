@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harvard/MIT on Quantum Information with Trapped Ions</title>
+    <link>http://qiti-test.iqc.uwaterloo.ca/tags/harvard/mit/</link>
+    <description>Recent content in Harvard/MIT on Quantum Information with Trapped Ions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/tags/harvard/mit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multislip Friction with a Single Ion</title>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2017-multislip-friction-with-a-single-ion/</link>
+      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2017-multislip-friction-with-a-single-ion/</guid>
+      <description>A trapped ion transported along a periodic potential is studied as a paradigmatic nanocontact frictional interface. The combination of the periodic corrugation potential and a harmonic trapping potential creates a one-dimensional energy landscape with multiple local minima, corresponding to multistable stick-slip friction. We measure the probabilities of slipping to the various minima for various corrugations and transport velocities.</description>
+    </item>
+    
+    <item>
+      <title>Ultra-precise holographic beam shaping for microscopic quantum control</title>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</link>
+      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</guid>
+      <description>High-resolution addressing of individual ultracold atoms, trapped ions or solid state emitters allows for exquisite control in quantum optics experiments. This becomes possible through large aperture magnifying optics that project microscopic light patterns with diffraction limited performance. We use programmable amplitude holograms generated on a digital micromirror device to create arbitrary microscopic beam shapes with full phase and amplitude control.</description>
+    </item>
+    
+    <item>
+      <title>Measuring entanglement entropy in a quantum many-body system</title>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</link>
+      <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</guid>
+      <description>Entanglement is one of the most intriguing features of quantum mechanics. It describes non-local correlations between quantum objects, and is at the heart of quantum information sciences. Entanglement is rapidly gaining prominence in diverse fields ranging from condensed matter to quantum gravity. Despite this generality, measuring entanglement remains challenging. This is especially true in systems of interacting delocalized particles, for which a direct experimental measurement of spatial entanglement has been elusive.</description>
+    </item>
+    
+    <item>
+      <title>Strongly correlated quantum walks in optical lattices</title>
+      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</link>
+      <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</guid>
+      <description>Full control over the dynamics of interacting, indistinguishable quantum particles is an important prerequisite for the experimental study of strongly correlated quantum matter and the implementation of high-fidelity quantum information processing. Here we demonstrate such control over the quantum walk
+ the quantum mechanical analogue of the classical random walk - in the strong interaction regime.</description>
+    </item>
+    
+  </channel>
+</rss>

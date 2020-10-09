@@ -1,4 +1,4 @@
-baseURL = "https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/"
+baseURL = "http://qiti-test.iqc.uwaterloo.ca/"
 languageCode = "en-us"
 title = "Quantum Information with Trapped Ions"
 subtitle = "University of Waterloo"
@@ -11,7 +11,7 @@ summaryLength = 50
 background_color_class = "bg-black"
 featured_image = "images/header/4-rod trap_w_ions.jpg"
 homeList = ["news", "publications"]
-favicon = "favicon.ico"
+favicon = "images/favicon.ico"
 
 [markup]
   [markup.goldmark]

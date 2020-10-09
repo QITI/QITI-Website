@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nkotibha on Quantum Information with Trapped Ions</title>
-    <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/nkotibha/</link>
+    <link>http://qiti-test.iqc.uwaterloo.ca/tags/nkotibha/</link>
     <description>Recent content in nkotibha on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 May 2020 21:42:32 -0400</lastBuildDate>
     
-	<atom:link href="https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/tags/nkotibha/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/tags/nkotibha/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nikhil Kotibhaskar</title>
-      <link>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/nikhil-kotibhaskar/</link>
+      <link>http://qiti-test.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</link>
       <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
       
-      <guid>https://qiti-serv.iqc.uwaterloo.ca/QITI/projects/QITI-Website/public/members/nikhil-kotibhaskar/</guid>
+      <guid>http://qiti-test.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</guid>
       <description></description>
     </item>
     
