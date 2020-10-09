@@ -3,6 +3,7 @@ title: "Gaurav Tathed"
 date: 2020-05-01T21:42:32-04:00
 draft: false
 image: "images/people/gatathed.jpg"
+tenure: "Undergraduate co-op student (May - Dec, 2020)"
 office:
 extention:
 email: 

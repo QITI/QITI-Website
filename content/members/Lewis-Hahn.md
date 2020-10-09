@@ -3,7 +3,7 @@ title: "Lewis Hahn"
 date: 2020-05-01T21:42:32-04:00
 draft: false
 image: "images/default.png"
-tenure: 
+tenure: "Undergraduate co-op student (Jan-Apr, Sep-Dec, 2020)"
 office:
 extention:
 email: "rlhahn@edu.uwaterloo.ca"

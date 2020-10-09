@@ -1,9 +1,9 @@
 ---
 title: "Kaleb Ruscitti"
-date: 2017-09-01T22:01:30-04:00
+date: 2018-04-30T22:01:30-04:00
 draft: false
 image: "images/people/Kaleb_kdruscit.jpg"
-tenure: "Undergraduate researcher, Physics (2017 Winter), Undergraduate co-op student (2018 Winter)"
+tenure: "Undergraduate co-op student (Jan-Apr, 2018)"
 office:
 extention:
 email:

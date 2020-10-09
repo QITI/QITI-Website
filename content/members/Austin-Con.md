@@ -4,7 +4,7 @@ date: 2020-01-01T21:42:32-04:00
 draft: false
 image: "images/people/ajcon.jpg"
 office:
-tenure: "undergrad co-op student (Winter 2020)"
+tenure: "Undergraduate co-op student (Jan-Apr, Sep-Dec, 2020)"
 extention:
 email: "ajcon@edu.uwaterloo.ca"
 previousInstitution: 
@@ -12,5 +12,4 @@ curentInstitution:
 tags:
  - "COOP"
  - "ajcon"
- - "alumn"
 ---

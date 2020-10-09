@@ -1,15 +1,16 @@
 ---
 title: "Scott Hubele"
-date: 2020-05-01T21:16:47-04:00
+date: 2020-09-30T21:16:47-04:00
 draft: false
 image: "images/people/shubele.jpg"
-tenure: 
+tenure: "Undergraduate researcher (USEQIP, Jun - Sep, 2020)"
 office:
 extention:
 email: "shubele@ualberta.ca"
 previousInstitution:
-curentInstitution: 
+curentInstitution: "LMU, Munich" 
 tags:
+ - "alumn"
  - "COOP"
  - "shubele"
 ---

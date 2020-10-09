@@ -1,14 +1,16 @@
 ---
 title: "Rachel DiTommaso"
-date: 2020-05-01T21:42:32-04:00
+date: 2020-08-30T21:42:32-04:00
 draft: false
 image: "images/people/rwditommaso.jpg"
+tenure: "Undergraduate co-op student (May - Aug, 2020)"
 office:
 extention:
 email: "rwditommaso@uwaterloo.ca"
 previousInstitution: 
 curentInstitution: 
 tags:
+ - "alumn"
  - "COOP"
  - "rwditommaso"
 ---
