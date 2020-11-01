@@ -3,7 +3,7 @@
 {{ $publications := symdiff $publications (slice .) }}
 {{ $tags := slice "QITI" "Harvard/MIT" "Maryland" "Thesis" }}
 {{ $titleCards := slice "Recent" "Friction with ions (MIT), Bosons in optical lattices (Harvard)" "Quantum simulation of interacting spin models with trapped ions (Maryland)" "Thesis" }}
-<article class="mh4 mt2 mw7-l nested-copy-line-height nested-img center">
+<article class="mh4 mw7-l nested-copy-line-height nested-img center">
   {{ partial "nav-bar.html" $tags }}
   {{ if .Content }}
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
@@ -12,7 +12,7 @@
   {{ end }}
 
 
-    <section class="flex-ns flex-wrap justify-around pa1 mt4-l">
+    <section class="flex-ns flex-wrap justify-around pa1 mt2" style="color:rgb(52,46,52)">
       
       {{ range seq 0 (sub (len $tags) 1) }}
         {{ if (index $titleCards .) }}

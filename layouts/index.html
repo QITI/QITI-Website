@@ -1,6 +1,6 @@
 {{ define "main" }}
-<article class="dark-gray pt3 ph2 mh2 center" style=" background-color: rgb(250,248,250)">
-  <div class="cf mw8 center ph6-l pb4 f4 lh-copy">
+<article class="dark-gray pt2 pb2 ph2 mh2 center" style=" background-color: rgb(250,248,250)">
+  <div class="cf mw8 center ph6-l mb3 f4 lh-copy">
     {{ .Content }}
   </div>
   {{ range  .Site.Params.homeList }}
@@ -11,7 +11,7 @@
       {{ $section_name := . }}
 
 
-      <div class="pa1 center ph5-l ph3-m pt3 pb0 mw8-l" style=" background-color: rgb(233,230,233)">
+      <div class="pa1 center ph5-l ph3-m pt2 mb3 mw8-l" style=" background-color: rgb(233,230,233)">
          {{ with $.Site.GetPage "section" $section_name }}
             <h1 class="flex-none f3.5">
               {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
@@ -25,6 +25,7 @@
           {{/* Range through the first $n_posts items of the section */}}
           {{ range (first $n_posts $section) }}
             <div class="relative w-100 mb1">
+          {{/* mb controls the margin below individual posts (news /publications) */}}
               {{ partial "summary-with-image.html" . }}
             </div>
           {{ end }}

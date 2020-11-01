@@ -8,7 +8,7 @@ paginate = 15 # this is set low for demonstrating with dummy content. Set to a h
 summaryLength = 50
 
 [Params]
-background_color_class = "bg-black"
+background_color_class = "bg-gray"
 featured_image = "images/header/ion-loading_web_banner.gif"
 homeList = ["news", "publications"]
 favicon = "images/favicon.ico"

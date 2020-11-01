@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ partial "mathjax.html"}}
-<article class="mh4 mt2 mw7-l nested-copy-line-height nested-img center">
+<article class="pv2 mw7-l nested-copy-line-height nested-img center">
 {{ if .Params.nav }}
   {{ partial "nav-bar.html" .Params.nav }}
 {{ end }}
@@ -9,14 +9,14 @@
       {{- . -}}
     </section>
   {{ end }}
-  <section class="flex-ns flex-wrap justify-around mt1 mt4-l">
+  <section class="flex-ns flex-wrap justify-around mv0 ">
     {{ $list := where .Site.Pages "Section" .Section }}
     {{ $list := symdiff $list (slice .) }}
 
     {{ $Paginator := .Paginate $list }}
     {{- template "_internal/pagination.html" -}}
     {{ range $Paginator.Pages }}
-      <div class="relative w-100 mv2-l mv1 bg-white">
+      <div class="relative w-100 mv2" style="background-color:rgb(252,251,248)">
         {{- partial "summary-with-image.html" . -}}
       </div>
     {{ end }}

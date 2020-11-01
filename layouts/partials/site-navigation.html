@@ -1,6 +1,6 @@
 <nav class="pt3 pb1 ph3 ph4-ns" style="background-color: rgb(58,54,63)" role="navigation">
   <div class="flex-l justify-between items-center center">
-    <a href="{{ .Site.BaseURL }}" class="f3 pv0 fw4 hover-white no-underline white dib" style="color: rgb(239,237,239); font-size:45px">
+    <a href="{{ .Site.BaseURL }}" class="f3 pv0 fw4 hover-white no-underline white dib" style="color: rgb(243,241,234); font-size:45px">
       {{ .Site.Title }}
     </a>
        
@@ -10,7 +10,7 @@
         <ul class="pl0 mr3">
           {{ range .Site.Menus.mainmenu }}
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-80" href="{{ .URL }}" title="{{ .Name }} page">
+            <a class="hover-white no-underline" style="color:rgb(239,236,226)" href="{{ .URL }}" title="{{ .Name }} page">
               {{ .Name }}
             </a>
           </li>
@@ -20,5 +20,5 @@
       {{ partialCached "social-follow.html" . }}
     </div>
   </div>
-<p class ="f5" style ="color: rgb(230,227,230)">Principal Investigator - Prof. Rajibul Islam, IQC, University of Waterloo</p>
+<p class ="f5" style ="color: rgb(231,229,224)">Principal Investigator - Prof. Rajibul Islam, IQC, University of Waterloo</p>
   </nav>

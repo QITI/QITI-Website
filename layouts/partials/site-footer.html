@@ -1,0 +1,14 @@
+<hr style="height:2px;display: block;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  border-style: inset;
+  border-width:0;
+  background-color:rgb(81,72,72)">
+<footer class="bottom-0 pv4 w-100" style="background-color:rgb(63,55,56)" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline dn dib-ns pv2 ph3" style="color:rgb(222,217,217)" href="{{ .Site.BaseURL }}" >
+    &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+  </a>
+    <div>{{ partial "social-follow.html" . }}</div>
+  </div>
+</footer>
