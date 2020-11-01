@@ -1,13 +1,13 @@
+{{ partial "site-navigation.html" .}}
 {{ $featured_image := .Param "featured_image"}}
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image := (trim $featured_image "/") | absURL }}
-  <header class="cover bg-bottom" style="background-image: url('{{ $featured_image }}'); background-attachment: fixed; background-size:cover;">
-    <div class="{{ .Site.Params.cover_dimming_class | default "bg-black-30" }}">
-      {{ partial "site-navigation.html" .}}
-      <div class="tl pv5 pv6-l ph3 ph4-ns">
+ <header style="background: url('{{ $featured_image }}') no-repeat center; background-attachment: body; background-size:cover;">
+ 	<div class="{{ .Site.Params.cover_dimming_class | default "bg-black-30" }}">
+       <div class="tl pv5 pv6-l ph3 ph4-ns">
 {{/* change pv number above to change vertical padding, m for medium screen size, l for large e.g. pv3-m */}}
-        <h1 class="f1 white-90 f-subheadline-2 fw4 mb0 1h-title">
+        <h1 class="f1 f-subheadline-2 fw4 mb0 1h-title" style="color:rgb(245,201,38)">
           {{ .Title | default .Site.Title }}</h1>
 
         {{ with .Params.description }}
@@ -20,10 +20,9 @@
   </header>
 {{ else }}
   <header>
-    <div class="pb2-m pb0-l {{ .Site.Params.background_color_class | default "bg-black" }}">
-      {{ partial "site-navigation.html" . }}
-      <div class="tl pb3 ph3 ph4-ns">
-        <h2 class="f2 white-80 f-subheadline-2 ph3 fw2 white-70 mb0 lh-title">
+    <div style="background-color: rgb(80,76,85)">
+        <div class="tl pt1 pb3 ph3 ph4-ns">
+        <h2 class="f2 white-80 f-subheadline-2 ph3 fw2 white-70 mb0 lh-title" style="color:rgb(245,201,38)">
           {{ .Title | default .Site.Title }}
         </h2>
         {{ with .Params.description }}

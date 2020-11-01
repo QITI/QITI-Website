@@ -4,12 +4,12 @@ title = "Quantum Information with Trapped Ions"
 subtitle = "University of Waterloo"
 theme = "ananke"
 #SectionPagesMenu = "mainmenu" #comment
-paginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
+paginate = 15 # this is set low for demonstrating with dummy content. Set to a higher number. How many news items shown in one page.
 summaryLength = 50
 
 [Params]
 background_color_class = "bg-black"
-featured_image = "images/header/4-rod trap_w_ions.jpg"
+featured_image = "images/header/ion-loading_web_banner.gif"
 homeList = ["news", "publications"]
 favicon = "images/favicon.ico"
 

@@ -13,3 +13,7 @@ To run a local copy:
 * Open any browser and navigate to the address in the output from hugo
 
 
+
+Colour palette:
+
+The colour palette of the website is derived from the ion images ('inferno' theme). The primary colours are shown in "QITI_ions_color_palette.PNG". 
