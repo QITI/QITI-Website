@@ -7,10 +7,31 @@ tenure: "Assistant Professor"
 office: "Office – Quantum Nano Centre (QNC 4109)"
 extention: "+1 519 888 4567 ext. 31995"
 email: "krislam@uwaterloo.ca"
-previousInstitution: "Postdoc, MIT (2015-16); Postdoc, Harvard (2012-15); PhD, University of Maryland (2007-12)"
+previousInstitution: "Massachusetts Institute of Technology (Postdoc, 2015-16);  Harvard University (Postdoc, 2012-15); University of Maryland (PhD, 2007-12)"
 curentInstitution: 
 tags:
  - "PI"
  - "krislam"
 ---
+
+[Google Scholar Profile](https://scholar.google.com/citations?user=wV7m0q8AAAAJ&hl=en), [UW Physics and Astronomy profile](https://uwaterloo.ca/physics-astronomy/people-profiles/k-rajibul-islam), [IQC Profile](https://services.iqc.uwaterloo.ca/people/profile/krislam/), <a href="\Miscellaneous_docs\CV_Islam_Aug2020.pdf">CV</a>
+
+<hr>
+
+<h1>Notable recognitions</h1>
+
+* President's Excellence in Research Award, University of Waterloo (2020)
+* Recognized by the Department of Physics and Astronomy for outstanding teaching  (2019, '20)
+* Early Researcher Award, Ontario Government (2019)
+* Distinguished PhD Dissertation Award, University of Maryland (2012-13)
+
+<hr>
+
+<h1>Teaching</h1>
+
+* PHYS 234 (Quantum Physics I, Winter 2019, '20, '21)
+* PHYS 393 (Physical Optics, Winter 2020)
+* PHYS 256 (Geometrical and Physical Optics, Fall 2017, '18)
+
+<hr>
 

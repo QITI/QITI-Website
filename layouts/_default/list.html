@@ -5,11 +5,11 @@
   {{ partial "nav-bar.html" .Params.nav }}
 {{ end }}
   {{ with .Content }}
-    <section class="cf measure-wide-l left pa4 f4 lh-copy ">
+    <section class="center f4 lh-copy ">
       {{- . -}}
     </section>
   {{ end }}
-  <section class="flex-ns flex-wrap justify-around mv0 ">
+  <section class="flex-ns flex-wrap justify-around mv0">
     {{ $list := where .Site.Pages "Section" .Section }}
     {{ $list := symdiff $list (slice .) }}
 
