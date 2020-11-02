@@ -1,6 +1,6 @@
 ---
-title: "1 Sep 2018"
-date: 2020-05-05T22:24:50-04:00
+title: "1 Sep 2018 - Welcome to Manas!"
+date: 2018-09-01T22:24:50-04:00
 draft: false
 ---
 

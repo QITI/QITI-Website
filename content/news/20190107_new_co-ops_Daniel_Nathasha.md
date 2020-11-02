@@ -1,6 +1,6 @@
 ---
-title: "7 Jan 2019"
-date: 2020-05-05T22:24:57-04:00
+title: "7 Jan 2019 - Welcome to new co-ops!"
+date: 2019-01-07T22:24:57-04:00
 draft: false
 ---
 

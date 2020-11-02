@@ -1,6 +1,6 @@
 ---
-title: "7 Aug 2018"
-date: 2020-05-05T22:24:24-04:00
+title: "7 Aug 2018 - Sainath defends MSc thesis!"
+date: 2018-08-07T22:24:24-04:00
 draft: false
 ---
 

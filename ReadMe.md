@@ -23,7 +23,8 @@ The colour palette of the website is derived from the ion images ('inferno' them
 TO DO:
 
 1. Change default background color of the webpages.
-2. Remove space at the bottom of home page (after the recent publications section)
+2. Remove space at the bottom of home page (after the recent publications section) - done, options in baseof.html
+3. Bottom padding for short pages, such as individual members without much content. 
 
 
 

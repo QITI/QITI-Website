@@ -1,6 +1,6 @@
 ---
-title: "18 Aug 2018"
-date: 2020-05-05T22:24:35-04:00
+title: "18 Aug 2018 - proposal for a hybrid quantum simulation"
+date: 2018-08-18T22:24:35-04:00
 draft: false
 ---
 

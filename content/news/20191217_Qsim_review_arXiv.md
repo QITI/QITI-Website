@@ -1,6 +1,6 @@
 ---
-title: "17 Dec 2019"
-date: 2020-05-05T22:25:49-04:00
+title: "17 Dec 2019 - A review on trapped-ion quantum simulation!"
+date: 2019-12-17T22:25:49-04:00
 draft: false
 ---
 
