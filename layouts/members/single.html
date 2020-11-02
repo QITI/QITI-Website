@@ -40,6 +40,9 @@
           {{ else if .Params.previousInstitution }}
             <b>Previous Institution:</b> {{ .Params.previousInstitution }}<br/>
           {{ end }}
+          {{ if .Params.googleScholar }}
+          <b>Publication History: </b><a href="{{ .Params.googleScholar }}" target="_blank" class="color-inherit dim link">Google Scholar</a><br/>
+          {{ end }}
           </p>
         </div>
       </div>

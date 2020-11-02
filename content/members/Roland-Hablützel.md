@@ -9,6 +9,7 @@ extention: "x39045"
 email: "rhabluet@uwaterloo.ca"
 previousInstitution: "Centre for Quantum Technologies, Singapore"
 curentInstitution: 
+googleScholar: "https://scholar.google.com/citations?user=FaZB1WAAAAAJ&hl=en&oi=ao"
 tags:
  - "postDoc"
  - "rhabluet"
