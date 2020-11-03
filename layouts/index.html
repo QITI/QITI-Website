@@ -11,7 +11,7 @@
       {{ $section_name := . }}
 
 
-      <div class="pa1 center ph5-l ph3-m pt2 mb3 mw8-l" style=" background-color: rgb(233,230,233)">
+      <div class="pa1 center ph5-l ph3-m ph1-ns pt2 mb3 mw8-l" style=" background-color: rgb(233,230,233)">
          {{ with $.Site.GetPage "section" $section_name }}
             <h1 class="flex-none f3.5">
               {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
