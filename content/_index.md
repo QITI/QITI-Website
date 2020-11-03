@@ -14,7 +14,7 @@ Laser-cooled trapped ions are among the most pristine and controllable quantum s
 - **QuantumION:** In collaboration with Prof. Crystal Senko’s group and supported by  [Transformative Quantum Technologies (TQT)](https://tqt.uwaterloo.ca/), we are building an open-access, remotely operable trapped-ion quantum computer (*QuantumION*). The hardware is based on up to sixteen 133Ba+ ion-qubits. 
 - **Quantum simulation algorithms:** We research on classical and quantum algorithms to make quantum simulation more efficient, e.g. by using modern machine learning methods. We collaborate with the [Perimeter Institute Quantum Intelligence Laboratory](https://www.perimeterinstitute.ca/research/research-initiatives/perimeter-institute-quantum-intelligence-lab-piquil)
 
- <a href="\research" class="center link db f5  pa2 br3 white dim mw5 tc" style="background-color: rgb(136,124,136)">Read More about our research</a>
+ <a href="\research" class="center link db f5  pa2 br3 white dim mw5 tc" style="background-color: rgb(136,124,136)">read more about our research</a>
 
 
 

@@ -20,17 +20,14 @@
   </header>
 {{ else }}
   <header>
-    <div style="background-color: rgb(80,76,85)">
-        <div class="tl pt1 pb3 ph3 ph4-ns">
-        <h2 class="f2 white-80 f-subheadline-2 ph3 fw2 white-70 mb0 lh-title" style="color:rgb(225,217,187)">
+<hr style="height:1px;border-width:0;margin-top: 0;margin-bottom:0;background-color:rgb(70,64,78)">
+
+    <div style="background-color: rgb(74,70,80)">
+        <div class="tl pv0 ph3 ph4-ns">
+        <h2 class="f2 white-80 f-subheadline-2 ph3 fw2 white-70 mv0 lh-title" style="color:rgb(225,217,187)">
           {{ .Title | default .Site.Title }}
         </h2>
-        {{ with .Params.description }}
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt0 mb0">
-            {{ . }}
-          </h2>
-        {{ end }}
-      </div>
+        </div>
     </div>
   </header>
 {{ end }}
