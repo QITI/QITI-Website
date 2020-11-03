@@ -1,6 +1,6 @@
 ---
-title: "2 May 2019"
-date: 2020-05-05T22:25:06-04:00
+title: "2 May 2019 - Rajibul in the land of Breaking Bad!"
+date: 2019-05-02T22:25:06-04:00
 draft: false
 ---
 

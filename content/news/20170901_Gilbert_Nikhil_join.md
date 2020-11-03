@@ -1,6 +1,6 @@
 ---
-title: "1 Sep 2017"
-date: 2020-05-05T22:23:45-04:00
+title: "1 Sep 2017 - First graduate students!"
+date: 2017-09-01T22:23:45-04:00
 draft: false
 ---
 

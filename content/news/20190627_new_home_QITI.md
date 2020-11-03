@@ -1,6 +1,6 @@
 ---
-title: "27 Jun 2019"
-date: 2020-05-05T22:25:22-04:00
+title: "27 Jun 2019 - new home of the QITI lab!"
+date: 2019-06-27T22:25:22-04:00
 draft: false
 ---
 

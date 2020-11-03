@@ -1,6 +1,6 @@
 ---
 title: "21 Jan 2020 - Paper on Machine learning published"
-date: 2020-05-05T22:25:52-04:00
+date: 2020-01-21T22:25:52-04:00
 draft: false
 image: "images/publications/2020-Machine-Learning.png"
 ---
