@@ -1,6 +1,6 @@
 ---
 title: "Nikhil Kotibhaskar"
-date: 2020-05-02T21:42:32-04:00
+date: 2017-09-01T00:00:00-00:00
 draft: false
 image: "images/people/nkotibhaskar.jpg"
 tenure: "PhD (2019 - ), MSc (2017-19)"
