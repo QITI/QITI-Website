@@ -20,7 +20,7 @@
           {{ $list := symdiff $list $diff }}
 
           {{ with $list }}
-          {{ range . }}
+          {{ range .Reverse }}
             <div class="relative w-100 w-40-l ma2 mid-gray">
               <div style="background-color: rgb(252,251,248)">
                 {{- partial "summary-with-bubble-image.html" . -}}

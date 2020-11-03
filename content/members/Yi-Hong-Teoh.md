@@ -1,6 +1,6 @@
 ---
 title: "Yi Hong Teoh"
-date: 2020-04-28T00:51:23-04:00
+date: 2019-09-01T00:00:00-00:00
 draft: false
 image: "images/people/yhteoh.jpg"
 tenure: "MSc (2019-), Undergraduate researcher (2018-19)" 
