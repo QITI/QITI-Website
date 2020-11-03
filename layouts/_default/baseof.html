@@ -44,10 +44,10 @@
     {{ end }}
   </head>
 
-  <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+  <body class="ma0 pb5 min-vh-100 relative {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}" style="background-color:rgb(233,230,233)" >
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-    <main class="mb0" style="background-color:rgb(233,230,233)" role="main">
+    <main class="mb0" role="main">
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
