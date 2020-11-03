@@ -25,6 +25,9 @@ TO DO:
 1. Change default background color of the webpages.
 2. Remove space at the bottom of home page (after the recent publications section) - done, options in baseof.html
 3. Bottom padding for short pages, such as individual members without much content. 
+4. "Top of the page button", e.g. in Publication-sections. A floating button would be ideal. 
+5. Page highlighting co-op work
+6. Resources page - Ion spectrum, collection of important papers, list of other groups
 
 
 
