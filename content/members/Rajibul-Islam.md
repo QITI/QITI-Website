@@ -9,12 +9,17 @@ extention: "+1 519 888 4567 ext. 31995"
 email: "krislam@uwaterloo.ca"
 previousInstitution: "Massachusetts Institute of Technology (Postdoc, 2015-16);  Harvard University (Postdoc, 2012-15); University of Maryland (PhD, 2007-12)"
 curentInstitution: 
+googleScholar: "https://scholar.google.com/citations?user=wV7m0q8AAAAJ&hl=en"
 tags:
  - "PI"
  - "krislam"
 ---
 
-[Google Scholar Profile](https://scholar.google.com/citations?user=wV7m0q8AAAAJ&hl=en), [UW Physics and Astronomy profile](https://uwaterloo.ca/physics-astronomy/people-profiles/k-rajibul-islam), [IQC Profile](https://services.iqc.uwaterloo.ca/people/profile/krislam/), <a href="\Miscellaneous_docs\CV_Islam_Aug2020.pdf">CV</a>
+Assistant Professor, Institute for Quantum Computing and Department of Physics and Astronomy, University of Waterloo
+
+[UW Physics and Astronomy profile](https://uwaterloo.ca/physics-astronomy/people-profiles/k-rajibul-islam), [IQC Profile](https://services.iqc.uwaterloo.ca/people/profile/krislam/), <a href="\Miscellaneous_docs\CV_Islam_Aug2020.pdf">CV</a>
+
+Affiliate, Perimeter Institute for Theoretical Physics
 
 <hr>
 

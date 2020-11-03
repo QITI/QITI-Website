@@ -2,8 +2,8 @@
 title: "Dr. Matthew Day"
 date: 2020-07-01T20:42:06-04:00
 draft: false
-image: "images/default.png"
-tenure: "Postdoctoral fellow (jointly with Crystal Senko's group)"
+image: "images/people/matt-day.JPG"
+tenure: "Postdoctoral fellow (2020- ,  jointly with Crystal Senko's group)"
 office: "QNC 3116"
 extention: "x39045"
 email: "m9day@uwaterloo.ca"
@@ -15,4 +15,4 @@ tags:
  - "m9day"
 ---
 
-Matt works on QuantumION, an open-access trapped ion quantum computer. 
+Since 2019, Matt has been working on QuantumION, an open-access trapped ion quantum computer. He formally joined the QITI group in 2020.
