@@ -5,7 +5,7 @@ draft: false
 image: "images/people/krislam.jpg"
 tenure: "Assistant Professor"
 office: "Office – Quantum Nano Centre (QNC 4109)"
-extention: "+1 519 888 4567 ext. 31995"
+extention: "+1 519 888 4567 ext. 31995 (Office), 32236/7/8 (labs)"
 email: "krislam@uwaterloo.ca"
 previousInstitution: "Massachusetts Institute of Technology (Postdoc, 2015-16);  Harvard University (Postdoc, 2012-15); University of Maryland (PhD, 2007-12)"
 curentInstitution: 
@@ -20,6 +20,8 @@ Assistant Professor, Institute for Quantum Computing and Department of Physics a
 [UW Physics and Astronomy profile](https://uwaterloo.ca/physics-astronomy/people-profiles/k-rajibul-islam), [IQC Profile](https://services.iqc.uwaterloo.ca/people/profile/krislam/), <a href="\Miscellaneous_docs\CV_Islam_Aug2020.pdf">CV</a>
 
 Affiliate, Perimeter Institute for Theoretical Physics
+
+[Academic Tree](https://academictree.org/physics/tree.php?pid=172624)
 
 <hr>
 
