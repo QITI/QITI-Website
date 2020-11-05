@@ -2,753 +2,819 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Quantum Information with Trapped Ions</title>
-    <link>http://qiti-test.iqc.uwaterloo.ca/</link>
+    <link>https://qiti.iqc.uwaterloo.ca/</link>
     <description>Recent content in Home on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Mar 2020 01:18:35 -0400</lastBuildDate>
     
-	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiti.iqc.uwaterloo.ca/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Scott Hubele</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/scott-hubele/</link>
+      <pubDate>Wed, 30 Sep 2020 21:16:47 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/scott-hubele/</guid>
+      <description>Scott joined the group for the Summer of 2020 through the IQC Undergraduate Research Award. His projects include simulating photon counts from trapped ion qubits onto multiple detectors to correlate measurements and increase detection fidelity, as well as designing an imaging system which minimizes aberration. He graduated from the University of Alberta in 2020 with a major in Engineering Physics (co-op program) and a minor in Linguistics.</description>
+    </item>
+    
+    <item>
+      <title>Anthony Vogliano</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/anthony-vogliano/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/anthony-vogliano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qinghao Zhang</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/qinghao-zhang/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/qinghao-zhang/</guid>
+      <description>For his PHYS 437 BSc Physics project, Qinghao is numerically investigating noise sources in trapped-ion quantum simulations.</description>
+    </item>
+    
+    <item>
+      <title>Samuel Slavko Laketa</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/samuel-laketa/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/samuel-laketa/</guid>
+      <description>For his PHYS 437 BSc Physics project, Samuel is numerically investigating laser frequency stabilization for trapped-ion quantum information processing. In particular, his interest is in understanding the stabilization of beat-notes in the context of two-photon Raman transitions with mode-locked lasers.</description>
+    </item>
+    
+    <item>
+      <title>Dr. Manas Sajjan</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/manas-sajjan/</link>
+      <pubDate>Sun, 30 Aug 2020 22:50:58 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/manas-sajjan/</guid>
+      <description>I am very interested in the interplay of the quantum and statistical physics at mesoscopic and nanoscopic length scale especially emergence of thermodynamic or statistical irreversibility from reversible quantal dynamics. My PhD was in modelling quantum transport across single molecular junctions, a highly non-equilibrium phenomenon, using electronic structure and convex optimization.</description>
+    </item>
+    
+    <item>
+      <title>Rachel DiTommaso</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/rachel-ditommaso/</link>
+      <pubDate>Sun, 30 Aug 2020 21:42:32 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/rachel-ditommaso/</guid>
+      <description>Rachel is working on the QuantumION project as an undergraduate co-op student.</description>
+    </item>
+    
+    <item>
+      <title>Michael Melvin Veenstra</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/michael-veenstra/</link>
+      <pubDate>Sun, 30 Aug 2020 21:16:47 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/michael-veenstra/</guid>
+      <description>Michael is an undergraduate co-op student in the QITI lab in Spring 2020. He is in his third year of studying Mechatronics Engineering at the University of Waterloo. In the QITI lab, Michael has been working on electronics projects related to ion trapping.
+Outside of work, Michael enjoys soccer, mountain biking, and hands-on projects.</description>
+    </item>
+    
+    <item>
+      <title>14 Aug, 2020 - Manas defends his MSc thesis!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20200814_manas_msc_thesis_defence/</link>
+      <pubDate>Fri, 14 Aug 2020 22:24:20 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20200814_manas_msc_thesis_defence/</guid>
+      <description>Dr. Manas Sajjan defends his MSc thesis online! His MSc work included both theoretical and experimental aspects. On the theoretical side, Manas investigated the role of optical tweezer potentials on ions confined in a radio-frequency (RF) trap. Optical tweezers would allow for local control of the confining potential, which can be used for investigating quantum thermodynamics.</description>
+    </item>
+    
+    <item>
       <title>16 July 2020 - Building a quantum simulator</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/20200716_iqc_feature_video/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20200716_iqc_feature_video/</link>
       <pubDate>Thu, 16 Jul 2020 22:24:20 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/20200716_iqc_feature_video/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20200716_iqc_feature_video/</guid>
       <description>Here is a feature of our lab by IQC. The students look very happy playing with ions!
   </description>
     </item>
     
     <item>
       <title>Dr. Matthew Day</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/matt-day/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/matt-day/</link>
       <pubDate>Wed, 01 Jul 2020 20:42:06 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/matt-day/</guid>
-      <description>Matt works on QuantumION, an open-access trapped ion quantum computer.</description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/matt-day/</guid>
+      <description>Since 2019, Matt has been working on QuantumION, an open-access trapped ion quantum computer. He formally joined the QITI group in 2020.</description>
     </item>
     
     <item>
       <title>1-5 Jun 2020 - DAMOP</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/20200601_damop/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20200601_damop/</link>
       <pubDate>Mon, 01 Jun 2020 22:24:20 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/20200601_damop/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20200601_damop/</guid>
       <description>DAMOP (online) talks presented by Chung-You (Gilbert) Shih on individual addressing of ions and Dr. Matt Day on QuantumION. Posters were presented by Nikolay Videnov and Sainath Motlakunta.</description>
     </item>
     
     <item>
       <title>12 May 2020 - TUCAN meeting</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/2020512_tucan/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20200512_tucan/</link>
       <pubDate>Tue, 12 May 2020 22:24:20 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/2020512_tucan/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20200512_tucan/</guid>
       <description>Nikhil Kotibhaskar presents a talk at (virtual) TUCAN (Toronto Area Ultracold Atom Network), organized by University of Toronto. This is the third edition of the annual meeting. McMaster University and University of Waterloo hosted the meeting in the previous two years.</description>
     </item>
     
     <item>
       <title>Sarah Mayer</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/sarah-mayer/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/sarah-mayer/</link>
       <pubDate>Thu, 07 May 2020 22:01:38 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/sarah-mayer/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/sarah-mayer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Natasha Willis</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/natasha-willis/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/natasha-willis/</link>
       <pubDate>Thu, 07 May 2020 22:01:34 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/natasha-willis/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/natasha-willis/</guid>
       <description>Natasha Willis Email: ()</description>
     </item>
     
     <item>
       <title>Luyao Wang</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/luyao-wang/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/luyao-wang/</link>
       <pubDate>Thu, 07 May 2020 22:01:31 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/luyao-wang/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/luyao-wang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Louisa (Ruixue) Huang</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/louisa-huang/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/louisa-huang/</link>
       <pubDate>Thu, 07 May 2020 22:01:27 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/louisa-huang/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/louisa-huang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tony Kappen</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/tony-kappen/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</link>
       <pubDate>Thu, 07 May 2020 22:01:26 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/tony-kappen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>21 Jan 2020 - Paper on Machine learning published</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/21-jan-2020/</link>
-      <pubDate>Tue, 05 May 2020 22:25:52 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/21-jan-2020/</guid>
-      <description>“Machine learning design of a trapped-ion quantum spin simulator” is published in Quantum Science and Technology 5 (2020) 024001, (arXiv.1910.02496). We numerically demonstrate that a machine learning neural network can be used to efficiently solve a non-linear inversion problem in an analog trapped-ion quantum simulator. The method generates experimental control parameters (such as laser intensities on each ions) needed to program a quantum simulator, in particular, to engineer an arbitrary spin lattice geometry in one, two, and three dimensions using a linear chain of ions!</description>
-    </item>
-    
-    <item>
-      <title>17 Dec 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/17-dec-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:49 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/17-dec-2019/</guid>
-      <description>Here is a pre-print version of a review article on quantum simulation with trapped ions. The article focuses on analog spin simulation, and discusses the progress in this field so far. (arxiv.1912.07845).</description>
-    </item>
-    
-    <item>
-      <title>8 Oct 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/08-oct-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:42 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/08-oct-2019/</guid>
-      <description>Our manuscript “Machine learning design of a trapped-ion quantum spin simulator” is on arXiv.1910.02496. We demonstrate that a machine learning neural network can be used to efficiently engineer an arbitrary spin-spin interaction graph on an analog quantum simulator.</description>
-    </item>
-    
-    <item>
-      <title>24 Sept 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/24-sept-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:38 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/24-sept-2019/</guid>
-      <description>Rajibul is recognized with the Ontario ‘Early Researcher Award’! Read the IQC news coverage.</description>
-    </item>
-    
-    <item>
-      <title>11-13 Sept 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/11-to-13-sept-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:33 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/11-to-13-sept-2019/</guid>
-      <description>Congratulations to Gilbert and Nikhil for successfully defending their master’s thesis!</description>
-    </item>
-    
-    <item>
-      <title>19 July 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/19-july-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:26 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/19-july-2019/</guid>
-      <description>We have have trapped, laser-cooled, and crystallized Ytterbium ions in a four-rod Paul trap!</description>
-    </item>
-    
-    <item>
-      <title>27 Jun 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/27-jun-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:22 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/27-jun-2019/</guid>
-      <description>We have moved into our new lab-space in the basement of QNC building (QNC B221).</description>
-    </item>
-    
-    <item>
-      <title>12 Jun 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/12-jun-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:19 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/12-jun-2019/</guid>
-      <description>Sainath receives the Dean of Science Award for his MSc thesis! Congratulations!</description>
-    </item>
-    
-    <item>
-      <title>6 Jun 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/6-jun-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:15 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/6-jun-2019/</guid>
-      <description>Rajibul gives an invited talk at the Canadian Association of Physicists (CAP) congress at Simon Fraser University.</description>
-    </item>
-    
-    <item>
-      <title>27 May 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/27-may-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:12 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/27-may-2019/</guid>
-      <description>Sainath, Gilbert, and Rajibul are attending the DAMOP meeting of the American Physical Society at Milwuakee, WI. Sainath will present a contributed talk and Gilbert will present a poster. Matt Day from Crystal Senko’s group will also present a poster highlighting ‘QuantumIon’ a joint research project between Rajibul’s and Crystal’s group to build an open-access trapped ion quantum computer for researchers.</description>
-    </item>
-    
-    <item>
-      <title>6 May 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/6-may-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:09 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/6-may-2019/</guid>
-      <description>Duale Omar and Josh Da Costa join the group as undergraduate co-op students for the Spring term. Welcome to the team!</description>
-    </item>
-    
-    <item>
-      <title>2 May 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/2-may-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:06 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/2-may-2019/</guid>
-      <description>Rajibul gives a seminar and interacts with researchers at the Center for Quantum Information and Control (CQuIC), University of New Mexico.</description>
-    </item>
-    
-    <item>
-      <title>26 Apr 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/26-apr-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:03 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/26-apr-2019/</guid>
-      <description>“Dynamical Hamiltonian engineering of 2D rectangular lattices in a one-dimensional ion chain” is published in npj Quantum Information (Nature Publishing Group). (npj Quantum Information 5, 32 (2019))</description>
-    </item>
-    
-    <item>
-      <title>16 Apr 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/16-apr-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:25:00 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/16-apr-2019/</guid>
-      <description>Two talks from the QITI group by Chung-You (Gilbert) Shih and Yi Hong Teoh were presented at the second Toronto Ultra-cold Atom Network (TUCAN) meeting hosted by University of Waterloo. Gilbert talked about efficient algorithms to generate amplitude holograms for optical manipulation, and Yi Hong discussed machine learning methods to program a quantum simulator.</description>
-    </item>
-    
-    <item>
-      <title>7 Jan 2019</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/7-jan-2019/</link>
-      <pubDate>Tue, 05 May 2020 22:24:57 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/7-jan-2019/</guid>
-      <description>Natasha Willis and Daniel Julien-Nietzert join the group for the Winter term as undergraduate co-op students. Welcome to the team!</description>
-    </item>
-    
-    <item>
-      <title>1 Sep 2018</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/1-sep-2018/</link>
-      <pubDate>Tue, 05 May 2020 22:24:50 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/1-sep-2018/</guid>
-      <description>Dr. Manas Sajjan joins the group for a graduate school in experimental quantum physics, after successfully completing his first PhD at University of Chicago in theoretical chemistry!</description>
-    </item>
-    
-    <item>
-      <title>22 Aug 2018</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/22-aug-2018/</link>
-      <pubDate>Tue, 05 May 2020 22:24:47 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/22-aug-2018/</guid>
-      <description>Rajibul gives the &amp;lsquo;experimentalist of the week&amp;rsquo; talk at the Dynamics of Quantum Information program at KITP, UC Santa Barbara. [Video]</description>
-    </item>
-    
-    <item>
-      <title>18 Aug 2018</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/18-aug-2018/</link>
-      <pubDate>Tue, 05 May 2020 22:24:35 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/18-aug-2018/</guid>
-      <description>Our experimentally feasible theoretical proposal to create 2D spin lattices from a one dimensional chain of ions is on arXiv! It is a collaboration with UC Berkeley and Army Research Laboratory. (arXiv.1808.06124).</description>
-    </item>
-    
-    <item>
-      <title>15 Aug 2018</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/15-aug-2018/</link>
-      <pubDate>Tue, 05 May 2020 22:24:31 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/15-aug-2018/</guid>
-      <description>Undergraduate researcher Nikolay Videnov presents his work on making an injection locked diode laser at 369.5 nm at the Canadian Undergraduate Physics Conference (CUPC) at University of Alberta.</description>
-    </item>
-    
-    <item>
-      <title>7 Aug 2018</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/07-aug-2018/</link>
-      <pubDate>Tue, 05 May 2020 22:24:24 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/07-aug-2018/</guid>
-      <description>Sainath defends his M.Sc thesis successfully! He will continue as a PhD student in the group. Congratulations, Sainath!</description>
-    </item>
-    
-    <item>
-      <title>28 May 2018</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/28-may-2018/</link>
-      <pubDate>Tue, 05 May 2020 22:24:20 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/28-may-2018/</guid>
-      <description>Gilbert, Sainath, Nikhil, and Rajibul attend the annual meeting of the Division of Atomic Molecular and Optical Physics (DAMOP) of the American Physical Society (APS) in Fort Lauderdale. We present two posters.</description>
-    </item>
-    
-    <item>
-      <title>1 May 2018</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/01-may-2018/</link>
-      <pubDate>Tue, 05 May 2020 22:24:16 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/01-may-2018/</guid>
-      <description>Dr. Roland Hablutzel joins the QITI team as a postdoc from the Centre for Quantum Technologies, Singapore. We also welcome undergraduate researcher Yi Hong Teoh!</description>
-    </item>
-    
-    <item>
-      <title>13 Apr 2018</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/13-apr-2018/</link>
-      <pubDate>Tue, 05 May 2020 22:24:12 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/13-apr-2018/</guid>
-      <description>Entire QITI team visits McMaster University to attend the first Toronto Ultracold Atoms Network (TUCAN) meeting. Fereshteh and Sainath give talks.</description>
-    </item>
-    
-    <item>
-      <title>15 Mar 2018</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/15-mar-2018/</link>
-      <pubDate>Tue, 05 May 2020 22:24:06 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/15-mar-2018/</guid>
-      <description>Undergraduate researcher Kaleb Ruscitti presents our research on holographic beam shaping with UV light at the PhUnC conference at Western University.</description>
-    </item>
-    
-    <item>
-      <title>1 Jan 2018</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/01-jan-2018/</link>
-      <pubDate>Tue, 05 May 2020 22:23:58 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/01-jan-2018/</guid>
-      <description>Sainath Motlakunta joins the group to work on his M.Sc thesis project. Kaleb Ruscitti and Nikolay Videnov come back to the group as undergraduate researchers! Kaleb will spend his Jan-Apr co-op term, and Nik will spend his Jan-Aug co-op term in the lab!</description>
-    </item>
-    
-    <item>
-      <title>1 Sep 2017</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/1-sep-2017/</link>
-      <pubDate>Tue, 05 May 2020 22:23:45 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/1-sep-2017/</guid>
-      <description>Chung-You (Gilbert) Shih from National Taiwan University and Nikhil Kotibhaskar from Indian Institute of Science join the IQC-QITI group as graduate students.</description>
-    </item>
-    
-    <item>
-      <title>28 Jun 2017</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/28-jun-2017/</link>
-      <pubDate>Tue, 05 May 2020 22:23:38 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/28-jun-2017/</guid>
-      <description>We move into a temporary laboratory space on the third floor of the Quantum Nano Center! Our basement lab will undergo a major renovation before we can move into the space.</description>
-    </item>
-    
-    <item>
-      <title>1 May 2017</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/1-may-2017/</link>
-      <pubDate>Tue, 05 May 2020 22:23:30 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/1-may-2017/</guid>
-      <description>Dr. Fereshteh Rajabi joins the group as an IQC theory postdoc!</description>
-    </item>
-    
-    <item>
-      <title>3 Jan 2017</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/news/3-jan-2017/</link>
-      <pubDate>Tue, 05 May 2020 22:23:25 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/news/3-jan-2017/</guid>
-      <description>Tony Kappen and Kaleb Ruscitti join as the first two undergraduate researchers of the group!</description>
-    </item>
-    
-    <item>
-      <title>Nikhil Kotibhaskar</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</link>
-      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sainath Motlakunta</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/sainath-motlakunta/</link>
-      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/sainath-motlakunta/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Michele Roche</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/michele-roche/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/michele-roche/</link>
       <pubDate>Sat, 02 May 2020 21:16:17 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/michele-roche/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/michele-roche/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dr. K. Rajibul Islam</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/rajibul-islam/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/rajibul-islam/</link>
       <pubDate>Sat, 02 May 2020 21:14:38 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/rajibul-islam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dr. Roland Hablützel</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</link>
-      <pubDate>Sat, 02 May 2020 20:42:06 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</guid>
-      <description>Roland joined the QITI group to work on the design, construction and characterization of a quantum simulator of spin-lattice geometries based on trapped atomic ions. His research focuses on taking advantage of the shared motional structure of the trapped ions and the flexibility of holographic imaging to program interactions between any pair of spins.</description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/rajibul-islam/</guid>
+      <description>Assistant Professor, Institute for Quantum Computing and Department of Physics and Astronomy, University of Waterloo
+UW Physics and Astronomy profile , IQC Profile , CV
+Affiliate, Perimeter Institute for Theoretical Physics
+Academic Tree  Notable recognitions  President&amp;rsquo;s Excellence in Research Award, University of Waterloo (2020) Recognized by the Department of Physics and Astronomy for outstanding teaching (2019, &amp;lsquo;20) Early Researcher Award, Ontario Government (2019) Distinguished PhD Dissertation Award, University of Maryland (2012-13)   Teaching  PHYS 234 (Quantum Physics I, Winter 2019, &amp;lsquo;20, &amp;lsquo;21) PHYS 393 (Physical Optics, Winter 2020) PHYS 256 (Geometrical and Physical Optics, Fall 2017, &amp;lsquo;18)   </description>
     </item>
     
     <item>
       <title>Gaurav Tathed</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/gaurav-tathed/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/gaurav-tathed/</link>
       <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/gaurav-tathed/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/gaurav-tathed/</guid>
       <description>Gaurav is pursuing Bachelors&amp;rsquo;s Degree in Physics and Astronomy for the University of Waterloo. In the Spring 2020 term, he is working in the QITI group as an undergraduate co-op student. Gaurav is using COMSOL software to investigate noise sources in ion-traps, in particular the thermal effect of radio-frequency voltages on the trapping apparatus.</description>
     </item>
     
     <item>
       <title>Lewis Hahn</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/lewis-hahn/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/lewis-hahn/</link>
       <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/lewis-hahn/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/lewis-hahn/</guid>
       <description>Lewis Hahn was an undergraduate co-op student in Winter 2020. Currently, he is volunteering in the group in bringing up a &amp;lsquo;dust trap&amp;rsquo; apparatus, which will be used in outreach to demonstrate levitation of charged particles using static and radiofrequency voltages.</description>
     </item>
     
     <item>
-      <title>Rachel DiTommaso</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/rachel-ditommaso/</link>
-      <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/rachel-ditommaso/</guid>
-      <description>Rachel is working on the QuantumION project as an undergraduate co-op student.</description>
-    </item>
-    
-    <item>
-      <title>Michael Melvin Veenstra</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/michael-veenstra/</link>
-      <pubDate>Fri, 01 May 2020 21:16:47 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/michael-veenstra/</guid>
-      <description>Michael is an undergraduate co-op student in the QITI lab in Spring 2020. He is in his third year of studying Mechatronics Engineering at the University of Waterloo. In the QITI lab, Michael has been working on electronics projects related to ion trapping.
-Outside of work, Michael enjoys soccer, mountain biking, and hands-on projects.</description>
-    </item>
-    
-    <item>
-      <title>Scott Hubele</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/scott-hubele/</link>
-      <pubDate>Fri, 01 May 2020 21:16:47 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/scott-hubele/</guid>
-      <description>Scott joined the group for the Summer of 2020 through the IQC Undergraduate Research Award. His projects include simulating photon counts from trapped ion qubits onto multiple detectors to correlate measurements and increase detection fidelity, as well as designing an imaging system which minimizes aberration. He graduated from the University of Alberta in 2020 with a major in Engineering Physics (co-op program) and a minor in Linguistics.</description>
-    </item>
-    
-    <item>
-      <title>Dr. Manas Sajjan</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/manas-sajjan/</link>
-      <pubDate>Thu, 30 Apr 2020 22:50:58 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/manas-sajjan/</guid>
-      <description>I am very interested in the interplay of the quantum and statistical physics at mesoscopic and nanoscopic length scale especially emergence of thermodynamic or statistical irreversibility from reversible quantal dynamics. My PhD was in modelling quantum transport across single molecular junctions, a highly non-equilibrium phenomenon, using electronic structure and convex optimization.</description>
-    </item>
-    
-    <item>
-      <title>Nikolay Videnov</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/nikolay-videnov/</link>
-      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/nikolay-videnov/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yi Hong Teoh</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/yi-hong-teoh/</link>
-      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/yi-hong-teoh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zewen Sun</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/zewen-sun/</link>
-      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/zewen-sun/</guid>
-      <description>Zewen received his BSc degree in physics from Tianjin Normal University and Trent University via a joint program, in 2019. He joined the MSc program at Waterloo in Fall 2019. At Waterloo, Zewen&amp;rsquo;s research interest is in theoretical and numerical investigations on various aspects of light-matter interaction, especially the physics of ions trapped in optical potentials.</description>
-    </item>
-    
-    <item>
       <title>Programmable Quantum Simulations of Spin Systems with Trapped Ions</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</guid>
       <description>This is a comprehensive review article on trapped-ion quantum simulation of spin systems, written jointly with colleagues from Univ. of Maryland, UCLA, Tsinghua Univ., Colorado School of Mines, Middlebury College, Rice Univ., Indiana Univ., Univ. of Waterloo, and UC Berkeley. The article should be accessible to a beginning graduate student. We give an overview of quantum simulation of non-trivial spin Hamiltonians generated by programmable interactions between trapped ion spins, adiabatic and dynamical evolution, ground state spin order and propagation of correlations in a many-body system.</description>
     </item>
     
     <item>
+      <title>21 Jan 2020 - Paper on Machine learning published</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20200121_machine_learning_paper_published/</link>
+      <pubDate>Tue, 21 Jan 2020 22:25:52 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20200121_machine_learning_paper_published/</guid>
+      <description>“Machine learning design of a trapped-ion quantum spin simulator” is published in Quantum Science and Technology 5 (2020) 024001, (arXiv.1910.02496). We numerically demonstrate that a machine learning neural network can be used to efficiently solve a non-linear inversion problem in an analog trapped-ion quantum simulator. The method generates experimental control parameters (such as laser intensities on each ions) needed to program a quantum simulator, in particular, to engineer an arbitrary spin lattice geometry in one, two, and three dimensions using a linear chain of ions!</description>
+    </item>
+    
+    <item>
       <title>Machine learning design of a trapped-ion quantum spin simulator</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</link>
       <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</guid>
       <description>Trapped ion quantum simulators can in principle simulate an arbitrarily connected spin model. This requires precise programming of the ions with laser beams. In this paper, we numerically show that modern machine learning methods can be employed to program a trapped ion quantum simulator to simulate spin Hamiltonians on an arbitrary lattice geometry.</description>
     </item>
     
     <item>
       <title>Austin Con</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/austin-con/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/austin-con/</link>
       <pubDate>Wed, 01 Jan 2020 21:42:32 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/austin-con/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/austin-con/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Michael Spinazze</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/michael-spinazze/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/michael-spinazze/</link>
       <pubDate>Wed, 01 Jan 2020 21:42:32 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/michael-spinazze/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/michael-spinazze/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>17 Dec 2019 - A review on trapped-ion quantum simulation!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20191217_qsim_review_arxiv/</link>
+      <pubDate>Tue, 17 Dec 2019 22:25:49 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20191217_qsim_review_arxiv/</guid>
+      <description>Here is a pre-print version of a review article on quantum simulation with trapped ions. The article focuses on analog spin simulation, and discusses the progress in this field so far. (arxiv.1912.07845).</description>
+    </item>
+    
+    <item>
+      <title>8 Oct 2019 - Machine learning for a quantum simulator!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20191008_machine_learning_arxiv/</link>
+      <pubDate>Tue, 08 Oct 2019 22:25:42 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20191008_machine_learning_arxiv/</guid>
+      <description>Our manuscript “Machine learning design of a trapped-ion quantum spin simulator” is on arXiv.1910.02496. We demonstrate that a machine learning neural network can be used to efficiently engineer an arbitrary spin-spin interaction graph on an analog quantum simulator.</description>
+    </item>
+    
+    <item>
+      <title>24 Sept 2019 - Early Researcher Award for Rajibul!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190924_era/</link>
+      <pubDate>Tue, 24 Sep 2019 22:25:38 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190924_era/</guid>
+      <description>Rajibul is recognized with the Ontario ‘Early Researcher Award’! Read the IQC news coverage.</description>
+    </item>
+    
+    <item>
+      <title>11-13 Sept 2019 - Nikhil and Gilbert graduate with MSc!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190911_gilbert_nikhil_msc_graduation/</link>
+      <pubDate>Wed, 11 Sep 2019 22:25:33 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190911_gilbert_nikhil_msc_graduation/</guid>
+      <description>Congratulations to Gilbert and Nikhil for successfully defending their master’s thesis! They will continue their journey with the QITI group as PhD students.</description>
     </item>
     
     <item>
       <title>Niel Mistry</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/niel-mistry/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/niel-mistry/</link>
       <pubDate>Sun, 01 Sep 2019 22:01:37 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/niel-mistry/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/niel-mistry/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Ali Binai-Motlagh</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/ali-binai-motlagh/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/ali-binai-motlagh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nikolay Videnov</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/nikolay-videnov/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/nikolay-videnov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yi Hong Teoh</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/yi-hong-teoh/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/yi-hong-teoh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zewen Sun</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/zewen-sun/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/zewen-sun/</guid>
+      <description>Zewen received his BSc degree in physics from Tianjin Normal University and Trent University via a joint program, in 2019. He joined the MSc program at Waterloo in Fall 2019. At Waterloo, Zewen&amp;rsquo;s research interest is in theoretical and numerical investigations on various aspects of light-matter interaction, especially the physics of ions trapped in optical potentials.</description>
+    </item>
+    
+    <item>
+      <title>13 Aug 2019 - Yb&#43; ions</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190813_ion-pics/</link>
+      <pubDate>Tue, 13 Aug 2019 22:25:26 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190813_ion-pics/</guid>
+      <description>Here’s a picture of eight laser-cooled Ytterbium (174 isotope) ions in a linear chain! The image was taken using an off-the-shelf Thorlabs 0.1 NA objective and a cheap (~$300) CMOS camera. The ions are approximately 8 microns apart. Read more on the Physics and Astronomy webpage. </description>
+    </item>
+    
+    <item>
+      <title>6 Jun 2019 - invited talk at CAP congress!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190806_cap_invited_talk/</link>
+      <pubDate>Tue, 06 Aug 2019 22:25:15 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190806_cap_invited_talk/</guid>
+      <description>Rajibul gives an invited talk at the Canadian Association of Physicists (CAP) congress at Simon Fraser University.</description>
+    </item>
+    
+    <item>
+      <title>19 July 2019 - first ions!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190719_first_ions/</link>
+      <pubDate>Fri, 19 Jul 2019 22:25:26 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190719_first_ions/</guid>
+      <description>We have have trapped, laser-cooled, and crystallized Ytterbium ions in a four-rod Paul trap!</description>
+    </item>
+    
+    <item>
+      <title>27 Jun 2019 - new home of the QITI lab!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190627_new_home_qiti/</link>
+      <pubDate>Thu, 27 Jun 2019 22:25:22 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190627_new_home_qiti/</guid>
+      <description>We have moved into our new lab-space in the basement of QNC building (QNC B221).</description>
+    </item>
+    
+    <item>
+      <title>12 Jun 2019 - Sainath awarded!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190612_sainath_dean_of_science_award/</link>
+      <pubDate>Wed, 12 Jun 2019 22:25:19 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190612_sainath_dean_of_science_award/</guid>
+      <description>Sainath receives the Dean of Science Award for his MSc thesis! Congratulations!</description>
+    </item>
+    
+    <item>
+      <title>27 May 2019 - talks and posters at DAMOP 2019</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190527_damop2019/</link>
+      <pubDate>Mon, 27 May 2019 22:25:12 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190527_damop2019/</guid>
+      <description>Sainath, Gilbert, and Rajibul are attending the DAMOP meeting of the American Physical Society at Milwuakee, WI. Sainath will present a contributed talk and Gilbert will present a poster. Matt Day from Crystal Senko’s group will also present a poster highlighting ‘QuantumIon’ a joint research project between Rajibul’s and Crystal’s group to build an open-access trapped ion quantum computer for researchers.</description>
+    </item>
+    
+    <item>
+      <title>6 May 2019 - New co-ops!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190506_new_co-op_duale_josh/</link>
+      <pubDate>Mon, 06 May 2019 22:25:09 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190506_new_co-op_duale_josh/</guid>
+      <description>Duale Omar and Josh Da Costa join the group as undergraduate co-op students for the Spring term. Welcome to the team!</description>
+    </item>
+    
+    <item>
+      <title>2 May 2019 - Rajibul in the land of Breaking Bad!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190502_unm_seminar/</link>
+      <pubDate>Thu, 02 May 2019 22:25:06 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190502_unm_seminar/</guid>
+      <description>Rajibul gives a seminar and interacts with researchers at the Center for Quantum Information and Control (CQuIC), University of New Mexico.</description>
+    </item>
+    
+    <item>
       <title>Joshua Da Costa</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/joshua-da-costa/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/joshua-da-costa/</link>
       <pubDate>Wed, 01 May 2019 22:01:36 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/joshua-da-costa/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/joshua-da-costa/</guid>
       <description>Joshua was an undergraduate co-op student in the QITI group for Spring and Fall 2019. His contributions included building radio-frequency amplifier boxes for driving AOMs.</description>
     </item>
     
     <item>
       <title>Duale Omar</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/duale-omar/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/duale-omar/</link>
       <pubDate>Wed, 01 May 2019 22:01:35 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/duale-omar/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/duale-omar/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>26 Apr 2019 - paper on npj Quantum Information</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190426/</link>
+      <pubDate>Fri, 26 Apr 2019 22:25:03 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190426/</guid>
+      <description>“Dynamical Hamiltonian engineering of 2D rectangular lattices in a one-dimensional ion chain” is published in npj Quantum Information (Nature Publishing Group). (npj Quantum Information 5, 32 (2019))</description>
+    </item>
+    
+    <item>
+      <title>26 Apr 2019 - paper on npj Quantum Information</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190426_paper_npjqi/</link>
+      <pubDate>Fri, 26 Apr 2019 22:25:03 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190426_paper_npjqi/</guid>
+      <description>“Dynamical Hamiltonian engineering of 2D rectangular lattices in a one-dimensional ion chain” is published in npj Quantum Information (Nature Publishing Group). (npj Quantum Information 5, 32 (2019))</description>
     </item>
     
     <item>
       <title>Dynamical Hamiltonian engineering of 2D rectangular lattices in a one-dimensional ion chain</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2019-dynamic-hamiltonian-engineering-of-2d-rectangular-lattices-in-a-one-dimensional-ion-chain/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2019-dynamic-hamiltonian-engineering-of-2d-rectangular-lattices-in-a-one-dimensional-ion-chain/</link>
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2019-dynamic-hamiltonian-engineering-of-2d-rectangular-lattices-in-a-one-dimensional-ion-chain/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2019-dynamic-hamiltonian-engineering-of-2d-rectangular-lattices-in-a-one-dimensional-ion-chain/</guid>
       <description>In this publication, we theoretically and numerically demonstrate a powerful analog-digital hybrid quantum simulation protocol that can be used to simulate spin-dynamics on a two dimensional lattice using a linear chain of ions. The simulation protocol makes use of native long range interactions between trapped ion spins, that are then digitally modified to achieve the target spin-spin interaction graph.</description>
     </item>
     
     <item>
+      <title>16 Apr 2019 - Gilbert and Yi Hong present talks at TUCAN</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190416_tucan/</link>
+      <pubDate>Tue, 16 Apr 2019 22:25:00 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190416_tucan/</guid>
+      <description>Two talks from the QITI group by Chung-You (Gilbert) Shih and Yi Hong Teoh were presented at the second Toronto Ultra-cold Atom Network (TUCAN) meeting hosted by University of Waterloo. Gilbert talked about efficient algorithms to generate amplitude holograms for optical manipulation, and Yi Hong discussed machine learning methods to program a quantum simulator.</description>
+    </item>
+    
+    <item>
+      <title>7 Jan 2019 - Welcome to new co-ops!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20190107_new_co-ops_daniel_nathasha/</link>
+      <pubDate>Mon, 07 Jan 2019 22:24:57 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20190107_new_co-ops_daniel_nathasha/</guid>
+      <description>Natasha Willis and Daniel Julien-Nietzert join the group for the Winter term as undergraduate co-op students. Welcome to the team!</description>
+    </item>
+    
+    <item>
       <title>Daniel Francis Julien Neitzert</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/daniel-francis-julien-neitzert/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/daniel-francis-julien-neitzert/</link>
       <pubDate>Tue, 01 Jan 2019 22:01:32 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/daniel-francis-julien-neitzert/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/daniel-francis-julien-neitzert/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Single-Atom Heat Machines Enabled by Energy Quantization</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2018-single-atom-heat-machines-enabled-by-energy-quantization/</link>
-      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      <title>1 Sep 2018 - Welcome to Manas!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20180901_manas_joins/</link>
+      <pubDate>Sat, 01 Sep 2018 22:24:50 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2018-single-atom-heat-machines-enabled-by-energy-quantization/</guid>
-      <description>Quantization of energy is a quintessential characteristic of quantum systems. Here we analyze its effects on the operation of Otto cycle heat machines and show that energy quantization alone may alter and increase machine performance in terms of output power, efficiency, and even operation mode. Our results demonstrate that quantum thermodynamics enable the realization of classically inconceivable Otto machines, such as those with an incompressible working fluid.</description>
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20180901_manas_joins/</guid>
+      <description>Dr. Manas Sajjan joins the group for a graduate school in experimental quantum physics, after successfully completing his first PhD at University of Chicago in theoretical chemistry!</description>
     </item>
     
     <item>
-      <title>Ilango Maran</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/ilango-maran/</link>
-      <pubDate>Fri, 01 Dec 2017 22:01:29 -0400</pubDate>
+      <title>22 Aug 2018 - Rajibul at KITP, Santa Barbara</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20180822_kitp_talk/</link>
+      <pubDate>Wed, 22 Aug 2018 22:24:47 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/ilango-maran/</guid>
-      <description></description>
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20180822_kitp_talk/</guid>
+      <description>Rajibul gives the &amp;lsquo;experimentalist of the week&amp;rsquo; talk at the Dynamics of Quantum Information program at KITP, UC Santa Barbara. [Video]</description>
+    </item>
+    
+    <item>
+      <title>18 Aug 2018 - proposal for a hybrid quantum simulation</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20180818_hybrid_simulation_arxiv/</link>
+      <pubDate>Sat, 18 Aug 2018 22:24:35 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20180818_hybrid_simulation_arxiv/</guid>
+      <description>Our experimentally feasible theoretical proposal to create 2D spin lattices from a one dimensional chain of ions is on arXiv! It is a collaboration with UC Berkeley and Army Research Laboratory. (arXiv.1808.06124).</description>
+    </item>
+    
+    <item>
+      <title>15 Aug 2018 - Nik presents at CUPC!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20180815_nik_cupc/</link>
+      <pubDate>Wed, 15 Aug 2018 22:24:31 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20180815_nik_cupc/</guid>
+      <description>Undergraduate researcher Nikolay Videnov presents his work on making an injection locked diode laser at 369.5 nm at the Canadian Undergraduate Physics Conference (CUPC) at University of Alberta.</description>
+    </item>
+    
+    <item>
+      <title>7 Aug 2018 - Sainath defends MSc thesis!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20180807_sainath_msc_defense/</link>
+      <pubDate>Tue, 07 Aug 2018 22:24:24 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20180807_sainath_msc_defense/</guid>
+      <description>Sainath defends his M.Sc thesis successfully! He will continue as a PhD student in the group. Congratulations, Sainath!</description>
+    </item>
+    
+    <item>
+      <title>28 May 2018 - we are at DAMOP</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20180528_damop/</link>
+      <pubDate>Mon, 28 May 2018 22:24:20 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20180528_damop/</guid>
+      <description>Gilbert, Sainath, Nikhil, and Rajibul attend the annual meeting of the Division of Atomic Molecular and Optical Physics (DAMOP) of the American Physical Society (APS) in Fort Lauderdale. We present two posters.</description>
+    </item>
+    
+    <item>
+      <title>1 May 2018 - Welcome to Roland and Yi Hong!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20180501_roland_yi-hong_joins/</link>
+      <pubDate>Tue, 01 May 2018 22:24:16 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20180501_roland_yi-hong_joins/</guid>
+      <description>Dr. Roland Hablutzel joins the QITI team as a postdoc from the Centre for Quantum Technologies, Singapore. We also welcome undergraduate researcher Yi Hong Teoh!</description>
+    </item>
+    
+    <item>
+      <title>Dr. Roland Hablützel</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</link>
+      <pubDate>Tue, 01 May 2018 20:42:06 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</guid>
+      <description>Roland joined the QITI group in 2018 to work on the design, construction and characterization of a quantum simulator of spin-lattice geometries based on trapped atomic ions. His research focuses on taking advantage of the shared motional structure of the trapped ions and the flexibility of holographic imaging to program interactions between any pair of spins.</description>
     </item>
     
     <item>
       <title>Kaleb Ruscitti</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/kaleb-ruscitti/</link>
-      <pubDate>Fri, 01 Sep 2017 22:01:30 -0400</pubDate>
+      <link>https://qiti.iqc.uwaterloo.ca/members/kaleb-ruscitti/</link>
+      <pubDate>Mon, 30 Apr 2018 22:01:30 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/kaleb-ruscitti/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/kaleb-ruscitti/</guid>
       <description>Kaleb was an undergraduate co-op student in Fall, 2017. He worked on digital light processing devices.</description>
     </item>
     
     <item>
-      <title>Chung-You (Gilbert) Shih</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/chung-you-shih/</link>
-      <pubDate>Fri, 01 Sep 2017 21:42:32 -0400</pubDate>
+      <title>Single-Atom Heat Machines Enabled by Energy Quantization</title>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2018-single-atom-heat-machines-enabled-by-energy-quantization/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/chung-you-shih/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2018-single-atom-heat-machines-enabled-by-energy-quantization/</guid>
+      <description>Quantization of energy is a quintessential characteristic of quantum systems. Here we analyze its effects on the operation of Otto cycle heat machines and show that energy quantization alone may alter and increase machine performance in terms of output power, efficiency, and even operation mode. Our results demonstrate that quantum thermodynamics enable the realization of classically inconceivable Otto machines, such as those with an incompressible working fluid.</description>
+    </item>
+    
+    <item>
+      <title>13 Apr 2018 - first TUCAN meeting at McMaster!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20180413_tucan/</link>
+      <pubDate>Fri, 13 Apr 2018 22:24:12 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20180413_tucan/</guid>
+      <description>Entire QITI team visits McMaster University to attend the first Toronto Ultracold Atoms Network (TUCAN) meeting. Fereshteh and Sainath give talks.</description>
+    </item>
+    
+    <item>
+      <title>15 Mar 2018 - Kaleb at PhUnC!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20180315_kaleb_phunc/</link>
+      <pubDate>Thu, 15 Mar 2018 22:24:06 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20180315_kaleb_phunc/</guid>
+      <description>Undergraduate researcher Kaleb Ruscitti presents our research on holographic beam shaping with UV light at the PhUnC conference at Western University.</description>
+    </item>
+    
+    <item>
+      <title>1 Jan 2018 - Welcome to Sainath!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20180101_sainath_joins/</link>
+      <pubDate>Mon, 01 Jan 2018 22:23:58 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20180101_sainath_joins/</guid>
+      <description>Sainath Motlakunta joins the group to work on his M.Sc thesis project. Kaleb Ruscitti and Nikolay Videnov come back to the group as undergraduate researchers! Kaleb will spend his Jan-Apr co-op term, and Nik will spend his Jan-Aug co-op term in the lab!</description>
+    </item>
+    
+    <item>
+      <title>Ilango Maran</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/ilango-maran/</link>
+      <pubDate>Fri, 01 Dec 2017 22:01:29 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/ilango-maran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1 Sep 2017 - First graduate students!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20170901_gilbert_nikhil_join/</link>
+      <pubDate>Fri, 01 Sep 2017 22:23:45 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20170901_gilbert_nikhil_join/</guid>
+      <description>Chung-You (Gilbert) Shih from National Taiwan University and Nikhil Kotibhaskar from Indian Institute of Science join the IQC-QITI group as graduate students.</description>
+    </item>
+    
+    <item>
+      <title>Sainath Motlakunta</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/sainath-motlakunta/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/sainath-motlakunta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chung-You (Gilbert) Shih</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/chung-you-shih/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/chung-you-shih/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nikhil Kotibhaskar</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multislip Friction with a Single Ion</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2017-multislip-friction-with-a-single-ion/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2017-multislip-friction-with-a-single-ion/</link>
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2017-multislip-friction-with-a-single-ion/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2017-multislip-friction-with-a-single-ion/</guid>
       <description>A trapped ion transported along a periodic potential is studied as a paradigmatic nanocontact frictional interface. The combination of the periodic corrugation potential and a harmonic trapping potential creates a one-dimensional energy landscape with multiple local minima, corresponding to multistable stick-slip friction. We measure the probabilities of slipping to the various minima for various corrugations and transport velocities.</description>
     </item>
     
     <item>
+      <title>28 Jun 2017 - first (temporary) home of the QITI lab!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20170628_temp_home_qiti_lab/</link>
+      <pubDate>Wed, 28 Jun 2017 22:23:38 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20170628_temp_home_qiti_lab/</guid>
+      <description>We move into a temporary laboratory space on the third floor of the Quantum Nano Center! Our basement lab will undergo a major renovation before we can move into the space.</description>
+    </item>
+    
+    <item>
+      <title>1 May 2017 - Fereshteh joins as a postdoc!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20170501_fereshteh_joins/</link>
+      <pubDate>Mon, 01 May 2017 22:23:30 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20170501_fereshteh_joins/</guid>
+      <description>Dr. Fereshteh Rajabi joins the group as an IQC theory postdoc!</description>
+    </item>
+    
+    <item>
       <title>Jieren Deng</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/jieren-deng/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/jieren-deng/</link>
       <pubDate>Mon, 01 May 2017 22:01:28 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/jieren-deng/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/jieren-deng/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dr. Fereshteh Rajabi</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/fereshteh-rajabi/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/fereshteh-rajabi/</link>
       <pubDate>Mon, 01 May 2017 21:16:47 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/fereshteh-rajabi/</guid>
-      <description></description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/fereshteh-rajabi/</guid>
+      <description>Fereshteh is a postdoctoral fellow, working on theoretical aspects of trapped-ion physics. She shares her time with astrophysicists at the Perimeter Institute for Theoretical Physics. As a postdoc in the QITI group, Fereshteh developed hybrid digital-analog quantum simulation protocols, and is currently theoretically investigating optical trapping schemes for ions.</description>
+    </item>
+    
+    <item>
+      <title>3 Jan 2017 - First students join QITI group!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20170103_first_students/</link>
+      <pubDate>Tue, 03 Jan 2017 22:23:25 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20170103_first_students/</guid>
+      <description>Tony Kappen and Kaleb Ruscitti join as the first two undergraduate researchers of the group!</description>
     </item>
     
     <item>
       <title>Ultra-precise holographic beam shaping for microscopic quantum control</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</link>
       <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</guid>
       <description>High-resolution addressing of individual ultracold atoms, trapped ions or solid state emitters allows for exquisite control in quantum optics experiments. This becomes possible through large aperture magnifying optics that project microscopic light patterns with diffraction limited performance. We use programmable amplitude holograms generated on a digital micromirror device to create arbitrary microscopic beam shapes with full phase and amplitude control.</description>
     </item>
     
     <item>
       <title>Measuring entanglement entropy in a quantum many-body system</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</link>
       <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</guid>
       <description>Entanglement is one of the most intriguing features of quantum mechanics. It describes non-local correlations between quantum objects, and is at the heart of quantum information sciences. Entanglement is rapidly gaining prominence in diverse fields ranging from condensed matter to quantum gravity. Despite this generality, measuring entanglement remains challenging. This is especially true in systems of interacting delocalized particles, for which a direct experimental measurement of spatial entanglement has been elusive.</description>
     </item>
     
     <item>
       <title>Strongly correlated quantum walks in optical lattices</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</link>
       <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</guid>
       <description>Full control over the dynamics of interacting, indistinguishable quantum particles is an important prerequisite for the experimental study of strongly correlated quantum matter and the implementation of high-fidelity quantum information processing. Here we demonstrate such control over the quantum walk
  the quantum mechanical analogue of the classical random walk - in the strong interaction regime.</description>
     </item>
     
     <item>
       <title>Beat note stabilization of mode-locked lasers for quantum information processing</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</link>
       <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</guid>
       <description>We stabilize a chosen radiofrequency beat note between two optical fields derived from the same mode-locked laser pulse train, in order to coherently manipulate quantum information. This scheme does not require access or active stabilization of the laser repetition rate. We implement and characterize this external lock, in the context of two-photon stimulated Raman transitions between the hyperfine ground states of trapped 171-Yb+ quantum bits.</description>
     </item>
     
     <item>
       <title>Quantum Catalysis of Magnetic Phase Transitions in a Quantum Simulator</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</link>
       <pubDate>Thu, 05 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</guid>
       <description>We control quantum fluctuations to create the ground state magnetic phases of a classical Ising model with a tunable longitudinal magnetic field using a system of 6 to 10 atomic ion spins. Due to the long-range Ising interactions, the various ground state spin configurations are separated by multiple first-order phase transitions, which in our zero temperature system cannot be driven by thermal fluctuations.</description>
     </item>
     
     <item>
       <title>Emergence and Frustration of Magnetism with Variable-Range Interactions in a Quantum Simulator</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</link>
       <pubDate>Fri, 03 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</guid>
       <description>Frustration, or the competition between interacting components of a network, is often responsible for the complexity of many body systems, from social and neural networks to protein folding and magnetism. In quantum magnetic systems, frustration arises naturally from competing spin-spin interactions given by the geometry of the spin lattice or by the presence of long-range antiferromagnetic couplings.</description>
     </item>
     
     <item>
       <title>Onset of a quantum phase transition with a trapped ion quantum simulator</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</link>
       <pubDate>Tue, 05 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</guid>
       <description>A quantum simulator is a well controlled quantum system that can simulate the behavior of another quantum system which may require exponentially large classical computing resources to understand otherwise. In the 1980s, Feynman proposed the use of quantum logic gates on a standard controllable quantum system to efficiently simulate the behavior of a model Hamiltonian.</description>
     </item>
     
     <item>
       <title>Quantum simulation of frustrated Ising spins with trapped ions</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</link>
       <pubDate>Thu, 03 Jun 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</guid>
       <description>Laser-cooled and trapped atomic ions form an ideal standard for the simulation of interacting quantum spin models. Effective spins are represented by appropriate internal energy levels within each ion, and the spins can be measured with near-perfect efficiency using state-dependent fluorescence techniques. By applying optical fields that exert optical dipole forces on the ions, their Coulomb interaction can be modulated in ways that give rise to long-range and tunable spin-spin interactions that can be reconfigured by shaping the spectrum and pattern of the laser fields.</description>
     </item>
     
     <item>
       <title>Entanglement and Tunable Spin-Spin Couplings between Trapped Ions Using Multiple Transverse Modes</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</link>
       <pubDate>Wed, 16 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</guid>
       <description>We demonstrate tunable spin-spin couplings between trapped atomic ions, mediated by laser forces on multiple transverse collective modes of motion. A $\sigma_x \sigma_x$-type Ising interaction is realized between quantum bits stored in the ground hyperfine clock states of Yb ions. We demonstrate entangling gates and tailor the spin-spin couplings with two and three trapped ions.</description>
     </item>
     
     <item>
       <title>Large-scale quantum computation in an anharmonic linear ion trap</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</link>
       <pubDate>Sat, 27 Jun 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</guid>
       <description>We propose a large-scale quantum computer architecture by stabilizing a single large linear ion chain in a very simple trap geometry. By confining ions in an anharmonic linear trap with nearly uniform spacing between ions, we show that high-fidelity quantum gates can be realized in large linear ion crystals under the Doppler temperature based on coupling to a near-continuum of transverse motional modes with simple shaped laser pulses.</description>
     </item>
     
     <item>
       <title>Design and Construction of an Ion Trapping Apparatus for Quantum Simulation Experiments</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2019-design-and-construction-of-an-ion-trapping-apparatus-for-quantum-simulation-experiments/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2019-design-and-construction-of-an-ion-trapping-apparatus-for-quantum-simulation-experiments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2019-design-and-construction-of-an-ion-trapping-apparatus-for-quantum-simulation-experiments/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2019-design-and-construction-of-an-ion-trapping-apparatus-for-quantum-simulation-experiments/</guid>
       <description>The trapped ions platform represents an excellent framework for Quantum information science experiments. Long coherence times, extremely high state initialization and detection fidelity, inherent full-connectivity between qubits are some features that make trapped ions the ideal qubits. It is the same features that make this platform extremely suitable for quantum simulation of various physical phenomenon, particularly quantum spin models.</description>
     </item>
     
     <item>
       <title>Developing Theoretical and Experimental Tools for a Hybrid Quantum Simulator Based on Trapped Ions</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Holographic Optical Manipulation of Trapped Ions for Quantum Simulation</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</guid>
       <description>Trapped ion is one of the leading platforms for quantum simulation experiment due to its long coherence time and high fidelity state initialization, detection, and manipulation. To individually address ions at a single-ion level, it requires sophisticated optical engineering. In the thesis, we present a novel single qubit addressing system that is immune to imperfections of optical imaging and can scale to different size of the system.</description>
     </item>
     
     <item>
       <title>Quantum Simulation of Interacting Spin Models With Trapped Ions</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/publications/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/publications/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</guid>
       <description></description>
     </item>
     

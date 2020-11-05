@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Quantum Information with Trapped Ions</title>
-    <link>http://qiti-test.iqc.uwaterloo.ca/research/</link>
+    <link>https://qiti.iqc.uwaterloo.ca/research/</link>
     <description>Recent content in Research on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 May 2020 15:07:47 -0400</lastBuildDate>
     
-	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/research/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiti.iqc.uwaterloo.ca/research/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

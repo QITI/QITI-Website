@@ -2,293 +2,332 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Members on Quantum Information with Trapped Ions</title>
-    <link>http://qiti-test.iqc.uwaterloo.ca/members/</link>
+    <link>https://qiti.iqc.uwaterloo.ca/members/</link>
     <description>Recent content in Members on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Mar 2020 00:04:23 -0400</lastBuildDate>
     
-	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/members/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiti.iqc.uwaterloo.ca/members/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Dr. Matthew Day</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/matt-day/</link>
-      <pubDate>Wed, 01 Jul 2020 20:42:06 -0400</pubDate>
+      <title>Scott Hubele</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/scott-hubele/</link>
+      <pubDate>Wed, 30 Sep 2020 21:16:47 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/matt-day/</guid>
-      <description>Matt works on QuantumION, an open-access trapped ion quantum computer.</description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/scott-hubele/</guid>
+      <description>Scott joined the group for the Summer of 2020 through the IQC Undergraduate Research Award. His projects include simulating photon counts from trapped ion qubits onto multiple detectors to correlate measurements and increase detection fidelity, as well as designing an imaging system which minimizes aberration. He graduated from the University of Alberta in 2020 with a major in Engineering Physics (co-op program) and a minor in Linguistics.</description>
     </item>
     
     <item>
-      <title>Sarah Mayer</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/sarah-mayer/</link>
-      <pubDate>Thu, 07 May 2020 22:01:38 -0400</pubDate>
+      <title>Anthony Vogliano</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/anthony-vogliano/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/sarah-mayer/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/anthony-vogliano/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Natasha Willis</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/natasha-willis/</link>
-      <pubDate>Thu, 07 May 2020 22:01:34 -0400</pubDate>
+      <title>Qinghao Zhang</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/qinghao-zhang/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/natasha-willis/</guid>
-      <description>Natasha Willis Email: ()</description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/qinghao-zhang/</guid>
+      <description>For his PHYS 437 BSc Physics project, Qinghao is numerically investigating noise sources in trapped-ion quantum simulations.</description>
     </item>
     
     <item>
-      <title>Luyao Wang</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/luyao-wang/</link>
-      <pubDate>Thu, 07 May 2020 22:01:31 -0400</pubDate>
+      <title>Samuel Slavko Laketa</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/samuel-laketa/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/luyao-wang/</guid>
-      <description></description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/samuel-laketa/</guid>
+      <description>For his PHYS 437 BSc Physics project, Samuel is numerically investigating laser frequency stabilization for trapped-ion quantum information processing. In particular, his interest is in understanding the stabilization of beat-notes in the context of two-photon Raman transitions with mode-locked lasers.</description>
     </item>
     
     <item>
-      <title>Louisa (Ruixue) Huang</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/louisa-huang/</link>
-      <pubDate>Thu, 07 May 2020 22:01:27 -0400</pubDate>
+      <title>Dr. Manas Sajjan</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/manas-sajjan/</link>
+      <pubDate>Sun, 30 Aug 2020 22:50:58 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/louisa-huang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tony Kappen</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/tony-kappen/</link>
-      <pubDate>Thu, 07 May 2020 22:01:26 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/tony-kappen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nikhil Kotibhaskar</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</link>
-      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sainath Motlakunta</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/sainath-motlakunta/</link>
-      <pubDate>Sat, 02 May 2020 21:42:32 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/sainath-motlakunta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Michele Roche</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/michele-roche/</link>
-      <pubDate>Sat, 02 May 2020 21:16:17 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/michele-roche/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dr. K. Rajibul Islam</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/rajibul-islam/</link>
-      <pubDate>Sat, 02 May 2020 21:14:38 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/rajibul-islam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dr. Roland Hablützel</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</link>
-      <pubDate>Sat, 02 May 2020 20:42:06 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</guid>
-      <description>Roland joined the QITI group to work on the design, construction and characterization of a quantum simulator of spin-lattice geometries based on trapped atomic ions. His research focuses on taking advantage of the shared motional structure of the trapped ions and the flexibility of holographic imaging to program interactions between any pair of spins.</description>
-    </item>
-    
-    <item>
-      <title>Gaurav Tathed</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/gaurav-tathed/</link>
-      <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/gaurav-tathed/</guid>
-      <description>Gaurav is pursuing Bachelors&amp;rsquo;s Degree in Physics and Astronomy for the University of Waterloo. In the Spring 2020 term, he is working in the QITI group as an undergraduate co-op student. Gaurav is using COMSOL software to investigate noise sources in ion-traps, in particular the thermal effect of radio-frequency voltages on the trapping apparatus.</description>
-    </item>
-    
-    <item>
-      <title>Lewis Hahn</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/lewis-hahn/</link>
-      <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/lewis-hahn/</guid>
-      <description>Lewis Hahn was an undergraduate co-op student in Winter 2020. Currently, he is volunteering in the group in bringing up a &amp;lsquo;dust trap&amp;rsquo; apparatus, which will be used in outreach to demonstrate levitation of charged particles using static and radiofrequency voltages.</description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/manas-sajjan/</guid>
+      <description>I am very interested in the interplay of the quantum and statistical physics at mesoscopic and nanoscopic length scale especially emergence of thermodynamic or statistical irreversibility from reversible quantal dynamics. My PhD was in modelling quantum transport across single molecular junctions, a highly non-equilibrium phenomenon, using electronic structure and convex optimization.</description>
     </item>
     
     <item>
       <title>Rachel DiTommaso</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/rachel-ditommaso/</link>
-      <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
+      <link>https://qiti.iqc.uwaterloo.ca/members/rachel-ditommaso/</link>
+      <pubDate>Sun, 30 Aug 2020 21:42:32 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/rachel-ditommaso/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/rachel-ditommaso/</guid>
       <description>Rachel is working on the QuantumION project as an undergraduate co-op student.</description>
     </item>
     
     <item>
       <title>Michael Melvin Veenstra</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/michael-veenstra/</link>
-      <pubDate>Fri, 01 May 2020 21:16:47 -0400</pubDate>
+      <link>https://qiti.iqc.uwaterloo.ca/members/michael-veenstra/</link>
+      <pubDate>Sun, 30 Aug 2020 21:16:47 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/michael-veenstra/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/michael-veenstra/</guid>
       <description>Michael is an undergraduate co-op student in the QITI lab in Spring 2020. He is in his third year of studying Mechatronics Engineering at the University of Waterloo. In the QITI lab, Michael has been working on electronics projects related to ion trapping.
 Outside of work, Michael enjoys soccer, mountain biking, and hands-on projects.</description>
     </item>
     
     <item>
-      <title>Scott Hubele</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/scott-hubele/</link>
-      <pubDate>Fri, 01 May 2020 21:16:47 -0400</pubDate>
+      <title>Dr. Matthew Day</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/matt-day/</link>
+      <pubDate>Wed, 01 Jul 2020 20:42:06 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/scott-hubele/</guid>
-      <description>Scott joined the group for the Summer of 2020 through the IQC Undergraduate Research Award. His projects include simulating photon counts from trapped ion qubits onto multiple detectors to correlate measurements and increase detection fidelity, as well as designing an imaging system which minimizes aberration. He graduated from the University of Alberta in 2020 with a major in Engineering Physics (co-op program) and a minor in Linguistics.</description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/matt-day/</guid>
+      <description>Since 2019, Matt has been working on QuantumION, an open-access trapped ion quantum computer. He formally joined the QITI group in 2020.</description>
     </item>
     
     <item>
-      <title>Dr. Manas Sajjan</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/manas-sajjan/</link>
-      <pubDate>Thu, 30 Apr 2020 22:50:58 -0400</pubDate>
+      <title>Sarah Mayer</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/sarah-mayer/</link>
+      <pubDate>Thu, 07 May 2020 22:01:38 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/manas-sajjan/</guid>
-      <description>I am very interested in the interplay of the quantum and statistical physics at mesoscopic and nanoscopic length scale especially emergence of thermodynamic or statistical irreversibility from reversible quantal dynamics. My PhD was in modelling quantum transport across single molecular junctions, a highly non-equilibrium phenomenon, using electronic structure and convex optimization.</description>
-    </item>
-    
-    <item>
-      <title>Nikolay Videnov</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/nikolay-videnov/</link>
-      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
-      
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/nikolay-videnov/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/sarah-mayer/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Yi Hong Teoh</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/yi-hong-teoh/</link>
-      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
+      <title>Natasha Willis</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/natasha-willis/</link>
+      <pubDate>Thu, 07 May 2020 22:01:34 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/yi-hong-teoh/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/natasha-willis/</guid>
+      <description>Natasha Willis Email: ()</description>
+    </item>
+    
+    <item>
+      <title>Luyao Wang</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/luyao-wang/</link>
+      <pubDate>Thu, 07 May 2020 22:01:31 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/luyao-wang/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Zewen Sun</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/zewen-sun/</link>
-      <pubDate>Tue, 28 Apr 2020 00:51:23 -0400</pubDate>
+      <title>Louisa (Ruixue) Huang</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/louisa-huang/</link>
+      <pubDate>Thu, 07 May 2020 22:01:27 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/zewen-sun/</guid>
-      <description>Zewen received his BSc degree in physics from Tianjin Normal University and Trent University via a joint program, in 2019. He joined the MSc program at Waterloo in Fall 2019. At Waterloo, Zewen&amp;rsquo;s research interest is in theoretical and numerical investigations on various aspects of light-matter interaction, especially the physics of ions trapped in optical potentials.</description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/louisa-huang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tony Kappen</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</link>
+      <pubDate>Thu, 07 May 2020 22:01:26 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michele Roche</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/michele-roche/</link>
+      <pubDate>Sat, 02 May 2020 21:16:17 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/michele-roche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dr. K. Rajibul Islam</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/rajibul-islam/</link>
+      <pubDate>Sat, 02 May 2020 21:14:38 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/rajibul-islam/</guid>
+      <description>Assistant Professor, Institute for Quantum Computing and Department of Physics and Astronomy, University of Waterloo
+UW Physics and Astronomy profile , IQC Profile , CV
+Affiliate, Perimeter Institute for Theoretical Physics
+Academic Tree  Notable recognitions  President&amp;rsquo;s Excellence in Research Award, University of Waterloo (2020) Recognized by the Department of Physics and Astronomy for outstanding teaching (2019, &amp;lsquo;20) Early Researcher Award, Ontario Government (2019) Distinguished PhD Dissertation Award, University of Maryland (2012-13)   Teaching  PHYS 234 (Quantum Physics I, Winter 2019, &amp;lsquo;20, &amp;lsquo;21) PHYS 393 (Physical Optics, Winter 2020) PHYS 256 (Geometrical and Physical Optics, Fall 2017, &amp;lsquo;18)   </description>
+    </item>
+    
+    <item>
+      <title>Gaurav Tathed</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/gaurav-tathed/</link>
+      <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/gaurav-tathed/</guid>
+      <description>Gaurav is pursuing Bachelors&amp;rsquo;s Degree in Physics and Astronomy for the University of Waterloo. In the Spring 2020 term, he is working in the QITI group as an undergraduate co-op student. Gaurav is using COMSOL software to investigate noise sources in ion-traps, in particular the thermal effect of radio-frequency voltages on the trapping apparatus.</description>
+    </item>
+    
+    <item>
+      <title>Lewis Hahn</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/lewis-hahn/</link>
+      <pubDate>Fri, 01 May 2020 21:42:32 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/lewis-hahn/</guid>
+      <description>Lewis Hahn was an undergraduate co-op student in Winter 2020. Currently, he is volunteering in the group in bringing up a &amp;lsquo;dust trap&amp;rsquo; apparatus, which will be used in outreach to demonstrate levitation of charged particles using static and radiofrequency voltages.</description>
     </item>
     
     <item>
       <title>Austin Con</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/austin-con/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/austin-con/</link>
       <pubDate>Wed, 01 Jan 2020 21:42:32 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/austin-con/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/austin-con/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Michael Spinazze</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/michael-spinazze/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/michael-spinazze/</link>
       <pubDate>Wed, 01 Jan 2020 21:42:32 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/michael-spinazze/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/michael-spinazze/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Niel Mistry</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/niel-mistry/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/niel-mistry/</link>
       <pubDate>Sun, 01 Sep 2019 22:01:37 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/niel-mistry/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/niel-mistry/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Ali Binai-Motlagh</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/ali-binai-motlagh/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/ali-binai-motlagh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nikolay Videnov</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/nikolay-videnov/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/nikolay-videnov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yi Hong Teoh</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/yi-hong-teoh/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/yi-hong-teoh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zewen Sun</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/zewen-sun/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/zewen-sun/</guid>
+      <description>Zewen received his BSc degree in physics from Tianjin Normal University and Trent University via a joint program, in 2019. He joined the MSc program at Waterloo in Fall 2019. At Waterloo, Zewen&amp;rsquo;s research interest is in theoretical and numerical investigations on various aspects of light-matter interaction, especially the physics of ions trapped in optical potentials.</description>
+    </item>
+    
+    <item>
       <title>Joshua Da Costa</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/joshua-da-costa/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/joshua-da-costa/</link>
       <pubDate>Wed, 01 May 2019 22:01:36 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/joshua-da-costa/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/joshua-da-costa/</guid>
       <description>Joshua was an undergraduate co-op student in the QITI group for Spring and Fall 2019. His contributions included building radio-frequency amplifier boxes for driving AOMs.</description>
     </item>
     
     <item>
       <title>Duale Omar</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/duale-omar/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/duale-omar/</link>
       <pubDate>Wed, 01 May 2019 22:01:35 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/duale-omar/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/duale-omar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Daniel Francis Julien Neitzert</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/daniel-francis-julien-neitzert/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/daniel-francis-julien-neitzert/</link>
       <pubDate>Tue, 01 Jan 2019 22:01:32 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/daniel-francis-julien-neitzert/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/daniel-francis-julien-neitzert/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ilango Maran</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/ilango-maran/</link>
-      <pubDate>Fri, 01 Dec 2017 22:01:29 -0400</pubDate>
+      <title>Dr. Roland Hablützel</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</link>
+      <pubDate>Tue, 01 May 2018 20:42:06 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/ilango-maran/</guid>
-      <description></description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</guid>
+      <description>Roland joined the QITI group in 2018 to work on the design, construction and characterization of a quantum simulator of spin-lattice geometries based on trapped atomic ions. His research focuses on taking advantage of the shared motional structure of the trapped ions and the flexibility of holographic imaging to program interactions between any pair of spins.</description>
     </item>
     
     <item>
       <title>Kaleb Ruscitti</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/kaleb-ruscitti/</link>
-      <pubDate>Fri, 01 Sep 2017 22:01:30 -0400</pubDate>
+      <link>https://qiti.iqc.uwaterloo.ca/members/kaleb-ruscitti/</link>
+      <pubDate>Mon, 30 Apr 2018 22:01:30 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/kaleb-ruscitti/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/kaleb-ruscitti/</guid>
       <description>Kaleb was an undergraduate co-op student in Fall, 2017. He worked on digital light processing devices.</description>
     </item>
     
     <item>
-      <title>Chung-You (Gilbert) Shih</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/chung-you-shih/</link>
-      <pubDate>Fri, 01 Sep 2017 21:42:32 -0400</pubDate>
+      <title>Ilango Maran</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/ilango-maran/</link>
+      <pubDate>Fri, 01 Dec 2017 22:01:29 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/chung-you-shih/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/ilango-maran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sainath Motlakunta</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/sainath-motlakunta/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/sainath-motlakunta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chung-You (Gilbert) Shih</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/chung-you-shih/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/chung-you-shih/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nikhil Kotibhaskar</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jieren Deng</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/jieren-deng/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/jieren-deng/</link>
       <pubDate>Mon, 01 May 2017 22:01:28 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/jieren-deng/</guid>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/jieren-deng/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dr. Fereshteh Rajabi</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/fereshteh-rajabi/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/fereshteh-rajabi/</link>
       <pubDate>Mon, 01 May 2017 21:16:47 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/fereshteh-rajabi/</guid>
-      <description></description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/fereshteh-rajabi/</guid>
+      <description>Fereshteh is a postdoctoral fellow, working on theoretical aspects of trapped-ion physics. She shares her time with astrophysicists at the Perimeter Institute for Theoretical Physics. As a postdoc in the QITI group, Fereshteh developed hybrid digital-analog quantum simulation protocols, and is currently theoretically investigating optical trapping schemes for ions.</description>
     </item>
     
   </channel>

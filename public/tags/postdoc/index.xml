@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>postDoc on Quantum Information with Trapped Ions</title>
-    <link>http://qiti-test.iqc.uwaterloo.ca/tags/postdoc/</link>
+    <link>https://qiti.iqc.uwaterloo.ca/tags/postdoc/</link>
     <description>Recent content in postDoc on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jul 2020 20:42:06 -0400</lastBuildDate>
     
-	<atom:link href="http://qiti-test.iqc.uwaterloo.ca/tags/postdoc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://qiti.iqc.uwaterloo.ca/tags/postdoc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dr. Matthew Day</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/matt-day/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/matt-day/</link>
       <pubDate>Wed, 01 Jul 2020 20:42:06 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/matt-day/</guid>
-      <description>Matt works on QuantumION, an open-access trapped ion quantum computer.</description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/matt-day/</guid>
+      <description>Since 2019, Matt has been working on QuantumION, an open-access trapped ion quantum computer. He formally joined the QITI group in 2020.</description>
     </item>
     
     <item>
       <title>Dr. Roland Hablützel</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</link>
-      <pubDate>Sat, 02 May 2020 20:42:06 -0400</pubDate>
+      <link>https://qiti.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</link>
+      <pubDate>Tue, 01 May 2018 20:42:06 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</guid>
-      <description>Roland joined the QITI group to work on the design, construction and characterization of a quantum simulator of spin-lattice geometries based on trapped atomic ions. His research focuses on taking advantage of the shared motional structure of the trapped ions and the flexibility of holographic imaging to program interactions between any pair of spins.</description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</guid>
+      <description>Roland joined the QITI group in 2018 to work on the design, construction and characterization of a quantum simulator of spin-lattice geometries based on trapped atomic ions. His research focuses on taking advantage of the shared motional structure of the trapped ions and the flexibility of holographic imaging to program interactions between any pair of spins.</description>
     </item>
     
     <item>
       <title>Dr. Fereshteh Rajabi</title>
-      <link>http://qiti-test.iqc.uwaterloo.ca/members/fereshteh-rajabi/</link>
+      <link>https://qiti.iqc.uwaterloo.ca/members/fereshteh-rajabi/</link>
       <pubDate>Mon, 01 May 2017 21:16:47 -0400</pubDate>
       
-      <guid>http://qiti-test.iqc.uwaterloo.ca/members/fereshteh-rajabi/</guid>
-      <description></description>
+      <guid>https://qiti.iqc.uwaterloo.ca/members/fereshteh-rajabi/</guid>
+      <description>Fereshteh is a postdoctoral fellow, working on theoretical aspects of trapped-ion physics. She shares her time with astrophysicists at the Perimeter Institute for Theoretical Physics. As a postdoc in the QITI group, Fereshteh developed hybrid digital-analog quantum simulation protocols, and is currently theoretically investigating optical trapping schemes for ions.</description>
     </item>
     
   </channel>
