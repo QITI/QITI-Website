@@ -218,16 +218,6 @@
   </url>
   
   <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/tags/qiti/</loc>
-    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://qiti.iqc.uwaterloo.ca/</loc>
     <lastmod>2020-03-25T01:18:35-04:00</lastmod>
   </url>
@@ -249,6 +239,11 @@
   
   <url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</loc>
+    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/tags/qiti/</loc>
     <lastmod>2020-01-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -275,6 +270,21 @@
   <url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20191008_machine_learning_arxiv/</loc>
     <lastmod>2019-10-08T22:25:42-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/tags/thesis/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/publications/2019-design-and-construction-of-an-ion-trapping-apparatus-for-quantum-simulation-experiments/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -403,6 +413,11 @@
   </url>
   
   <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190107_new_co-ops_daniel_nathasha/</loc>
     <lastmod>2019-01-07T22:24:57-04:00</lastmod>
   </url>
@@ -435,6 +450,11 @@
   <url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180807_sainath_msc_defense/</loc>
     <lastmod>2018-08-07T22:24:24-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -558,6 +578,11 @@
   </url>
   
   <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/tags/previous-work/</loc>
+    <lastmod>2016-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</loc>
     <lastmod>2016-06-14T00:00:00+00:00</lastmod>
   </url>
@@ -593,6 +618,11 @@
   </url>
   
   <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/publications/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</loc>
+    <lastmod>2012-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</loc>
     <lastmod>2011-07-05T00:00:00+00:00</lastmod>
   </url>
@@ -617,27 +647,7 @@
   </url>
   
   <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/publications/2019-design-and-construction-of-an-ion-trapping-apparatus-for-quantum-simulation-experiments/</loc>
-  </url>
-  
-  <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</loc>
-  </url>
-  
-  <url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/harvard/mit/</loc>
-  </url>
-  
-  <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</loc>
-  </url>
-  
-  <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/publications/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</loc>
-  </url>
-  
-  <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/tags/thesis/</loc>
   </url>
   
 </urlset>
