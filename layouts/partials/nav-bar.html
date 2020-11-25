@@ -1,10 +1,11 @@
 {{ $tags := . }}
+{{ $alias := . }}
 <nav role="navigation" class="flex-l ph2 items-center justify-between center">
   <ul class="pa1 left">
   {{ range seq 0 (sub (len $tags) 1) }}
     {{ if (index $tags .) }}
       <li class="list f4 f4-ns fw4 dib pr3">
-        <a href="{{ printf "#%s" (index $tags .) }}" class="hover-black no-underline" style="color:rgb(70,64,77)"> {{ index $tags . }} </a>
+        <a href="{{ printf "#%s" (index $tags .) }}" class="hover-black no-underline" style="color:rgb(70,64,77)"> {{ index $alias . }} </a>
       </li>
     {{ end }}
   {{ end }}

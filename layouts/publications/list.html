@@ -1,10 +1,11 @@
 {{ define "main" }}
 {{ $publications := where .Site.Pages "Section" "publications" }}
 {{ $publications := symdiff $publications (slice .) }}
-{{ $tags := slice "QITI" "Harvard/MIT" "Maryland" "Thesis" }}
-{{ $titleCards := slice "Recent" "Friction with ions (MIT), Bosons in optical lattices (Harvard)" "Quantum simulation of interacting spin models with trapped ions (Maryland)" "Thesis" }}
+{{ $tags := slice "QITI" "Thesis" "Previous work" }}
+{{ $alias := slice "Articles" "Theses" "Previous work" }}
+{{ $titleCards := slice "Pre-prints and journal articles" "Theses" "Previous work of Prof. Islam (MIT, Harvard, Maryland)"}}
 <article class="mh4 mw7-l nested-copy-line-height nested-img center">
-  {{ partial "nav-bar.html" $tags }}
+  {{ partial "nav-bar.html" $alias .}}
   {{ if .Content }}
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
       {{- .Content -}}
@@ -17,7 +18,7 @@
       {{ range seq 0 (sub (len $tags) 1) }}
         {{ if (index $titleCards .) }}
           <div class="w-100 tl">
-            <a id="{{ index $tags . }}"></a>
+            <a id="{{ index $alias . }}"></a>
             <h1>{{ index $titleCards . }}</h1>
           </div>
         {{ end }}

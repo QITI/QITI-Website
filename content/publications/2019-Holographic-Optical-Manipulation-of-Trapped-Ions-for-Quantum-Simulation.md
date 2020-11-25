@@ -2,11 +2,10 @@
 title: "Holographic Optical Manipulation of Trapped Ions for Quantum Simulation"
 authors: [[ "Chung-You Shih, MSc thesis", "c5shih"]]
 link: "https://uwspace.uwaterloo.ca/handle/10012/15176"
-journal: "University of Waterloo"
+journal: "University of Waterloo [Thesis link]"
 volume: 
 issue: 
-date: 2019-00-00T00:00:00-00:00
-DOI:
+date: 2019-10-02T00:00:00-00:00
 draft: false
 arXiv:
 tags:

@@ -7,11 +7,12 @@
         <div class="bb b--black-10 relative w-100 mb2 nested-copy-line-height" style="background-color:rgb(252,251,248)">
           <div class="ph3 pv2 gray overflow-hidden">
             <h1 class="f4 near-black mb0">
+   [{{ substr .Date 0 4 }}]
 	<a href="{{ .Permalink }}" class="link black dim">
                 {{ .Title }}
               </a>
             </h1>
-            <div class="mb0 near-black f5">
+	    <div class="mb0 near-black f5">
               {{ partial "authorList.html" . }}
             <br>
               {{ partial "journal-link-bar.html" . }}

@@ -2,11 +2,10 @@
 title: "Design and Construction of an Ion Trapping Apparatus for Quantum Simulation Experiments"
 authors: [["Nikhil Kotibhaskar, MSc thesis", "nkotibha"]]
 link: "https://uwspace.uwaterloo.ca/handle/10012/15174"
-journal: "University of Waterloo"
+journal: "University of Waterloo [Thesis link]"
 volume: 
 issue: 
-date: 2019-00-00T00:00:00-00:00
-DOI:
+date: 2019-10-01T00:00:00-00:00
 draft: false
 arXiv:
 tags:

@@ -5,12 +5,12 @@ link: ""
 journal: ""
 volume: ""
 issue: ""
-date: 2020-04-01T00:00:00-00:00
+date: 2019-04-01T00:00:00-00:00
 DOI: 
 draft: false
 arXiv: "1912.07845"
 tags:
- - "QITI"
+ - "QITI" 
 image: "images/publications/2020-MonroeReview.png"
 ---
 

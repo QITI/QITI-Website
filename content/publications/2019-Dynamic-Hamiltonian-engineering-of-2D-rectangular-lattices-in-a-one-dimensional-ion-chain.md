@@ -10,7 +10,7 @@ DOI: 10.1038/s41534-019-0147-x
 draft: false
 arXiv: "1808.06124"
 tags:
- - "QITI"
+ - "QITI" 
 image: "images/publications/2019-Rajabi-hybrid.png"
 ---
 
