@@ -6,9 +6,12 @@
       <header>
         <p class="f6 b helvetica tracked">
         <a href="{{.Section | absURL }}" class="color-inherit dim link">{{ humanize .Section | upper  }} </a>
+        </p>          
+        <p class="f5 b gray mv1 pv1">
+   {{ substr .Date 0 4 }}          
         </p>
         <p class="f3 b mv1 pv1">
-          {{ .Title }}
+{{ .Title }}
         </p>
         <p class="f4 dark-gray mv1 pv1">
           {{ partial "authorList.html" . }}
