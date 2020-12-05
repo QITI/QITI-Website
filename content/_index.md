@@ -16,7 +16,7 @@ Laser-cooled trapped ions are among the most pristine and controllable quantum s
 
  <a href="\research" class="center link db f5  pa2 br3 white dim mw5 tc" style="background-color: rgb(81,64,81)">read more about our research</a>
 
-
+{{< youtube L7nipA12EWg>}}
 
 We acknowledge financial support from University of Waterloo, NSERC, Government of Ontario, US ARO, and Transformative Quantum Technologies (TQT, CFREF).
 

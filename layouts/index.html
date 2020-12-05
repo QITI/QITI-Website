@@ -11,7 +11,11 @@
       {{ $section_name := . }}
 
 
-      <div class="pa1 center ph5-l ph3-m ph1-ns pt2 mb3 mw8-l" style=" background-color: rgb(233,230,233)">
+{{ if eq . "news" }}      
+<div class="pa1 center ph5-l ph3-m ph1-ns pt2 mb3 mw8-l" style="background-color: rgb(233,230,233)">
+{{ else }}
+<div class="pa1 center ph5-l ph3-m ph1-ns pt2 mb3 mw8-l" style="background-color: rgb(231,232,229)">
+{{ end }}
          {{ with $.Site.GetPage "section" $section_name }}
             <h1 class="flex-none f3.5">
               {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
@@ -35,17 +39,17 @@
         <section class="w-100 ma2 pb3">
           {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
           {{ with $.Site.GetPage "section" $section_name }}
-            <a href="{{ .Permalink }}" class="center link db f5  pa2 br3 bg-mid-gray white dim w4 tc" style="background-color: rgb(81,64,81)">{{ i18n "allTitle" . }}</a>
+            <a href="{{ .Permalink }}" class="center link db f5  pa2 br3 bg-mid-gray white dim w4 tc">{{ i18n "allTitle" . }}</a>
           {{ end }}
         </section>
         {{ end }}
         </div>
     {{ end }}
   {{ end }}
-<hr class="mw8-l" style="height:1px;border-width:0;margin-top: 0;margin-bottom:0;background-color:rgb(229,234,232)">
-<div class="mw8-l center pv2" style="background-color:rgb(234,236,237)">
+<hr class="mw8-l" style="height:1px;border-width:0;margin-top: 0;margin-bottom:0;background-color:rgb(198,202,202)">
+<div class="mw8-l center pv2" style="background-color:rgb(202,206,206)">
 <figure>
-  <img src="\images\IQC_pic1.jpg" alt="QNC" class="center" style="display:block;max-width:100%">
+  <img src="\images\IQC_pic1.jpg" alt="QNC" class="center" style="display:block;max-width:100%;border:2px solid white;">
   <figcaption class="tc pt2">IQC - Quantum Nano Centre, University of Waterloo</figcaption>
 </figure>
 </div>
