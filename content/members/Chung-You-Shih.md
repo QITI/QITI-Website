@@ -1,5 +1,6 @@
 ---
 title: "Chung-You (Gilbert) Shih"
+orcid: "0000-0002-7561-6833"
 date: 2017-09-01T00:00:00-00:00
 draft: false
 image: "images/people/c5shih.jpg"
