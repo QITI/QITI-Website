@@ -11,7 +11,12 @@
         </p>
         <h1 class="f1 mt0">
           {{ .Title }}
-        </h1>
+          {{ if .Params.orcid }}
+            <a itemprop="sameAs" content="https://orcid.org/{{.Params.orcid}}" href="https://orcid.org/{{.Params.orcid}}" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;">
+            <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon">
+            </a>
+          {{ end }}
+       </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links dark-gray">
         <div class="dtc v-top">
