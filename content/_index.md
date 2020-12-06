@@ -5,6 +5,8 @@ draft: true
 description: " "
 ---
 <article>
+    <p class="center"> <firstletter>W</firstletter>elcome to the Laboratory for Quantum Information with Trapped 	Ions (QITI) of Prof. K. Rajibul Islam! We are a predominantly experimental research group at 	the <a href="https://uwaterloo.ca/institute-for-quantum-computing/">Institute for Quantum 	Computing</a> and the Department of <a href="https://uwaterloo.ca/physics-		astronomy/">Physics and Astronomy</a> at University of Waterloo, Ontario, Canada.</p> 
+
 
 Laser-cooled trapped ions are among the most pristine and controllable quantum systems. Research performed in Prof. Islam’s group is currently focused on the following:
 
