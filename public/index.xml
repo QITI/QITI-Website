@@ -12,6 +12,35 @@
     
     
     <item>
+      <title>12 Nov, 2020 - Nik awarded with best presentation award!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20201112_nik_strathclyde_best_presentation/</link>
+      <pubDate>Thu, 12 Nov 2020 22:24:20 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20201112_nik_strathclyde_best_presentation/</guid>
+      <description>University of Waterloo and University of Strathclyde, Glasgow, UK hosted their first virtual research colloquium on 12 Nov, 2020. Nikolay presented a talk on behalf of the QuantumION project, focusing on our design for individual addressing of Barium qubits.
+His talk was judged to be the best presentation of the day!</description>
+    </item>
+    
+    <item>
+      <title>20 Oct, 2020 - Rajibul honoured with President’s Excellence in Research award!</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20201020_rajibul_presidents_research_excellence_award/</link>
+      <pubDate>Tue, 20 Oct 2020 22:24:20 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20201020_rajibul_presidents_research_excellence_award/</guid>
+      <description>Rajibul received a President’s Excellence in Research award from the President and Vice-Chancellor of University of Waterloo in recognition of an Early Researcher Award from the Government of Ontario.
+IQC press release</description>
+    </item>
+    
+    <item>
+      <title>Experimental and theoretical investigations of radio-frequency and optical trapping potentials for atomic ions</title>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2020-sajjan-msc-thesis/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2020-sajjan-msc-thesis/</guid>
+      <description>Over the years, trapped ion have emerged as one of the premier candidates for universal quantum simulation due to its long coherence time, low initialization and detection errors, robust high-fidelity gate sets and fully connected yet tunable spin-graph. In this thesis we exclusively focus on the generation of the trapping potential in a four-rod trap, one of the most commonly studied ion-trapping architecture.</description>
+    </item>
+    
+    <item>
       <title>Scott Hubele</title>
       <link>https://qiti.iqc.uwaterloo.ca/members/scott-hubele/</link>
       <pubDate>Wed, 30 Sep 2020 21:16:47 -0400</pubDate>
@@ -158,15 +187,6 @@ Outside of work, Michael enjoys soccer, mountain biking, and hands-on projects.<
     </item>
     
     <item>
-      <title>Tony Kappen</title>
-      <link>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</link>
-      <pubDate>Thu, 07 May 2020 22:01:26 -0400</pubDate>
-      
-      <guid>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Michele Roche</title>
       <link>https://qiti.iqc.uwaterloo.ca/members/michele-roche/</link>
       <pubDate>Sat, 02 May 2020 21:16:17 -0400</pubDate>
@@ -182,9 +202,9 @@ Outside of work, Michael enjoys soccer, mountain biking, and hands-on projects.<
       
       <guid>https://qiti.iqc.uwaterloo.ca/members/rajibul-islam/</guid>
       <description>Assistant Professor, Institute for Quantum Computing and Department of Physics and Astronomy, University of Waterloo
-UW Physics and Astronomy profile, IQC Profile, CV
+UW Physics and Astronomy profile , IQC Profile , CV
 Affiliate, Perimeter Institute for Theoretical Physics
-Academic TreeNotable recognitions President&amp;rsquo;s Excellence in Research Award, University of Waterloo (2020) Recognized by the Department of Physics and Astronomy for outstanding teaching (2019, &amp;lsquo;20) Early Researcher Award, Ontario Government (2019) Distinguished PhD Dissertation Award, University of Maryland (2012-13)  Teaching PHYS 234 (Quantum Physics I, Winter 2019, &amp;lsquo;20, &amp;lsquo;21) PHYS 393 (Physical Optics, Winter 2020) PHYS 256 (Geometrical and Physical Optics, Fall 2017, &amp;lsquo;18)  </description>
+Academic Tree  Notable recognitions  President&amp;rsquo;s Excellence in Research Award, University of Waterloo (2020) Recognized by the Department of Physics and Astronomy for outstanding teaching (2019, &amp;lsquo;20) Early Researcher Award, Ontario Government (2019) Distinguished PhD Dissertation Award, University of Maryland (2012-13)   Teaching  PHYS 234 (Quantum Physics I, Winter 2019, &amp;lsquo;20, &amp;lsquo;21) PHYS 393 (Physical Optics, Winter 2020) PHYS 256 (Geometrical and Physical Optics, Fall 2017, &amp;lsquo;18)   </description>
     </item>
     
     <item>
@@ -346,7 +366,7 @@ Academic TreeNotable recognitions President&amp;rsquo;s Excellence in Researc
       <pubDate>Tue, 13 Aug 2019 22:25:26 -0400</pubDate>
       
       <guid>https://qiti.iqc.uwaterloo.ca/news/20190813_ion-pics/</guid>
-      <description>Here’s a picture of eight laser-cooled Ytterbium (174 isotope) ions in a linear chain! The image was taken using an off-the-shelf Thorlabs 0.1 NA objective and a cheap (~$300) CMOS camera. The ions are approximately 8 microns apart. Read more on the Physics and Astronomy webpage.</description>
+      <description>Here’s a picture of eight laser-cooled Ytterbium (174 isotope) ions in a linear chain! The image was taken using an off-the-shelf Thorlabs 0.1 NA objective and a cheap (~$300) CMOS camera. The ions are approximately 8 microns apart. Read more on the Physics and Astronomy webpage. </description>
     </item>
     
     <item>
@@ -680,6 +700,15 @@ Academic TreeNotable recognitions President&amp;rsquo;s Excellence in Researc
       
       <guid>https://qiti.iqc.uwaterloo.ca/news/20170628_temp_home_qiti_lab/</guid>
       <description>We move into a temporary laboratory space on the third floor of the Quantum Nano Center! Our basement lab will undergo a major renovation before we can move into the space.</description>
+    </item>
+    
+    <item>
+      <title>Tony Kappen</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</link>
+      <pubDate>Sun, 07 May 2017 22:01:26 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</guid>
+      <description></description>
     </item>
     
     <item>

@@ -6,10 +6,19 @@
     <description>Recent content in Thesis on Quantum Information with Trapped Ions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://qiti.iqc.uwaterloo.ca/tags/thesis/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Experimental and theoretical investigations of radio-frequency and optical trapping potentials for atomic ions</title>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2020-sajjan-msc-thesis/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2020-sajjan-msc-thesis/</guid>
+      <description>Over the years, trapped ion have emerged as one of the premier candidates for universal quantum simulation due to its long coherence time, low initialization and detection errors, robust high-fidelity gate sets and fully connected yet tunable spin-graph. In this thesis we exclusively focus on the generation of the trapping potential in a four-rod trap, one of the most commonly studied ion-trapping architecture.</description>
+    </item>
     
     <item>
       <title>Holographic Optical Manipulation of Trapped Ions for Quantum Simulation</title>
