@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/news/20201112_nik_strathclyde_best_presentation/</loc>
+    <lastmod>2020-11-12T22:24:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/news/20201020_rajibul_presidents_research_excellence_award/</loc>
+    <lastmod>2020-10-20T22:24:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/publications/2020-sajjan-msc-thesis/</loc>
+    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/tags/</loc>
+    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/tags/thesis/</loc>
+    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/alumn/</loc>
     <lastmod>2020-09-30T21:16:47-04:00</lastmod>
   </url>
@@ -19,11 +44,6 @@
   
   <url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/shubele/</loc>
-    <lastmod>2020-09-30T21:16:47-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/tags/</loc>
     <lastmod>2020-09-30T21:16:47-04:00</lastmod>
   </url>
   
@@ -163,11 +183,6 @@
   </url>
   
   <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</loc>
-    <lastmod>2020-05-07T22:01:26-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/adminassistant/</loc>
     <lastmod>2020-05-02T21:16:17-04:00</lastmod>
   </url>
@@ -274,11 +289,6 @@
   
   <url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</loc>
-    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/tags/thesis/</loc>
     <lastmod>2019-10-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -550,6 +560,11 @@
   <url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20170628_temp_home_qiti_lab/</loc>
     <lastmod>2017-06-28T22:23:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</loc>
+    <lastmod>2017-05-07T22:01:26-04:00</lastmod>
   </url>
   
   <url>
