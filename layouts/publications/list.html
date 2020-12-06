@@ -17,7 +17,7 @@
       
       {{ range seq 0 (sub (len $tags) 1) }}
         {{ if (index $titleCards .) }}
-          <div class="w-100 tl">
+          <div class="w-100 tl ">
             <a id="{{ index $alias . }}"></a>
             <h1>{{ index $titleCards . }}</h1>
           </div>

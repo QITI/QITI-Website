@@ -5,7 +5,7 @@
 	  <div class="cf center ph2 ph4-l mb3 f4 lh-copy w-60-l">
           {{ .Content }} 
          </div>
-      <div class="w-40-l mt4-ns mb4 ph4-l mr4-l ph4-m" style="background-color: rgb(81,64,81)">
+      <div class="w-40-l mt4-l mb4 ph4-l mr4-l ph4-m" style="background-color: rgb(81,64,81)">
 	      <h1 class="f3 center near-black mt3">
 		<iframe width="400" height="200"
 		src="https://www.youtube.com/embed/L7nipA12EWg">
@@ -36,7 +36,7 @@
 <div class="ph2 center ph5-l ph3-m ph1-ns pt2 mb3 mw8-l" style="background-color: rgb(231,232,229)">
 {{ end }}
          {{ with $.Site.GetPage "section" $section_name }}
-            <h1 class="flex-none f3.5">
+            <h1 class="flex-none f2">
               {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
 <hr style="height:6px;width:80px;margin-left:0;border-width:0;background-color:rgb(71,62,71)">
             </h1>

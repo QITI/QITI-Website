@@ -28,8 +28,10 @@
               <div class="mv2"> {{ partial "journal-link-bar.html" . }} </div>
             </div>
             {{ if eq .Section "publications" }}
-              <div class="f5 f5-l lh-title nested-copy-line-height nested-links">
+              <div class="lh-title nested-copy-line-height nested-links">
+		<p>
                 {{- .Summary -}}
+		</p>
               </div>
             {{ else }}
         <div class="f5 f5-l lh-title nested-links">
