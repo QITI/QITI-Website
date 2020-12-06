@@ -12,6 +12,7 @@ background_color_class = "bg-gray"
 featured_image = "images/header/ion-loading_web_banner.gif"
 homeList = ["news", "publications"]
 favicon = "images/favicon.ico"
+custom_css = ["css/myStyle.css"]
 
 [markup]
   [markup.goldmark]

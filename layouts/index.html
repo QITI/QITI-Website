@@ -1,8 +1,29 @@
 {{ define "main" }}
-<article class="dark-gray pt2 pb2 ph2 mh2 center" style=" background-color: rgb(250,248,250)">
-  <div class="cf mw8 center ph6-l mb3 f4 lh-copy">
-    {{ .Content }}
-  </div>
+<article class="dark-gray pv2 ph0 ph4-m ph6-l mh2 center" style="background-color: rgb(250,248,250)">
+	<p class="pl4-l ph2 center"> <firstletter>W</firstletter>elcome to the Laboratory for Quantum Information with Trapped 	Ions (QITI) of Prof. K. Rajibul Islam! We are a predominantly experimental research group at 	the <a href="https://uwaterloo.ca/institute-for-quantum-computing/">Institute for Quantum 	Computing</a> and the Department of <a href="https://uwaterloo.ca/physics-		astronomy/">Physics and Astronomy</a> at University of Waterloo, Ontario, Canada.</p> 
+   
+<div class="flex flex-column flex-row-l">
+	  <div class="cf center ph2 ph4-l mb3 f4 lh-copy w-60-l">
+          {{ .Content }} 
+         </div>
+      <div class="w-40-l mt2-ns mb4 ph4-l mr4-l ph4-m" style="background-color: rgb(81,64,81)">
+	      <h1 class="f3 center near-black mt3">
+		<iframe width="400" height="200"
+		src="https://www.youtube.com/embed/L7nipA12EWg">
+		</iframe>		
+          </h1>
+ <a href="\research" class="center link db f4 pa2 white dim mw5 tc bg-white-30">more about our research</a>
+<br>
+<a href="\research\#Job%20opportunities" class="white center link db f4 pa2 dim mw5 tc bg-white-30">Job opportunities</a>
+<br>
+
+<p class="center w-100 white-80 ph2">We acknowledge financial support from University of Waterloo, NSERC, Government of Ontario, US ARO, and Transformative Quantum Technologies (TQT, CFREF).
+
+</p>
+
+      </div>
+    </div>
+
   {{ range  .Site.Params.homeList }}
     {{ $section := where $.Site.RegularPages "Section" "in" . }}
     {{ $section_count := len $section }}
@@ -10,17 +31,18 @@
       {{/* Derive the section name  */}}
       {{ $section_name := . }}
 
-
 {{ if eq . "news" }}      
-<div class="pa1 center ph5-l ph3-m ph1-ns pt2 mb3 mw8-l" style="background-color: rgb(233,230,233)">
+<div class="ph2 center ph5-l ph3-m pt2 mb3 mw8-l" style="background-color: rgb(233,230,233)">
 {{ else }}
-<div class="pa1 center ph5-l ph3-m ph1-ns pt2 mb3 mw8-l" style="background-color: rgb(231,232,229)">
+<div class="ph2 center ph5-l ph3-m ph1-ns pt2 mb3 mw8-l" style="background-color: rgb(231,232,229)">
 {{ end }}
          {{ with $.Site.GetPage "section" $section_name }}
             <h1 class="flex-none f3.5">
               {{ $.Param "recent_copy" | default (i18n "recentTitle" .) }}
+<hr style="height:6px;width:80px;margin-left:0;border-width:0;background-color:rgb(71,62,71)">
             </h1>
           {{ end }}
+
 
         {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
 

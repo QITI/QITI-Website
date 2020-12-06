@@ -3,14 +3,6 @@
   font-size: 14px;
 }
 
-#about_chevron {
-  background-color: transparent;
-  border: 0;
-  padding: 0;
-  margin: 0;
-  display: inline;
-  color: #FFF;
-}
   .site-menu ul.sub-menu:not(.dn){
   position: absolute;
   top: auto;
@@ -31,4 +23,8 @@
 .site-menu ul.sub-menu li a:hover,
 .site-menu ul.sub-menu li a:focus {
   background: rgba(0,0,0,0.7);
+}
+
+p {
+font-size: 10px;
 }
