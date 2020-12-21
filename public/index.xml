@@ -18,7 +18,7 @@
       
       <guid>https://qiti.iqc.uwaterloo.ca/news/20201112_nik_strathclyde_best_presentation/</guid>
       <description>University of Waterloo and University of Strathclyde, Glasgow, UK hosted their first virtual research colloquium on 12 Nov, 2020. Nikolay presented a talk on behalf of the QuantumION project, focusing on our design for individual addressing of Barium qubits.
-His talk was judged to be the best presentation of the day!</description>
+His talk was judged to be the best UW presentation of the day!</description>
     </item>
     
     <item>
@@ -202,9 +202,9 @@ Outside of work, Michael enjoys soccer, mountain biking, and hands-on projects.<
       
       <guid>https://qiti.iqc.uwaterloo.ca/members/rajibul-islam/</guid>
       <description>Assistant Professor, Institute for Quantum Computing and Department of Physics and Astronomy, University of Waterloo
-UW Physics and Astronomy profile , IQC Profile , CV
+UW Physics and Astronomy profile, IQC Profile, CV
 Affiliate, Perimeter Institute for Theoretical Physics
-Academic Tree  Notable recognitions  President&amp;rsquo;s Excellence in Research Award, University of Waterloo (2020) Recognized by the Department of Physics and Astronomy for outstanding teaching (2019, &amp;lsquo;20) Early Researcher Award, Ontario Government (2019) Distinguished PhD Dissertation Award, University of Maryland (2012-13)   Teaching  PHYS 234 (Quantum Physics I, Winter 2019, &amp;lsquo;20, &amp;lsquo;21) PHYS 393 (Physical Optics, Winter 2020) PHYS 256 (Geometrical and Physical Optics, Fall 2017, &amp;lsquo;18)   </description>
+Academic TreeNotable recognitions President&amp;rsquo;s Excellence in Research Award, University of Waterloo (2020) Recognized by the Department of Physics and Astronomy for outstanding teaching (2019, &amp;lsquo;20) Early Researcher Award, Ontario Government (2019) Distinguished PhD Dissertation Award, University of Maryland (2012-13)  Teaching PHYS 234 (Quantum Physics I, Winter 2019, &amp;lsquo;20, &amp;lsquo;21) PHYS 393 (Physical Optics, Winter 2020) PHYS 256 (Geometrical and Physical Optics, Fall 2017, &amp;lsquo;18)  </description>
     </item>
     
     <item>
@@ -366,7 +366,7 @@ Academic Tree  Notable recognitions  President&amp;rsquo;s Excellence in Researc
       <pubDate>Tue, 13 Aug 2019 22:25:26 -0400</pubDate>
       
       <guid>https://qiti.iqc.uwaterloo.ca/news/20190813_ion-pics/</guid>
-      <description>Here’s a picture of eight laser-cooled Ytterbium (174 isotope) ions in a linear chain! The image was taken using an off-the-shelf Thorlabs 0.1 NA objective and a cheap (~$300) CMOS camera. The ions are approximately 8 microns apart. Read more on the Physics and Astronomy webpage. </description>
+      <description>Here’s a picture of eight laser-cooled Ytterbium (174 isotope) ions in a linear chain! The image was taken using an off-the-shelf Thorlabs 0.1 NA objective and a cheap (~$300) CMOS camera. The ions are approximately 8 microns apart. Read more on the Physics and Astronomy webpage.</description>
     </item>
     
     <item>
@@ -803,6 +803,15 @@ Academic Tree  Notable recognitions  President&amp;rsquo;s Excellence in Researc
     </item>
     
     <item>
+      <title>Quantum simulation of spin models on an arbitrary lattice with trapped ions</title>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2012-korenblit-quantum-simulation-of-spin-models-on-an-arbitrary-lattice-with-trapped-ions/</link>
+      <pubDate>Thu, 27 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2012-korenblit-quantum-simulation-of-spin-models-on-an-arbitrary-lattice-with-trapped-ions/</guid>
+      <description>A collection of trapped atomic ions represents one of the most attractive platforms for the quantum simulation of interacting spin networks and quantum magnetism. Spin-dependent optical dipole forces applied to an ion crystal create long-range effective spin–spin interactions and allow the simulation of spin Hamiltonians that possess nontrivial phases and dynamics.</description>
+    </item>
+    
+    <item>
       <title>Quantum Simulation of Interacting Spin Models With Trapped Ions</title>
       <link>https://qiti.iqc.uwaterloo.ca/publications/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</link>
       <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
@@ -818,6 +827,15 @@ Academic Tree  Notable recognitions  President&amp;rsquo;s Excellence in Researc
       
       <guid>https://qiti.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</guid>
       <description>A quantum simulator is a well controlled quantum system that can simulate the behavior of another quantum system which may require exponentially large classical computing resources to understand otherwise. In the 1980s, Feynman proposed the use of quantum logic gates on a standard controllable quantum system to efficiently simulate the behavior of a model Hamiltonian.</description>
+    </item>
+    
+    <item>
+      <title>Quantum simulation and phase diagram of the transverse-field Ising model with three atomic spins</title>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2010-edwards-quantum-simulation-and-phase-diagram-of-the-transverse-field-ising-model-with-three-atomic-spins/</link>
+      <pubDate>Fri, 27 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2010-edwards-quantum-simulation-and-phase-diagram-of-the-transverse-field-ising-model-with-three-atomic-spins/</guid>
+      <description>We perform a quantum simulation of the Ising model with a transverse field using a collection of three trapped atomic ion spins. By adiabatically manipulating the Hamiltonian, we directly probe the ground state for a wide range of fields and form of the Ising couplings, leading to a phase diagram of magnetic order in this microscopic system.</description>
     </item>
     
     <item>

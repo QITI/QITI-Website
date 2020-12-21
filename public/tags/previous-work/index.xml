@@ -67,12 +67,39 @@
     </item>
     
     <item>
+      <title>Quantum simulation of spin models on an arbitrary lattice with trapped ions</title>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2012-korenblit-quantum-simulation-of-spin-models-on-an-arbitrary-lattice-with-trapped-ions/</link>
+      <pubDate>Thu, 27 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2012-korenblit-quantum-simulation-of-spin-models-on-an-arbitrary-lattice-with-trapped-ions/</guid>
+      <description>A collection of trapped atomic ions represents one of the most attractive platforms for the quantum simulation of interacting spin networks and quantum magnetism. Spin-dependent optical dipole forces applied to an ion crystal create long-range effective spin–spin interactions and allow the simulation of spin Hamiltonians that possess nontrivial phases and dynamics.</description>
+    </item>
+    
+    <item>
       <title>Onset of a quantum phase transition with a trapped ion quantum simulator</title>
       <link>https://qiti.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</link>
       <pubDate>Tue, 05 Jul 2011 00:00:00 +0000</pubDate>
       
       <guid>https://qiti.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</guid>
       <description>A quantum simulator is a well controlled quantum system that can simulate the behavior of another quantum system which may require exponentially large classical computing resources to understand otherwise. In the 1980s, Feynman proposed the use of quantum logic gates on a standard controllable quantum system to efficiently simulate the behavior of a model Hamiltonian.</description>
+    </item>
+    
+    <item>
+      <title>Quantum simulation and phase diagram of the transverse-field Ising model with three atomic spins</title>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2010-edwards-quantum-simulation-and-phase-diagram-of-the-transverse-field-ising-model-with-three-atomic-spins/</link>
+      <pubDate>Fri, 27 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2010-edwards-quantum-simulation-and-phase-diagram-of-the-transverse-field-ising-model-with-three-atomic-spins/</guid>
+      <description>We perform a quantum simulation of the Ising model with a transverse field using a collection of three trapped atomic ion spins. By adiabatically manipulating the Hamiltonian, we directly probe the ground state for a wide range of fields and form of the Ising couplings, leading to a phase diagram of magnetic order in this microscopic system.</description>
+    </item>
+    
+    <item>
+      <title>Quantum simulation of frustrated Ising spins with trapped ions</title>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</link>
+      <pubDate>Thu, 03 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</guid>
+      <description>Laser-cooled and trapped atomic ions form an ideal standard for the simulation of interacting quantum spin models. Effective spins are represented by appropriate internal energy levels within each ion, and the spins can be measured with near-perfect efficiency using state-dependent fluorescence techniques. By applying optical fields that exert optical dipole forces on the ions, their Coulomb interaction can be modulated in ways that give rise to long-range and tunable spin-spin interactions that can be reconfigured by shaping the spectrum and pattern of the laser fields.</description>
     </item>
     
     <item>

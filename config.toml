@@ -1,6 +1,6 @@
 baseURL = "https://qiti.iqc.uwaterloo.ca/"
 languageCode = "en-us"
-title = "Quantum Information with Trapped Ions"
+title = "QUANTUM INFORMATION WITH TRAPPED IONS"
 subtitle = "University of Waterloo"
 theme = "ananke"
 #SectionPagesMenu = "mainmenu" #comment
