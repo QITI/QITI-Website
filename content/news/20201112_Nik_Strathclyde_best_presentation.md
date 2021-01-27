@@ -10,3 +10,5 @@ University of Waterloo and University of Strathclyde, Glasgow, UK hosted their f
 His talk was judged to be the best UW presentation of the day! Congrats, Nik!
 
 <a href="https://uwaterloo.ca/international/news/student-wins-best-presenter-virtual-research-colloquium">UW press release<a/>
+
+<a href="https://uwaterloo.ca/writing-and-communication-centre/blog/post/interview-uws-award-winning-graduate-student-presenter">Interview for the Writing and Communication Centre Blog<a/>
