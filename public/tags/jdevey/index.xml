@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jdevey on QUANTUM INFORMATION WITH TRAPPED IONS</title>
+    <link>https://qiti.iqc.uwaterloo.ca/tags/jdevey/</link>
+    <description>Recent content in jdevey on QUANTUM INFORMATION WITH TRAPPED IONS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://qiti.iqc.uwaterloo.ca/tags/jdevey/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jakob Devey</title>
+      <link>https://qiti.iqc.uwaterloo.ca/members/jakob-devey/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/members/jakob-devey/</guid>
+      <description>Working on dust trap for his co-op position as a Laboratory Assistant at the University of Waterloo.</description>
+    </item>
+    
+  </channel>
+</rss>
