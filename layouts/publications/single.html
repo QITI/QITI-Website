@@ -10,17 +10,17 @@
         <p class="f5 b gray mv1 pv1">
    {{ substr .Date 0 4 }}          
         </p>
-        <p class="f3 b mv1 pv1">
+        <p class="f3 b mv1 pv1 tl">
 {{ .Title }}
         </p>
-        <p class="f4 dark-gray mv1 pv1">
+        <p class="f4 dark-gray mv1 pv1 tl">
           {{ partial "authorList.html" . }}
         </p>
-        <p class="f4 mid-gray mv1 pv1">
+        <p class="f4 mid-gray mv1 pv1 tl">
           {{ partial "journal-link-bar.html" . }}
         </p>
       </header>
-      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
+      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray tl">
           <div class="dtc v-top">
             {{ if .Params.image }}
 			  {{ $img := .Params.image | absURL }}

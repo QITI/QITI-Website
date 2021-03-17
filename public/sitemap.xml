@@ -1,738 +1,450 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/news/20210304_paper_teoh2021_phonon/</loc>
+    <lastmod>2021-03-04T22:24:20-04:00</lastmod>
+  </url><url>
+    <loc>https://qiti.iqc.uwaterloo.ca/publications/2021-teoh-manipulating-phonons-of-a-trapped-ion-system-using-optical-tweezers/</loc>
+    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qiti.iqc.uwaterloo.ca/tags/qiti/</loc>
+    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qiti.iqc.uwaterloo.ca/tags/</loc>
+    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20201112_nik_strathclyde_best_presentation/</loc>
     <lastmod>2020-11-12T22:24:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20201020_rajibul_presidents_research_excellence_award/</loc>
     <lastmod>2020-10-20T22:24:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2020-sajjan-msc-thesis/</loc>
     <lastmod>2020-10-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/tags/</loc>
-    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/thesis/</loc>
     <lastmod>2020-10-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/alumn/</loc>
     <lastmod>2020-09-30T21:16:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/coop/</loc>
     <lastmod>2020-09-30T21:16:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/scott-hubele/</loc>
     <lastmod>2020-09-30T21:16:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/shubele/</loc>
     <lastmod>2020-09-30T21:16:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/aaschieb/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/anthony-vogliano/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/aryanna-schiebelbein-/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/avogliano/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/grad/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/j23ryan/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/jakob-devey/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/jdevey/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/jillian-ryan/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/mariah-de-torres/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/mdetorre/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/nathan-snider/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/nathaniel-ho-wah-johnston/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/nhjohnst/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/nj2snide/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/qinghao-zhang/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/samuel-slavko-laketa/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/sslaketa/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/zqinghao/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/manas-sajjan/</loc>
     <lastmod>2020-08-30T22:50:58-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/m2sajjan/</loc>
     <lastmod>2020-08-30T22:50:58-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/rachel-ditommaso/</loc>
     <lastmod>2020-08-30T21:42:32-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/rwditommaso/</loc>
     <lastmod>2020-08-30T21:42:32-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/michael-veenstra/</loc>
     <lastmod>2020-08-30T21:16:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/mmveenstra/</loc>
     <lastmod>2020-08-30T21:16:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20200814_manas_msc_thesis_defence/</loc>
     <lastmod>2020-08-14T22:24:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20200716_iqc_feature_video/</loc>
     <lastmod>2020-07-16T22:24:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/matt-day/</loc>
     <lastmod>2020-07-01T20:42:06-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/m9day/</loc>
     <lastmod>2020-07-01T20:42:06-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/postdoc/</loc>
     <lastmod>2020-07-01T20:42:06-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20200601_damop/</loc>
     <lastmod>2020-06-01T22:24:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20200512_tucan/</loc>
     <lastmod>2020-05-12T22:24:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/</loc>
     <lastmod>2020-05-10T21:50:10-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/research/</loc>
     <lastmod>2020-05-10T15:07:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/group/</loc>
     <lastmod>2020-05-10T13:52:35-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/sarah-mayer/</loc>
     <lastmod>2020-05-07T22:01:38-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/natasha-willis/</loc>
     <lastmod>2020-05-07T22:01:34-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/luyao-wang/</loc>
     <lastmod>2020-05-07T22:01:31-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/louisa-huang/</loc>
     <lastmod>2020-05-07T22:01:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/adminassistant/</loc>
     <lastmod>2020-05-02T21:16:17-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/m2roche/</loc>
     <lastmod>2020-05-02T21:16:17-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/michele-roche/</loc>
     <lastmod>2020-05-02T21:16:17-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/rajibul-islam/</loc>
     <lastmod>2020-05-02T21:14:38-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/krislam/</loc>
     <lastmod>2020-05-02T21:14:38-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/pi/</loc>
     <lastmod>2020-05-02T21:14:38-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/gatathed/</loc>
     <lastmod>2020-05-02T01:42:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/gaurav-ashish-tathed/</loc>
     <lastmod>2020-05-02T01:42:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/richard-lewis-hahn/</loc>
     <lastmod>2020-05-02T01:42:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/rlhahn/</loc>
     <lastmod>2020-05-02T01:42:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/</loc>
     <lastmod>2020-03-25T01:18:35-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/</loc>
     <lastmod>2020-03-25T00:07:13-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/</loc>
     <lastmod>2020-03-25T00:04:23-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20200121_machine_learning_paper_published/</loc>
     <lastmod>2020-01-21T22:25:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2020-machine-learning-design-of-a-trapped-ion-quantum-spin-simulator/</loc>
     <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://qiti.iqc.uwaterloo.ca/tags/qiti/</loc>
-    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/ajcon/</loc>
     <lastmod>2020-01-02T01:42:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/austin-con/</loc>
     <lastmod>2020-01-02T01:42:32+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/michael-spinazze/</loc>
     <lastmod>2020-01-01T21:42:32-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20191217_qsim_review_arxiv/</loc>
     <lastmod>2019-12-17T22:25:49-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20191008_machine_learning_arxiv/</loc>
     <lastmod>2019-10-08T22:25:42-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2019-holographic-optical-manipulation-of-trapped-ions-for-quantum-simulation/</loc>
     <lastmod>2019-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2019-design-and-construction-of-an-ion-trapping-apparatus-for-quantum-simulation-experiments/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190924_era/</loc>
     <lastmod>2019-09-24T22:25:38-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190911_gilbert_nikhil_msc_graduation/</loc>
     <lastmod>2019-09-11T22:25:33-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/niel-mistry/</loc>
     <lastmod>2019-09-01T22:01:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/ali-binai-motlagh/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/ali.binai-motlagh/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/nikolay-videnov/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/nnvideno/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/yhteoh/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/yi-hong-teoh/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/z253sun/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/zewen-sun/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190813_ion-pics/</loc>
     <lastmod>2019-08-13T22:25:26-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190806_cap_invited_talk/</loc>
     <lastmod>2019-08-06T22:25:15-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190719_first_ions/</loc>
     <lastmod>2019-07-19T22:25:26-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190627_new_home_qiti/</loc>
     <lastmod>2019-06-27T22:25:22-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190612_sainath_dean_of_science_award/</loc>
     <lastmod>2019-06-12T22:25:19-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190527_damop2019/</loc>
     <lastmod>2019-05-27T22:25:12-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190506_new_co-op_duale_josh/</loc>
     <lastmod>2019-05-06T22:25:09-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190502_unm_seminar/</loc>
     <lastmod>2019-05-02T22:25:06-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/joshua-da-costa/</loc>
     <lastmod>2019-05-01T22:01:36-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/duale-omar/</loc>
     <lastmod>2019-05-01T22:01:35-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190426/</loc>
     <lastmod>2019-04-26T22:25:03-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190426_paper_npjqi/</loc>
     <lastmod>2019-04-26T22:25:03-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2019-dynamic-hamiltonian-engineering-of-2d-rectangular-lattices-in-a-one-dimensional-ion-chain/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190416_tucan/</loc>
     <lastmod>2019-04-16T22:25:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190107_new_co-ops_daniel_nathasha/</loc>
     <lastmod>2019-01-07T22:24:57-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/daniel-francis-julien-neitzert/</loc>
     <lastmod>2019-01-01T22:01:32-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180901_manas_joins/</loc>
     <lastmod>2018-09-01T22:24:50-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180822_kitp_talk/</loc>
     <lastmod>2018-08-22T22:24:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180818_hybrid_simulation_arxiv/</loc>
     <lastmod>2018-08-18T22:24:35-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180815_nik_cupc/</loc>
     <lastmod>2018-08-15T22:24:31-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180807_sainath_msc_defense/</loc>
     <lastmod>2018-08-07T22:24:24-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2018-developing-theoretical-and-experimental-tools-for-a-hybrid-quantum-simulator-based-on-trapped-ions/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180528_damop/</loc>
     <lastmod>2018-05-28T22:24:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180501_roland_yi-hong_joins/</loc>
     <lastmod>2018-05-01T22:24:16-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/roland-habl%C3%BCtzel/</loc>
     <lastmod>2018-05-01T20:42:06-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/rhabluet/</loc>
     <lastmod>2018-05-01T20:42:06-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/kaleb-ruscitti/</loc>
     <lastmod>2018-04-30T22:01:30-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2018-single-atom-heat-machines-enabled-by-energy-quantization/</loc>
     <lastmod>2018-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180413_tucan/</loc>
     <lastmod>2018-04-13T22:24:12-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180315_kaleb_phunc/</loc>
     <lastmod>2018-03-15T22:24:06-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20180101_sainath_joins/</loc>
     <lastmod>2018-01-01T22:23:58-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/ilango-maran/</loc>
     <lastmod>2017-12-01T22:01:29-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20170901_gilbert_nikhil_join/</loc>
     <lastmod>2017-09-01T22:23:45-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/sainath-motlakunta/</loc>
     <lastmod>2017-09-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/smotlaku/</loc>
     <lastmod>2017-09-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/c5shih/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/chung-you-shih/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/nikhil-kotibhaskar/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/nkotibha/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2017-multislip-friction-with-a-single-ion/</loc>
     <lastmod>2017-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20170628_temp_home_qiti_lab/</loc>
     <lastmod>2017-06-28T22:23:38-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/tony-kappen/</loc>
     <lastmod>2017-05-07T22:01:26-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20170501_fereshteh_joins/</loc>
     <lastmod>2017-05-01T22:23:30-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/jieren-deng/</loc>
     <lastmod>2017-05-01T22:01:28-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/members/fereshteh-rajabi/</loc>
     <lastmod>2017-05-01T21:16:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/f3rajabi/</loc>
     <lastmod>2017-05-01T21:16:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20170103_first_students/</loc>
     <lastmod>2017-01-03T22:23:25-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/previous-work/</loc>
     <lastmod>2016-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</loc>
     <lastmod>2016-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</loc>
     <lastmod>2015-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</loc>
     <lastmod>2015-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2014-beat-note-stabilization-of-mode-locked-lasers-for-quantum-information-processing/</loc>
     <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/maryland/</loc>
     <lastmod>2014-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2013-quantum-catalysis-of-magnetic-phase-transitions-in-a-quantum-simulator/</loc>
     <lastmod>2013-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2013-emergence-and-frustration-of-magnetic-order-with-variable-range-interactions-in-a-trapped-ion-quantum-simulator/</loc>
     <lastmod>2013-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2012-korenblit-quantum-simulation-of-spin-models-on-an-arbitrary-lattice-with-trapped-ions/</loc>
     <lastmod>2012-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2012-quantum-simulation-of-interacting-spin-models-with-trapped-ions/</loc>
     <lastmod>2012-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2011-onset-of-a-quantum-phase-transition-with-a-trapped-ion-quantum-simulator/</loc>
     <lastmod>2011-07-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2010-edwards-quantum-simulation-and-phase-diagram-of-the-transverse-field-ising-model-with-three-atomic-spins/</loc>
     <lastmod>2010-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2010-quantum-simulation-of-frustrated-ising-spins-with-trapped-ions/</loc>
     <lastmod>2010-06-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2009-entanglement-and-tunable-spin-spin-couplings-between-trapped-ions-using-multiple-transverse-modes/</loc>
     <lastmod>2009-09-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2009-large-scale-quantum-computation-in-an-anharmonic-linear-ion-trap/</loc>
     <lastmod>2009-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/tags/harvard/mit/</loc>
   </url>
-  
 </urlset>

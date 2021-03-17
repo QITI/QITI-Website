@@ -6,10 +6,25 @@
     <description>Recent content in Home on QUANTUM INFORMATION WITH TRAPPED IONS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Mar 2020 01:18:35 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2020 01:18:35 -0400</lastBuildDate><atom:link href="https://qiti.iqc.uwaterloo.ca/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>04 Mar 2021 - New paper on arXiv</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20210304_paper_teoh2021_phonon/</link>
+      <pubDate>Thu, 04 Mar 2021 22:24:20 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20210304_paper_teoh2021_phonon/</guid>
+      <description>Our manuscript titled &amp;ldquo;Manipulating phonons of a trapped-ion system using optical tweezers&amp;rdquo; is on arXiv! This is a theoretical and numerical research.
+[2021]Manipulating phonons of a trapped-ion system using optical tweezersYi Hong Teoh, Manas Sajjan, Zewen Sun, Fereshteh Rajabi, and Rajibul Islam.</description>
+    </item>
     
-	<atom:link href="https://qiti.iqc.uwaterloo.ca/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Manipulating phonons of a trapped-ion system using optical tweezers</title>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2021-teoh-manipulating-phonons-of-a-trapped-ion-system-using-optical-tweezers/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2021-teoh-manipulating-phonons-of-a-trapped-ion-system-using-optical-tweezers/</guid>
+      <description>Conventional radio-frequency ion traps provide limited controls over the confining potential. In this manuscript, we theoretically and numerically investigate a hybrid trapping architecture by incorporating optical tweezers (laser beams tightly focused on individual ions) in a conventional trap. The local control over the potential would offer many capabilities - such as engineering a target set of phonon modes, fixing the motional de-coupling problem in a multi-species ion system, and allowing novel experiments in quantum thermodynamics.</description>
+    </item>
     
     <item>
       <title>12 Nov, 2020 - Nik awarded with best presentation award!</title>
@@ -256,9 +271,9 @@ Outside of work, Michael enjoys soccer, mountain biking, and hands-on projects.<
       
       <guid>https://qiti.iqc.uwaterloo.ca/members/rajibul-islam/</guid>
       <description>Assistant Professor, Institute for Quantum Computing and Department of Physics and Astronomy, University of Waterloo
-UW Physics and Astronomy profile , IQC Profile , CV
+UW Physics and Astronomy profile, IQC Profile, CV
 Affiliate, Perimeter Institute for Theoretical Physics
-Academic Tree  Notable recognitions  President&amp;rsquo;s Excellence in Research Award, University of Waterloo (2020) Recognized by the Department of Physics and Astronomy for outstanding teaching (2019, &amp;lsquo;20) Early Researcher Award, Ontario Government (2019) Distinguished PhD Dissertation Award, University of Maryland (2012-13)   Teaching  PHYS 234 (Quantum Physics I, Winter 2019, &amp;lsquo;20, &amp;lsquo;21) PHYS 393 (Physical Optics, Winter 2020) PHYS 256 (Geometrical and Physical Optics, Fall 2017, &amp;lsquo;18)   </description>
+Academic TreeNotable recognitions President&amp;rsquo;s Excellence in Research Award, University of Waterloo (2020) Recognized by the Department of Physics and Astronomy for outstanding teaching (2019, &amp;lsquo;20) Early Researcher Award, Ontario Government (2019) Distinguished PhD Dissertation Award, University of Maryland (2012-13)  Teaching PHYS 234 (Quantum Physics I, Winter 2019, &amp;lsquo;20, &amp;lsquo;21) PHYS 393 (Physical Optics, Winter 2020) PHYS 256 (Geometrical and Physical Optics, Fall 2017, &amp;lsquo;18)  </description>
     </item>
     
     <item>
@@ -420,7 +435,7 @@ Academic Tree  Notable recognitions  President&amp;rsquo;s Excellence in Researc
       <pubDate>Tue, 13 Aug 2019 22:25:26 -0400</pubDate>
       
       <guid>https://qiti.iqc.uwaterloo.ca/news/20190813_ion-pics/</guid>
-      <description>Here’s a picture of eight laser-cooled Ytterbium (174 isotope) ions in a linear chain! The image was taken using an off-the-shelf Thorlabs 0.1 NA objective and a cheap (~$300) CMOS camera. The ions are approximately 8 microns apart. Read more on the Physics and Astronomy webpage. </description>
+      <description>Here’s a picture of eight laser-cooled Ytterbium (174 isotope) ions in a linear chain! The image was taken using an off-the-shelf Thorlabs 0.1 NA objective and a cheap (~$300) CMOS camera. The ions are approximately 8 microns apart. Read more on the Physics and Astronomy webpage.</description>
     </item>
     
     <item>
