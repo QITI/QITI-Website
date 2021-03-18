@@ -13,22 +13,22 @@
         <p class="f6 b helvetica tracked">
         <a href="{{.Section | absURL }}" class="color-inherit dim link">{{ humanize .Section | upper  }} </a>
         </p>
-        <h1 class="f1">
+        <h1 class="f3">
           {{ .Title }}
         </h1>
       </header>
-      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
+	  
+	  
+      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray tl">
         {{ if $isImg }}
         <div class="dtc v-top">
             {{ $img := .Params.image | absURL}}
-            <img src="{{ $img }}" class="mw5 db" alt="image from {{.Title}}" width="200px"/>
+            <img src="{{ $img }}" class="fl-l ft db ma4-l w-100-l mw5-l" alt="image from {{.Title}}" width="200px"/>
         </div>
         {{ end }}
-        <div class="dtc v-top pl3">
           <p class="lh-copy mv0">
             {{ .Content }}
           </p>
-        </div>
       </div>
     </article>
   </div>

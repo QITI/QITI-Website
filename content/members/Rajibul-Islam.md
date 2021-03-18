@@ -19,13 +19,12 @@ Assistant Professor, Institute for Quantum Computing and Department of Physics a
 
 [UW Physics and Astronomy profile](https://uwaterloo.ca/physics-astronomy/people-profiles/k-rajibul-islam), [IQC Profile](https://services.iqc.uwaterloo.ca/people/profile/krislam/), <a href="\Miscellaneous_docs\CV_Islam_Aug2020.pdf">CV</a>
 
-Affiliate, Perimeter Institute for Theoretical Physics
+Affiliate Scientist, TRIUMF and Perimeter Institute for Theoretical Physics
 
 [Academic Tree](https://academictree.org/physics/tree.php?pid=172624)
 
 <hr>
-
-<h1>Notable recognitions</h1>
+<h2>Notable recognitions</h2>
 
 * President's Excellence in Research Award, University of Waterloo (2020)
 * Recognized by the Department of Physics and Astronomy for outstanding teaching  (2019, '20)
@@ -33,12 +32,15 @@ Affiliate, Perimeter Institute for Theoretical Physics
 * Distinguished PhD Dissertation Award, University of Maryland (2012-13)
 
 <hr>
-
-<h1>Teaching</h1>
+<h2>Teaching</h2>
 
 * PHYS 234 (Quantum Physics I, Winter 2019, '20, '21)
 * PHYS 393 (Physical Optics, Winter 2020)
 * PHYS 256 (Geometrical and Physical Optics, Fall 2017, '18)
 
 <hr>
+<h2>Outreach</h2>
 
+Dr. Islam is actively involved with several science outreach efforts. His activities at IQC include developing demonstration experiments (such as a 'dust ion trap') and conducting lab visits especially for young students. He is a co-founder of [bigyan.org.in](https://bigyan.org.in), a leading online science outreach platform in the Bengali (বাংলা) language. Bigyan (বিজ্ঞান, means science in Bengali) initiatives have been highlighted in Indian national media (such as [NDTV](https://www.ndtv.com/education/national-science-day-origami-paper-microscopes-to-be-given-to-rural-schools-by-bengali-science-porta-1664177) and [IndiaBioscience](https://indiabioscience.org/columns/indian-scenario/bigyan-org-in-a-science-outreach-platform-by-researchers-in-bengali)).
+
+<hr>
