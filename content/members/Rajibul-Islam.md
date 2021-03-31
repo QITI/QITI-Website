@@ -1,5 +1,6 @@
 ---
 title: "Dr. K. Rajibul Islam"
+orcid: "0000-0002-6483-8932"
 date: 2020-05-02T21:14:38-04:00
 draft: false
 image: "images/people/krislam.jpg"
