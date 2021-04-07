@@ -2,7 +2,7 @@
 title: "29 Mar 2021 - Rajibul takes part in NPR Podcast"
 date: 2021-03-29T22:24:20-04:00
 draft: false
-image: 
+image: "images/news/npr_shortwave.png"
 ---
 
 Rajibul took part in a podcast on the National Public Radio (NPR) along with Geoff Brumfiel of NPR, Chris Monroe, co-founder of IonQ and Marissa Giustina, Google.
