@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://qiti.iqc.uwaterloo.ca/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qiti.iqc.uwaterloo.ca/tags/qiti/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qiti.iqc.uwaterloo.ca/tags/</loc>
+    <lastmod>2021-04-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20210329_npr_podcast/</loc>
     <lastmod>2021-03-29T22:24:20-04:00</lastmod>
   </url><url>
@@ -9,12 +18,6 @@
     <lastmod>2021-03-04T22:24:20-04:00</lastmod>
   </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/publications/2021-teoh-manipulating-phonons-of-a-trapped-ion-system-using-optical-tweezers/</loc>
-    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiti.iqc.uwaterloo.ca/tags/qiti/</loc>
-    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qiti.iqc.uwaterloo.ca/tags/</loc>
     <lastmod>2021-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20201112_nik_strathclyde_best_presentation/</loc>
@@ -298,9 +301,6 @@
   </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190416_tucan/</loc>
     <lastmod>2019-04-16T22:25:00-04:00</lastmod>
-  </url><url>
-    <loc>https://qiti.iqc.uwaterloo.ca/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qiti.iqc.uwaterloo.ca/news/20190107_new_co-ops_daniel_nathasha/</loc>
     <lastmod>2019-01-07T22:24:57-04:00</lastmod>

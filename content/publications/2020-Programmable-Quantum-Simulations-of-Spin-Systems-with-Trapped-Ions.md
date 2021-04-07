@@ -1,12 +1,12 @@
 ---
 title: "Programmable Quantum Simulations of Spin Systems with Trapped Ions"
 authors: [ ['C. Monroe'], ['W. C. Campbell'], ['L. M. Duan'], ['Z. X. Gong'], ['A. V. Gorshkov'], ['P. Hess'], ['R. Islam', 'krislam'], ['K. Kim'], ['G. Pagano'], ['P. Richerme'], ['C. Senko'], ['N. Y. Yao'] ]
-link: ""
-journal: ""
-volume: ""
-issue: ""
-date: 2019-04-01T00:00:00-00:00
-DOI: 
+link: "https://doi.org/10.1103/RevModPhys.93.025001"
+journal: "Reviews of Modern Physics"
+volume: "93"
+issue: "2"
+date: 2021-04-07T00:00:00-00:00
+DOI: 10.1103/RevModPhys.93.025001
 draft: false
 arXiv: "1912.07845"
 tags:
