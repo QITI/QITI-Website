@@ -2,7 +2,7 @@
 title: "Dynamical Hamiltonian engineering of 2D rectangular lattices in a one-dimensional ion chain"
 authors: [['F. Rajabi', 'f3rajabi'], ['S. Motlakunta', 'smotlaku'], ['C. Shih', 'c5shih'], ['N. Kotibhaskar', 'nkotibha'], ['Q. Quraishi'], ['A. Ajoy'], ['R. Islam', 'krislam']]
 link: "http://dx.doi.org/10.1038/s41534-019-0147-x"
-journal: "npj Quantum Inf"
+journal: "npj Quantum Information"
 volume: "5"
 issue: "32"
 date: 2019-04-26T00:00:00-00:00
