@@ -1,6 +1,6 @@
 New Hugo website for QITI lab.
 
-
+[![github pages](https://github.com/QITI/QITI-Website/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/QITI/QITI-Website/actions/workflows/gh-pages.yml)
 
 To run a local copy:
 * Install hugo:
