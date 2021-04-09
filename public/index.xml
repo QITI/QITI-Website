@@ -8,6 +8,25 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Mar 2020 01:18:35 -0400</lastBuildDate><atom:link href="https://qiti.iqc.uwaterloo.ca/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>08 Apr 2021 - paper on holographic optical addressing of ions published</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20210408_dmd_paper/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20210408_dmd_paper/</guid>
+      <description>Our paper on ultra-precise holographic optical addressing of ions is publishedin the Nature group journal npj Quantum Information! This is an experimental research.
+[2021]Reprogrammable and high-precision holographic optical addressing of trapped ions for scalable quantum controlChung-You Shih, Sainath Motlakunta, Nikhil Kotibhaskar, Manas Sajjan, Roland Hablützel, and Rajibul Islam.</description>
+    </item>
+    
+    <item>
+      <title>Reprogrammable and high-precision holographic optical addressing of trapped ions for scalable quantum control</title>
+      <link>https://qiti.iqc.uwaterloo.ca/publications/2021-shih-dmd-paper/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/publications/2021-shih-dmd-paper/</guid>
+      <description>We demonstrate programmable, holographic optical addressing of trapped Yb+ at λ=369 nm. Using the ion as a sensor, we characterize the total optical aberrations in the entire beam path. We then compensate for the aberration by feeding back onto the hologram, such that the residual aberration at the ion is about λ/20, which is smaller than specifications for individual commercial optic.</description>
+    </item>
+    
+    <item>
       <title>Programmable Quantum Simulations of Spin Systems with Trapped Ions</title>
       <link>https://qiti.iqc.uwaterloo.ca/publications/2020-programmable-quantum-simulations-of-spin-systems-with-trapped-ions/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
@@ -17,12 +36,12 @@
     </item>
     
     <item>
-      <title>29 Mar 2021 - Rajibul takes part in NPR Podcast</title>
+      <title>29 Mar 2021 - Rajibul shares his views on quantum computing in NPR Podcast</title>
       <link>https://qiti.iqc.uwaterloo.ca/news/20210329_npr_podcast/</link>
       <pubDate>Mon, 29 Mar 2021 22:24:20 -0400</pubDate>
       
       <guid>https://qiti.iqc.uwaterloo.ca/news/20210329_npr_podcast/</guid>
-      <description>Rajibul took part in a podcast on the National Public Radio (NPR) along with Geoff Brumfiel of NPR, Chris Monroe, co-founder of IonQ and Marissa Giustina, Google.
+      <description>Rajibul took part in a podcast on the National Public Radio (NPR) along with Emily Kwong and Geoff Brumfiel of NPR, Chris Monroe, co-founder of IonQ and Marissa Giustina, Google.
 </description>
     </item>
     
@@ -536,15 +555,6 @@ Academic TreeNotable recognitions President&amp;rsquo;s Excellence in Researc
       
       <guid>https://qiti.iqc.uwaterloo.ca/members/duale-omar/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>26 Apr 2019 - paper on npj Quantum Information</title>
-      <link>https://qiti.iqc.uwaterloo.ca/news/20190426/</link>
-      <pubDate>Fri, 26 Apr 2019 22:25:03 -0400</pubDate>
-      
-      <guid>https://qiti.iqc.uwaterloo.ca/news/20190426/</guid>
-      <description>“Dynamical Hamiltonian engineering of 2D rectangular lattices in a one-dimensional ion chain” is published in npj Quantum Information (Nature Publishing Group). (npj Quantum Information 5, 32 (2019))</description>
     </item>
     
     <item>

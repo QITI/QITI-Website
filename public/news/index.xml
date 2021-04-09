@@ -8,12 +8,22 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 10 May 2020 21:50:10 -0400</lastBuildDate><atom:link href="https://qiti.iqc.uwaterloo.ca/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>29 Mar 2021 - Rajibul takes part in NPR Podcast</title>
+      <title>08 Apr 2021 - paper on holographic optical addressing of ions published</title>
+      <link>https://qiti.iqc.uwaterloo.ca/news/20210408_dmd_paper/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 -0400</pubDate>
+      
+      <guid>https://qiti.iqc.uwaterloo.ca/news/20210408_dmd_paper/</guid>
+      <description>Our paper on ultra-precise holographic optical addressing of ions is publishedin the Nature group journal npj Quantum Information! This is an experimental research.
+[2021]Reprogrammable and high-precision holographic optical addressing of trapped ions for scalable quantum controlChung-You Shih, Sainath Motlakunta, Nikhil Kotibhaskar, Manas Sajjan, Roland Hablützel, and Rajibul Islam.</description>
+    </item>
+    
+    <item>
+      <title>29 Mar 2021 - Rajibul shares his views on quantum computing in NPR Podcast</title>
       <link>https://qiti.iqc.uwaterloo.ca/news/20210329_npr_podcast/</link>
       <pubDate>Mon, 29 Mar 2021 22:24:20 -0400</pubDate>
       
       <guid>https://qiti.iqc.uwaterloo.ca/news/20210329_npr_podcast/</guid>
-      <description>Rajibul took part in a podcast on the National Public Radio (NPR) along with Geoff Brumfiel of NPR, Chris Monroe, co-founder of IonQ and Marissa Giustina, Google.
+      <description>Rajibul took part in a podcast on the National Public Radio (NPR) along with Emily Kwong and Geoff Brumfiel of NPR, Chris Monroe, co-founder of IonQ and Marissa Giustina, Google.
 </description>
     </item>
     
@@ -199,15 +209,6 @@ IQC press release</description>
       
       <guid>https://qiti.iqc.uwaterloo.ca/news/20190502_unm_seminar/</guid>
       <description>Rajibul gives a seminar and interacts with researchers at the Center for Quantum Information and Control (CQuIC), University of New Mexico.</description>
-    </item>
-    
-    <item>
-      <title>26 Apr 2019 - paper on npj Quantum Information</title>
-      <link>https://qiti.iqc.uwaterloo.ca/news/20190426/</link>
-      <pubDate>Fri, 26 Apr 2019 22:25:03 -0400</pubDate>
-      
-      <guid>https://qiti.iqc.uwaterloo.ca/news/20190426/</guid>
-      <description>“Dynamical Hamiltonian engineering of 2D rectangular lattices in a one-dimensional ion chain” is published in npj Quantum Information (Nature Publishing Group). (npj Quantum Information 5, 32 (2019))</description>
     </item>
     
     <item>
