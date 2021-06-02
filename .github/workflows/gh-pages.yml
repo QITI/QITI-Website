@@ -28,12 +28,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-      - name: deploy file
-        uses: wlixcc/SFTP-Deploy-Action@v1.0
-        with:
-          username: 'qiti221'
-          server: 'qiti.iqc.uwaterloo.ca'
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
-          local_path: './public/*'
-          remote_path: '/public/'
-          args: '-o ConnectTimeout=5'
