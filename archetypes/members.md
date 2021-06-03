@@ -7,7 +7,7 @@ office:
 extention:
 email:
 previousInstitution:
-curentInstitution:
+currentInstitution:
 draft: true
 tags:
 ---

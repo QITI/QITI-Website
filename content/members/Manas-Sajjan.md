@@ -8,7 +8,7 @@ office: "QNC B213"
 extention: "x30172"
 email: "m2sajjan@uwaterloo.ca"
 previousInstitution: "PhD in Theoretical Chemistry/Chemical Physics , University of Chicago, 2018"
-curentInstitution: "Postdoc, Purdue University"
+currentInstitution: "Postdoc, Purdue University"
 tags:
  - "alumn"
  - "m2sajjan"

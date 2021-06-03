@@ -8,7 +8,7 @@ office:
 extention:
 email: "mmveenstra@uwaterloo.ca"
 previousInstitution:
-curentInstitution: 
+currentInstitution: 
 tags:
  - "alumn"
  - "COOP"

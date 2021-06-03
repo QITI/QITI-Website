@@ -8,7 +8,7 @@ office:
 extention:
 email: "ilango.1595@gmail.com"
 previousInstitution: 
-curentInstitution: 
+currentInstitution: 
 tags: 
  - "alumn"
  - "COOP"

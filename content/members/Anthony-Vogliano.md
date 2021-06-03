@@ -8,7 +8,7 @@ office:
 extention: 
 email: "avogliano@uwaterloo.ca"
 previousInstitution: "University of California, Berkeley"
-curentInstitution: 
+currentInstitution: 
 tags:
  - "grad"
  - "avogliano"

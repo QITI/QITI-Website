@@ -8,7 +8,7 @@ office:
 extention: 
 email: "ali.binai-motlagh@uwaterloo.ca"
 previousInstitution: "Dalhousie University (BSc, Physics)"
-curentInstitution: 
+currentInstitution: 
 tags:
  - "grad"
  - "ali.binai-motlagh"

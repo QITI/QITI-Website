@@ -8,7 +8,7 @@ office:
 extention:
 email: "shubele@ualberta.ca"
 previousInstitution:
-curentInstitution: "LMU, Munich" 
+currentInstitution: "LMU, Munich" 
 tags:
  - "alumn"
  - "COOP"

@@ -8,7 +8,7 @@ office: "QNC 4123"
 extention: "x37379"
 email: "m2roche@uwaterloo.ca"
 previousInstitution:
-curentInstitution: 
+currentInstitution: 
 tags:
  - "adminAssistant"
  - "m2roche"

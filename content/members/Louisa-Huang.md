@@ -8,7 +8,7 @@ office:
 extention:
 email:
 previousInstitution: "Wellesley College, MA"
-curentInstitution: 
+currentInstitution: 
 tags: 
  - "alumn"
  - "COOP"

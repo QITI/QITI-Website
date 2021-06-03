@@ -9,7 +9,7 @@ office: "QNC 3202"
 extention: "x39025"
 email: "smotlakunta@uwaterloo.ca"
 previousInstitution: "Indian Institute of Science Education and Research, Pune"
-curentInstitution: 
+currentInstitution: 
 tags:
  - "grad"
  - "smotlaku"

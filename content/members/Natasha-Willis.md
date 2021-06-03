@@ -8,7 +8,7 @@ office:
 extention:
 email: "ncwillis@edu.uwaterloo.ca"
 previousInstitution: 
-curentInstitution: 
+currentInstitution: 
 tags: 
  - "alumn"
  - "COOP"

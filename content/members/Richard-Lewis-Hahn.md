@@ -1,5 +1,5 @@
 ---
-curentInstitution: null
+currentInstitution: null
 date: 2020-05-02 01:42:32
 draft: false
 email: rlhahn@edu.uwaterloo.ca

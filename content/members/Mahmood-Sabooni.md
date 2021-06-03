@@ -8,7 +8,7 @@ office: "QNC 4318"
 extention: "x39074"
 email: "msabooni@uwaterloo.ca"
 previousInstitution: "UQML lab – Institute for Quantum Computing"
-curentInstitution:
+currentInstitution:
 googleScholar: "https://scholar.google.com/citations?hl=en&user=vxEf0r0AAAAJ"
 tags:
  - "postDoc"

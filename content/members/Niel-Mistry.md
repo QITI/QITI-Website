@@ -8,7 +8,7 @@ office:
 extention:
 email: "niel.mistry@edu.uwaterloo.ca"
 previousInstitution: 
-curentInstitution: 
+currentInstitution: 
 tags: 
  - "alumn"
  - "COOP"

@@ -8,7 +8,7 @@ office: "QNC 3114"
 extention: "x39044"
 email: "fereshte.rajabi@gmail.com"
 previousInstitution: "Western University, Ontario"
-curentInstitution: 
+currentInstitution: 
 tags:
  - "postDoc"
  - "f3rajabi"

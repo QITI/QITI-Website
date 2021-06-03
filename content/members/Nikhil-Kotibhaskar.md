@@ -8,7 +8,7 @@ office: "QNC B213"
 extention: "x30172"
 email: "nkotibhaskar@uwaterloo.ca"
 previousInstitution: "Indian Institute of Science, Bangalore"
-curentInstitution: 
+currentInstitution: 
 tags:
  - "grad"
  - "nkotibha"

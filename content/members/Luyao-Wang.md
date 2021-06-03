@@ -8,7 +8,7 @@ office:
 extention:
 email:
 previousInstitution: 
-curentInstitution: 
+currentInstitution: 
 tags: 
  - "alumn"
  - "COOP"

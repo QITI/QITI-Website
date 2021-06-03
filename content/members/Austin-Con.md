@@ -1,5 +1,5 @@
 ---
-curentInstitution: null
+currentInstitution: null
 date: 2020-01-02 01:42:32
 draft: false
 email: ajcon@edu.uwaterloo.ca
@@ -11,5 +11,6 @@ tags: [COOP, ajcon, alumn]
 tenure: Undergraduate co-op student (Jan-Apr, Sep-Dec, 2020)
 title: Austin Con
 ---
+
 
 

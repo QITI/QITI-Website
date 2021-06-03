@@ -8,7 +8,7 @@ office: "QNC B206"
 extention: 
 email: "z253sun@uwaterloo.ca"
 previousInstitution: 
-curentInstitution: 
+currentInstitution: 
 tags:
  - "grad"
  - "z253sun"

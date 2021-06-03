@@ -8,7 +8,7 @@ office:
 extention:
 email: "dfjulienneitzert@edu.uwaterloo.ca"
 previousInstitution: 
-curentInstitution:
+currentInstitution:
 tags: 
  - "alumn"
  - "COOP"

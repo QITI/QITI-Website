@@ -9,7 +9,7 @@ office: "Office – Quantum Nano Centre (QNC 4109)"
 extention: "+1 519 888 4567 ext. 31995 (Office), 32236/7/8 (labs)"
 email: "krislam@uwaterloo.ca"
 previousInstitution: "Massachusetts Institute of Technology (Postdoc, 2015-16);  Harvard University (Postdoc, 2012-15); University of Maryland (PhD, 2007-12)"
-curentInstitution: 
+currentInstitution: 
 googleScholar: "https://scholar.google.com/citations?user=wV7m0q8AAAAJ&hl=en"
 tags:
  - "PI"

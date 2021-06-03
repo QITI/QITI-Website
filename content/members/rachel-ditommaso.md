@@ -8,7 +8,7 @@ office:
 extention:
 email: "rwditommaso@uwaterloo.ca"
 previousInstitution: 
-curentInstitution: 
+currentInstitution: 
 tags:
  - "alumn"
  - "COOP"

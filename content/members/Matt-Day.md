@@ -8,7 +8,7 @@ office: "QNC 3116"
 extention: "x39045"
 email: "m9day@uwaterloo.ca"
 previousInstitution: "University of Bristol, PhD in Quantum Engineering (2014 – 2018)"
-curentInstitution: 
+currentInstitution: 
 googleScholar: "https://scholar.google.com/citations?user=h35ZdKcAAAAJ&hl=en"
 tags:
  - "postDoc"

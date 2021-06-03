@@ -8,7 +8,7 @@ office:
 extention:
 email: "jvdacost@uwaterloo.ca"
 previousInstitution: 
-curentInstitution: 
+currentInstitution: 
 tags: 
  - "alumn"
  - "COOP"

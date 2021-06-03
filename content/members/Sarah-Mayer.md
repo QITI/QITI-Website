@@ -8,7 +8,7 @@ office:
 extention:
 email: "semayer@uwaterloo.ca"
 previousInstitution: 
-curentInstitution: 
+currentInstitution: 
 tags: 
  - "alumn"
  - "COOP"

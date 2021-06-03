@@ -8,7 +8,7 @@ office: "QNC B216"
 extention: "x36471"
 email: "nnvideno@uwaterloo.ca"
 previousInstitution: 
-curentInstitution: 
+currentInstitution: 
 tags:
  - "grad"
  - "nnvideno"

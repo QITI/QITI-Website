@@ -9,7 +9,7 @@ office: "QNC B213"
 extention: "x30172"
 email: "c5shih@uwaterloo.ca"
 previousInstitution: "National Taiwan University"
-curentInstitution: 
+currentInstitution: 
 tags:
  - "grad"
  - "c5shih"
