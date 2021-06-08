@@ -42,7 +42,8 @@
           {{ end }}
           {{ if .Params.currentInstitution }}
             <b>Current Institution:</b> {{ .Params.currentInstitution }}<br/>
-          {{ else if .Params.previousInstitution }}
+	  {{ end }}
+          {{ if .Params.previousInstitution }}
             <b>Previous Institution:</b> {{ .Params.previousInstitution }}<br/>
           {{ end }}
           {{ if .Params.googleScholar }}
