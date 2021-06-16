@@ -14,3 +14,6 @@ tags:
  - "m2roche"
 ---
 
+In her role as IQC Research Finance Coordinator, Michele is the administrative assistant for the group.
+
+https://services.iqc.uwaterloo.ca/people/profile/m2roche/
