@@ -8,7 +8,7 @@ image: images/people/rlhahn.jpg
 office: null
 previousInstitution: ''
 tags: [rlhahn, COOP]
-tenure: Undergrad co-op student (Jan-Apr, Sep-Dec, '20, May-Aug '21, Phys. 3B)
+tenure: Undergrad co-op student (Jan-Apr and Sep-Dec '20; May-Aug '21, Phys. 3B)
 title: Lewis Hahn
 ---
 I love snowboarding almost as much as I love physics. 
