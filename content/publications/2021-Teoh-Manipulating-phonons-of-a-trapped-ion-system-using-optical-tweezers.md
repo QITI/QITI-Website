@@ -1,11 +1,11 @@
 ---
 title: "Manipulating phonons of a trapped-ion system using optical tweezers"
 authors: [ ['Yi Hong Teoh','yhteoh'],['Manas Sajjan','m2sajjan'], ['Zewen Sun','z253sun'], ['Fereshteh Rajabi','f3rajabi'],['Rajibul Islam', 'krislam']]
-link: ""
-journal: ""
-volume: ""
-issue: ""
-date: 2021-03-04T00:00:00-00:00
+link: "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.022420"
+journal: "Phys. Rev. A"
+volume: "104"
+issue: "022420"
+date: 2021-08-19T00:00:00-00:00
 DOI: 
 draft: false
 arXiv: "2103.03273"
