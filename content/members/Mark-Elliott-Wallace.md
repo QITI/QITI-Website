@@ -7,8 +7,9 @@ extention: null
 image: images/people/mewallac.jpg
 office: null
 previousInstitution: ''
-tags: [mewallac, COOP]
+tags: [mewallac, COOP, alumn]
 tenure: Undergrad co-op student (May-Aug 2021, Mechanical Eng. 3A)
 title: Mark Elliott Wallace
 ---
+
 Mark Wallace is a Mechanical Engineering Undergraduate Student at the University of Waterloo. During the Spring 2021 term, he worked for QITI as a member of the QuantumION subgroup.
