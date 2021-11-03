@@ -1,5 +1,5 @@
 ---
-currentInstitution: null
+currentInstitution: Physics Undergraduate, University of Waterloo
 date: 2020-05-02 01:42:32
 draft: false
 email: null
@@ -7,8 +7,8 @@ extention: null
 image: images/people/gatathed.jpg
 office: null
 previousInstitution: null
-tags: [COOP, gatathed, alumn]
-tenure: Undergraduate co-op student (May - Dec, 2020)
+tags: [COOP, gatathed]
+tenure: Undergraduate co-op student (May-Dec '20, Sept-Dec '21, Phys. 3B)
 title: Gaurav Tathed
 ---
 
