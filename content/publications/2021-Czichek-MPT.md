@@ -1,11 +1,11 @@
 ---
 title: "Simulating a measurement-induced phase transition for trapped ion circuits"
 authors: [['Stefanie Czischek'], ['Giacomo Torlai'], ['Sayonee Ray'], ['Rajibul Islam', 'krislam'],['Roger G. Melko']]
-link: 
-journal:
-volume:
-issue:
-date: 2021-06-14T00:00:00-00:00
+link: "https://doi.org/10.1103/PhysRevA.104.062405"
+journal: "Phys. Rev. A"
+volume: "104"
+issue: "062405"
+date: 2021-12-03T00:00:00-00:00
 DOI: 
 draft: false
 arXiv: "2106.03769"
