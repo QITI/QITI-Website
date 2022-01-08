@@ -7,11 +7,10 @@ extention: null
 image: images/people/gatathed.jpg
 office: null
 previousInstitution: null
-tags: [COOP, gatathed]
+tags: [COOP, gatathed, alumn]
 tenure: Undergraduate co-op student (May-Dec '20, Sept-Dec '21, Phys. 3B)
 title: Gaurav Tathed
 ---
-
 
 Gaurav is pursuing Bachelors's Degree in Physics and Astronomy for the University of Waterloo. In the Spring 2020 term, he is working in the QITI group as an undergraduate co-op student. Gaurav is using COMSOL software to investigate noise sources in ion-traps, in particular the thermal effect of radio-frequency voltages on the trapping apparatus.
 
