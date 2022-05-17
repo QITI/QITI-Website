@@ -12,7 +12,7 @@ Laser-cooled trapped ions are among the most pristine and controllable quantum s
 
 
 - **Quantum simulation:** The QITI laboratory is building a programmable trapped-ion quantum simulator with <sup>171</sup>Yb<sup>+</sup> qubits, with optical controls at the level of individual ions for studying problems in quantum many-body physics and computation.
-- **QuantumION:** In collaboration with Prof. Crystal Senko’s group and supported by  [Transformative Quantum Technologies (TQT)](https://tqt.uwaterloo.ca/), we are building (*QuantumION*), a trapped-ion quantum simulator/computer based on a chain of <sup>133</sup>Ba<sup>+</sup> ions. <sup>133</sup>Ba<sup>+</sup> is regarded as the 'Goldilocks qubit' for their many wonderful properties including long lived metastable states, availability of spin-1/2 hyperfine qubits, and optical transitions in the visible range.
+- **QuantumION:** In collaboration with Prof. Crystal Senko’s group and supported by  [Transformative Quantum Technologies (TQT)](https://tqt.uwaterloo.ca/), we are building *QuantumION*, a trapped-ion quantum simulator/computer based on a chain of <sup>133</sup>Ba<sup>+</sup> ions. <sup>133</sup>Ba<sup>+</sup> is regarded as the 'Goldilocks qubit' for their many wonderful properties including long lived metastable states, availability of spin-1/2 hyperfine qubits, and optical transitions in the visible range.
 - **Quantum simulation algorithms:** We research on classical and quantum algorithms to make quantum simulation more efficient, e.g. by using modern machine learning methods. We collaborate with the [Perimeter Institute Quantum Intelligence Laboratory](https://www.perimeterinstitute.ca/research/research-initiatives/perimeter-institute-quantum-intelligence-lab-piquil)
 
 
