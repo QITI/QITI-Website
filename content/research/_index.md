@@ -37,7 +37,7 @@ nav: [ "QSim", "QuantumION", "Algorithms","Job opportunities"]
 <article style="background-color:rgb(90,75,90);width:100%;" class="post ph3 pv2 white">
 <h3>QuantumION - an open-access quantum computer for the research community
     </h3> 
-    <p>Together with Prof. Crystal Senko’s group, we are building an open-access, remotely operable trapped ion quantum computer (QuantumION). The hardware is based on 133Ba+ qubits in a Sandia HOA trap, with individual laser addressing to be able to perform arbitrary single and two-qubit quantum gates. The target commissioning of the machine is Fall 2021, with sixteen qubits. QuantumION is supported by Transformative Quantum Technologies (TQT).
+    <p>Together with Prof. Crystal Senko’s group, we are building an open-access, remotely operable trapped ion quantum computer (QuantumION). The hardware is based on 133Ba+ qubits in a Sandia HOA trap, with individual laser addressing to be able to perform arbitrary single and two-qubit quantum gates. QuantumION is supported by Transformative Quantum Technologies (TQT).
     </p>
 </article>
 
