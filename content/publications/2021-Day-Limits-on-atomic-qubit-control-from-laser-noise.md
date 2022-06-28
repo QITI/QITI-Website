@@ -1,12 +1,12 @@
 ---
 title: "Limits on atomic qubit control from laser noise"
 authors: [['Matthew L. Day','m9day'], ['Pei Jiang Low'],['Brendan M White'], ['Rajibul Islam', 'krislam'],['Crystal Senko']]
-link: 
-journal:
-volume:
-issue:
+link: "https://doi.org/10.1038/s41534-022-00586-4"
+journal: "npj Quantum Information"
+volume: "8"
+issue: "72"
 date: 2021-12-09T00:00:00-00:00
-DOI: 
+DOI: 10.1038/s41534-022-00586-4
 draft: false
 arXiv: "2112.04946"
 tags:

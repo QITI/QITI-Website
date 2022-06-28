@@ -1,17 +1,14 @@
 ---
-currentInstitution: 3B Physics Undergraduate, University of Waterloo
-date: 2021-05-01 00:00:00
+currentInstitution: Masters Student, University of Waterloo
+date: 2020-09-01 00:00:00
 draft: false
 email: rlhahn@uwaterloo.ca
 extention: null
 image: images/people/rlhahn.jpg
 office: null
-previousInstitution: ''
-tags: [rlhahn, COOP, alumn]
-tenure: Undergrad co-op student (Jan-Apr, Sep-Dec '20; May-Aug '21, Phys. 3B)
+previousInstitution: Undergraduate, University of Waterloo
+tags: [rlhahn, grad]
+tenure: MSc student (Spring 2022- )
 title: Lewis Hahn
 ---
-
-I love snowboarding almost as much as I love physics. 
-
-I work with the quantum simulation team on developing laboratory infrastructure, such as radio-frequency solutions to control trapped ion qubits.
+I enjoy snowboarding any chance I can get. 

@@ -12,4 +12,5 @@ tenure: Undergrad co-op student (Sept-Dec 2021, Mechatronics Eng. 3B)
 title: Levi Medeiros
 ---
 
+
 I'm a coop student working on the QuantomION team. I look forward to learning more about quantum computing and optics design.
