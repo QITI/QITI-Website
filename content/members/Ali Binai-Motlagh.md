@@ -12,5 +12,6 @@ currentInstitution:
 tags:
  - "grad"
  - "ali.binai-motlagh"
+ - "alumn"
 ---
 
