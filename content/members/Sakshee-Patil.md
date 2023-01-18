@@ -8,7 +8,7 @@ image: images/people/sspatil.jpg
 office: null
 previousInstitution: ''
 tags: [sspatil, COOP]
-tenure: Undergraduate researcher
+tenure: Research assistant
 title: Sakshee Patil
 ---
 Sakshee is a graduated student from Honours Physics who will be helping to align and characterize the pegboard.

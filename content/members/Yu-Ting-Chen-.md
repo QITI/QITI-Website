@@ -1,5 +1,5 @@
 ---
-currentInstitution: 'Postdoc'
+currentInstitution: 'Postdoc, University of Waterloo'
 date: 2020-09-01 00:00:00
 draft: false
 email: yu-ting.chen1@uwaterloo.ca
@@ -9,6 +9,6 @@ office: null
 previousInstitution: 'Harvard University'
 tags: [y377chen, postDoc]
 tenure: Postdoctoral fellow
-title: 'Yu-Ting Chen '
+title: 'Yu-Ting Chen'
 ---
-Dr. Yu-Ting Chen did her Ph.D. in Prof. Vladan Vuletic's group at MIT-Harvard Center for Ultracold Atoms (CUA) on Rydberg atoms. She currently works on QSim project of QITI Lab.
+Yu-Ting Chen is a Postdoctoral Fellow in the Department of Physics and Astronomy at the University of Waterloo. Her research focuses on quantum simulations with trapped ions. She received her Ph.D. from Harvard University in the Center for Ultracold Atoms, where she developed a platform for cavity quantum electrodynamics with Rydberg atom arrays.
