@@ -8,7 +8,7 @@ image: images/people/a2jahang.jpg
 office: null
 previousInstitution: ''
 tags: [a2jahang, postDoc]
-tenure: Postdoctoral fellow
+tenure: Postdoctoral fellow (Dec 2022 - )
 title: Akbar Jahangiri Jozani
 ---
 Dr. Akbar Jahangiri works as a Post Doc. for the Quantum ion project.
