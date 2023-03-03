@@ -1,14 +1,15 @@
 ---
 currentInstitution: null
-date: 2019-09-01 00:00:00
+date: 2021-12-31 00:00:00
 draft: false
 email: z253sun@uwaterloo.ca
 extention: null
 image: images/people/z253sun.jpg
 office: QNC B206
-previousInstitution: null
+previousInstitution: "Trent University"
+currentInstitution: "Max Planck Institute (PhD)"
 tags: [grad, z253sun, alumn]
-tenure: MSc (Sept 2019 - Dec 2021)
+tenure: MSc (2019 - 2021)
 title: Zewen Sun
 ---
 

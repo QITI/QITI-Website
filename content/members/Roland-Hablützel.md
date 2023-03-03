@@ -1,6 +1,6 @@
 ---
 title: "Dr. Roland Hablützel"
-date: 2018-05-01T20:42:06-04:00
+date: 2022-05-01T20:42:06-04:00
 draft: false
 image: "images/people/rhabluet.jpg"
 tenure: "Postdoctoral fellow (2018-2022)"
@@ -8,7 +8,7 @@ office: "QNC 3116"
 extention: "x39045"
 email: "rhabluet@uwaterloo.ca"
 previousInstitution: "Centre for Quantum Technologies, Singapore"
-currentInstitution: 
+currentInstitution: "National Quantum Computing Centre, UK (Staff scientist)"
 googleScholar: "https://scholar.google.com/citations?user=FaZB1WAAAAAJ&hl=en&oi=ao"
 tags:
  - "alumn"

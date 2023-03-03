@@ -1,6 +1,6 @@
 ---
 currentInstitution: Applied Mathematics Masters Student, University of Waterloo
-date: 2021-06-01 00:00:00
+date: 2022-12-08 00:00:00
 draft: false
 email: da2mclar@uwaterloo.ca
 extention: null
@@ -8,7 +8,7 @@ image: images/people/da2mclar.jpg
 office: null
 previousInstitution: Undergraduate, Brandon University
 tags: [da2mclar, grad, alumn]
-tenure: MSc student (2021- , co-supervised)
+tenure: MSc student (2021 - 22, co-supervised)
 title: Darian Mclaren
 ---
 
