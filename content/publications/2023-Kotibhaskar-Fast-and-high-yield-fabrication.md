@@ -1,17 +1,17 @@
 ---
 title: "Fast and high-yield fabrication of axially symmetric ion-trap needle electrodes via two step electrochemical etching"
 authors: [['Nikhil Kotibhaskar','nkotibha'], ['Noah Greenberg'], ['Sainath Motlakunta','smotlaku'], ['Chung-You Shih', 'c5shih'],['Rajibul Islam', 'krislam']]
-link: ""
-journal: ""
-volume: ""
-issue: ""
-date: 2022-06-29T00:00:00-00:00
+link: "https://doi.org/10.1063/5.0108425"
+journal: "Review of Scientific Instruments"
+volume: "94"
+issue: "033201"
+date: 2023-03-14T00:00:00-00:00
 DOI: 
 draft: false
-arXiv: "2206.14784v1"
+arXiv: "2206.14784"
 tags:
  - "QITI" 
-image: ""
+image: "images/publications/Kotibhaskar2023_RSI_image.jpg"
 ---
 
 **Abstract:** Despite the progress in building sophisticated microfabricated ion traps, Paul traps employing needle electrodes retain
