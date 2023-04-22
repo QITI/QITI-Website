@@ -5,7 +5,7 @@ link: "https://doi.org/10.1038/s41534-022-00586-4"
 journal: "npj Quantum Information"
 volume: "8"
 issue: "72"
-date: 2021-12-09T00:00:00-00:00
+date: 2022-06-27T00:00:00-00:00
 DOI: 10.1038/s41534-022-00586-4
 draft: false
 arXiv: "2112.04946"
