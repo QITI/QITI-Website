@@ -14,7 +14,7 @@
           {{ if eq $pun_count 1 }}
             
             <a href="{{ .Permalink }}" class="link black bg-animate dim b">
-              {{ printf "and %s" (index $author 0)}} 
+              {{ printf "%s" (index $author 0)}} 
             </a>
           {{ else }}
             <a href="{{ .Permalink }}" class="link black bg-animate dim b">
@@ -25,7 +25,7 @@
       {{ end }}
     {{ else }}
       {{ if eq $pun_count 1 }}
-        {{ printf "and %s." (index . 0) }}
+        {{ printf "%s." (index . 0) }}
       {{ else }}
         {{ printf "%sl" (index . 0) }}
       {{ end }}
@@ -46,7 +46,7 @@
         {{ end }} 
       {{ end }}
     {{ else }}
-      {{ printf "and %s." (index . 0) }}
+      {{ printf "%s." (index . 0) }}
     {{ end }}
     {{ $pun_count = sub $pun_count 1 }}
   {{ end }}
@@ -60,7 +60,7 @@
         {{ if in .Params.tags (index $author 1)}}
           {{ if eq $pun_count 1 }}
             <a href="{{ .Permalink }}" class="link black bg-animate dim b">
-              {{ printf "and %s." (index $author 0)}} 
+              {{ printf "%s." (index $author 0)}} 
             </a>
           {{ else }}
             <a href="{{ .Permalink }}" class="link black bg-animate dim b">
@@ -71,7 +71,7 @@
       {{ end }}
     {{ else }}
       {{ if eq $pun_count 1 }}
-        {{ printf "and %s." (index . 0) }}
+        {{ printf "%s." (index . 0) }}
       {{ else }}
         {{ printf "%s," (index . 0) }}
       {{ end }}

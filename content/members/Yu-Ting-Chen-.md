@@ -9,6 +9,6 @@ office: null
 previousInstitution: 'Harvard University'
 tags: [y377chen, postDoc]
 tenure: Postdoctoral fellow (Dec 2022 - )
-title: 'Yu-Ting Chen'
+title: 'Dr. Yu-Ting Chen'
 ---
 Yu-Ting Chen is a Postdoctoral Fellow in the Department of Physics and Astronomy at the University of Waterloo. Her research focuses on quantum simulations with trapped ions. She received her Ph.D. from Harvard University in the Center for Ultracold Atoms, where she developed a platform for cavity quantum electrodynamics with Rydberg atom arrays.

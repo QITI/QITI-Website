@@ -5,8 +5,8 @@ date: 2020-05-02T21:14:38-04:00
 draft: false
 image: "images/people/krislam.jpg"
 tenure: "Assistant Professor"
-office: "Office – Quantum Nano Centre (QNC 4109)"
-extention: "+1 519 888 4567 ext. 31995 (Office), 32236/7/8 (labs)"
+office: "QNC 4109, RAC1 1112 "
+extention: "+1 519 888 4567 ext. 31995 (QNC Office), 32236/7/8 (labs)"
 email: "krislam@uwaterloo.ca"
 previousInstitution: "Massachusetts Institute of Technology (Postdoc, 2015-16);  Harvard University (Postdoc, 2012-15); University of Maryland (PhD, 2007-12)"
 currentInstitution: 
@@ -35,9 +35,10 @@ Affiliate Scientist, TRIUMF and Perimeter Institute for Theoretical Physics
 <hr>
 <h2>Teaching</h2>
 
-* PHYS 234 (Quantum Physics I, Winter 2019, '20, '21)
-* PHYS 393 (Physical Optics, Winter 2020)
-* PHYS 256 (Geometrical and Physical Optics, Fall 2017, '18)
+* PHYS 701 (Graduate Quantum Physics, Fall '22) 
+* PHYS 234 (Quantum Physics I, Winter 2019, '20, '21, '22)
+* PHYS 393 (Physical Optics, Winter 2020, '22)
+* PHYS 256 (Geometrical and Physical Optics, Fall 2017, '18, '22)
 
 <hr>
 <h2>Outreach</h2>

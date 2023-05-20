@@ -6,7 +6,7 @@
       {{ $journal = printf "%s, %s" $journal .Params.issue }}
     {{ end }}
 	{{ if .Params.date }}
-      {{ $journal = printf "%s, (%s)" $journal (dateFormat "2006" .Params.date) }}
+      {{ $journal = printf "%s (%s)" $journal (dateFormat "2006" .Params.date) }}
 	{{ end }}
   {{ end }}
 

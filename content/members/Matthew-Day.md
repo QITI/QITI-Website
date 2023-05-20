@@ -3,7 +3,7 @@ title: "Dr. Matthew Day"
 date: 2020-07-01T20:42:06-04:00
 draft: false
 image: "images/people/matt-day.jpg"
-tenure: "Postdoctoral fellow (2020-2021 ,  jointly with Crystal Senko's group)"
+tenure: "Postdoctoral fellow (2020-21 , jointly with Crystal Senko's group)"
 office: "QNC 3116"
 extention: "x39045"
 email: "m9day@uwaterloo.ca"

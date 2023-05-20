@@ -8,17 +8,23 @@
       {{ $membersPages := where .Site.Pages "Section" "members" }}
       {{ $membersPages := symdiff $membersPages (slice .) }}
 
-      {{ $positions := slice "PI" "adminAssistant" "postDoc" "grad" "COOP" }}
-      {{ $titleCards := slice "Principal Investigator" "Administrative Assistant" "Postdoctoral Fellows" "Graduate Students" "Undergraduate Research Associates" "Alumni" }}
+      {{ $positions := slice "PI" "adminAssistant" "postDoc" "grad" "RA" "COOP" }}
+      {{ $titleCards := slice "Principal Investigator" "Administrative Assistant" "Postdoctoral Fellows" "Graduate Students" "Research Assistants" "Undergraduate Research Associates" "Alumni" }}
       {{ range (seq 0 (sub (len $positions) 1) ) }}
-        <a id="{{ index $positions . }}"></a>
-        <h1>{{ index $titleCards . }}</h1>
-        <section class="flex flex-wrap mt1 ph2-l">
-          {{ $list := where $membersPages ".Params.tags" "intersect" (slice (index $positions .))  }}
-          {{ $alumn := where $membersPages ".Params.tags" "intersect" (slice "alumn")  }}
-          {{ $diff := intersect $list $alumn }}
-          {{ $list := symdiff $list $diff }}
+	  {{ $list := where $membersPages ".Params.tags" "intersect" (slice (index $positions .))  }}
+	  {{ $alumn := where $membersPages ".Params.tags" "intersect" (slice "alumn")  }}
+	  {{ $grad := where $membersPages ".Params.tags" "intersect" (slice "grad")  }}
+      {{ $diff := intersect $list $alumn }}
+      {{ $list := symdiff $list $diff }}
+	  {{/* comment - diff removes intersection of position and alumn, so when a postdoc becomes an alumnus, they are removed from postdoc list */}}
+	  	   {{ $gradalumn := intersect $grad $alumn }}
 
+      {{ if ge (len $list) 1 }}
+	    {{/* comments - the line above is checking whether the list has at least one member. If the list is empty then it will not displat the category */}}
+		<a id="{{ index $positions . }}"></a>
+		<h1>{{ index $titleCards . }}</h1>
+		<section class="flex flex-wrap mt1 ph2-l">
+	            
           {{ with $list }}
           {{ range .Reverse }}
             <div class="relative w-100 w-40-l ma2 mid-gray">
@@ -29,24 +35,54 @@
           {{ end }}
         {{ end }}
         </section>
-      {{ end }}
-
+		{{end}}
+      {{ end }}	
+<hr>
 <h1> Group photo </h1>
 <figure>
   <img src="\images\group\qsim-team-2023-Feb.jpg" alt="IQC-QITI" class="left" style="display:block;max-width:90%">
   <figcaption>(2023 winter) Part of the QITI group at IQC</figcaption>
 </figure>
 
-        <h1> Alumni </h1>
-        <section class="flex-ns flex-wrap mt1 ph2-l">
-          {{ range .Site.Taxonomies.tags.alumn }}
-            <div class="relative w-100 w-40-l ma2 mid-gray">
-              <div style=" background-color: rgb(233,230,233)">
+
+<hr>
+{{/* ALUMNI SECTION */}}
+    
+      {{ $alumn := where $membersPages ".Params.tags" "intersect" (slice "alumn")  }}
+	  {{ $grad := where $membersPages ".Params.tags" "intersect" (slice "grad")  }}
+	  {{ $PDFs := where $membersPages ".Params.tags" "intersect" (slice "postDoc")  }}
+
+      {{ $gradalumn := intersect $grad $alumn }}
+      {{ $pdfalumn := intersect $alumn $PDFs }}
+	  {{ $gradpdfalumn := union $gradalumn $pdfalumn }}
+	  {{ $restalumn := symdiff $alumn $gradpdfalumn }}
+
+      <h1>Ex-members</h1>
+	  <h2> Graduate student and postdoc alumni</h2> 
+		<section class="flex flex-wrap mt1 ph2-l">
+	           
+          {{ range $gradpdfalumn }}
+              <div class="relative w-100 w-40-l ma2 mid-gray">
+              <div style="background-color: rgb(233,230,233)">
                 {{- partial "summary-with-bubble-image.html" . -}}
               </div>
             </div>
           {{ end }}
         </section>
-
+		
+		<h2>Other alumni</h2>
+		<section class="flex flex-wrap mt1 ph2-l">
+	           
+          {{ range $restalumn }}
+              <div class="relative w-100 w-40-l ma2 mid-gray">
+              <div style="background-color: rgb(233,230,233)">
+                {{- partial "summary-with-bubble-image.html" . -}}
+              </div>
+            </div>
+			{{ end}}
+          </section>
+		
+	         
+      
   </article>
-{{ end }}
+{{ end}}

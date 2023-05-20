@@ -8,9 +8,10 @@ googleScholar: https://scholar.google.com/citations?hl=en&user=vxEf0r0AAAAJ
 image: images/people/msabooni.jpg
 office: QNC 4318
 previousInstitution: "UQML lab \u2013 Institute for Quantum Computing"
+currentInstitution: "R&D scientist, Google"
 tags: [postDoc, msabooni, alumn]
-tenure: Postdoctoral fellow (2021- )
-title: Mahmood Sabooni
+tenure: Postdoctoral fellow (2021-22)
+title: Dr. Mahmood Sabooni
 ---
 
 

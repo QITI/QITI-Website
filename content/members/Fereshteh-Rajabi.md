@@ -6,10 +6,11 @@ image: "images/people/f3rajabi.jpg"
 tenure: "Postdoctoral fellow (2017- 21)"
 email: "fereshte.rajabi@gmail.com"
 previousInstitution: "Western University, Ontario"
-currentInstitution: "Postdoc, Perimeter Institute"
+currentInstitution: "Faculty, McMaster University"
 tags:
  - "alumn"
  - "f3rajabi"
+ - "postDoc"
 ---
 
 Fereshteh was a postdoctoral fellow, working on theoretical aspects of trapped-ion physics. She developed hybrid digital-analog quantum simulation protocols, and investigated optical trapping schemes for ions. 

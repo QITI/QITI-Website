@@ -7,7 +7,7 @@ extention: null
 image: images/people/sspatil.jpg
 office: null
 previousInstitution: ''
-tags: [sspatil, COOP]
+tags: [sspatil, RA]
 tenure: Research assistant
 title: Sakshee Patil
 ---
