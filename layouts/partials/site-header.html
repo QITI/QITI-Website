@@ -5,7 +5,7 @@
   {{ $featured_image := (trim $featured_image "/") | absURL }}
  <header style="background: url('{{ $featured_image }}') no-repeat center; background-attachment: body; background-size:cover;">
  	<div class="{{ .Site.Params.cover_dimming_class | default "bg-black-30" }}">
-       <div class="tl pv5 pv6-l ph3 ph4-ns">
+       <div class="tl pv3 pv5-l ph3 ph4-ns">
 {{/* change pv number above to change vertical padding, m for medium screen size, l for large e.g. pv3-m */}}
         <h1 class="f2 white-90 f-subheadline-2 fw4 mb0 1h-title">
           {{ .Title | default .Site.Title }}</h1>

@@ -9,7 +9,7 @@ summaryLength = 50
 
 [Params]
 background_color_class = "bg-gray"
-featured_image = "images/header/ion-loading_web_banner.gif"
+featured_image = "images/header/ion_addressing_linear_bg_sub.gif"
 homeList = ["news", "publications"]
 favicon = "images/favicon.ico"
 custom_css = ["css/myStyle.css"]
