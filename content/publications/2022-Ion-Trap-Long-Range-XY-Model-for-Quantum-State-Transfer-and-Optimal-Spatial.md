@@ -2,11 +2,11 @@
 title: "Ion Trap Long-Range XY Model for Quantum State Transfer and Optimal Spatial Search"
 authors: [['Dylan Lewis'], ['Leonardo Banchi'], ['Yi Hong Teoh','yhteoh'], ['Rajibul Islam', 'krislam'],['Sougato Bose']]
 link: ""
-journal: ""
-volume: ""
-issue: ""
-date: 2022-06-28T00:00:00-00:00
-DOI: 
+journal: "Quantum Science and Technology"
+volume: "8"
+issue: "035025"
+date: 2023-06-12T00:00:00-00:00
+DOI: "10.1088/2058-9565/acd953"
 draft: false
 arXiv: "2206.13685v1"
 tags:
