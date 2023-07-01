@@ -4,7 +4,7 @@ orcid: "0000-0002-6483-8932"
 date: 2020-05-02T21:14:38-04:00
 draft: false
 image: "images/people/krislam.jpg"
-tenure: "Assistant Professor"
+tenure: "Associate Professor"
 office: "QNC 4109, RAC1 1112 "
 extention: "+1 519 888 4567 ext. 31995 (QNC Office), 32236/7/8 (labs)"
 email: "krislam@uwaterloo.ca"
@@ -16,7 +16,7 @@ tags:
  - "krislam"
 ---
 
-Assistant Professor, Institute for Quantum Computing and Department of Physics and Astronomy, University of Waterloo
+Associate Professor, Institute for Quantum Computing and Department of Physics and Astronomy, University of Waterloo
 
 [UW Physics and Astronomy profile](https://uwaterloo.ca/physics-astronomy/people-profiles/k-rajibul-islam), [IQC Profile](https://services.iqc.uwaterloo.ca/people/profile/krislam/), <a href="\Miscellaneous_docs\CV_Islam_Aug2020.pdf">CV</a>
 
