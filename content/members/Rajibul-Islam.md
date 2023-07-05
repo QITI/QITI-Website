@@ -18,7 +18,7 @@ tags:
 
 Associate Professor, Institute for Quantum Computing and Department of Physics and Astronomy, University of Waterloo
 
-[UW Physics and Astronomy profile](https://uwaterloo.ca/physics-astronomy/people-profiles/k-rajibul-islam), [IQC Profile](https://services.iqc.uwaterloo.ca/people/profile/krislam/), <a href="\Miscellaneous_docs\CV_Islam_Aug2020.pdf">CV</a>
+[UW Physics and Astronomy profile](https://uwaterloo.ca/physics-astronomy/people-profiles/k-rajibul-islam), [IQC Profile](https://uwaterloo.ca/institute-for-quantum-computing/profiles/kazi-rajibul-islam), <a href="\Miscellaneous_docs\CV_Islam_Aug2020.pdf">CV</a>
 
 Affiliate Scientist, TRIUMF and Perimeter Institute for Theoretical Physics
 
