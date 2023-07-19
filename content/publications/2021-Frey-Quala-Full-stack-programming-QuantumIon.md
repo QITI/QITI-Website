@@ -2,10 +2,10 @@
 title: "Programming the full stack of an open-access
 quantum computer"
 authors: [['Virginia Frey'], ['Richard Rademacher'], ['Elijah Durso-Sabina'], ['Noah Greenberg'],['Nikolay Videnov','nnvideno'],['Matthew L. Day','m9day'], ['Rajibul Islam', 'krislam'],['Crystal Senko']]
-link: 
-journal:
+link: "https://ieeexplore.ieee.org/abstract/document/9605354"
+journal: "IEEE International Conference on Quantum Computing and Engineering"
 volume:
-issue:
+issue: "244-254"
 date: 2021-06-11T00:00:00-00:00
 DOI: 
 draft: false
