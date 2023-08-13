@@ -1,11 +1,11 @@
 ---
 title: "A guided light system for agile individual addressing of Ba+ qubits with 1E-4 level intensity crosstalk"
 authors: [['Ali Binai-Motlagh','ali.binai-motlagh'], ['Matthew Day','m9day'],['Nikolay Videnov','nnvideno'],['Noah Greenberg'], ['Crystal Senko'],['Rajibul Islam', 'krislam']]
-link: ""
-journal: ""
-volume: ""
-issue: ""
-date: 2023-02-28T20:00:00-05:00
+link: "https://doi.org/10.1088/2058-9565/ace6cb"
+journal: "Quantum Science and Technology"
+volume: "8"
+issue: "045012"
+date: 2023-07-27T20:00:00-05:00
 DOI: 
 draft: false
 arXiv: "2302.14711"
