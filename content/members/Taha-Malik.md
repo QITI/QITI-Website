@@ -8,8 +8,8 @@ extention: null
 image: images/people/t5malik.jpg
 office: null
 previousInstitution: 'Undergraduate: University of Waterloo (Mechanical)'
-tags: [t5malik, grad, alumn]
-tenure: MSc student
+tags: [t5malik, COOP, alumn]
+tenure: "Co-op student"
 title: Taha Malik
 ---
 
