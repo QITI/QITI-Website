@@ -1,17 +1,18 @@
 ---
 title: "Dr. Chung-You (Gilbert) Shih"
 orcid: "0000-0002-7561-6833"
-date: 2017-09-01T00:00:00-00:00
+date: 2024-01-09T00:00:00-00:00
 draft: false
 image: "images/people/c5shih.jpg"
-tenure: "Research Assistant (Oct 2023 - )"
+tenure: "MSc (2017-19), PhD (2019-23) Research Assistant (Oct 2023 - Jan '24)"
 office: "QNC B213"
 extention: "x30172"
 email: "c5shih@uwaterloo.ca"
 previousInstitution: "U Waterloo (PhD (2019-23), MSc (2017-19)), National Taiwan University (BSc)"
-currentInstitution: 
+currentInstitution: "software developer in industry"
 tags:
- - "RA"
+ - "alumn"
+ - "grad"
  - "c5shih"
 ---
 

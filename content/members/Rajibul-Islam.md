@@ -20,7 +20,9 @@ Associate Professor, Institute for Quantum Computing and Department of Physics a
 
 [UW Physics and Astronomy profile](https://uwaterloo.ca/physics-astronomy/people-profiles/k-rajibul-islam), [IQC Profile](https://uwaterloo.ca/institute-for-quantum-computing/profiles/kazi-rajibul-islam), <a href="\Miscellaneous_docs\CV_Islam_Aug2020.pdf">CV</a>
 
-Affiliate Scientist, TRIUMF and Perimeter Institute for Theoretical Physics
+Affiliate, Perimeter Institute for Theoretical Physics
+
+Co-founder, [Open Quantum Design](https://openquantumdesign.org/)
 
 [Academic Tree](https://academictree.org/physics/tree.php?pid=172624)
 
@@ -36,13 +38,15 @@ Affiliate Scientist, TRIUMF and Perimeter Institute for Theoretical Physics
 <h2>Teaching</h2>
 
 * PHYS 701 (Graduate Quantum Physics, Fall '22) 
-* PHYS 234 (Quantum Physics I, Winter 2019, '20, '21, '22)
-* PHYS 393 (Physical Optics, Winter 2020, '22)
+* PHYS 234 (Quantum Physics I, Winter 2019, '20, '21, '22, '24)
+* PHYS 393 (Physical Optics, Winter 2020, '22, '24)
 * PHYS 256 (Geometrical and Physical Optics, Fall 2017, '18, '22)
 
 <hr>
 <h2>Outreach</h2>
 
-Dr. Islam is actively involved with several science outreach efforts. His activities at IQC include developing demonstration experiments (such as a 'dust ion trap') and conducting lab visits especially for young students. He is a co-founder of [bigyan.org.in](https://bigyan.org.in), a leading online science outreach platform in the Bengali (বাংলা) language. Bigyan (বিজ্ঞান, means science in Bengali) initiatives have been highlighted in Indian national media (such as [NDTV](https://www.ndtv.com/education/national-science-day-origami-paper-microscopes-to-be-given-to-rural-schools-by-bengali-science-porta-1664177) and [IndiaBioscience](https://indiabioscience.org/columns/indian-scenario/bigyan-org-in-a-science-outreach-platform-by-researchers-in-bengali)).
+Dr. Islam is actively involved with several science outreach efforts.
+ His activities at IQC include developing demonstration experiments (such as a 'dust ion trap') and conducting lab visits especially for young students.
+ He is a co-founder of [bigyan.org.in](https://bigyan.org.in), a leading online science outreach platform in the Bengali (বাংলা) language. Bigyan (বিজ্ঞান, means science in Bengali) initiatives have been highlighted in Indian national media (such as [NDTV](https://www.ndtv.com/education/national-science-day-origami-paper-microscopes-to-be-given-to-rural-schools-by-bengali-science-porta-1664177) and [IndiaBioscience](https://indiabioscience.org/columns/indian-scenario/bigyan-org-in-a-science-outreach-platform-by-researchers-in-bengali)).
 
 <hr>

@@ -10,8 +10,7 @@ email: "m2roche@uwaterloo.ca"
 previousInstitution:
 currentInstitution: 
 tags:
- - "adminAssistant"
- - "m2roche"
+  - "m2roche"
 ---
 
 In her role as IQC Research Finance Coordinator, Michele is the administrative assistant for the group.

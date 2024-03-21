@@ -8,7 +8,7 @@ image: images/people/h3tan.jpg
 office: null
 previousInstitution: Queen's University
 tags: [Hawking Tan, grad]
-tenure: MSc student (Jan 2022-)
+tenure: MSc (2022-'24), PhD (2024 - )
 title: Xinghe Tan
 ---
-Xinghe (Hawking) is a Master's student  in Prof. Islam's group. He is working on open-source quantum computer (Quantum ION). He completed his Bachelor's degree at Queen's University. 
+Xinghe (Hawking) is a PhD student on the QuantumION project. He finished his MSc from the same group in Jan 2024. He completed his Bachelor's degree at Queen's University. 
