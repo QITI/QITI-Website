@@ -1,11 +1,11 @@
 ---
 title: "Investigations of 2D ion crystals in a hybrid optical cavity trap for quantum information processing"
 authors: [ ['Zewen Sun','z253sun'], ['Yi Hong Teoh','yhteoh'], ['Fereshteh Rajabi','f3rajabi'],['Rajibul Islam', 'krislam']]
-link: 
-journal: 
-volume: 
-issue: 
-date: 2023-08-18T20:00:00-05:00
+link: "https://doi.org/10.1103/PhysRevA.109.032426"
+journal: "Phys. Rev. A"
+volume: "109"
+issue: "032426"
+date: 2024-03-21T20:00:00-05:00
 DOI: 
 draft: false
 arXiv: "2308.09231"
