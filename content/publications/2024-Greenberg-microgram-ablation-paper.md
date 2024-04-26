@@ -1,11 +1,11 @@
 ---
 title: "Microgram BaCl_2 Ablation Targets for Trapped Ion Experiments"
 authors: [['Noah Greenberg'], ['Akbar Jahangiri Jozani','a2jahang'], ['Collin JC Epstein'], ['Xinghe Tan','Hawking Tan'], ['Rajibul Islam', 'krislam'], ['Crystal Senko']]
-link: ""
-journal: ""
-volume: ""
-issue: ""
-date: 2024-02-06T00:00:00-00:00
+link: "https://doi.org/10.1063/5.0198336"
+journal: "Review of Scientific Instruments"
+volume: "95"
+issue: "045117"
+date: 2024-04-18T00:00:00-00:00
 DOI: 
 draft: false
 arXiv: "2402.06632"
