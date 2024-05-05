@@ -1,6 +1,6 @@
 ---
 currentInstitution: 2A Mechatronics Undergraduate, University of Waterloo
-date: 2020-09-01 00:00:00
+date: 2022-04-01 00:00:00
 draft: false
 email: fetboal@uwaterloo.ca
 extention: null
@@ -8,7 +8,7 @@ image: images/people/FETBOAL.jpg
 office: null
 previousInstitution: Undergraduate, University of Waterloo
 tags: [FETBOAL, COOP, alumn]
-tenure: Undergrad co-op student (Jan-Apr 2022, Mechatronics Eng. 2A)
+tenure: Undergrad co-op student (Winter 2022, Mechatronics Eng. 2A)
 title: Frank Boal
 ---
 

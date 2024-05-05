@@ -1,6 +1,6 @@
 ---
 currentInstitution: 4A Mechanical Engineering Undergraduate, University of Waterloo
-date: 2020-09-01 00:00:00
+date: 2021-12-01 00:00:00
 draft: false
 email: jh22li@uwaterloo.ca
 extention: null
@@ -8,7 +8,7 @@ image: images/people/JH22LI.jpg
 office: null
 previousInstitution: ''
 tags: [JH22LI, COOP, alumn]
-tenure: Undergrad co-op student (Sept-Dec 2021, Mechanical Eng. 4A)
+tenure: Undergrad co-op student (Fall 2021, Mechanical Eng. 4A)
 title: Tim (Jia Hong) Li
 ---
 

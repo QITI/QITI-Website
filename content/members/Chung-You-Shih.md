@@ -4,7 +4,7 @@ orcid: "0000-0002-7561-6833"
 date: 2024-01-09T00:00:00-00:00
 draft: false
 image: "images/people/c5shih.jpg"
-tenure: "MSc (2017-19), PhD (2019-23) Research Assistant (Oct 2023 - Jan '24)"
+tenure: "PhD (2019-23), MSc (2017-19), Research Assistant (Oct 2023 - Jan '24)"
 office: "QNC B213"
 extention: "x30172"
 email: "c5shih@uwaterloo.ca"

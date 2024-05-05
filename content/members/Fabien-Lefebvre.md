@@ -8,7 +8,7 @@ image: images/people/flefebvr.jpg
 office: null
 previousInstitution: Undergraduate, University of Ottawa
 tags: [flefebvr, grad]
-tenure: MSc student
+tenure: MSc student (2023-)
 title: Fabien Lefebvre
 ---
 I did my undergrad at uOttawa, and I like playing ultimate frisbee and other sports during my free time.

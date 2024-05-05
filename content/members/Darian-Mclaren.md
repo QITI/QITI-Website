@@ -8,7 +8,7 @@ image: images/people/da2mclar.jpg
 office: null
 previousInstitution: Undergraduate, Brandon University
 tags: [da2mclar, grad, alumn]
-tenure: MSc student (2021 - 22, co-supervised)
+tenure: MSc (2021 - 22, co-supervised)
 title: Darian Mclaren
 ---
 

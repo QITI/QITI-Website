@@ -9,7 +9,7 @@ image: images/people/amkhatai.jpg
 office: null
 previousInstitution: Undergraduate, Illinois Wesleyan University
 tags: [amkhatai, grad]
-tenure: MSc student
+tenure: MSc student (2023-)
 title: Ali Mustafa Khatai
 ---
 Ali will be joining the QuantumION team as a new Physics MSc student in fall 2023. He obtained his bachelor's degree in Physics and Computer Science from Illinois Wesleyan University.

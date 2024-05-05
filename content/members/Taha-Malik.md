@@ -9,7 +9,7 @@ image: images/people/t5malik.jpg
 office: null
 previousInstitution: 'Undergraduate: University of Waterloo (Mechanical)'
 tags: [t5malik, COOP, alumn]
-tenure: "Co-op student"
+tenure: "Graduate co-op student"
 title: Taha Malik
 ---
 

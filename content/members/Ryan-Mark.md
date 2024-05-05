@@ -1,6 +1,6 @@
 ---
 currentInstitution: 2A Mechatronics Engineering Undergraduate, University of Waterloo
-date: 2020-09-01 00:00:00
+date: 2022-08-01 00:00:00
 draft: false
 email: ryan.mark@uwaterloo.ca
 extention: null
@@ -8,7 +8,7 @@ image: images/people/r2mark.jpg
 office: null
 previousInstitution: ''
 tags: [r2mark, COOP, alumn]
-tenure: Undergrad co-op student (May-Aug 2022, Mechatronics Eng. 2A)
+tenure: Undergrad co-op student (Spring 2022, Mechatronics Eng. 2A)
 title: Ryan Mark
 ---
 

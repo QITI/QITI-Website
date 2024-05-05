@@ -3,7 +3,7 @@ title: "Michael Melvin Veenstra"
 date: 2020-08-30T21:16:47-04:00
 draft: false
 image: "images/people/mmveenstra.jpg"
-tenure: "Undergraduate co-op student (May - Aug, 2020)"
+tenure: "Undergrad co-op student (Spring 2020)"
 office:
 extention:
 email: "mmveenstra@uwaterloo.ca"

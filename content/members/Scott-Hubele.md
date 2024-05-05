@@ -3,7 +3,7 @@ title: "Scott Hubele"
 date: 2020-09-30T21:16:47-04:00
 draft: false
 image: "images/people/shubele.jpg"
-tenure: "Undergraduate researcher (USEQIP, Jun - Sep, 2020)"
+tenure: "Undergrad researcher (USEQIP, Summer 2020)"
 office:
 extention:
 email: "shubele@ualberta.ca"

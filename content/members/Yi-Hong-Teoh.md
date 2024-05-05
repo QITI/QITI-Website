@@ -3,11 +3,11 @@ title: "Yi Hong Teoh"
 date: 2019-09-01T00:00:00-00:00
 draft: false
 image: "images/people/yhteoh.jpg"
-tenure: "PhD (2021- , co-supervised)" 
+tenure: "PhD (2021- , co-supervised), MSc (2019-21)" 
 office: "QNC B216"
 extention: "x36471"
 email: "yhteoh@uwaterloo.ca"
-previousInstitution: "U Waterloo (MSc (2019-21), URA (PHYS 437, 2018-19))"
+previousInstitution: "U Waterloo, URA (PHYS 437, 2018-19))"
 currentInstitution: 
 tags:
  - "grad"

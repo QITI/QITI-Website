@@ -8,7 +8,7 @@ image: images/people/s29chawl.jpg
 office: null
 previousInstitution: ''
 tags: [s29chawl, COOP]
-tenure: Undergraduate researcher
+tenure: Undergraduate researcher (Fall 2023-Winter 2024)
 title: Siddharth Chawla
 ---
 Siddharth is an undergraduate student studying Physics and Astronomy, and will be working in the QSim group for his co-op with the group.

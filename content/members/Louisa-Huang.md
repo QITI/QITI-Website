@@ -1,9 +1,9 @@
 ---
 title: "Louisa (Ruixue) Huang"
-date: 2020-05-07T22:01:27-04:00
+date: 2017-08-07T22:01:27-04:00
 draft: false
 image: "images/people/Louisar_huang.jpg"
-tenure: "USEQIP program (2017 Spring)"
+tenure: "Undergraduate researcher, USEQIP program (Spring 2017)"
 office:
 extention:
 email:

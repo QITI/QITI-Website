@@ -8,7 +8,7 @@ image: images/people/qinghao-zhang.JPG
 office: null
 previousInstitution: ''
 tags: [COOP, zqinghao, alumn]
-tenure: Undergraduate Researcher, Physics 437 project (2020 Fall)
+tenure: Undergraduate Researcher, Physics 437 project (Fall 2020)
 title: Qinghao Zhang
 ---
 

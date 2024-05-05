@@ -3,7 +3,7 @@ title: "Kaleb Ruscitti"
 date: 2018-04-30T22:01:30-04:00
 draft: false
 image: "images/people/Kaleb_kdruscit.jpg"
-tenure: "Undergraduate co-op student (Jan-Apr, 2018)"
+tenure: "Undergrad co-op student (Winter 2018)"
 office:
 extention:
 email:

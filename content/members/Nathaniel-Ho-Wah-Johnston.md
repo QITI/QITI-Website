@@ -9,7 +9,7 @@ image: images/people/nhjohnst.jpg
 office: null
 previousInstitution: ''
 tags: [nhjohnst, COOP, alumn]
-tenure: Undergraduate researcher
+tenure: Undergrad co-op student
 title: Nathaniel Ho-Wah Johnston
 ---
 
