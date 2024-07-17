@@ -1,14 +1,14 @@
 ---
 title: "Programmable XY-type couplings through parallel spin-dependent forces on the same trapped ion motional modes"
 authors: [['Nikhil Kotibhaskar','nkotibha'],['Chung-You Shih', 'c5shih'],['Sainath Motlakunta','smotlaku'],['Anthony Vogliano','avogliano'],['Lewis Hahn','rlhahn'],['Yu-Ting Chen','y377chen'], ['Rajibul Islam', 'krislam']]
-link: ""
-journal: ""
-volume: ""
-issue: ""
-date: 2023-07-11T00:00:00-00:00
+link: "https://doi.org/10.1103/PhysRevResearch.6.033038"
+journal: "Physical Review Research"
+volume: "6"
+issue: "033038"
+date: 2024-07-08T00:00:00-00:00
 DOI: 
 draft: false
-arXiv: "2307.04922"
+arXiv: 
 tags:
  - "QITI" 
 image: "images/publications/Kotibhaskar2023_XY_image.jpg"

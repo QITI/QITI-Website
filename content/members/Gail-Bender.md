@@ -10,10 +10,9 @@ email: "g3bender@uwaterloo.ca"
 previousInstitution:
 currentInstitution: 
 tags:
-  - "adminAssistant"
   - "g3bender"
 ---
 
-In her role as IQC Research Finance Coordinator, Mr. Gail Bender is the administrative assistant for the group.
+In her role as IQC Research Finance Coordinator, Ms. Gail Bender is the administrative assistant for the group.
 
 https://uwaterloo.ca/institute-for-quantum-computing/contacts/gail-bender
