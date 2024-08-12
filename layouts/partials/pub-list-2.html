@@ -1,27 +1,29 @@
 {{ $section := . }}
 {{ $section_count := len $section }}
 {{ $section_name := "Publications" }}
-  <div class="relative w-100 mb2">
-    <section class="w-100 mw8">
-      {{ range $section }}
-        <div class="bb b--black-10 relative w-100 mb2 nested-copy-line-height" style="background-color:rgb(252,251,248)">
-          <div class="ph3 pv2 gray overflow-hidden">
-            <h1 class="f4 black mb0">
-   		[{{ substr .Date 0 4 }}]
-	<a href="{{ .Permalink }}" class="link black dim">
-                {{ .Title }}
-              </a>
-            </h1>
-	    <div class="mb0 near-black f5">
-              {{ partial "authorList.html" . }}
+<div class="relative w-100 mb2">
+  <section class="w-100 mw8">
+    {{ $counter := $section_count }} <!-- Start the counter from the total number of publications -->
+    {{ range sort $section "Date" "desc" }} <!-- Sort by date in descending order -->
+      <div class="bb b--black-10 relative w-100 mb2 nested-copy-line-height" style="background-color:rgb(252,251,248)">
+        <div class="ph3 pv2 gray overflow-hidden">
+          <h1 class="f4 black mb0">
+            {{ $counter }}. [{{ substr .Date 0 4 }}]
+            <a href="{{ .Permalink }}" class="link black dim">
+              {{ .Title }}
+            </a>
+          </h1>
+          <div class="mb0 near-black f5">
+            {{ partial "authorList.html" . }}
             <br>
-              {{ partial "journal-link-bar.html" . }}
-            </div>
-            <div class='near-black'>
-              <a href="{{.Permalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt1 ph2 pv1" style="background-color:rgb(230,225,230)">Read More</a>
-            </div>
+            {{ partial "journal-link-bar.html" . }}
+          </div>
+          <div class='near-black'>
+            <a href="{{.Permalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt1 ph2 pv1" style="background-color:rgb(230,225,230)">Read More</a>
           </div>
         </div>
-      {{ end }}
-    </section>
-  </div>
+      </div>
+      {{ $counter = sub $counter 1 }} <!-- Decrement the counter for each publication -->
+    {{ end }}
+  </section>
+</div>

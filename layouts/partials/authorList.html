@@ -1,81 +1,31 @@
-{{ $members := where .Site.Pages "Section" "members"}}
+{{ $members := where .Site.Pages "Section" "members" }}
 {{ $pun_count := 0 }}
-{{ with .Params.authors }}
-  {{ $pun_count = len . }}
-{{ end }}
 
-{{ if eq $pun_count 2 }}
-
-  {{ range .Params.authors }}
-    {{ if (eq (len .) 2) }}
-      {{ $author := . }} 
+{{ if .Params.authors }}
+  {{ $pun_count = len .Params.authors }}
+  
+  {{ range $index, $author := .Params.authors }}
+    {{ if (eq (len $author) 2) }}
+      {{ $found := false }}
+      {{ $separator := "," }}
+      {{ if eq $index (sub $pun_count 1) }}{{ $separator = "" }}{{ end }}
+      {{ if eq $pun_count 1 }}{{ $separator = "." }}{{ end }}
       {{ range $members }}
-        {{ if in .Params.tags (index $author 1)}}
-          {{ if eq $pun_count 1 }}
-            
-            <a href="{{ .Permalink }}" class="link black bg-animate dim b">
-              {{ printf "%s" (index $author 0)}} 
-            </a>
-          {{ else }}
-            <a href="{{ .Permalink }}" class="link black bg-animate dim b">
-              {{ printf "%s" (index $author 0)}} 
-            </a>
-          {{ end }}
-        {{ end }} 
+        {{ if in .Params.tags (index $author 1) }}
+          {{ $found = true }}
+          <a href="{{ .Permalink }}" class="link black bg-animate dim b">
+            {{ printf "%s%s" (index $author 0) $separator }}
+          </a>
+        {{ end }}
+      {{ end }}
+      {{ if not $found }}
+        {{ printf "%s%s" (index $author 0) $separator }}
       {{ end }}
     {{ else }}
-      {{ if eq $pun_count 1 }}
-        {{ printf "%s." (index . 0) }}
-      {{ else }}
-        {{ printf "%sl" (index . 0) }}
-      {{ end }}
+      {{ $separator := "," }}
+      {{ if eq $index (sub $pun_count 1) }}{{ $separator = "" }}{{ end }}
+      {{ if eq $pun_count 1 }}{{ $separator = "." }}{{ end }}
+      {{ printf "%s%s" (index $author 0) $separator }}
     {{ end }}
-    {{ $pun_count = sub $pun_count 1 }}
-  {{ end }}
-
-{{ else if eq $pun_count 1 }}
-
-  {{ range .Params.authors }}
-    {{ if (eq (len .) 2) }}
-      {{ $author := . }} 
-      {{ range $members }}
-        {{ if in .Params.tags (index $author 1)}}
-            <a href="{{ .Permalink }}" class="link black bg-animate dim b">
-              {{ printf "%s" (index $author 0)}} 
-            </a>
-        {{ end }} 
-      {{ end }}
-    {{ else }}
-      {{ printf "%s." (index . 0) }}
-    {{ end }}
-    {{ $pun_count = sub $pun_count 1 }}
-  {{ end }}
-
-{{ else }}
-
-  {{ range .Params.authors }}
-    {{ if (eq (len .) 2) }}
-      {{ $author := . }} 
-      {{ range $members }}
-        {{ if in .Params.tags (index $author 1)}}
-          {{ if eq $pun_count 1 }}
-            <a href="{{ .Permalink }}" class="link black bg-animate dim b">
-              {{ printf "%s." (index $author 0)}} 
-            </a>
-          {{ else }}
-            <a href="{{ .Permalink }}" class="link black bg-animate dim b">
-              {{ printf "%s," (index $author 0)}} 
-            </a>
-          {{ end }}
-        {{ end }} 
-      {{ end }}
-    {{ else }}
-      {{ if eq $pun_count 1 }}
-        {{ printf "%s." (index . 0) }}
-      {{ else }}
-        {{ printf "%s," (index . 0) }}
-      {{ end }}
-    {{ end }}
-    {{ $pun_count = sub $pun_count 1 }}
   {{ end }}
 {{ end }}
