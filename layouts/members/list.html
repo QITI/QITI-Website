@@ -8,8 +8,8 @@
       {{ $membersPages := where .Site.Pages "Section" "members" }}
       {{ $membersPages := symdiff $membersPages (slice .) }}
 
-      {{ $positions := slice "PI" "adminAssistant" "postDoc" "grad" "RA" "COOP" }}
-      {{ $titleCards := slice "Principal Investigator" "Administrative Assistant" "Postdoctoral Fellows" "Graduate Students" "Research Assistants" "Undergraduate Research Associates" "Alumni" }}
+      {{ $positions := slice "PI" "adminAssistant" "postDoc" "researchAssoc" "grad" "RA" "COOP" }}
+      {{ $titleCards := slice "Principal Investigator" "Administrative Assistant" "Postdoctoral Fellows" "Research Associates" "Graduate Students" "Research Assistants" "Undergraduate Researchers" "Alumni" }}
       {{ range (seq 0 (sub (len $positions) 1) ) }}
 	  {{ $list := where $membersPages ".Params.tags" "intersect" (slice (index $positions .))  }}
 	  {{ $alumn := where $membersPages ".Params.tags" "intersect" (slice "alumn")  }}

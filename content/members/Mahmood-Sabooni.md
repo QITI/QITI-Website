@@ -1,16 +1,16 @@
 ---
 currentInstitution: null
-date: 2021-04-21 19:19:06
+date: 2024-04-21 19:19:06
 draft: false
 email: msabooni@uwaterloo.ca
 extention: x39074
 googleScholar: https://scholar.google.com/citations?hl=en&user=vxEf0r0AAAAJ
 image: images/people/msabooni.jpg
 office: QNC 4318
-previousInstitution: "UQML lab \u2013 Institute for Quantum Computing"
+previousInstitution: "UQML lab \u2013 Institute for Quantum Computing, Google R&D"
 currentInstitution: "R&D scientist, Google"
-tags: [postDoc, msabooni, alumn]
-tenure: Postdoctoral fellow (2021-22)
+tags: [msabooni, researchAssoc]
+tenure: Research Associate (2021-22)
 title: Dr. Mahmood Sabooni
 ---
 
