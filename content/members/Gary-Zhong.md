@@ -11,4 +11,4 @@ tags: [g7zhong, COOP]
 tenure: Undergraduate co-op student (Fall 2024)
 title: Gary Zhong
 ---
-Gary is an undergraduate student studying Mechanincal Engineering, and will be working in the QSim group for his co-op projects.
+Gary is a 4th year Mechanical Engineering student studying at the University of Waterloo. He is working with the QITI research group in the Fall 2024 term, focusing on instrumentation design. Gary enjoys exploring the outdoors as well as photography.

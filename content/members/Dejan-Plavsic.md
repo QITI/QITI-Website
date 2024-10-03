@@ -11,4 +11,4 @@ tags: [dplavsic, COOP]
 tenure: Undergraduate co-op student (Fall 2024)
 title: Dejan Plavsic
 ---
-Dejan is an undergraduate student studying Civil Engineering, and will be working in the QSim group for his co-op projects.
+Dejan Plavsic is a co-op student here at IQC. He will be working on the mechanical design of the trapped ion system quantum computer. He is excited to contribute to such cutting-edge research and looks forward to collaborating with others.

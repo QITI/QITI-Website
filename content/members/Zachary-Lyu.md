@@ -11,4 +11,4 @@ tags: [ZacharyLyu, COOP]
 tenure: Phys 437 Project (Fall 2024)
 title: Zachary Lyu
 ---
-Zachary is working with the team on his Phys 437 project.
+Mingze (Zachary) Lyu is an undergraduate student currently enrolled in Honours Physics. He will be working with the QSim group as a part-time contractor, as well as conducting his PHYS 437A research project for the Fall 2024 term.
