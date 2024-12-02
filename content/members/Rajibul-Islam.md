@@ -26,13 +26,13 @@ Co-founder, [Open Quantum Design](https://openquantumdesign.org/)
 
 Co-founder and Chief Scientific Advisor, [Lightflow Optics Inc.](https://lightflow-optics.com/)
 
-VAIBHAV fellow, Department of Science and Technology, Government of India (2024 - )
-
 [Academic Tree](https://academictree.org/physics/tree.php?pid=172624)
 
 <hr>
 <h2>Notable recognitions</h2>
 
+* Fellow, American Physical Society (2024)
+* VAIBHAV fellow, Department of Science and Technology, Government of India (2024 - )
 * Excellence in Science Teaching Award, Faculty of Science, University of Waterloo (2024)
 * President's Excellence in Research Award, University of Waterloo (2020)
 * Recognized by the Department of Physics and Astronomy for outstanding teaching  (2019, '20)
