@@ -9,7 +9,7 @@ office: "QNC 3202"
 extention: "x39025"
 email: "smotlakunta@uwaterloo.ca"
 previousInstitutions: "U Waterloo (PhD (2023), MSc (2018)), Indian Institute of Science Education and Research, Pune (BSc-MSc)"
-currentInstitution: 
+currentInstitution: "IonQ"
 tags:
  - "alumn"
  - "postDoc"

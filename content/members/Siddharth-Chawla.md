@@ -1,13 +1,13 @@
 ---
 currentInstitution: 3A Physics and Astronomy Undergraduate, University of Waterloo
-date: 2020-09-01 00:00:00
+date: 2024-09-01 00:00:00
 draft: false
 email: s29chawl@uwaterloo.ca
 extention: null
 image: images/people/s29chawl.jpg
 office: null
 previousInstitution: ''
-tags: [s29chawl, COOP]
+tags: [s29chawl, COOP, alumn]
 tenure: Undergraduate researcher (Fall 2023-Fall 2024)
 title: Siddharth Chawla
 ---
