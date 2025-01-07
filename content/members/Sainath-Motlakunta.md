@@ -1,10 +1,10 @@
 ---
 title: "Dr. Sainath Motlakunta"
 orcid: "0000-0001-6710-3897"
-date: 2017-09-02T00:00:00-00:00
+date: 2024-01-10T00:00:00-00:00
 draft: false
 image: "images/people/smotlakunta.jpg"
-tenure: "Postdoctoral fellow (Nov 2023 - ), PhD / MSc student (2018-2023)"
+tenure: "Postdoctoral fellow (Nov 2023 - 2024), PhD / MSc student (2018-2023)"
 office: "QNC 3202"
 extention: "x39025"
 email: "smotlakunta@uwaterloo.ca"
