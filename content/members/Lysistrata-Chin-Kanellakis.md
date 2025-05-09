@@ -7,7 +7,7 @@ extention: null
 image: images/people/lysistrata.jpg
 office: null
 previousInstitution: ''
-tags: [lysistrata, COOP]
+tags: [lysistrata, COOP, alumn]
 tenure: Undergraduate co-op student (Winter 2025, Mech Eng 3B)
 title: Lysistrata Chin Kanellakis
 ---

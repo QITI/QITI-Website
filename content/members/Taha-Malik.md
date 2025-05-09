@@ -1,7 +1,7 @@
 ---
 currentInstitution: 'Masters of Engineering: University of Waterloo (Mechanical &
   Mechatronics)'
-date: 2020-09-01 00:00:00
+date: 2023-09-01 00:00:00
 draft: false
 email: t5malik@uwaterloo.ca
 extention: null
