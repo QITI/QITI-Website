@@ -1,5 +1,5 @@
 ---
-title: "Nikhil Kotibhaskar"
+title: "Dr. Nikhil Kotibhaskar"
 date: 2024-12-25T00:00:00-00:00
 draft: false
 image: "images/people/nkotibhaskar.jpg"

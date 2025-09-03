@@ -4,7 +4,7 @@ date: 2025-04-01 00:00:00
 draft: false
 email: c23graha@uwaterloo.ca
 extention: null
-image: images/people/c23graha.jpg
+image: images/people/c23graha.png
 office: null
 previousInstitution: ''
 tags: [c23graha, grad]

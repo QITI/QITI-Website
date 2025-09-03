@@ -11,4 +11,4 @@ tags: [j436zhu, grad]
 tenure: PhD student (2023 - ), MSc (2021-23)
 title: "Jingwen (Monica) Zhu"
 ---
-Jingwen (Monica) received her undergrad education from University of Toronto. She will join the QSim team as a new Phy MSc student at UWaterloo. 
+Jingwen (Monica) received her undergrad education from University of Toronto. She completed her masters on Laser ablation systems for ion loading, and now she explores Floquet systems on the Amethyst machine.

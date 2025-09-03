@@ -7,7 +7,7 @@ extention: null
 image: images/people/a39sood.jpg
 office: null
 previousInstitution: ''
-tags: [a39sood, COOP]
+tags: [a39sood, COOP, alumn]
 tenure: Undergraduate co-op student (Spring 2025, Physics and Astronomy 2B)
 title: Aryan Sood
 ---

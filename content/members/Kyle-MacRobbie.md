@@ -8,7 +8,7 @@ image: images/people/kmacrobb.jpg
 office: null
 previousInstitution: ''
 tags: [kmacrobb, COOP]
-tenure: Undergraduate co-op student (Spring 2025, Physics and Astronomy 4A)
+tenure: Undergraduate Volunteer (Fall 2025, Physics and Astronomy 4B), co-op student (Spring 2025)
 title: Kyle MacRobbie
 ---
 I am a Physics and Astronomy undergrad here at Waterloo. I enjoy hiking, soccer, disc golf, and amateur astronomy in my free time.

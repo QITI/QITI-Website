@@ -13,6 +13,6 @@ tags:
  - "grad"
  - "avogliano"
 ---
-Anthony has worked extensively in QITI lab both on hardware and programming critical experimental sequences, especially on the Amethyst system. Specific scientific interests include the interplay of coherent dynamics and dissipation, cooling and thermal behavior of many-body quantum systems, and Hamiltonian verification protocols.
+Anthony has worked extensively in QITI lab both on hardware and programming, especially on the main experimental sequences of the Amethyst system. Specific scientific interests include the interplay of coherent dynamics and dissipation, cooling and thermal behavior of many-body quantum systems, and Hamiltonian verification protocols.
 
 Anthony enjoys travelling and cooking.  His special skills include hand origame, optics table yoga, and having the second longest arms in the lab. Go Bears!

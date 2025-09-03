@@ -7,7 +7,7 @@ extention: null
 image: images/people/tkaufman.jpg
 office: null
 previousInstitution: ''
-tags: [tkaufman, COOP]
+tags: [tkaufman, COOP, alumn]
 tenure: Undergraduate co-op student (Spring 2025, Mechanical Engineering 3B)
 title: Tal Kaufman
 ---

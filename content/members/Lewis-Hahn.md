@@ -1,5 +1,5 @@
 ---
-currentInstitution: Masters Student, University of Waterloo
+currentInstitution: PhD Student, University of Waterloo
 date: 2020-08-03 00:00:00
 draft: false
 email: rlhahn@uwaterloo.ca
