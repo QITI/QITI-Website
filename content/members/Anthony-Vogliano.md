@@ -3,7 +3,7 @@ title: "Anthony Vogliano"
 date: 2020-08-01T00:00:00-00:00
 draft: false
 image: "images/people/anthony-vogliano.jpg"
-tenure: "PhD (2022-), MSc (2020- 22)"
+tenure: "PhD Candidate (2022-), MSc (2020- 22)"
 office: 
 extention: 
 email: "avogliano@uwaterloo.ca"

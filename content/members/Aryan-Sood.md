@@ -8,7 +8,7 @@ image: images/people/a39sood.jpg
 office: null
 previousInstitution: ''
 tags: [a39sood, COOP, alumn]
-tenure: Undergraduate co-op student (Spring 2025, Physics and Astronomy 2B)
+tenure: Undergraduate Volunteer (Spring 2025, Physics and Astronomy 2B)
 title: Aryan Sood
 ---
 Hello, I am a Aryan Sood and I'm in 2nd year Physics and Astronomy. I am a aspiring researcher that is hoping to contribute to Quantum Physics research. With my previous experience as an research assistant in ultra-fast laser optics I hope to be an asset to the the team!
