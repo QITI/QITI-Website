@@ -5,4 +5,4 @@ draft: false
 image: "images/news/none.png"
 ---
 
-New ion trappers have joined the QITI Lab!  Welcome to [Mu Niu](/../members/Mu-Niu/), [Faizan Samad](/../members/Faizan-Samad/ ), and [Chris Graham](/../members/Chris-Graham/)!  All of them are joining for their MSc studies.
+New ion trappers have joined the QITI Lab!  Welcome to [Mu Niu](/../members/Mu-Niu/), [Faizan Samad](/../members/Faizan-Samad/ ), and [Chris Graham](/../members/Chris-Graham/)!  Faizan and Chris are new MSc students.  Mu is a PhD student jointly supervised by Dr. Roger Melko.
