@@ -2,7 +2,7 @@
 title: "Optical field characterization at the fundamental limit of spatial resolution with a trapped ion"
 authors: [['Nikhil Kotibhaskar','nkotibha'], ['Sainath Motlakunta','smotlaku'],['Anthony Vogliano','avogliano'],['Lewis Hahn','rlhahn'], ['Rajibul Islam', 'krislam']]
 link: "https://arxiv.org/abs/2509.07214"
-journal: "Arxiv [Link]"
+journal: "arXiv:2509.07214 [Link]"
 volume: ""
 issue: ""
 date: 2025-09-10T00:00:00-00:00
