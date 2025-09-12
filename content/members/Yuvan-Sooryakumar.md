@@ -9,7 +9,7 @@ office: null
 previousInstitution: ''
 tags: [ysooryak, COOP]
 tenure: Undergrad co-op student (Fall 2025, Honors Phys 3A)
-title: Yoovan Sooryakumar
+title: Yuvan Sooryakumar
 ---
 
 
