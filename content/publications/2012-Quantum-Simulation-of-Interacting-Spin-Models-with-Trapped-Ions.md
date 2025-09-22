@@ -1,7 +1,7 @@
 ---
 title: "Quantum Simulation of Interacting Spin Models With Trapped Ions"
 authors: [['Kazi Rajibul Islam, PhD dissertation', 'krislam']]
-link: "http://iontrap.umd.edu/wp-content/uploads/2013/10/PhDThesis_KRajibulIslam_2012.pdf"
+link: "https://drum.lib.umd.edu/items/d6fb20c8-1c58-4501-b407-1b6917c75245"
 journal: 'University of Maryland - College Park [Download]'
 volume: 
 issue: 
