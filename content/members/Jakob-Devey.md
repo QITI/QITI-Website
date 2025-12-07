@@ -1,5 +1,4 @@
 ---
-currentInstitution: null
 currentInstitution: 2B Honours Physics, University of Waterloo
 date: 2020-09-01 00:00:00
 draft: false

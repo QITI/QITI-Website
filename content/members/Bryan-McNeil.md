@@ -1,6 +1,6 @@
 ---
 currentInstitution: 2B Physics Undergraduate, University of Waterloo
-date: 2025-9-01 00:00:00
+date: 2025-09-01 00:00:00
 draft: false
 email: bmcneil@uwaterloo.ca
 extention: null

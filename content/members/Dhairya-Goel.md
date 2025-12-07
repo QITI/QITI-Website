@@ -1,6 +1,6 @@
 ---
 currentInstitution: 3A Mechanical Engineering Undergraduate, University of Waterloo
-date: 2025-9-01 00:00:00
+date: 2025-09-01 00:00:00
 draft: false
 email: dgoel@uwaterloo.ca
 extention: null

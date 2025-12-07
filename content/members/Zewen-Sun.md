@@ -1,5 +1,4 @@
 ---
-currentInstitution: null
 date: 2021-12-31 00:00:00
 draft: false
 email: z253sun@uwaterloo.ca
