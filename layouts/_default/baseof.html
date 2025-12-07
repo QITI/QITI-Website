@@ -37,10 +37,7 @@
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/schema.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
-
-    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-      {{ template "_internal/google_analytics_async.html" . }}
-    {{ end }}
+    {{- template "_internal/google_analytics.html" . -}}
   </head>
 
   <body class="ma0 pb5 min-vh-100 relative {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}" style="background-color:rgb(233,230,233)" >

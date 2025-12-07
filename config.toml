@@ -4,7 +4,8 @@ title = "QUANTUM INFORMATION WITH TRAPPED IONS"
 subtitle = "University of Waterloo"
 theme = "ananke"
 #SectionPagesMenu = "mainmenu" #comment
-paginate = 15 # this is set low for demonstrating with dummy content. Set to a higher number. How many news items shown in one page.
+[pagination]
+  pagerSize = 15 # this is set low for demonstrating with dummy content. Set to a higher number. How many news items shown in one page.
 summaryLength = 50
 
 [Params]
