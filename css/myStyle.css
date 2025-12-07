@@ -1,0 +1,20 @@
+article {
+font-size: 18px;
+line-height: 1.5;
+font-family: arial;
+font-weight: normal;
+}
+
+p {
+font-size: 18px;
+line-height: 1.5;
+font-family: arial;
+font-weight: normal;
+}
+
+firstletter {
+font-size: 150%;
+font-family: cursive;
+font-weight: bold;
+
+}
