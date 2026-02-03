@@ -12,6 +12,7 @@ arXiv:
 tags:
  - "QITI" 
 image: "images/publications/Motlakunta2023_preserving_image.jpg"
+url: "publications/Motlakunta2024_preserving_a_qubit"
 ---
 
 **Abstract:** Protecting qubits from accidental measurements is essential 

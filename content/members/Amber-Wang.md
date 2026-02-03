@@ -3,7 +3,7 @@ title: "Amber Wang"
 date: 2024-07-01T21:16:17-04:00
 draft: false
 image: "images/people/amber.wang1.jpg"
-tenure: 
+tenure: "Research Finance Coordinator, IQC"
 office: "QNC 4121"
 extention: "x43144"
 email: "amber.wang1@uwaterloo.ca"

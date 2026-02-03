@@ -1,38 +1,237 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{/* Publications single: use navigation only (no page title bar) */}}
+{{ define "header" }}{{ partial "site-navigation.html" . }}{{ end }}
+
 {{ define "main" }}
 {{ partial "mathjax.html" }}
-  <div class="flex-l mt2 mw8 center">
-    <article class="center cf tj pv5 ph3 ph4-ns mw7">
-      <header>
-        <p class="f6 b helvetica tracked">
-        <a href="{{.Section | absURL }}" class="color-inherit dim link">{{ humanize .Section | upper  }} </a>
-        </p>          
-        <p class="f5 b gray mv1 pv1">
-   {{ substr .Date 0 4 }}          
-        </p>
-        <p class="f3 b mv1 pv1 tl">
-{{ .Title }}
-        </p>
-        <p class="f4 dark-gray mv1 pv1 tl">
-          {{ partial "authorList.html" . }}
-        </p>
-        <p class="f4 mid-gray mv1 pv1 tl">
-          {{ partial "journal-link-bar.html" . }}
-        </p>
-      </header>
-      <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray tl">
-          <div class="dtc v-top">
-            {{ if .Params.image }}
-			  {{ $img := .Params.image | absURL }}
-			  {{ if ( fileExists (printf "%s%s" "static/" .Params.image) ) }}
-              <img src="{{ $img }}" class="fl-l ft db ma4-l w-100-l mw5-l" alt="image from {{.Title}}" />
-		    {{ end }}
-            {{ end }}
-            <p class="lh-copy mv0">
-              {{ .Content }}
-            </p>
+
+<article class="qiti-flat dark-gray pv3 ph0 mh2 center" style="background-color: rgb(250,248,250)">
+  <div class="center mw8 ph3 ph4-ns">
+
+    {{/* Back link */}}
+    <div class="pt2 pb2">
+      <a href="{{ "/publications/" | relURL }}" class="link dim dark-gray f6">
+        ← Back to Publications
+      </a>
+    </div>
+
+    {{/* Determine whether image exists */}}
+    {{ $showImg := false }}
+    {{ $imgURL := "" }}
+    {{ if .Params.image }}
+      {{ if (fileExists (printf "%s%s" "static/" .Params.image)) }}
+        {{ $showImg = true }}
+        {{ $imgURL = .Params.image | relURL }}
+      {{ end }}
+    {{ end }}
+
+    {{/* =========================
+        Row 1: Image | Metadata
+       ========================= */}}
+    <section class="pb3">
+      <div class="flex flex-column flex-row-ns nl2 nr2 items-stretch">
+
+        {{ if $showImg }}
+          <div class="w-100 w-third-ns ph2 mb3">
+            <div class="ba b--black-10 bg-white pa3 h-100">
+              <img src="{{ $imgURL }}" alt="Figure for {{ .Title }}"
+                loading="lazy" decoding="async"
+                style="display:block; width:100%; height:auto;">
+              </div>
           </div>
+        {{ end }}
+
+        <div class="w-100 {{ if $showImg }}w-two-thirds-ns{{ end }} ph2 mb3">
+          <div class="ba b--black-10 bg-white pa3 h-100">
+
+            <div class="f6 mid-gray">
+              {{ .Date.Format "2006" }}
+            </div>
+
+            <h1 class="f4 f3-l fw7 near-black mt2 mb2 lh-title">
+              {{ .Title }}
+            </h1>
+
+            <div class="f6 f5-ns dark-gray mt2">
+              {{ partial "authorList.html" . }}
+            </div>
+
+            <div class="f6 mid-gray mt2">
+              {{ partial "journal-link-bar.html" . }}
+            </div>
+
+            {{/* Optional CTA buttons if params exist */}}
+            <div class="mt3 flex flex-wrap items-start">
+              {{ with .Params.pdf }}
+                <a href="{{ . | relURL }}" class="link dib ph3 pv2 mr3 mb2 white bg-dark-gray dim">
+                  PDF
+                </a>
+              {{ end }}
+              {{ with .Params.doi }}
+                <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener" class="link dib ph3 pv2 mr3 mb2 white bg-dark-gray dim">
+                  DOI
+                </a>
+              {{ end }}
+              {{ with .Params.code }}
+                <a href="{{ . }}" target="_blank" rel="noopener" class="link dib ph3 pv2 mr3 mb2 white bg-dark-gray dim">
+                  Code
+                </a>
+              {{ end }}
+            </div>
+
+          </div>
+        </div>
+
       </div>
-    </article>
+    </section>
+
+    {{/* =========================
+        Row 2: High-level summary (blurb) + Description/abstract + CTA
+       ========================= */}}
+    <section class="pb4">
+
+      {{/* High-level summary (only if blurb exists) */}}
+      {{ with .Params.blurb }}
+        <div class="ba b--black-10 bg-white pa3 mb3">
+          <div class="f6 ttu tracked mid-gray mb2">
+            High-level summary
+          </div>
+          <div class="lh-copy f5 dark-gray">
+            {{ . | markdownify }}
+          </div>
+        </div>
+      {{ end }}
+
+      {{/* Main content (abstract etc.) */}}
+      <div class="ba b--black-10 bg-white pa3">
+        <div class="lh-copy f5 dark-gray">
+          {{ .Content }}
+        </div>
+
+        {{/* CTA at the end: prefer link, then doi, then arxiv */}}
+        {{ $ctaURL := "" }}
+        {{ if .Params.link }}
+          {{ $ctaURL = .Params.link }}
+        {{ else if .Params.doi }}
+          {{ $ctaURL = (printf "https://doi.org/%s" .Params.doi) }}
+        {{ else if .Params.arxiv }}
+          {{ $ctaURL = (printf "https://arxiv.org/abs/%s" .Params.arxiv) }}
+        {{ end }}
+
+        {{ if $ctaURL }}
+          <div class="mt3">
+            <a href="{{ $ctaURL }}" target="_blank" rel="noopener"
+               class="link dib ph3 pv2 white bg-dark-gray dim">
+              View on journal
+            </a>
+          </div>
+        {{ end }}
+
+      </div>
+    </section>
+
+{{/* =========================
+   Bottom nav: Newer / Older within same category (by tags)
+   Articles = tag "QITI", Theses = tag "Thesis", Previous work = tag "Previous work"
+   ========================= */}}
+
+<style>
+  /* Equal-height nav cards on desktop (Tachyons -ns breakpoint is 30em) */
+  @media screen and (min-width: 30em) {
+    .qiti-pub-navrow { align-items: stretch; }
+    .qiti-pub-navcol { display: flex; }
+    .qiti-pub-navcard {
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+      height: 100%;
+    }
+  }
+</style>
+
+{{ $pubSection := .Site.GetPage "section" "publications" }}
+{{ $allPubs := slice }}
+{{ if $pubSection }}
+  {{ $allPubs = $pubSection.RegularPagesRecursive }}
+{{ end }}
+
+{{/* Detect category from tags */}}
+{{ $tags := .Params.tags | default (slice) }}
+{{ $cat := "articles" }}
+{{ if (in $tags "Thesis") }}
+  {{ $cat = "theses" }}
+{{ else if (in $tags "Previous work") }}
+  {{ $cat = "prevwork" }}
+{{ else if (in $tags "QITI") }}
+  {{ $cat = "articles" }}
+{{ end }}
+
+{{/* Build list for this category */}}
+{{ $pages := slice }}
+{{ if eq $cat "theses" }}
+  {{ $pages = where $allPubs ".Params.tags" "intersect" (slice "Thesis") }}
+{{ else if eq $cat "prevwork" }}
+  {{ $pages = where $allPubs ".Params.tags" "intersect" (slice "Previous work") }}
+{{ else }}
+  {{ $pages = where $allPubs ".Params.tags" "intersect" (slice "QITI") }}
+{{ end }}
+{{ $pages = sort $pages "Date" "desc" }}
+
+{{/* Find current index */}}
+{{ $s := newScratch }}
+{{ $s.Set "idx" -1 }}
+{{ range $i, $p := $pages }}
+  {{ if eq $p.RelPermalink $.RelPermalink }}
+    {{ $s.Set "idx" $i }}
+  {{ end }}
+{{ end }}
+{{ $idx := $s.Get "idx" }}
+
+{{/* Compute neighbors (newest-first ordering) */}}
+{{ $s.Set "newer" false }}
+{{ $s.Set "older" false }}
+
+{{ if ge $idx 0 }}
+  {{ if gt $idx 0 }}
+    {{ $s.Set "newer" (index $pages (sub $idx 1)) }}
+  {{ end }}
+  {{ if lt (add $idx 1) (len $pages) }}
+    {{ $s.Set "older" (index $pages (add $idx 1)) }}
+  {{ end }}
+{{ end }}
+
+{{ $newer := $s.Get "newer" }}
+{{ $older := $s.Get "older" }}
+
+{{ if or $newer $older }}
+  <div class="mt4 pt3 bt b--black-10">
+    <div class="flex flex-column flex-row-ns qiti-pub-navrow">
+
+      <div class="w-100 w-50-ns pr2-ns mb2 mb0-ns qiti-pub-navcol">
+        {{ with $newer }}
+          <a class="link dib w-100 ba b--black-10 bg-white pa3 dim near-black qiti-pub-navcard"
+             href="{{ .Permalink }}">
+            <div class="f6 ttu tracked mid-gray mb1">Newer</div>
+            <div class="f5 fw6 lh-title">← {{ .Title }}</div>
+          </a>
+        {{ end }}
+      </div>
+
+      <div class="w-100 w-50-ns pl2-ns qiti-pub-navcol">
+        {{ with $older }}
+          <a class="link dib w-100 ba b--black-10 bg-white pa3 dim near-black qiti-pub-navcard"
+             href="{{ .Permalink }}">
+            <div class="f6 ttu tracked mid-gray mb1">Older</div>
+            <div class="f5 fw6 lh-title">{{ .Title }} →</div>
+          </a>
+        {{ end }}
+      </div>
+
+    </div>
   </div>
+{{ end }}
+
+
+  </div>
+</article>
+
 {{ end }}

@@ -1,10 +1,62 @@
+{{/* layouts/shortcodes/publist.html
 
+Usage examples:
+  {{< publist 2019-My-Paper.md >}}
+  {{< publist 2019-My-Paper >}}
+  {{< publist 2019-My-Paper 2025-Another-Paper cta="Details" >}}
+
+Notes:
+  - Finds publications by .File.ContentBaseName, so it works even if the file is in subfolders.
+*/}}
+
+{{ $cta := "Details" }}
+{{ with .Get "cta" }}{{ $cta = . }}{{ end }}
+
+{{/* Collect requested basenames from positional args */}}
+{{ $need := dict }}
+{{ range $idx := seq 0 50 }}
+  {{ $v := $.Get $idx }}
+  {{ if not $v }}{{ break }}{{ end }}
+  {{ $base := $v | replaceRE "\\.md$" "" }}
+  {{ $need = merge $need (dict $base true) }}
+{{ end }}
+
+{{/* Collect matching publication pages */}}
 {{ $list := slice }}
-{{ range .Params }}
-  {{ with $.Site.GetPage ( printf "%s%s" "/content/publications/" . ) }}
-    {{ $list = $list | append  . }}
+{{ range where $.Site.RegularPages "Section" "publications" }}
+  {{ $b := .File.ContentBaseName }}
+  {{ if index $need $b }}
+    {{ $list = $list | append . }}
   {{ end }}
 {{ end }}
+
+{{/* Render */}}
 {{ if ge (len $list) 1 }}
-  {{ partial "pub-list-2.html" $list}}
+  <div class="mt3">
+    {{ range $p := $list }}
+      <div class="ba b--black-10 bg-white pa3 mb3 qiti-card">
+
+        <div class="f5 fw6 near-black lh-title">
+          <a href="{{ $p.RelPermalink }}" class="link near-black dim">
+            {{ $p.Title }}
+          </a>
+        </div>
+
+        <div class="f6 mid-gray mt2">
+          {{ partial "authorList.html" $p }}
+        </div>
+
+        <div class="f6 mid-gray mt1 mb1">
+          {{ partial "journal-link-bar.html" $p }}
+        </div>
+
+        <div class="qiti-card-cta mt3">
+          <a href="{{ $p.RelPermalink }}" class="link dib ph3 pv2 white bg-dark-gray dim">
+            {{ $cta }}
+          </a>
+        </div>
+
+      </div>
+    {{ end }}
+  </div>
 {{ end }}

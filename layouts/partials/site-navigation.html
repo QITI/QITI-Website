@@ -1,24 +1,155 @@
-<nav class="pt3 pb1 ph3 ph4-ns" style="background-color: rgb(58,54,63)" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="{{ .Site.BaseURL }}" class="pv0 hover-white no-underline white dib" style="color: rgb(243,241,234); font-family:Arial;font-size:35px;font-weight:600">
-      {{ .Site.Title }}
-    </a>
-       
-    <div class="flex-l items-start">
-      {{ partial "i18nlist.html" . }}
-      {{ if .Site.Menus.mainmenu }}
-        <ul class="pl0 mr3">
-          {{ range .Site.Menus.mainmenu }}
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline" style="color:rgb(239,236,226)" href="{{ .URL }}" title="{{ .Name }} page">
+<nav role="navigation" class="qiti-nav">
+  {{ $cur := strings.TrimSuffix "/" .RelPermalink }}
+
+  <div class="mw8 center ph3 ph4-ns pv2">
+    <div class="qiti-nav-row">
+
+      <!-- Site title -->
+      <a href="{{ .Site.BaseURL }}"
+         class="no-underline dib qiti-site-title"
+         style="color:#111111; font-weight:800; letter-spacing:0.06em; line-height:1.15;">
+        {{ .Site.Title }}
+      </a>
+
+      <!-- Right side: desktop menu + mobile hamburger -->
+      <div class="qiti-nav-right">
+        {{ partial "i18nlist.html" . }}
+
+        <!-- Desktop menu -->
+{{ if .Site.Menus.mainmenu }}
+  <ul class="pl0 ma0 ml0 ml3-l qiti-nav-links">
+    {{ range .Site.Menus.mainmenu }}
+      {{ $item := strings.TrimSuffix "/" (.URL | relURL) }}
+
+      {{/* Mark parent active if any child is active */}}
+      {{ $childActive := false }}
+      {{ if .HasChildren }}
+        {{ range .Children }}
+          {{ $citem := strings.TrimSuffix "/" (.URL | relURL) }}
+          {{ if or
+              (eq $cur $citem)
+              (and (ne $citem "") (ne $citem "/") (hasPrefix $cur $citem))
+          }}
+            {{ $childActive = true }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ $isActive := or
+          (eq $cur $item)
+          (and (ne $item "") (ne $item "/") (hasPrefix $cur $item))
+          $childActive
+      }}
+
+      <li class="list f6 f5-ns fw4 dib pr3 qiti-nav-item {{ if .HasChildren }}qiti-nav-has-children{{ end }}">
+        {{ if .HasChildren }}
+          <details class="qiti-nav-dd">
+            <summary class="qiti-nav-dd-summary no-underline {{ if $isActive }}fw7{{ end }}" style="color:#222222;">
+              {{ .Name }}
+            </summary>
+            <div class="qiti-nav-dd-panel">
+              {{ range .Children }}
+                {{ $citem := strings.TrimSuffix "/" (.URL | relURL) }}
+                {{ $cActive := or
+                    (eq $cur $citem)
+                    (and (ne $citem "") (ne $citem "/") (hasPrefix $cur $citem))
+                }}
+                <a class="qiti-nav-dd-link no-underline db {{ if $cActive }}fw7{{ end }}"
+                   style="color:#222222;"
+                   href="{{ .URL }}" title="{{ .Name }} page">
+                  {{ .Name }}
+                </a>
+              {{ end }}
+            </div>
+          </details>
+        {{ else }}
+          <a class="no-underline {{ if $isActive }}fw7{{ end }}"
+             style="color:#222222;"
+             href="{{ .URL }}" title="{{ .Name }} page">
+            {{ .Name }}
+          </a>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
+
+<!-- Social (desktop only) -->
+<div class="ml2 qiti-nav-social">
+  {{ partialCached "social-follow.html" . }}
+</div>
+
+<!-- Mobile hamburger (mobile only) -->
+<button type="button"
+        class="qiti-burger qiti-nav-toggle ml2"
+        aria-label="Open menu"
+        aria-controls="qiti-mobile-menu"
+        aria-expanded="false">
+  <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </svg>
+</button>
+
+</div>
+</div>
+
+<!-- Mobile dropdown menu -->
+{{ if .Site.Menus.mainmenu }}
+  <div id="qiti-mobile-menu" class="qiti-mobile-menu dn">
+    <ul class="pl0 ma0 pt2">
+      {{ range .Site.Menus.mainmenu }}
+        {{ $item := strings.TrimSuffix "/" (.URL | relURL) }}
+
+        {{ $childActive := false }}
+        {{ if .HasChildren }}
+          {{ range .Children }}
+            {{ $citem := strings.TrimSuffix "/" (.URL | relURL) }}
+            {{ if or
+                (eq $cur $citem)
+                (and (ne $citem "") (ne $citem "/") (hasPrefix $cur $citem))
+            }}
+              {{ $childActive = true }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ $isActive := or
+            (eq $cur $item)
+            (and (ne $item "") (ne $item "/") (hasPrefix $cur $item))
+            $childActive
+        }}
+
+        <li class="list pv2">
+          {{ if .HasChildren }}
+            <div class="fw6 {{ if $isActive }}fw7{{ end }}" style="color:#222222;">{{ .Name }}</div>
+            <ul class="pl3 ma0 mt1">
+              {{ range .Children }}
+                {{ $citem := strings.TrimSuffix "/" (.URL | relURL) }}
+                {{ $cActive := or
+                    (eq $cur $citem)
+                    (and (ne $citem "") (ne $citem "/") (hasPrefix $cur $citem))
+                }}
+                <li class="list pv2">
+                  <a class="no-underline db {{ if $cActive }}fw7{{ end }}"
+                     style="color:#222222;"
+                     href="{{ .URL }}" title="{{ .Name }} page">
+                    {{ .Name }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          {{ else }}
+            <a class="no-underline db {{ if $isActive }}fw7{{ end }}"
+               style="color:#222222;"
+               href="{{ .URL }}" title="{{ .Name }} page">
               {{ .Name }}
             </a>
-          </li>
           {{ end }}
-        </ul>
+        </li>
       {{ end }}
-      {{ partialCached "social-follow.html" . }}
-    </div>
+    </ul>
   </div>
-<p class ="f5" style ="color: rgb(212,210,206)">Principal Investigator - Prof. Rajibul Islam, IQC, University of Waterloo</p>
-  </nav>
+{{ end }}
+
+</div>
+</nav>

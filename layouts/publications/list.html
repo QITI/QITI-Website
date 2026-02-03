@@ -1,35 +1,454 @@
 {{ define "main" }}
-{{ $publications := where .Site.Pages "Section" "publications" }}
-{{ $publications := symdiff $publications (slice .) }}
-{{ $tags := slice "QITI" "Thesis" "Previous work" }}
-{{ $alias := slice "Articles" "Theses" "Previous work" }}
-{{ $titleCards := slice "Pre-prints and journal articles" "Theses" "Previous work of Prof. Islam (MIT, Harvard, Maryland)"}}
-<article class="mh4 mw7-l nested-copy-line-height nested-img center">
-  {{ partial "nav-bar.html" $alias .}}
-  {{ if .Content }}
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-      {{- .Content -}}
-    </section>
-  {{ end }}
 
+{{/* ===== Gather publications ===== */}}
+{{ $allPubs := .RegularPagesRecursive }}
 
-    <section class="flex-ns flex-wrap justify-around pa1 mt2" style="color:rgb(52,46,52)">
-      
-      {{ range seq 0 (sub (len $tags) 1) }}
-        {{ if (index $titleCards .) }}
-          <div class="w-100 tl ">
-            <a id="{{ index $alias . }}"></a>
-            <h1>{{ index $titleCards . }}</h1>
+{{ $articles := where $allPubs ".Params.tags" "intersect" (slice "QITI") }}
+{{ $theses   := where $allPubs ".Params.tags" "intersect" (slice "Thesis") }}
+{{ $prevwork := where $allPubs ".Params.tags" "intersect" (slice "Previous work") }}
+
+{{/* Sort base lists */}}
+{{ $articles = sort $articles "Date" "desc" }}
+{{ $theses   = sort $theses "Date" "desc" }}
+{{ $prevwork = sort $prevwork "Date" "desc" }}
+
+<article class="qiti-flat dark-gray pv3 ph0 mh2 center" style="background-color: rgb(250,248,250)">
+  <div class="center mw8 ph3 ph4-ns">
+
+    {{ if .Content }}
+      <section class="pb3">
+        <div class="ba b--black-10 bg-white pa3">
+          <div class="lh-copy f5 dark-gray">
+            {{ .Content }}
           </div>
+        </div>
+      </section>
+    {{ end }}
+
+    {{/* ========= Top jump buttons + compact search (members-style) ========= */}}
+    <div class="pv3" style="border-bottom:1px solid rgba(0,0,0,0.08);">
+      <div class="flex flex-wrap items-start">
+
+        <a href="#articles" class="link dib ph3 pv2 mr3 mb2 white bg-dark-gray dim">
+          Articles
+        </a>
+        <a href="#theses" class="link dib ph3 pv2 mr3 mb2 white bg-dark-gray dim">
+          Theses
+        </a>
+        <a href="#previous-work" class="link dib ph3 pv2 mr3 mb2 white bg-dark-gray dim">
+          Previous work
+        </a>
+
+        <div id="qiti-pubs-searchwrap" class="ml-auto mb2 flex items-center" style="gap:8px;">
+          <input id="qiti-pubs-search"
+                 type="text"
+                 placeholder="Search..."
+                 class="input-reset ba b--black-10 pa2"
+                 style="background:#fff; width:220px; max-width:70vw; height:36px;">
+
+          <button id="qiti-pubs-clear"
+                  type="button"
+                  class="link dib ph3 pv2 white bg-dark-gray dim bn"
+                  style="height:36px; padding-top:0; padding-bottom:0;">
+            Clear
+          </button>
+
+          <span id="qiti-pubs-count"
+                class="f6 mid-gray"
+                style="white-space:nowrap; line-height:36px;">
+            (0)
+          </span>
+        </div>
+
+      </div>
+    </div>
+
+    <style>
+      .qiti-wrap-left { margin-left: 0 !important; }
+      mark { padding: 0 2px; }
+
+      /* Quiet "Details" hint, to match Members page */
+      .qiti-pub-hint{
+        display: inline-block;
+        margin-top: 0.75rem;
+        font-size: 0.9rem;
+        color: rgba(0,0,0,0.38);
+        text-decoration: none;
+      }
+    </style>
+
+    {{/* =========================================================
+        ARTICLES (grouped by year, 3-col grid, continuous numbering)
+       ========================================================= */}}
+    <section id="articles" class="pb4 qiti-pub-section" data-section="articles">
+      <h2 class="f3 fw6 near-black mt3 mb3">
+        Pre-prints and journal articles
+      </h2>
+
+      {{ if gt (len $articles) 0 }}
+
+        {{ $groups := $articles.GroupByDate "2006" }}
+        {{ $groups = sort $groups "Key" "desc" }}
+        {{ $counter := len $articles }}
+
+        {{ range $groups }}
+          {{ $yearPages := sort .Pages "Date" "desc" }}
+
+          <div class="qiti-pub-year" data-total="{{ len $yearPages }}">
+            <h3 class="f4 fw6 near-black mt4 mb2">
+              {{ .Key }}
+            </h3>
+
+            <div class="flex flex-wrap nl2 nr2 items-stretch">
+              {{ range $yearPages }}
+
+                {{ $blurb := "" }}
+                {{ with .Params.blurb }}
+                  {{ $blurb = . | plainify | htmlUnescape }}
+                {{ end }}
+
+                {{ $authorsText := partial "authorList.html" . | plainify | htmlUnescape }}
+                {{ $journalText := partial "journal-link-bar.html" . | plainify | htmlUnescape }}
+                {{ $body := .Plain | plainify | htmlUnescape }}
+
+                {{ $searchText := printf "%s %s %s %s %s" .Title $authorsText $journalText $blurb $body
+                    | lower
+                    | replaceRE "\\s+" " "
+                    | truncate 4000
+                }}
+
+                <div class="w-100 w-50-l ph2 mb3 qiti-pub-item"
+                     data-section="articles"
+                     data-title="{{ .Title | lower }}"
+                     data-text="{{ $searchText }}">
+
+                  <div class="ba b--black-10 bg-white pa3 qiti-card h-100" style="min-height: 220px;">
+
+<div class="f5 fw6 near-black lh-title qiti-pub-title">
+                      {{ $counter }}.
+                      <a href="{{ .Permalink }}" class="link near-black dim qiti-hl">
+                        {{ .Title }}
+                      </a>
+                    </div>
+
+              <div class="f6 mid-gray mt2 qiti-hl qiti-pub-authors">
+                {{ partial "authorList.html" . }}
+              </div>
+
+              <div class="f6 mid-gray mt1 mb1 qiti-hl qiti-pub-journal">
+                {{ partial "journal-link-bar.html" . }}
+              </div>
+                    
+
+                   <a href="{{ .Permalink }}" class="qiti-pub-hint link dim">Details</a>
+
+
+                  </div>
+                </div>
+
+                {{ $counter = sub $counter 1 }}
+              {{ end }}
+            </div>
+          </div>
+
         {{ end }}
 
-        {{ $list := where $publications ".Params.tags" "intersect" (slice (index $tags .)) }}
-        {{ with $list }}
-          {{- partial "pub-list-2.html" . -}}
-        {{ end }}
+      {{ else }}
+        <p class="f5 mid-gray">No items found in this category yet.</p>
       {{ end }}
 
+      <p class="f6 mid-gray qiti-pub-empty" style="display:none; margin-top:8px;">
+        No matches in this section.
+      </p>
     </section>
-  </article>
+
+    {{/* =========================================================
+        THESES (no year headers; show year inside card; 3-col grid)
+       ========================================================= */}}
+    <section id="theses" class="pb4 qiti-pub-section" data-section="theses">
+      <h2 class="f3 fw6 near-black mt0 mb3">
+        Theses
+      </h2>
+
+      {{ if gt (len $theses) 0 }}
+        {{ $counterT := len $theses }}
+
+        <div class="flex flex-wrap nl2 nr2 items-stretch">
+          {{ range $theses }}
+
+            {{ $blurb := "" }}
+            {{ with .Params.blurb }}
+              {{ $blurb = . | plainify | htmlUnescape }}
+            {{ end }}
+
+            {{ $authorsText := partial "authorList.html" . | plainify | htmlUnescape }}
+            {{ $journalText := partial "journal-link-bar.html" . | plainify | htmlUnescape }}
+            {{ $body := .Plain | plainify | htmlUnescape }}
+
+            {{ $searchText := printf "%s %s %s %s %s" .Title $authorsText $journalText $blurb $body
+                | lower
+                | replaceRE "\\s+" " "
+                | truncate 4000
+            }}
+
+            <div class="w-100 w-50-l ph2 mb3 qiti-pub-item"
+                 data-section="theses"
+                 data-title="{{ .Title | lower }}"
+                 data-text="{{ $searchText }}">
+
+              <div class="ba b--black-10 bg-white pa3 qiti-card h-100" style="min-height: 220px;">
+
+<div class="f5 fw6 near-black lh-title qiti-pub-title">
+                  {{ $counterT }}.
+                  <a href="{{ .Permalink }}" class="link near-black dim qiti-hl">
+                    {{ .Title }}
+                  </a>
+                </div>
+
+               <div class="f6 mid-gray mt2 qiti-hl qiti-pub-authors">
+                {{ partial "authorList.html" . }}
+              </div>
+
+                <div class="f6 mid-gray mt1 mb1 qiti-hl qiti-pub-journal">
+                  {{ partial "journal-link-bar.html" . }}
+                </div>
+                <div class="f6 mid-gray mt0 mb1">
+                  {{ .Date.Format "2006" }}
+                </div>
+
+                <div class="qiti-card-cta mt3">
+                  <a href="{{ .Permalink }}" class="qiti-pub-hint link dim">
+                    Details
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            {{ $counterT = sub $counterT 1 }}
+          {{ end }}
+        </div>
+
+      {{ else }}
+        <p class="f5 mid-gray">No items found in this category yet.</p>
+      {{ end }}
+
+      <p class="f6 mid-gray qiti-pub-empty" style="display:none; margin-top:8px;">
+        No matches in this section.
+      </p>
+    </section>
+
+    {{/* =========================================================
+        PREVIOUS WORK (no year needed; 3-col grid)
+       ========================================================= */}}
+    <section id="previous-work" class="pb5 qiti-pub-section" data-section="prevwork">
+      <h2 class="f3 fw6 near-black mt0 mb3">
+        Previous work of Prof. Islam (MIT, Harvard, Maryland)
+      </h2>
+
+      {{ if gt (len $prevwork) 0 }}
+        {{ $counterP := len $prevwork }}
+
+        <div class="flex flex-wrap nl2 nr2 items-stretch">
+          {{ range $prevwork }}
+
+            {{ $blurb := "" }}
+            {{ with .Params.blurb }}
+              {{ $blurb = . | plainify | htmlUnescape }}
+            {{ end }}
+
+            {{ $authorsText := partial "authorList.html" . | plainify | htmlUnescape }}
+            {{ $journalText := partial "journal-link-bar.html" . | plainify | htmlUnescape }}
+            {{ $body := .Plain | plainify | htmlUnescape }}
+
+            {{ $searchText := printf "%s %s %s %s %s" .Title $authorsText $journalText $blurb $body
+                | lower
+                | replaceRE "\\s+" " "
+                | truncate 4000
+            }}
+
+            <div class="w-100 w-50-l ph2 mb3 qiti-pub-item"
+                 data-section="prevwork"
+                 data-title="{{ .Title | lower }}"
+                 data-text="{{ $searchText }}">
+
+              <div class="ba b--black-10 bg-white pa3 qiti-card h-100" style="min-height: 220px;">
+
+                <div class="f5 fw6 near-black lh-title qiti-pub-title">
+                  {{ $counterP }}.
+                  <a href="{{ .Permalink }}" class="link near-black dim qiti-hl">
+                    {{ .Title }}
+                  </a>
+                </div>
+
+                <div class="f6 mid-gray mt2 qiti-hl qiti-pub-authors">
+                  {{ partial "authorList.html" . }}
+                </div>
+
+                <div class="f6 mid-gray mt1 mb1 qiti-hl qiti-pub-journal">
+                  {{ partial "journal-link-bar.html" . }}
+                </div>
+
+                <div class="qiti-card-cta mt3">
+                  <a href="{{ .Permalink }}" class="qiti-pub-hint link dim">
+                    Details
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            {{ $counterP = sub $counterP 1 }}
+          {{ end }}
+        </div>
+
+      {{ else }}
+        <p class="f5 mid-gray">No items found in this category yet.</p>
+      {{ end }}
+
+      <p class="f6 mid-gray qiti-pub-empty" style="display:none; margin-top:8px;">
+        No matches in this section.
+      </p>
+    </section>
+
+  </div>
+</article>
+
 {{ end }}
 
+{{ define "scripts" }}
+  {{ partialCached "site-scripts.html" . }}
+
+  <script>
+    (function () {
+      var search = "";
+
+      function normalize(s) { return (s || "").toLowerCase(); }
+
+      function escapeRegExp(str) {
+        return (str || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }
+
+      function applyHighlights(query) {
+        document.querySelectorAll(".qiti-hl").forEach(function (el) {
+          if (!el.hasAttribute("data-orightml")) {
+            el.setAttribute("data-orightml", el.innerHTML);
+          } else {
+            el.innerHTML = el.getAttribute("data-orightml");
+          }
+        });
+
+        if (!query) { return; }
+
+        var terms = query.split(/\s+/).filter(function (t) { return t.length > 0; });
+        if (terms.length === 0) { return; }
+
+        var pattern = terms.map(escapeRegExp).join("|");
+        var re = new RegExp("(" + pattern + ")", "ig");
+
+        document.querySelectorAll(".qiti-hl").forEach(function (el) {
+          var html = el.getAttribute("data-orightml") || el.innerHTML;
+          el.innerHTML = html.replace(re, "<mark>$1</mark>");
+        });
+      }
+
+      function applyFilter() {
+        var items = document.querySelectorAll(".qiti-pub-item");
+        var shown = 0;
+
+        items.forEach(function (el) {
+          var title = normalize(el.getAttribute("data-title"));
+          var text  = normalize(el.getAttribute("data-text"));
+          var ok = !search || (title.indexOf(search) >= 0) || (text.indexOf(search) >= 0);
+
+          el.style.display = ok ? "" : "none";
+          if (ok) { shown++; }
+        });
+
+        var counter = document.getElementById("qiti-pubs-count");
+        if (counter) {
+          counter.textContent = "(" + shown + ")";
+        }
+
+        var filteringActive = !!search;
+
+        document.querySelectorAll(".qiti-pub-year").forEach(function (yearBlock) {
+          var visible = 0;
+          yearBlock.querySelectorAll(".qiti-pub-item").forEach(function (it) {
+            if (it.style.display !== "none") { visible++; }
+          });
+
+          var yearCount = yearBlock.querySelector('[data-role="yearcount"]');
+          if (yearCount) {
+            if (filteringActive) {
+              yearCount.textContent = "(" + visible + ")";
+            } else {
+              var total = parseInt(yearBlock.getAttribute("data-total") || "0", 10);
+              yearCount.textContent = "(" + total + ")";
+            }
+          }
+
+          if (filteringActive) {
+            yearBlock.style.display = visible > 0 ? "" : "none";
+          } else {
+            yearBlock.style.display = "";
+          }
+        });
+
+        document.querySelectorAll(".qiti-pub-section").forEach(function (sec) {
+          var visible = 0;
+          sec.querySelectorAll(".qiti-pub-item").forEach(function (it) {
+            if (it.style.display !== "none") { visible++; }
+          });
+
+          var emptyMsg = sec.querySelector(".qiti-pub-empty");
+          if (emptyMsg) {
+            emptyMsg.style.display = (filteringActive && visible === 0) ? "" : "none";
+          }
+        });
+
+        applyHighlights(search);
+        updateTopBarAlignment();
+      }
+
+      var searchBox = document.getElementById("qiti-pubs-search");
+      if (searchBox) {
+        searchBox.addEventListener("input", function () {
+          search = normalize(searchBox.value).trim();
+          applyFilter();
+        });
+      }
+
+      var clearBtn = document.getElementById("qiti-pubs-clear");
+      if (clearBtn && searchBox) {
+        clearBtn.addEventListener("click", function () {
+          searchBox.value = "";
+          search = "";
+          applyFilter();
+          searchBox.focus();
+        });
+      }
+
+      function updateTopBarAlignment() {
+        var wrap = document.getElementById("qiti-pubs-searchwrap");
+        if (!wrap) { return; }
+
+        var firstBtn = document.querySelector('a[href="#articles"]');
+        if (!firstBtn) { return; }
+
+        var wrapped = wrap.getBoundingClientRect().top > firstBtn.getBoundingClientRect().top + 2;
+
+        if (wrapped) {
+          wrap.classList.add("qiti-wrap-left");
+        } else {
+          wrap.classList.remove("qiti-wrap-left");
+        }
+      }
+
+      window.addEventListener("resize", updateTopBarAlignment);
+
+      applyFilter();
+      updateTopBarAlignment();
+    })();
+  </script>
+{{ end }}

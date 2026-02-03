@@ -12,6 +12,7 @@ draft: false
 arXiv: 
 tags:
  - "QITI" 
+research_areas: ["optical-addressing"]
 image: "images/publications/Shih2024_joss_pyslm2_hologram.png"
 ---
 

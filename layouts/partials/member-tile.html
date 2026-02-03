@@ -1,0 +1,53 @@
+{{ $page := .page }}
+
+{{ $img := "" }}
+{{ if $page.Params.image }}
+  {{ if (fileExists (printf "%s%s" "static/" $page.Params.image)) }}
+    {{ $img = $page.Params.image | absURL }}
+  {{ end }}
+{{ end }}
+{{ if eq $img "" }}
+  {{ $img = "images/default.png" | absURL }}
+{{ end }}
+
+{{ $line := $page.Params.card_line }}
+{{ if not $line }}
+  {{ $line = $page.Params.tenure }}
+{{ end }}
+
+<div class="w-100 pa2 flex flex-column" style="height:100%;">
+  <div class="ba b--black-10 bg-white qiti-member-card" style="height:100%;">
+    <div class="pa3 qiti-card" style="height:100%;">
+
+      <div class="flex items-start pb1">
+        <a href="{{ $page.RelPermalink }}" class="link">
+          <div style="width:100px;height:100px;border-radius:9999px;overflow:hidden;flex:0 0 auto;">
+            <img src="{{ $img }}" alt="Photo of {{ $page.Title }}"
+                 loading="lazy" decoding="async" width="100" height="100"
+                 style="width:100%;height:100%;object-fit:cover;display:block;">
+          </div>
+        </a>
+
+        <div class="pl3" style="min-width:0;">
+          <h3 class="mt0 mb1 qiti-member-name" style="color:#111;">
+            <a href="{{ $page.RelPermalink }}" class="link color-inherit dim">
+              {{ $page.Title }}
+            </a>
+          </h3>
+
+          {{ if $line }}
+            <div class="qiti-member-meta">
+              {{ $line }}
+            </div>
+          {{ end }}
+
+          <a href="{{ $page.RelPermalink }}" class="qiti-card-hint link dim">Profile</a>
+        </div>
+      </div>
+
+    </div>
+
+    <a class="qiti-stretched-link" href="{{ $page.RelPermalink }}"
+       aria-label="Open profile for {{ $page.Title }}"></a>
+  </div>
+</div>

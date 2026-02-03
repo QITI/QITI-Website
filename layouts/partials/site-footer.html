@@ -1,14 +1,20 @@
-<footer class="absolute bottom-0 h3 w-100 dn dib-ns " style="background-color:rgb(63,55,56)" role="contentinfo">
-<hr style="height:2px;display: block;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  border-style: inset;
-  border-width:0;
-  background-color:rgb(81,72,72)">
-  <div class="flex justify-between pv3 mt1 ph3">
-  <a class="f4 fw4 hover-white no-underline" style="color:rgb(222,217,217)" href="{{ .Site.BaseURL }}" >
-    &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
-  </a>
-    <div>{{ partial "social-follow.html" . }}</div>
+<footer class="w-100" style="background:#111111; border-top:1px solid rgba(255,255,255,0.12);" role="contentinfo">
+  <div class="mw8 center ph3 ph4-ns pv4">
+    <div class="flex flex-column flex-row-ns items-start items-center-ns justify-between">
+
+      <div class="f6" style="color: rgba(255,255,255,0.82); line-height:1.55;">
+        <div>
+          &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006" }} {{ end }}
+        </div>
+        <div class="mt1" style="color: rgba(255,255,255,0.70);">
+          Institute for Quantum Computing, University of Waterloo
+        </div>
+      </div>
+
+      <div class="mt3 mt0-ns">
+        {{ partialCached "social-follow.html" . }}
+      </div>
+
+    </div>
   </div>
 </footer>

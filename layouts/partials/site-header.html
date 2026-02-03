@@ -1,28 +1,59 @@
-{{ partial "site-navigation.html" .}}
-{{ $featured_image := .Param "featured_image"}}
-{{ if $featured_image }}
-  {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-  {{ $featured_image := (trim $featured_image "/") | absURL }}
- <header style="background: url('{{ $featured_image }}') no-repeat center; background-attachment: body; background-size:cover;">
- 	<div class="{{ .Site.Params.cover_dimming_class | default "bg-black-30" }}">
-       <div class="tl pv3 pv5-l ph3 ph4-ns">
-{{/* change pv number above to change vertical padding, m for medium screen size, l for large e.g. pv3-m */}}
-        <h1 class="f2 white-90 f-subheadline-2 fw4 mb0 1h-title">
-          {{ .Title | default .Site.Title }}</h1>
+{{/* Featured image can come from the page front matter or from Site.Params.featured_image */}}
+{{ $featured_image := .Param "featured_image" }}
 
+{{/* Hero text can be overridden in content/_index.md front matter via hero_title */}}
+{{ $heroTitle := .Param "hero_title" | default "Building scalable trapped-ion quantum processors and open quantum systems." }}
+
+{{/* Always show the fixed white navigation */}}
+{{ partial "site-navigation.html" . }}
+
+{{ if .IsHome }}
+  {{ if $featured_image }}
+    {{ $featured_image = (trim $featured_image "/") | absURL }}
+  {{ end }}
+
+  <header class="relative"
+          {{ if $featured_image }}style="background: url('{{ $featured_image }}') no-repeat center; background-size: cover;"{{ else }}style="background-color: rgb(74,70,80)"{{ end }}>
+    {{/* Dark overlay for readability */}}
+    <div style="background: rgba(0,0,0,0);">
+      <div class="mw8 center ph3 ph4-ns pt4 pb4">
+        <h1 class="f2 f1-l fw4 white-90 mv0 lh-title">
+          {{ $heroTitle }}
+        </h1>
+
+        <!-- <div class="mt4 flex flex-column flex-row-ns items-start">
+          <a href="{{ "/bloodstone/" | relURL }}" class="link dib ph3 pv2 mb2 mr3-ns white bg-black dim ba b--black">
+            Processors
+          </a>
+          <a href="{{ "/research/" | relURL }}" class="link dib ph3 pv2 mb2 mr3-ns white bg-black dim ba b--black">
+            Research
+          </a>
+          <a href="{{ "/join/" | relURL }}" class="link dib ph3 pv2 mb2 mr3-ns white bg-black dim ba b--black">
+            Join
+          </a>
+        </div> -->
       </div>
     </div>
   </header>
-{{ else }}
-  <header>
-<hr style="height:1px;border-width:0;margin-top: 0;margin-bottom:0;background-color:rgb(70,64,78)">
 
-    <div style="background-color: rgb(74,70,80)">
-        <div class="tl pv2 ph3">
-        <h2 class="f4 ph0 ph3-ns f3-m f2-l white-80 f-subheadline-2 fw2 mv0 lh-title">
+{{ else }}
+
+  {{/* MEMBERS SINGLE PAGES: do not render a title bar (avoids duplicate name) */}}
+  {{ if and (eq .Section "members") (eq .Kind "page") }}
+
+    {{/* Intentionally blank */}}
+
+  {{ else }}
+
+    {{/* All other non-home pages: simple clean title bar, LEFT aligned */}}
+    <header style="background-color: rgb(250,248,250); border-bottom: 1px solid rgba(0,0,0,0.08);">
+      <div class="mw8 center ph3 ph4-ns pv3">
+        <h1 class="f2 fw6 dark-gray mv0 lh-title">
           {{ .Title | default .Site.Title }}
-        </h2>
-        </div>
-    </div>
-  </header>
+        </h1>
+      </div>
+    </header>
+
+  {{ end }}
+
 {{ end }}

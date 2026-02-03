@@ -11,6 +11,7 @@ draft: false
 arXiv:
 tags:
  - "QITI" 
+research_areas: ["optical-addressing"]
 image: "images/publications/2021-Shih-DMD.png"
 ---
 

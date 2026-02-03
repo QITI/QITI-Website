@@ -1,0 +1,94 @@
+{{/* layouts/partials/recent-tile.html */}}
+{{/* Flat tile for Recent News / Publications with optional image and one-sentence blurb.
+     IMPORTANT: Only render image area if the file exists (static) or is a page-bundle resource. */}}
+
+{{ $title := .Title }}
+{{ $permalink := .Permalink }}
+
+{{/* --------- Pick an image param name (support multiple keys) --------- */}}
+{{ $imgParam := "" }}
+{{ with .Params.image }}{{ $imgParam = . }}{{ end }}
+{{ if eq $imgParam "" }}{{ with .Params.featured_image }}{{ $imgParam = . }}{{ end }}{{ end }}
+{{ if eq $imgParam "" }}{{ with .Params.thumbnail }}{{ $imgParam = . }}{{ end }}{{ end }}
+
+{{/* --------- Resolve image URL (bundle resource OR verified static file OR remote URL) --------- */}}
+{{ $imgURL := "" }}
+
+{{ if ne $imgParam "" }}
+
+  {{/* Remote URL: trust it */}}
+  {{ if or (hasPrefix $imgParam "http://") (hasPrefix $imgParam "https://") }}
+    {{ $imgURL = $imgParam }}
+
+  {{ else }}
+
+    {{/* 1) Try page-bundle resource match (image stored alongside the content bundle) */}}
+    {{ $base := path.Base $imgParam }}
+    {{ with .Resources.GetMatch $base }}
+      {{ $imgURL = .RelPermalink }}
+    {{ else }}
+
+      {{/* 2) Verify it exists under /static before using it */}}
+      {{ $clean := strings.TrimPrefix "/" $imgParam }}
+      {{ $staticPath := printf "static/%s" $clean }}
+
+      {{ if (fileExists $staticPath) }}
+        {{ $imgURL = (printf "/%s" $clean) | relURL }}
+      {{ end }}
+
+    {{ end }}
+
+  {{ end }}
+
+{{ end }}
+
+{{/* --------- One-sentence blurb --------- */}}
+{{ $blurb := .Params.blurb | default "" }}
+{{ if eq $blurb "" }}
+  {{ $auto := .Summary | plainify | replaceRE "\\s+" " " | replaceRE "^Abstract:\\s*" "" | replaceRE "^ABSTRACT:\\s*" "" }}
+  {{ $blurb = $auto | truncate 170 }}
+{{ end }}
+
+<div class="ba b--black-10 bg-white h-100 flex flex-column">
+
+  {{/* Show image only if we have a verified URL; otherwise text-only (no blank image area) */}}
+  {{ if ne $imgURL "" }}
+    <a href="{{ $permalink }}" class="db">
+      <div style="aspect-ratio: 16 / 9; overflow: hidden; background: rgba(0,0,0,0.04);">
+        <img src="{{ $imgURL }}" alt="" style="width:100%; height:100%; object-fit:cover; display:block;">
+      </div>
+    </a>
+  {{ end }}
+
+  <div class="pa3 flex flex-column h-100">
+
+    <h3 class="f4 near-black mt0 mb2">
+      <a href="{{ $permalink }}" class="link dim near-black">
+        {{ $title }}
+      </a>
+    </h3>
+
+    <div class="f6 mid-gray mb2">
+      {{ if eq .Section "publications" }}
+        <span class="mr2">[{{ .Date.Format "2006" }}]</span>
+        <div class="mv1">{{ partial "authorList.html" . }}</div>
+        <div class="mv1">{{ partial "journal-link-bar.html" . }}</div>
+      {{ else }}
+        {{ .Date.Format "Jan 2, 2006" }}
+      {{ end }}
+    </div>
+
+    {{ if ne $blurb "" }}
+      <p class="f6 lh-copy near-black mt0 mb3">
+        {{ $blurb }}
+      </p>
+    {{ end }}
+
+    <div class="qiti-cta-bottom">
+      <a href="{{ $permalink }}" class="link dib ph3 pv2 white bg-dark-gray dim">
+        Read more
+      </a>
+    </div>
+
+  </div>
+</div>

@@ -4,7 +4,7 @@ orcid: "0000-0002-6483-8932"
 date: 2020-05-02T21:14:38-04:00
 draft: false
 image: "images/people/krislam.jpg"
-tenure: "Associate Professor"
+tenure: "Associate Professor, Department of Physics and Astronomy, and Institute for Quantum Computing"
 office: "QNC 4109, RAC1 1112 "
 extention: "+1 519 888 4567 ext. 31995 (QNC Office), 32236/7/8 (labs)"
 email: "krislam@uwaterloo.ca"

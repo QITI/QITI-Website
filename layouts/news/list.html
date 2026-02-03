@@ -1,0 +1,297 @@
+{{ define "main" }}
+<article class="pv2 ph0 nested-copy-line-height nested-img"
+         style="background-color: rgb(250,248,250);">
+  <div class="mw8 center ph3 ph4-ns">
+
+    {{ if .Content }}
+      <section class="pv3 pv4-l f4 lh-copy mid-gray">
+        {{ .Content }}
+      </section>
+    {{ end }}
+
+    {{/* ===== Collect + sort news pages ===== */}}
+    {{ $pages := .RegularPagesRecursive }}
+    {{ $pages = sort $pages "Date" "desc" }}
+
+    {{/* ===== Build tag list for filters (optional) ===== */}}
+    {{ $s := newScratch }}
+    {{ $s.Set "alltags" (slice) }}
+    {{ range $pages }}
+      {{ with .Params.tags }}
+        {{ range . }}
+          {{ $s.Add "alltags" (slice .) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ $allTags := $s.Get "alltags" | uniq | sort }}
+
+    {{/* ===== Controls: Search + Tag filter ===== */}}
+    <div class="pv3" style="border-bottom:1px solid rgba(0,0,0,0.08);">
+      <div class="flex flex-wrap items-center">
+        <!-- Tag buttons (left) -->
+        <div class="flex flex-wrap items-start mb2" id="qiti-news-filters">
+          <button type="button"
+                  class="qiti-news-filter link dib ph3 pv2 mr2 mb2 white bg-dark-gray dim bn"
+                  data-tag="__all">
+            All
+          </button>
+
+          {{ range $allTags }}
+            <button type="button"
+                    class="qiti-news-filter link dib ph3 pv2 mr2 mb2 white bg-dark-gray dim bn"
+                    data-tag="{{ . | urlize }}">
+              {{ . }}
+            </button>
+          {{ end }}
+        </div>
+
+        <!-- Search (right) -->
+        <div class="mb2 flex items-center"
+             style="margin-left:auto; min-width:240px; gap:8px;">
+          <input id="qiti-news-search"
+                 type="text"
+                 placeholder="Search news..."
+                 class="input-reset ba b--black-10 pa2 w-100"
+                 style="background:#fff;">
+
+          <span id="qiti-news-count"
+                class="f6 mid-gray"
+                style="white-space:nowrap;">
+            (0)
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      mark { padding: 0 2px; }
+    </style>
+
+    {{/* ===== Group by year, newest first ===== */}}
+    {{ $groups := $pages.GroupByDate "2006" }}
+    {{ $groups = sort $groups "Key" "desc" }}
+    {{ $latestYear := "" }}
+    {{ if gt (len $groups) 0 }}
+      {{ $latestYear = (index $groups 0).Key }}
+    {{ end }}
+
+    {{/* ===== Render year blocks as collapsible sections ===== */}}
+    <div class="pt3">
+      {{ range $groups }}
+        {{ $year := .Key }}
+        {{ $items := .Pages }}
+
+        <details class="mb3 qiti-news-year"
+                 data-total="{{ len $items }}"
+                 {{ if eq $year $latestYear }}open{{ end }}
+                 style="border:1px solid rgba(0,0,0,0.08); background:#fff;">
+          <summary class="pointer"
+                   style="list-style:none; padding:14px 16px; border-bottom:1px solid rgba(0,0,0,0.06);">
+            <span class="f4 fw6" style="color:rgb(52,46,52)">{{ $year }}</span>
+            <span class="f6 mid-gray ml2 qiti-year-count" data-role="count">({{ len $items }})</span>
+          </summary>
+
+          <div class="pa2 pa3-ns">
+            <div class="flex flex-wrap">
+              {{ range $items }}
+                {{ $p := . }}
+
+                {{/* Compact one-line blurb: prefer params.blurb; else use Summary; else truncate content */}}
+                {{ $blurb := "" }}
+                {{ with $p.Params.blurb }}
+                  {{ $blurb = . }}
+                {{ else }}
+                  {{ with $p.Summary }}
+                    {{ $blurb = . | plainify | htmlUnescape }}
+                  {{ end }}
+                {{ end }}
+                {{ if eq $blurb "" }}
+                  {{ $blurb = $p.Plain | truncate 160 }}
+                {{ end }}
+
+                {{/* tags for filtering */}}
+                {{ $tags := slice }}
+                {{ with $p.Params.tags }}
+                  {{ $tags = . }}
+                {{ end }}
+                {{ $tagStr := delimit (apply $tags "urlize" ".") " " }}
+
+                <div class="w-100 w-50-m w-third-l pa2 qiti-news-item"
+                     data-tags="{{ $tagStr }}"
+                     data-title="{{ $p.Title | lower }}"
+                     data-text="{{ $blurb | lower }}">
+
+                  <div class="ba b--black-10 bg-white pa3 qiti-card" style="height:100%;">
+                    <div class="f6 mid-gray mb2">
+                      {{ $p.Date.Format "2006-01-02" }}
+                      {{ with $p.Params.tags }}
+                        {{ if gt (len .) 0 }}
+                          <span class="ml2" style="color:rgba(0,0,0,0.35);">•</span>
+                          <span class="ml2">
+                            {{/* show up to 2 tags as a hint */}}
+                            {{ range $i, $t := first 2 . }}
+                              <span class="ba b--black-10 pa1 mr1" style="font-size:12px; background:rgb(250,248,250);">
+                                {{ $t }}
+                              </span>
+                            {{ end }}
+                          </span>
+                        {{ end }}
+                      {{ end }}
+                    </div>
+
+                    <h3 class="f5 fw6 mt0 mb2" style="color:#111;">
+        <a href="{{ $p.RelPermalink }}" class="link color-inherit dim">
+            <span class="qiti-news-hl">{{ $p.Title }}</span>
+        </a>
+        </h3>
+
+
+                    {{ if $blurb }}
+                      <p class="f6 mid-gray mt0 mb3" style="line-height:1.4;">
+  <span class="qiti-news-hl">{{ $blurb }}</span>
+</p>
+
+                    {{ end }}
+
+                    <div class="qiti-card-cta mt3">
+                      <a href="{{ $p.RelPermalink }}" class="link dib ph3 pv2 white bg-dark-gray dim">
+                        Read
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </details>
+      {{ end }}
+    </div>
+
+  </div>
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+  {{/* keep theme scripts */}}
+  {{ partialCached "site-scripts.html" . }}
+
+  <script>
+    (function () {
+      var activeTag = "__all";
+      var search = "";
+
+      function normalize(s) { return (s || "").toLowerCase(); }
+
+      function escapeRegExp(str) {
+        return (str || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }
+
+      function applyHighlights(query) {
+        // Restore original HTML (saved once), removing any existing <mark>
+        document.querySelectorAll(".qiti-news-hl").forEach(function (el) {
+          if (!el.hasAttribute("data-orightml")) {
+            el.setAttribute("data-orightml", el.innerHTML);
+          } else {
+            el.innerHTML = el.getAttribute("data-orightml");
+          }
+        });
+
+        if (!query) { return; }
+
+        var terms = query.split(/\s+/).filter(function (t) { return t.length > 0; });
+        if (terms.length === 0) { return; }
+
+        var pattern = terms.map(escapeRegExp).join("|");
+        var re = new RegExp("(" + pattern + ")", "ig");
+
+        document.querySelectorAll(".qiti-news-hl").forEach(function (el) {
+          var html = el.getAttribute("data-orightml") || el.innerHTML;
+          el.innerHTML = html.replace(re, "<mark>$1</mark>");
+        });
+      }
+
+      function applyFilter() {
+        var items = document.querySelectorAll(".qiti-news-item");
+        var shown = 0;
+
+        items.forEach(function (el) {
+          var tags = (el.getAttribute("data-tags") || "").split(/\s+/);
+          var title = normalize(el.getAttribute("data-title"));
+          var text = normalize(el.getAttribute("data-text"));
+
+          var tagOk = (activeTag === "__all") || tags.indexOf(activeTag) >= 0;
+          var searchOk = !search || (title.indexOf(search) >= 0) || (text.indexOf(search) >= 0);
+
+          var ok = tagOk && searchOk;
+          el.style.display = ok ? "" : "none";
+          if (ok) { shown++; }
+        });
+
+        // Update global counter (compact, next to search box)
+        var counter = document.getElementById("qiti-news-count");
+        if (counter) {
+          counter.textContent = "(" + shown + " items shown)";
+        }
+
+        // Open (and optionally hide) the relevant year blocks
+        var filteringActive = (activeTag !== "__all") || !!search;
+
+        document.querySelectorAll(".qiti-news-year").forEach(function (block) {
+          var total = parseInt(block.getAttribute("data-total") || "0", 10);
+          var visible = 0;
+
+          block.querySelectorAll(".qiti-news-item").forEach(function (it) {
+            if (it.style.display !== "none") { visible++; }
+          });
+
+          // Update per-year count in the summary
+          var countSpan = block.querySelector('[data-role="count"]');
+          if (countSpan) {
+            countSpan.textContent = "(" + (filteringActive ? visible : total) + ")";
+          }
+
+          if (filteringActive) {
+            // Hide years with zero matches, and open the years that have matches
+            block.style.display = visible > 0 ? "" : "none";
+            block.open = visible > 0;
+          } else {
+            // No filtering: show all years; do not force open/close (keeps user toggles)
+            block.style.display = "";
+          }
+        });
+
+        applyHighlights(search);
+      }
+
+      var filterWrap = document.getElementById("qiti-news-filters");
+      if (filterWrap) {
+        filterWrap.addEventListener("click", function (e) {
+          var btn = e.target.closest(".qiti-news-filter");
+          if (!btn) { return; }
+
+          activeTag = btn.getAttribute("data-tag") || "__all";
+
+          document.querySelectorAll(".qiti-news-filter").forEach(function (b) {
+            b.classList.remove("bg-black");
+            b.classList.add("bg-dark-gray");
+          });
+          btn.classList.remove("bg-dark-gray");
+          btn.classList.add("bg-black");
+
+          applyFilter();
+        });
+      }
+
+      var searchBox = document.getElementById("qiti-news-search");
+      if (searchBox) {
+        searchBox.addEventListener("input", function () {
+          search = normalize(searchBox.value).trim();
+          applyFilter();
+        });
+      }
+
+      applyFilter();
+    })();
+  </script>
+{{ end }}
