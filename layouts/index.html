@@ -3,10 +3,51 @@
 
   <div class="center mw8 ph3 ph4-ns">
 
-    {{/* ====== Lead / intro (from content/_index.md) ====== */}}
-    <div class="pt3 pb2 f5 lh-copy">
+{{/* ====== Lead / intro (from content/_index.md) with wrapped logo on desktop; logo below text on mobile ====== */}}
+<div class="pt3 pb2">
+
+  <style>
+    /* Clearfix for desktop float */
+    .qiti-intro-wrap::after { content:""; display:block; clear:both; }
+
+    /* Mobile/tablet: stack with text first, logo second */
+    @media (max-width: 59.999em) {
+      .qiti-intro-wrap { display:flex; flex-direction:column; }
+      .qiti-intro-text { order:1; }
+      .qiti-affil-wrap { order:2; float:none; width:auto; margin:12px 0 0 0; text-align:center; }
+      .qiti-affil-wrap img { width:min(520px, 92vw); height:auto; display:block; margin:0 auto; }
+    }
+
+    /* Desktop: float logo right and wrap text */
+    @media (min-width: 60em) {
+      .qiti-intro-wrap { display:block; }
+      .qiti-affil-wrap{
+        float:right;
+        width:300px;
+        max-width:30%;
+        margin:6px 0 12px 28px;
+        text-align:right;
+      }
+      .qiti-affil-wrap img{ width:100%; height:auto; display:block; }
+    }
+  </style>
+
+  <div class="qiti-intro-wrap">
+    <div class="qiti-affil-wrap">
+      <a href="https://uwaterloo.ca/institute-for-quantum-computing/" class="dib dim" target="_blank" rel="noopener">
+        <img src="/images/logos/uwaterloo_iqc.svg"
+             alt="University of Waterloo and Institute for Quantum Computing"
+             style="opacity:0.95;">
+      </a>
+    </div>
+
+    <div class="f5 lh-copy qiti-intro-text">
       {{ .Content }}
     </div>
+  </div>
+
+</div>
+
 
     {{/* ====== Pillars (3 cards) ====== */}}
 <section class="pb2">
@@ -108,60 +149,74 @@
 </section>
 
 
-    {{/* ====== Flagship platforms (2 wide cards) ====== */}}
-    <section class="pb2">
-      <h2 class="f2 mt3 mb2">
-        Flagship platforms
-      </h2>
+{{/* ====== Featured highlight (user-selected News item, compact card: image left, text right) ====== */}}
+{{ $newsPages := where .Site.RegularPages "Section" "news" }}
+{{ $newsSorted := sort $newsPages "Date" "desc" }}
 
-      <div class="flex flex-column flex-row-ns nl2 nr2">
+{{ $featuredID := .Site.Params.featured_news_id | default "" }}
+{{ $featuredNews := false }}
 
-        <div class="w-100 w-50-ns ph2 mb3">
-          <div class="ba b--black-10 bg-white pa3 h-100 qiti-card">
-            <h3 class="f3 mt0 mb2">Bloodstone (Yb)</h3>
-            <p class="mt0 mb3 lh-copy">
-              Our flagship ytterbium trapped-ion system aimed at scaling programmable quantum simulation and computation. Track milestones, capabilities, and current directions.
-            </p>
-            <div class="qiti-card-cta pt3">
-              <a href="{{ "/bloodstone/" | relURL }}" class="link dib ph3 pv2 white bg-dark-gray dim">
-                Bloodstone page
-              </a>
-            </div>
+{{ if ne $featuredID "" }}
+  {{ range $newsSorted }}
+    {{ if eq (.Params.news_id | default "") $featuredID }}
+      {{ $featuredNews = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $featuredNews }}
+  {{ if gt (len $newsSorted) 0 }}
+    {{ $featuredNews = index $newsSorted 0 }}
+  {{ end }}
+{{ end }}
+
+{{ if $featuredNews }}
+  {{ $img := $featuredNews.Params.image | default $featuredNews.Params.hero_image | default $featuredNews.Params.featured_image }}
+  {{ $sum := $featuredNews.Params.summary | default $featuredNews.Summary }}
+
+  <section class="pb2">
+    <h2 class="f2 mt3 mb2">
+      Featured highlight
+    </h2>
+
+    <div class="ba b--black-10 bg-white pa3">
+      <div class="flex flex-column flex-row-ns" style="gap:16px;">
+
+        {{ if $img }}
+          <div class="w-100 w-40-ns">
+            <a href="{{ $featuredNews.RelPermalink }}" class="db">
+              <img src="{{ $img | relURL }}"
+                   alt="{{ $featuredNews.Title }}"
+                   class="db w-100 ba b--black-10"
+                   style="border-radius:6px; max-height:160px; object-fit:cover;">
+            </a>
           </div>
-        </div>
+        {{ end }}
 
-        <div class="w-100 w-50-ns ph2 mb3">
-          <div class="ba b--black-10 bg-white pa3 h-100 qiti-card">
-            <h3 class="f3 mt0 mb2">QuantumION (Ba)</h3>
-            <p class="mt0 mb3 lh-copy">
-              A barium-ion platform with attractive optical and qubit properties, complementing our ytterbium system and enabling new experimental opportunities.
-            </p>
-            <div class="qiti-card-cta pt3">
-              <a href="{{ "/research/" | relURL }}" class="link dib ph3 pv2 white bg-dark-gray dim">
-                See research
-              </a>
-            </div>
+        <div class="w-100 {{ if $img }}w-60-ns{{ end }}">
+          <div class="f4 fw6 near-black lh-title">
+            <a class="link near-black dim" href="{{ $featuredNews.RelPermalink }}">
+              {{ $featuredNews.Title }}
+            </a>
           </div>
-        </div>
+
+          {{ with $sum }}
+            <p class="f6 mid-gray mt2 mb2" style="line-height:1.45;">
+              {{ . | plainify }}
+            </p>
+          {{ end }}
+
+          <a href="{{ $featuredNews.RelPermalink }}"
+   class="dib mt2 ph3 pv2 white bg-dark-gray dim bn br2 link">
+  Read more
+</a>
+
 
       </div>
-    </section>
+    </div>
+  </section>
+{{ end }}
 
-    {{/* ====== Featured highlight (latest News item) ====== */}}
-    {{ $newsPages := where .Site.RegularPages "Section" "news" }}
-    {{ $newsSorted := sort $newsPages "Date" "desc" }}
-    {{ if gt (len $newsSorted) 0 }}
-      {{ $latestNews := index $newsSorted 0 }}
-      <section class="pb2">
-        <h2 class="f2 mt3 mb2">
-          Featured highlight
-        </h2>
-
-        <div class="ba b--black-10 bg-white pa3">
-          {{ partial "summary-with-image.html" $latestNews }}
-        </div>
-      </section>
-    {{ end }}
 
     {{/* ====== Video + Join block ====== */}}
     <section class="pb4">
