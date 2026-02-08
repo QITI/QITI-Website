@@ -1,31 +1,55 @@
-{{ $members := where .Site.Pages "Section" "members" }}
+{{/* authorList.html
+     - Default usage (backward compatible): {{ partial "authorList.html" . }}
+     - Highlight usage (member page): {{ partial "authorList.html" (dict "pub" . "highlightTags" $authorTag) }}
+*/}}
+
+{{ $ctx := . }}
+{{ $pub := . }}
+{{ $highlightTags := slice }}
+
+{{ if (reflect.IsMap $ctx) }}
+  {{ with $ctx.pub }}{{ $pub = . }}{{ end }}
+  {{ with $ctx.highlightTags }}{{ $highlightTags = . }}{{ end }}
+{{ end }}
+
+{{ $members := where $pub.Site.Pages "Section" "members" }}
 {{ $pun_count := 0 }}
 
-{{ if .Params.authors }}
-  {{ $pun_count = len .Params.authors }}
-  
-  {{ range $index, $author := .Params.authors }}
-    {{ if (eq (len $author) 2) }}
+{{ if $pub.Params.authors }}
+  {{ $pun_count = len $pub.Params.authors }}
+
+  {{ range $index, $author := $pub.Params.authors }}
+    {{ $separator := "," }}
+    {{ if eq $index (sub $pun_count 1) }}{{ $separator = "" }}{{ end }}
+    {{ if eq $pun_count 1 }}{{ $separator = "." }}{{ end }}
+
+    {{ if (ge (len $author) 2) }}
       {{ $found := false }}
-      {{ $separator := "," }}
-      {{ if eq $index (sub $pun_count 1) }}{{ $separator = "" }}{{ end }}
-      {{ if eq $pun_count 1 }}{{ $separator = "." }}{{ end }}
+      {{ $tag := index $author 1 }}
+      {{ $name := index $author 0 }}
+      {{ $isHighlight := in $highlightTags $tag }}
+
       {{ range $members }}
-        {{ if in .Params.tags (index $author 1) }}
+        {{ if in .Params.tags $tag }}
           {{ $found = true }}
-          <a href="{{ .Permalink }}" class="link black bg-animate dim b">
-            {{ printf "%s%s" (index $author 0) $separator }}
-          </a>
+          <a href="{{ .Permalink }}"
+             class="qiti-author-link link dim{{ if $isHighlight }} qiti-author-highlight{{ end }}">
+            {{ $name }}
+          </a>{{ $separator }}
         {{ end }}
       {{ end }}
+
       {{ if not $found }}
-        {{ printf "%s%s" (index $author 0) $separator }}
+        {{ if $isHighlight }}
+          <span class="qiti-author-highlight">{{ $name }}</span>{{ $separator }}
+        {{ else }}
+          {{ printf "%s%s" $name $separator }}
+        {{ end }}
       {{ end }}
+
     {{ else }}
-      {{ $separator := "," }}
-      {{ if eq $index (sub $pun_count 1) }}{{ $separator = "" }}{{ end }}
-      {{ if eq $pun_count 1 }}{{ $separator = "." }}{{ end }}
-      {{ printf "%s%s" (index $author 0) $separator }}
+      {{ $name := index $author 0 }}
+      {{ printf "%s%s" $name $separator }}
     {{ end }}
   {{ end }}
 {{ end }}

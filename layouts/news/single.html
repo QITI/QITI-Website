@@ -1,0 +1,95 @@
+{{/* News single: match publications single style (no extra hero title bar) */}}
+{{ define "header" }}{{ partial "site-navigation.html" . }}{{ end }}
+
+{{ define "main" }}
+<article class="qiti-flat dark-gray pv3 ph0 mh2 center" style="background-color: rgb(250,248,250)">
+  <div class="center mw8 ph3 ph4-ns">
+
+    {{/* Back link */}}
+    <div class="pt2 pb2">
+      <a href="{{ "/news/" | relURL }}" class="link dim dark-gray f6">
+        ← Back to News
+      </a>
+    </div>
+
+    {{/* Determine whether image exists */}}
+    {{ $showImg := false }}
+    {{ $imgURL := "" }}
+    {{ if .Params.image }}
+      {{ if (fileExists (printf "%s%s" "static/" .Params.image)) }}
+        {{ $showImg = true }}
+        {{ $imgURL = .Params.image | relURL }}
+      {{ end }}
+    {{ end }}
+
+    {{/* =========================
+        Row 1: Image | Metadata
+       ========================= */}}
+    <section class="pb3">
+      <div class="flex flex-column flex-row-ns nl2 nr2 items-stretch">
+
+        {{ if $showImg }}
+          <div class="w-100 w-third-ns ph2 mb3">
+            <div class="ba b--black-10 bg-white pa3 h-100">
+              <img src="{{ $imgURL }}" alt="Image for {{ .Title }}" style="display:block; width:100%; height:auto;">
+            </div>
+          </div>
+        {{ end }}
+
+        <div class="w-100 {{ if $showImg }}w-two-thirds-ns{{ end }} ph2 mb3">
+          <div class="ba b--black-10 bg-white pa3 h-100">
+
+            <div class="f6 mid-gray">
+              {{ .Date.Format "2006-01-02" }}
+            </div>
+
+            <h1 class="f4 f3-l fw7 near-black mt2 mb2 lh-title">
+              {{ .Title }}
+            </h1>
+
+            {{ with .Params.tags }}
+              {{ if gt (len .) 0 }}
+                <div class="mt2">
+                  {{ range $i, $t := . }}
+                    {{ if lt $i 6 }}
+                      <span class="ba b--black-10 pa1 mr1"
+                            style="font-size:12px; background:rgb(250,248,250);">
+                        {{ $t }}
+                      </span>
+                    {{ end }}
+                  {{ end }}
+                </div>
+              {{ end }}
+            {{ end }}
+
+            {{/* Optional external link button, if you have it in front matter */}}
+            {{ $extURL := .Params.external_url | default .Params.link }}
+            {{ if $extURL }}
+              <div class="mt3">
+                <a href="{{ $extURL }}" target="_blank" rel="noopener"
+                   class="link dib ph3 pv2 white bg-dark-gray dim">
+                  External link
+                </a>
+              </div>
+            {{ end }}
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    {{/* =========================
+        Row 2: Body
+       ========================= */}}
+    <section class="pb4">
+      <div class="ba b--black-10 bg-white pa3">
+        <div class="lh-copy f5 dark-gray">
+          {{ .Content }}
+        </div>
+      </div>
+    </section>
+
+  </div>
+</article>
+{{ end }}

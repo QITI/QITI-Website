@@ -1,0 +1,102 @@
+{{/* layouts/research/list.html */}}
+{{ define "main" }}
+
+{{ $topicPages := where .Pages "Kind" "page" }}
+{{ $topicPages = sort $topicPages "Weight" "asc" }}
+
+<article class="qiti-flat dark-gray pv3 ph0 mh2 center" style="background-color: rgb(250,248,250)">
+  <div class="center mw8 ph3 ph4-ns">
+
+    {{ if .Content }}
+      <section class="pb3">
+        <div class="ba b--black-10 bg-white pa3">
+          <div class="lh-copy f5 dark-gray">
+            {{ .Content }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+    <section class="pb4">
+      <div class="flex flex-wrap nl2 nr2 items-stretch">
+        {{ range $topicPages }}
+
+          {{/* Resolve hero image for the card (same idea as processors: fixed media box) */}}
+          {{ $showImg := false }}
+          {{ $imgURL := "" }}
+
+          {{/* 1) hero_image in /static */}}
+          {{ if .Params.hero_image }}
+            {{ if (fileExists (printf "%s%s" "static/" .Params.hero_image)) }}
+              {{ $showImg = true }}
+              {{ $imgURL = .Params.hero_image | relURL }}
+            {{ end }}
+          {{ end }}
+
+          {{/* 2) image in /static */}}
+          {{ if and (not $showImg) .Params.image }}
+            {{ if (fileExists (printf "%s%s" "static/" .Params.image)) }}
+              {{ $showImg = true }}
+              {{ $imgURL = .Params.image | relURL }}
+            {{ end }}
+          {{ end }}
+
+          {{/* 3) page bundle image */}}
+          {{ if not $showImg }}
+            {{ with (.Resources.GetMatch "featured*") }}
+              {{ $showImg = true }}
+              {{ $imgURL = .RelPermalink }}
+            {{ else }}
+              {{ with (.Resources.GetMatch "cover*") }}
+                {{ $showImg = true }}
+                {{ $imgURL = .RelPermalink }}
+              {{ else }}
+                {{ with (.Resources.GetMatch "hero*") }}
+                  {{ $showImg = true }}
+                  {{ $imgURL = .RelPermalink }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
+          <div class="w-100 w-50-l w-third-xl ph2 mb3">
+            <!-- flex flex-column enables bottom-aligned CTA -->
+            <div class="ba b--black-10 bg-white qiti-card h-100 flex flex-column">
+
+              {{ if $showImg }}
+                <div class="qiti-proc-card-media">
+                  <a href="{{ .RelPermalink }}" class="db">
+                    <img src="{{ $imgURL }}" alt="{{ .Title }}">
+                  </a>
+                </div>
+              {{ end }}
+
+              <!-- flex-auto makes this block take remaining height -->
+              <div class="pa3 flex flex-column flex-auto">
+                <h3 class="f4 fw6 near-black mt0 mb2">
+                  <a href="{{ .RelPermalink }}" class="link near-black dim">{{ .Title }}</a>
+                </h3>
+
+                {{ with .Params.summary }}
+                  <p class="f6 mid-gray mt0 mb3">{{ . }}</p>
+                {{ end }}
+
+                <!-- mt-auto pushes CTA to the bottom of the card -->
+                <div class="qiti-card-cta mt-auto">
+                  <a href="{{ .RelPermalink }}" class="link dib ph3 pv2 white bg-dark-gray dim">
+                    Explore
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        {{ end }}
+      </div>
+    </section>
+
+  </div>
+</article>
+
+{{ end }}

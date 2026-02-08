@@ -1,79 +1,167 @@
-{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "header" }}{{ partial "site-header.html" . }}{{ end }}
+
 {{ define "main" }}
 {{ partial "mathjax.html" }}
-    <article class="center cf mt0 pb6 ph3 ph4-ns mw8">
-      <header>
-        <p class="f6 b helvetica tracked">
-          <a href="{{.Section | absURL }}" class="color-inherit dim link">{{ humanize .Section | upper  }} </a>
-        <h3 class="mb0">
-          {{ partial "position.html" . }}
-        </h3>
-        </p>
-        <h1 class="f1 mt0">
-          {{ .Title }}
-          {{ if .Params.orcid }}
-            <a itemprop="sameAs" content="https://orcid.org/{{.Params.orcid}}" href="https://orcid.org/{{.Params.orcid}}" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;">
-            <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID iD icon">
-            </a>
-          {{ end }}
-       </h1>
-      </header>
-      <div class="nested-copy-line-height lh-copy f4 nested-links dark-gray">
-        <div class="dtc v-top">
-          {{ $img := .Params.image | absURL }}
-		  {{ if not ( fileExists (printf "%s%s" "static/" .Params.image) ) }}
-			{{ $img = "images/default.png" | absURL }}
-		  {{ end }}
-          <img src="{{ $img }}" class="mw5 db" alt="image from {{.Title}}" width="150px"/>
+
+<article class="qiti-flat dark-gray pv3 ph0 mh2 center" style="background-color: rgb(250,248,250)">
+  <div class="center mw8 ph3 ph4-ns">
+
+    {{/* Back link */}}
+    <div class="pt2 pb2">
+      <a href="{{ .Section | relURL }}" class="link dim dark-gray f6">
+        ← Back to {{ humanize .Section }}
+      </a>
+    </div>
+
+    {{/* Top identity block */}}
+    <section class="pb3">
+      <div class="flex flex-column flex-row-ns nl2 nr2 items-stretch">
+
+        {{/* Photo card */}}
+        <div class="w-100 w-third-ns ph2 mb3">
+          <div class="ba b--black-10 bg-white pa3 h-100">
+            {{ $img := .Params.image | absURL }}
+            {{ if not (fileExists (printf "%s%s" "static/" .Params.image)) }}
+              {{ $img = "images/default.png" | absURL }}
+            {{ end }}
+
+            <img
+              src="{{ $img }}"
+              alt="Photo of {{ .Title }}"
+              style="display:block; width:100%; max-width:240px; height:auto; border:1px solid rgba(0,0,0,0.08);"
+            />
+
+            {{ if .Params.orcid }}
+              <div class="mt3">
+                <a class="link dim dark-gray f6"
+                   href="https://orcid.org/{{ .Params.orcid }}"
+                   target="orcid.widget"
+                   rel="me noopener noreferrer">
+                  ORCID: {{ .Params.orcid }}
+                </a>
+              </div>
+            {{ end }}
+          </div>
         </div>
-        <div class="dtc v-top pl3">
-          <p class="lh-copy mv0">
-	  {{ if .Params.tenure }}
-            <b>Position:</b> {{ .Params.tenure }}<br/>
-          {{ end }}
-          {{ if .Params.email }}
-            <b>Email:</b> {{ .Params.email }}<br/>
-          {{ end }}
-          {{ if .Params.extention }}
-            <b>Extention:</b> {{ .Params.extention }}<br/>
-          {{ end }}
-          {{ if .Params.office }}
-            <b>office:</b> {{ .Params.office }}<br/>
-          {{ end }}
-          {{ if .Params.currentInstitution }}
-            <b>Current Institution:</b> {{ .Params.currentInstitution }}<br/>
-	  {{ end }}
-          {{ if .Params.previousInstitution }}
-            <b>Previous Institution:</b> {{ .Params.previousInstitution }}<br/>
-          {{ end }}
-          {{ if .Params.googleScholar }}
-          <b>Publication History: </b><a href="{{ .Params.googleScholar }}" target="_blank" class="color-inherit dim link">Google Scholar</a><br/>
-          {{ end }}
-          </p>
+
+        {{/* Name + details card */}}
+        <div class="w-100 w-two-thirds-ns ph2 mb3">
+          <div class="ba b--black-10 bg-white pa3 h-100">
+
+            <div class="mb2">
+              <h1 class="f2 f1-l fw7 near-black mv0 lh-title">
+                {{ .Title }}
+              </h1>
+
+              <div class="mt2 f5 mid-gray">
+                {{ partial "position.html" . }}
+              </div>
+            </div>
+
+            <div class="mt3 f6 lh-copy mid-gray">
+              {{ if .Params.tenure }}
+                <div><span class="fw6 near-black">Position:</span> {{ .Params.tenure }}</div>
+              {{ end }}
+              {{ if .Params.email }}
+                <div>
+                  <span class="fw6 near-black">Email:</span>
+                  <a class="link dim dark-gray" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+                </div>
+              {{ end }}
+              {{ if .Params.extention }}
+                <div><span class="fw6 near-black">Extension:</span> {{ .Params.extention }}</div>
+              {{ end }}
+              {{ if .Params.office }}
+                <div><span class="fw6 near-black">Office:</span> {{ .Params.office }}</div>
+              {{ end }}
+              {{ if .Params.currentInstitution }}
+                <div><span class="fw6 near-black">Current institution:</span> {{ .Params.currentInstitution }}</div>
+              {{ end }}
+              {{ if .Params.previousInstitution }}
+                <div><span class="fw6 near-black">Previous institution:</span> {{ .Params.previousInstitution }}</div>
+              {{ end }}
+              {{ if .Params.googleScholar }}
+                <div class="mt2">
+                  <span class="fw6 near-black">Publication history:</span>
+                  <a href="{{ .Params.googleScholar }}" target="_blank" rel="noopener" class="link dim dark-gray">
+                    Google Scholar
+                  </a>
+                </div>
+              {{ end }}
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    {{/* Main content (bio) */}}
+    <section class="pb4">
+      <div class="ba b--black-10 bg-white pa3">
+        <div class="lh-copy f5 dark-gray">
+          {{ .Content }}
         </div>
       </div>
-            {{ .Content }}
+    </section>
 
-            {{ $authorTag := .Params.tags }}
-            {{$section :=  where .Site.Pages "Section" "publications"}}
-            {{$tmp_sec := $section }}
-            
-            {{ range $section }}
-              {{ $tmp := . }}
-              {{ range .Params.authors }}
-                {{ if and ( ge (len .) 2 ) (in $authorTag (index . 1) ) }}
-                  {{ $tmp_sec = symdiff $tmp_sec (slice $tmp) }}
-                {{ end }}
-              {{end}}
-            {{ end }}
+    {{/* Publications related to this member (keep your existing matching logic) */}}
+    {{ $authorTag := .Params.tags }}
+    {{ $pubPages := where .Site.RegularPages "Section" "publications" }}
+    {{ $tmp_sec := $pubPages }}
 
-            {{ $section := symdiff $section $tmp_sec }}
+    {{ range $pubPages }}
+      {{ $tmp := . }}
+      {{ range .Params.authors }}
+        {{ if and (ge (len .) 2) (in $authorTag (index . 1)) }}
+          {{ $tmp_sec = symdiff $tmp_sec (slice $tmp) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
 
-            {{ if ge (len $section) 1 }}
-              <h1>Publications</h1>
-              {{ partial "pub-list-2.html" $section}}
-            {{ end }}
+    {{ $matched := symdiff $pubPages $tmp_sec }}
+    {{ $matched = sort $matched "Date" "desc" }}
+    {{ $counter := len $matched }}
+
+    {{ if ge (len $matched) 1 }}
+      <section class="pb4">
+        <h2 class="f3 mt0 mb3" style="color:rgb(52,46,52)">
+          Publications
+        </h2>
+
+        <div class="flex flex-wrap nl2 nr2 items-stretch">
+          {{ range $matched }}
+<div class="w-100 w-50-l ph2 mb3">
+              <div class="ba b--black-10 bg-white pa3 qiti-card h-100" style="min-height: 220px;">
+
+                <div class="f5 fw6 near-black lh-title">
+                  {{ $counter }}.
+                  <a href="{{ .RelPermalink }}" class="link near-black dim">
+                    {{ .Title }}
+                  </a>
+                </div>
+
+                <div class="f6 mid-gray mt2">
+                {{ partial "authorList.html" (dict "pub" . "highlightTags" $authorTag) }}
+                </div>
+
+                <div class="f6 mid-gray mt1 mb1">
+                  {{ partial "journal-link-bar.html" . }}
+                </div>
+  <a href="{{ .RelPermalink }}" class="qiti-card-hint link dim">Details</a>
 
 
-    </article>
+              </div>
+            </div>
+
+            {{ $counter = sub $counter 1 }}
+          {{ end }}
+        </div>
+
+      </section>
+    {{ end }}
+
+  </div>
+</article>
+
 {{ end }}

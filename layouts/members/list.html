@@ -1,105 +1,543 @@
 {{ define "main" }}
-  <article class="pv1 ph2 pl5-l nested-copy-line-height nested-img mw8-l center">
+<article class="pv2 ph0 nested-copy-line-height nested-img" style="background-color: rgb(250,248,250);">
+  <div class="center mw8 ph3 ph4-ns">
+
     {{ if .Content }}
-      <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l measure-wide lh-copy mid-gray">
+      <section class="pv3 pv4-l f4 lh-copy mid-gray">
         {{- .Content -}}
       </section>
     {{ end }}
-      {{ $membersPages := where .Site.Pages "Section" "members" }}
-      {{ $membersPages := symdiff $membersPages (slice .) }}
 
-      {{ $positions := slice "PI" "adminAssistant" "postDoc" "researchAssoc" "grad" "RA" "COOP" }}
-      {{ $titleCards := slice "Principal Investigator" "Administrative Assistant" "Postdoctoral Fellows" "Research Associates" "Graduate Students" "Research Assistants" "Undergraduate Researchers" "Alumni" }}
-      {{ range (seq 0 (sub (len $positions) 1) ) }}
-	  {{ $list := where $membersPages ".Params.tags" "intersect" (slice (index $positions .))  }}
-	  {{ $alumn := where $membersPages ".Params.tags" "intersect" (slice "alumn")  }}
-	  {{ $grad := where $membersPages ".Params.tags" "intersect" (slice "grad")  }}
-      {{ $diff := intersect $list $alumn }}
-      {{ $list := symdiff $list $diff }}
-	  {{/* comment - diff removes intersection of position and alumn, so when a postdoc becomes an alumnus, they are removed from postdoc list */}}
-	  	   {{ $gradalumn := intersect $grad $alumn }}
+    {{/* Collect member pages (exclude _index.md) */}}
+    {{ $membersPages := where .Site.RegularPages "Section" "members" }}
 
-      {{ if ge (len $list) 1 }}
-	    {{/* comments - the line above is checking whether the list has at least one member. If the list is empty then it will not displat the category */}}
-		<a id="{{ index $positions . }}"></a>
-		<h1>{{ index $titleCards . }}</h1>
-		<section class="flex flex-wrap mt1 ph2-l">
-	            
-          {{ with $list }}
-          {{ range .Reverse }}
-            <div class="relative w-100 w-40-l ma2 mid-gray">
-              <div style="background-color: rgb(252,251,248)">
-                {{- partial "summary-with-bubble-image.html" . -}}
-              </div>
-            </div>
+    {{/* Current-member sections */}}
+    {{ $positions := slice "postDoc" "grad" "RA" "COOP" }}
+    {{ $titleCards := slice "Postdocts" "Grad Students" "Research Assistants" "Undergrads" }}
+
+    {{/* Alumni sets for filtering and alumni display */}}
+    {{ $alumn := where $membersPages ".Params.tags" "intersect" (slice "alumn") }}
+    {{ $grad := where $membersPages ".Params.tags" "intersect" (slice "grad") }}
+    {{ $PDFs := where $membersPages ".Params.tags" "intersect" (slice "postDoc") }}
+
+    {{ $gradalumn := intersect $grad $alumn }}
+    {{ $pdfalumn := intersect $alumn $PDFs }}
+    {{ $gradpdfalumn := union $gradalumn $pdfalumn }}
+    {{ $restalumn := symdiff $alumn $gradpdfalumn }}
+
+    {{/* ========= Top jump buttons ========= */}}
+    <div class="pv3" style="border-bottom:1px solid rgba(0,0,0,0.08);">
+      <div class="flex flex-wrap items-start">
+
+        {{/* Single CTA for the top row */}}
+        {{ $piList := where $membersPages ".Params.tags" "intersect" (slice "PI") }}
+        {{ $piList = symdiff $piList (intersect $piList $alumn) }}
+
+        {{ $adminList := where $membersPages ".Params.tags" "intersect" (slice "adminAssistant") }}
+        {{ $adminList = symdiff $adminList (intersect $adminList $alumn) }}
+
+        {{ $raList := where $membersPages ".Params.tags" "intersect" (slice "researchAssoc") }}
+        {{ $raList = symdiff $raList (intersect $raList $alumn) }}
+
+        {{ if or (ge (len $piList) 1) (or (ge (len $adminList) 1) (ge (len $raList) 1)) }}
+          <a href="#pi-admin-ra" class="link dib ph3 pv2 mr3 mb2 white bg-dark-gray dim">
+            PI / Admin / RA
+          </a>
+        {{ end }}
+
+        {{/* Other sections driven by $positions/$titleCards */}}
+        {{ range $i := seq 0 (sub (len $positions) 1) }}
+          {{ $pos := index $positions $i }}
+          {{ $list := where $membersPages ".Params.tags" "intersect" (slice $pos) }}
+          {{ $list = symdiff $list (intersect $list $alumn) }}
+
+          {{ if ge (len $list) 1 }}
+            <a href="#{{ anchorize $pos }}" class="link dib ph3 pv2 mr3 mb2 white bg-dark-gray dim">
+              {{ index $titleCards $i }}
+            </a>
           {{ end }}
         {{ end }}
-        </section>
-		{{end}}
-      {{ end }}	
-<hr>
-<h1> Group photos </h1>
 
-<figure>
-  <img src="\images\group\2025_front_of_QNC.JPG" alt="IQC-QITI" class="left" style="display:block;max-width:90%">
-  <figcaption>(2025 Fall) QITI Group in front of the Quantum Nano Center</figcaption>
-</figure>
-<figure>
-  <img src="\images\group\2024_blossom_group.jpg" alt="IQC-QITI" class="left" style="display:block;max-width:90%">
-  <figcaption>(2024 Spring) QITI Group during Cherry Blossom Season</figcaption>
-</figure>
-<figure>
-  <img src="\images\group\qsim-team-2023-Feb.jpg" alt="IQC-QITI" class="left" style="display:block;max-width:90%">
-  <figcaption>(2023 winter) Part of the QITI group at a weekly meeting</figcaption>
-</figure>
-<figure>
-  <img src="\images\group\QITI_Niagara_pic_2019.jpg" alt="IQC-QITI" class="left" style="display:block;max-width:90%">
-  <figcaption>(Late 2019) QITI group visiting Niagara</figcaption>
-</figure>
-<figure>
-  <img src="\images\group\2018-GroupPhoto.jpg" alt="IQC-QITI" class="left" style="display:block;max-width:90%">
-  <figcaption>(2018) Original members of the QITI group</figcaption>
-</figure>
+        <a href="#group-photos" class="link dib ph3 pv2 mr3 mb2 white bg-dark-gray dim">
+          Group photos
+        </a>
 
+        {{ if ge (len $alumn) 1 }}
+          <a href="#ex-members" class="link dib ph3 pv2 mr3 mb2 white bg-dark-gray dim">
+            Alumni
+          </a>
+        {{ end }}
 
-<hr>
-{{/* ALUMNI SECTION */}}
-    
-      {{ $alumn := where $membersPages ".Params.tags" "intersect" (slice "alumn")  }}
-	  {{ $grad := where $membersPages ".Params.tags" "intersect" (slice "grad")  }}
-	  {{ $PDFs := where $membersPages ".Params.tags" "intersect" (slice "postDoc")  }}
+      </div>
+    </div>
 
-      {{ $gradalumn := intersect $grad $alumn }}
-      {{ $pdfalumn := intersect $alumn $PDFs }}
-	  {{ $gradpdfalumn := union $gradalumn $pdfalumn }}
-	  {{ $restalumn := symdiff $alumn $gradpdfalumn }}
+    <a id="pi-admin-ra"></a>
 
-      <h1>Ex-members</h1>
-	  <h2> Graduate student and postdoc alumni</h2> 
-		<section class="flex flex-wrap mt1 ph2-l">
-	           
-          {{ range $gradpdfalumn }}
-              <div class="relative w-100 w-40-l ma2 mid-gray">
-              <div style="background-color: rgb(233,230,233)">
-                {{- partial "summary-with-bubble-image.html" . -}}
+   {{/* ========= TOP ROW: PI + Admin Assistant + Research Associate (side-by-side) ========= */}}
+
+{{/* Build lists (remove alumni) */}}
+{{ $piList := where $membersPages ".Params.tags" "intersect" (slice "PI") }}
+{{ $piList = symdiff $piList (intersect $piList $alumn) }}
+
+{{ $adminList := where $membersPages ".Params.tags" "intersect" (slice "adminAssistant") }}
+{{ $adminList = symdiff $adminList (intersect $adminList $alumn) }}
+
+{{ $raList := where $membersPages ".Params.tags" "intersect" (slice "researchAssoc") }}
+{{ $raList = symdiff $raList (intersect $raList $alumn) }}
+
+{{ $topHasAny := or (ge (len $piList) 1) (or (ge (len $adminList) 1) (ge (len $raList) 1)) }}
+
+{{ if $topHasAny }}
+  <div class="pt4">
+    <section class="flex flex-wrap items-stretch nl2 nr2">
+
+      {{/* helper: renders one person card */}}
+      {{/* NOTE: Hugo does not support local functions in templates, so we repeat the small block below. */}}
+
+      {{ if ge (len $piList) 1 }}
+        <div class="w-100 w-50-m w-third-l ph2 mb3 flex flex-column">
+          <a id="pi"></a>
+          <h2 class="f4 mt0 mb1 fw6" style="color:rgb(52,46,52)">Principal Investigator</h2>
+
+          <section class="flex flex-column" style="flex:1 1 auto;">
+            {{ range $page := $piList }}
+
+              {{/* Image with fallback */}}
+              {{ $img := "images/default.png" | absURL }}
+              {{ if and $page.Params.image (fileExists (printf "%s%s" "static/" $page.Params.image)) }}
+                {{ $img = $page.Params.image | absURL }}
+              {{ end }}
+
+              {{/* card_line preferred, fallback to tenure */}}
+              {{ $line := $page.Params.card_line }}
+              {{ if not $line }}{{ $line = $page.Params.tenure }}{{ end }}
+
+              <div class="mb3 flex flex-column" style="flex:1 1 auto;">
+                <div class="ba b--black-10 bg-white qiti-member-card" style="height:100%;">
+
+                  <div class="pa3 qiti-card" style="height:100%;">
+
+                    <div class="flex items-start pb1">
+                      <a href="{{ $page.RelPermalink }}" class="link">
+                        <div style="width:100px;height:100px;border-radius:9999px;overflow:hidden;flex:0 0 auto;">
+                          <img src="{{ $img }}" alt="Photo of {{ $page.Title }}"
+                               loading="lazy" decoding="async" width="100" height="100"
+                               style="width:100%;height:100%;object-fit:cover;display:block;">
+                        </div>
+                      </a>
+
+                      <div class="pl3" style="min-width:0;">
+                        <h3 class="mt0 mb1 qiti-member-name" style="color:#111;">
+                          <a href="{{ $page.RelPermalink }}" class="link color-inherit dim">
+                            {{ $page.Title }}
+                          </a>
+                        </h3>
+
+                        {{ if $line }}
+                          <div class="qiti-member-meta">
+                            {{ $line }}
+                          </div>
+                        {{ end }}
+
+                        <a href="{{ $page.RelPermalink }}" class="qiti-card-hint link dim">Profile</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <a class="qiti-stretched-link" href="{{ $page.RelPermalink }}"
+                     aria-label="Open profile for {{ $page.Title }}"></a>
+                </div>
               </div>
-            </div>
-          {{ end }}
-        </section>
-		
-		<h2>Other alumni</h2>
-		<section class="flex flex-wrap mt1 ph2-l">
-	           
-          {{ range $restalumn }}
-              <div class="relative w-100 w-40-l ma2 mid-gray">
-              <div style="background-color: rgb(233,230,233)">
-                {{- partial "summary-with-bubble-image.html" . -}}
-              </div>
-            </div>
-			{{ end}}
+
+            {{ end }}
           </section>
-		
-	         
-      
-  </article>
-{{ end}}
+        </div>
+      {{ end }}
+
+      {{ if ge (len $adminList) 1 }}
+        <div class="w-100 w-50-m w-third-l ph2 mb3 flex flex-column">
+          <a id="adminassistant"></a>
+          <h2 class="f4 mt0 mb1 fw6" style="color:rgb(52,46,52)">Administrative Assistant</h2>
+
+          <section class="flex flex-column" style="flex:1 1 auto;">
+            {{ range $page := $adminList }}
+
+              {{ $img := "images/default.png" | absURL }}
+              {{ if and $page.Params.image (fileExists (printf "%s%s" "static/" $page.Params.image)) }}
+                {{ $img = $page.Params.image | absURL }}
+              {{ end }}
+
+              {{ $line := $page.Params.card_line }}
+              {{ if not $line }}{{ $line = $page.Params.tenure }}{{ end }}
+
+              <div class="mb3 flex flex-column" style="flex:1 1 auto;">
+                <div class="ba b--black-10 bg-white qiti-member-card" style="height:100%;">
+
+                  <div class="pa3 qiti-card" style="height:100%;">
+
+                    <div class="flex items-start pb1">
+                      <a href="{{ $page.RelPermalink }}" class="link">
+                        <div style="width:100px;height:100px;border-radius:9999px;overflow:hidden;flex:0 0 auto;">
+                          <img src="{{ $img }}" alt="Photo of {{ $page.Title }}"
+                               loading="lazy" decoding="async" width="100" height="100"
+                               style="width:100%;height:100%;object-fit:cover;display:block;">
+                        </div>
+                      </a>
+
+                      <div class="pl3" style="min-width:0;">
+                        <h3 class="mt0 mb1 qiti-member-name" style="color:#111;">
+                          <a href="{{ $page.RelPermalink }}" class="link color-inherit dim">
+                            {{ $page.Title }}
+                          </a>
+                        </h3>
+
+                        {{ if $line }}
+                          <div class="qiti-member-meta">
+                            {{ $line }}
+                          </div>
+                        {{ end }}
+
+                        <a href="{{ $page.RelPermalink }}" class="qiti-card-hint link dim">Profile</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <a class="qiti-stretched-link" href="{{ $page.RelPermalink }}"
+                     aria-label="Open profile for {{ $page.Title }}"></a>
+                </div>
+              </div>
+
+            {{ end }}
+          </section>
+        </div>
+      {{ end }}
+
+      {{ if ge (len $raList) 1 }}
+        <div class="w-100 w-50-m w-third-l ph2 mb3 flex flex-column">
+          <a id="researchassoc"></a>
+          <h2 class="f4 mt0 mb1 fw6" style="color:rgb(52,46,52)">Research Associate</h2>
+
+          <section class="flex flex-column" style="flex:1 1 auto;">
+            {{ range $page := $raList }}
+
+              {{ $img := "images/default.png" | absURL }}
+              {{ if and $page.Params.image (fileExists (printf "%s%s" "static/" $page.Params.image)) }}
+                {{ $img = $page.Params.image | absURL }}
+              {{ end }}
+
+              {{ $line := $page.Params.card_line }}
+              {{ if not $line }}{{ $line = $page.Params.tenure }}{{ end }}
+
+              <div class="mb3 flex flex-column" style="flex:1 1 auto;">
+                  <div class="ba b--black-10 bg-white qiti-member-card" style="height:100%;">
+
+                  <div class="pa3 qiti-card" style="height:100%;">
+
+                    <div class="flex items-start pb1">
+                      <a href="{{ $page.RelPermalink }}" class="link">
+                        <div style="width:100px;height:100px;border-radius:9999px;overflow:hidden;flex:0 0 auto;">
+                          <img src="{{ $img }}" alt="Photo of {{ $page.Title }}"
+                               loading="lazy" decoding="async" width="100" height="100"
+                               style="width:100%;height:100%;object-fit:cover;display:block;">
+                        </div>
+                      </a>
+
+                      <div class="pl3" style="min-width:0;">
+                        <h3 class="mt0 mb1 qiti-member-name" style="color:#111;">
+                          <a href="{{ $page.RelPermalink }}" class="link color-inherit dim">
+                            {{ $page.Title }}
+                          </a>
+                        </h3>
+
+                        {{ if $line }}
+                          <div class="qiti-member-meta">
+                            {{ $line }}
+                          </div>
+                        {{ end }}
+
+                        <a href="{{ $page.RelPermalink }}" class="qiti-card-hint link dim">Profile</a>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <a class="qiti-stretched-link" href="{{ $page.RelPermalink }}"
+                     aria-label="Open profile for {{ $page.Title }}"></a>
+                </div>
+              </div>
+
+            {{ end }}
+          </section>
+        </div>
+      {{ end }}
+
+    </section>
+  </div>
+{{ end }}
+
+   {{/* ========= CURRENT SECTIONS ========= */}}
+{{ range $i := seq 0 (sub (len $positions) 1) }}
+  {{ $pos := index $positions $i }}
+  {{ $list := where $membersPages ".Params.tags" "intersect" (slice $pos) }}
+  {{ $list = symdiff $list (intersect $list $alumn) }}
+
+  {{ if ge (len $list) 1 }}
+
+    <div class="pt4">
+      <h2 id="{{ anchorize $pos }}" class="f4 mt0 mb3 fw6" style="color:rgb(52,46,52)">
+        {{ index $titleCards $i }}
+      </h2>
+    </div>
+
+    <section class="flex flex-wrap mt3 items-stretch nl2 nr2">
+      {{ range $list.Reverse }}
+        {{ $page := . }}
+
+        {{/* Image with fallback */}}
+        {{ $img := "images/default.png" | absURL }}
+        {{ if and $page.Params.image (fileExists (printf "%s%s" "static/" $page.Params.image)) }}
+          {{ $img = $page.Params.image | absURL }}
+        {{ end }}
+
+        {{/* card_line preferred, fallback to tenure */}}
+        {{ $line := $page.Params.card_line }}
+        {{ if not $line }}{{ $line = $page.Params.tenure }}{{ end }}
+
+        <div class="w-100 w-50-m w-third-l ph2 mb3">
+          <div class="ba b--black-10 bg-white qiti-member-card" style="height:100%;">
+            <div class="pa3 qiti-card" style="height:100%;">
+
+              <div class="flex items-start pb1">
+                <a href="{{ $page.RelPermalink }}" class="link">
+                  <div style="width:100px;height:100px;border-radius:9999px;overflow:hidden;flex:0 0 auto;">
+                    <img src="{{ $img }}" alt="Photo of {{ $page.Title }}"
+                         loading="lazy" decoding="async" width="100" height="100"
+                         style="width:100%;height:100%;object-fit:cover;display:block;">
+                  </div>
+                </a>
+
+                <div class="pl3" style="min-width:0;">
+                  <h3 class="mt0 mb1 qiti-member-name" style="color:#111;">
+                    <a href="{{ $page.RelPermalink }}" class="link color-inherit dim">
+                      {{ $page.Title }}
+                    </a>
+                  </h3>
+
+                  {{ if $line }}
+                    <div class="qiti-member-meta">
+                      {{ $line }}
+                    </div>
+                  {{ end }}
+
+                <a href="{{ $page.RelPermalink }}" class="qiti-card-hint link dim">Profile</a>
+                </div>
+              </div>
+
+            </div>
+
+            <a class="qiti-stretched-link" href="{{ $page.RelPermalink }}"
+               aria-label="Open profile for {{ $page.Title }}"></a>
+          </div>
+        </div>
+
+      {{ end }}
+    </section>
+
+  {{ end }}
+{{ end }}
+
+    {{/* ========= GROUP PHOTOS ========= */}}
+    <div class="pt4">
+      <h2 id="group-photos" class="f4 mt0 mb3 fw6" style="color:rgb(52,46,52)">
+        Group photos
+      </h2>
+
+      {{/* Define slides here (only these entries need editing later) */}}
+      {{ $photos := slice
+        (dict "src" "/images/group/2025_front_of_QNC.JPG"      "cap" "(2025 Fall) QITI Group in front of the Quantum Nano Center")
+        (dict "src" "/images/group/2024_blossom_group.jpg"     "cap" "(2024 Spring) QITI Group during Cherry Blossom Season")
+        (dict "src" "/images/group/qsim-team-2023-Feb.jpg"     "cap" "(2023 winter) Part of the QITI group at a weekly meeting")
+        (dict "src" "/images/group/QITI_Niagara_pic_2019.jpg"  "cap" "(Late 2019) QITI group visiting Niagara")
+        (dict "src" "/images/group/2018-GroupPhoto.jpg"        "cap" "(2018) First members of the QITI group")
+      }}
+
+      {{/* Optional external album link (leave empty to hide the sentence) */}}
+      {{ $albumURL := "" }}
+      {{ $albumURL := "https://photos.app.goo.gl/XXXX" }}
+
+      {{/* Filter out missing files (assumes these live under /static/...) */}}
+      {{ $slides := slice }}
+      {{ range $p := $photos }}
+        {{ $src := index $p "src" }}
+        {{ $cap := index $p "cap" }}
+        {{ $clean := replaceRE "^/" "" $src }}
+        {{ if fileExists (printf "static/%s" $clean) }}
+          {{ $slides = $slides | append (dict "src" $src "cap" $cap) }}
+        {{ end }}
+      {{ end }}
+
+      {{ if ge (len $slides) 1 }}
+        <div class="qiti-carousel mt3">
+          <button class="qiti-carousel-btn qiti-prev" type="button" aria-label="Previous photo">‹</button>
+
+          <div class="qiti-carousel-track" id="qiti-group-track">
+            {{ range $s := $slides }}
+              <figure class="qiti-carousel-item ma0">
+                <img
+                  src="{{ $s.src }}"
+                  data-caption="{{ $s.cap }}"
+                  alt="{{ $s.cap }}"
+                  class="qiti-carousel-thumb"
+                  loading="lazy"
+                  decoding="async"
+                >
+                <figcaption class="f6 mid-gray mt2">{{ $s.cap }}</figcaption>
+              </figure>
+            {{ end }}
+          </div>
+
+          <button class="qiti-carousel-btn qiti-next" type="button" aria-label="Next photo">›</button>
+        </div>
+
+        {{ if $albumURL }}
+          <p class="f5 mt3 mb0">
+            For more group and lab photos, click
+            <a
+              class="link near-black fw6 underline-hover dim"
+              href="{{ $albumURL }}"
+              target="_blank"
+              rel="noopener"
+            >
+              this link
+            </a>.
+          </p>
+        {{ end }}
+
+      {{ end }}
+    </div>
+
+    {{/* Lightbox (only one per page) */}}
+    <div class="qiti-lightbox" id="qiti-lightbox" aria-hidden="true">
+      <div class="qiti-lightbox-backdrop" data-close="1"></div>
+
+      <div class="qiti-lightbox-panel" role="dialog" aria-modal="true" aria-label="Group photo">
+        <button class="qiti-lightbox-close" type="button" aria-label="Close" data-close="1">×</button>
+
+        <button class="qiti-lightbox-nav qiti-lightbox-prev" type="button" aria-label="Previous">‹</button>
+        <img class="qiti-lightbox-img" id="qiti-lightbox-img" alt="">
+        <button class="qiti-lightbox-nav qiti-lightbox-next" type="button" aria-label="Next">›</button>
+
+        <div class="qiti-lightbox-caption f6 mid-gray mt2" id="qiti-lightbox-caption"></div>
+      </div>
+    </div>
+
+   {{/* ========= ALUMNI (COLLAPSIBLE) ========= */}}
+{{ if ge (len $alumn) 1 }}
+  <div class="pt4">
+    <h2 id="ex-members" class="f4 mt0 mb3 fw6" style="color:rgb(52,46,52)">
+      Alumni
+    </h2>
+
+    {{/* ---------- Graduate student and postdoc alumni ---------- */}}
+    <details class="mt4">
+      <summary class="f4 fw6 pointer">Graduate student and postdoc alumni</summary>
+
+      <section class="flex flex-wrap mt3 items-stretch nl2 nr2">
+        {{ range $gradpdfalumn }}
+          {{ $page := . }}
+
+          {{ $line := $page.Params.card_line }}
+          {{ if not $line }}{{ $line = $page.Params.tenure }}{{ end }}
+
+          <div class="w-100 w-50-m w-25-l ph2 mb3">
+            <div class="ba b--black-10 bg-white qiti-member-card" style="height:100%;">
+              <div class="pa3 qiti-card" style="height:100%;">
+
+                <div class="flex items-start">
+                  <div style="min-width:0;">
+                    <h3 class="mt0 mb1 qiti-member-name" style="color:#111;">
+                      <a href="{{ $page.RelPermalink }}" class="link color-inherit dim">
+                        {{ $page.Title }}
+                      </a>
+                    </h3>
+
+                    {{ if $line }}
+                      <div class="qiti-member-meta">
+                        {{ $line }}
+                      </div>
+                    {{ end }}
+
+                    {{ with $page.Params.currentInstitution }}
+                      <div class="qiti-member-meta mt1">{{ . }}</div>
+                    {{ end }}
+
+                    <a href="{{ $page.RelPermalink }}" class="qiti-card-hint link dim">Profile</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <a class="qiti-stretched-link" href="{{ $page.RelPermalink }}"
+                 aria-label="Open profile for {{ $page.Title }}"></a>
+            </div>
+          </div>
+        {{ end }}
+      </section>
+    </details>
+
+    {{/* ---------- Other alumni ---------- */}}
+    <details class="mt4">
+      <summary class="f4 fw6 pointer">Other alumni</summary>
+
+      <section class="flex flex-wrap mt3 items-stretch nl2 nr2">
+        {{ range $restalumn }}
+          {{ $page := . }}
+
+          {{ $line := $page.Params.card_line }}
+          {{ if not $line }}{{ $line = $page.Params.tenure }}{{ end }}
+
+          <div class="w-100 w-50-m w-25-l ph2 mb3">
+            <div class="ba b--black-10 bg-white qiti-member-card" style="height:100%;">
+              <div class="pa3 qiti-card" style="height:100%;">
+
+                <div class="flex items-start">
+                  <div style="min-width:0;">
+                    <h3 class="mt0 mb1 qiti-member-name" style="color:#111;">
+                      <a href="{{ $page.RelPermalink }}" class="link color-inherit dim">
+                        {{ $page.Title }}
+                      </a>
+                    </h3>
+
+                    {{ if $line }}
+                      <div class="qiti-member-meta">
+                        {{ $line }}
+                      </div>
+                    {{ end }}
+
+                    {{ with $page.Params.currentInstitution }}
+                      <div class="qiti-member-meta mt1">{{ . }}</div>
+                    {{ end }}
+
+                    <a href="{{ $page.RelPermalink }}" class="qiti-card-hint link dim">Profile</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <a class="qiti-stretched-link" href="{{ $page.RelPermalink }}"
+                 aria-label="Open profile for {{ $page.Title }}"></a>
+            </div>
+          </div>
+        {{ end }}
+      </section>
+    </details>
+
+  </div>
+{{ end }}
+
+
+  </div>
+</article>
+{{ end }}

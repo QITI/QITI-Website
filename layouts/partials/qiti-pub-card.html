@@ -1,0 +1,32 @@
+{{/* layouts/partials/qiti-pub-card.html */}}
+{{ $p := . }}
+
+<div class="w-100 w-50-l ph2 mb3">
+  <div class="ba b--black-10 bg-white pa3 qiti-card h-100" style="min-height: 220px;">
+  
+    <div class="f5 fw6 near-black lh-title qiti-pub-title">
+      <a href="{{ $p.Permalink }}" class="link near-black dim">
+        {{ $p.Title }}
+      </a>
+    </div>
+
+    <div class="f6 mid-gray mt2 qiti-pub-authors">
+      {{ partial "authorList.html" $p }}
+    </div>
+
+    <div class="f6 mid-gray mt1 mb1 qiti-pub-journal">
+      {{ partial "journal-link-bar.html" $p }}
+    </div>
+
+    {{ with $p.Params.blurb }}
+      <div class="f6 mid-gray mt2">
+        {{ . | plainify }}
+      </div>
+    {{ end }}
+
+    <div class="qiti-card-cta mt3">
+      <a href="{{ $p.Permalink }}" class="qiti-pub-hint link dim">Details</a>
+    </div>
+
+  </div>
+</div>

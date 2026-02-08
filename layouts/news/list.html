@@ -1,0 +1,358 @@
+{{ define "main" }}
+
+{{/* ===== Collect + sort news pages (recursive so year folders work) ===== */}}
+{{ $pages := .RegularPagesRecursive }}
+{{ $pages = sort $pages "Date" "desc" }}
+
+<article class="qiti-flat dark-gray pv3 ph0 mh2 center" style="background-color: rgb(250,248,250)">
+  <div class="center mw8 ph3 ph4-ns">
+
+    {{ if .Content }}
+      <section class="pb3">
+        <div class="ba b--black-10 bg-white pa3">
+          <div class="lh-copy f5 dark-gray">
+            {{ .Content }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+    {{/* ========= Top bar: compact search + clear + count (pubs-style) ========= */}}
+    <div class="pv3" style="border-bottom:1px solid rgba(0,0,0,0.08);">
+      <div class="flex flex-wrap items-start">
+
+        <div class="f5 mid-gray mb2" style="padding-top:6px;">
+          Browse news by year
+        </div>
+
+        <div id="qiti-news-searchwrap" class="ml-auto mb2 flex items-center" style="gap:8px;">
+          <input id="qiti-news-search"
+                 type="text"
+                 placeholder="Search..."
+                 class="input-reset ba b--black-10 pa2"
+                 style="background:#fff; width:220px; max-width:70vw; height:36px;">
+
+          <button id="qiti-news-clear"
+                  type="button"
+                  class="link dib ph3 pv2 white bg-dark-gray dim bn"
+                  style="height:36px; padding-top:0; padding-bottom:0;">
+            Clear
+          </button>
+
+          <span id="qiti-news-count"
+                class="f6 mid-gray"
+                style="white-space:nowrap; line-height:36px;">
+            (0)
+          </span>
+        </div>
+
+      </div>
+    </div>
+
+    <style>
+      .qiti-wrap-left { margin-left: 0 !important; }
+      mark { padding: 0 2px; }
+
+      .qiti-news-hint{
+        display:inline-block;
+        margin-top:0.75rem;
+        font-size:0.9rem;
+        color: rgba(0,0,0,0.38);
+        text-decoration:none;
+      }
+
+      /* ===== Year accordion ===== */
+      .qiti-year-panel { display: none; }
+      .qiti-news-year[data-open="true"] .qiti-year-panel { display: block; }
+
+      .qiti-year-caret {
+        transform: rotate(0deg);
+        transition: transform 120ms ease;
+      }
+      .qiti-news-year[data-open="true"] .qiti-year-caret {
+        transform: rotate(90deg);
+      }
+
+      .qiti-year-toggle { cursor: pointer; }
+      .qiti-year-toggle:focus { outline: none; }
+    </style>
+
+    {{/* =========================================================
+        NEWS (grouped by year, grid cards, searchable across all years)
+       ========================================================= */}}
+    <section id="news" class="pb5 qiti-news-section" data-section="news">
+      {{ if gt (len $pages) 0 }}
+
+        {{ $groups := $pages.GroupByDate "2006" }}
+        {{ $groups = sort $groups "Key" "desc" }}
+        {{ $currentYear := now.Format "2006" }}
+
+        {{ range $groups }}
+          {{ $yearPages := sort .Pages "Date" "desc" }}
+
+          <div class="qiti-news-year"
+               data-year="{{ .Key }}"
+               data-total="{{ len $yearPages }}"
+               data-open-default="{{ if eq .Key $currentYear }}true{{ else }}false{{ end }}"
+               data-open="{{ if eq .Key $currentYear }}true{{ else }}false{{ end }}">
+
+            <button type="button"
+                    class="qiti-year-toggle bn bg-transparent pa0 ma0 w-100 tl"
+                    aria-expanded="{{ if eq .Key $currentYear }}true{{ else }}false{{ end }}">
+              <h3 class="f4 fw6 near-black mt4 mb2" style="display:flex; align-items:baseline; gap:10px;">
+                <span class="qiti-year-caret" aria-hidden="true" style="display:inline-block; width:14px;">▸</span>
+                <span>{{ .Key }}</span>
+                <span class="f6 mid-gray ml2" data-role="yearcount">({{ len $yearPages }})</span>
+              </h3>
+            </button>
+
+            <div class="qiti-year-panel">
+              <div class="flex flex-wrap nl2 nr2 items-stretch">
+
+                {{ range $yearPages }}
+                  {{ $p := . }}
+
+                  {{/* Prefer params.blurb; else Summary; else truncate body */}}
+                  {{ $blurb := "" }}
+                  {{ with $p.Params.blurb }}
+                    {{ $blurb = . | plainify | htmlUnescape }}
+                  {{ else }}
+                    {{ with $p.Summary }}
+                      {{ $blurb = . | plainify | htmlUnescape }}
+                    {{ end }}
+                  {{ end }}
+                  {{ if eq $blurb "" }}
+                    {{ $blurb = $p.Plain | plainify | htmlUnescape | truncate 180 }}
+                  {{ end }}
+
+                  {{/* Build search text similar to publications: title + tags + blurb + body */}}
+                  {{ $tagsText := "" }}
+                  {{ with $p.Params.tags }}
+                    {{ $tagsText = delimit . " " | plainify | htmlUnescape }}
+                  {{ end }}
+                  {{ $body := $p.Plain | plainify | htmlUnescape }}
+
+                  {{ $searchText := printf "%s %s %s %s" $p.Title $tagsText $blurb $body
+                      | lower
+                      | replaceRE "\\s+" " "
+                      | truncate 4000
+                  }}
+
+                  <div class="w-100 w-50-m w-third-l ph2 mb3 qiti-news-item"
+                       data-title="{{ $p.Title | lower }}"
+                       data-text="{{ $searchText }}">
+
+                    <div class="ba b--black-10 bg-white pa3 qiti-card h-100" style="min-height: 220px;">
+
+                      <div class="f6 mid-gray mb2">
+                        {{ $p.Date.Format "2006-01-02" }}
+                        {{ with $p.Params.tags }}
+                          {{ if gt (len .) 0 }}
+                            <span class="ml2" style="color:rgba(0,0,0,0.35);">•</span>
+                            <span class="ml2">
+                              {{ range $i, $t := first 2 . }}
+                                <span class="ba b--black-10 pa1 mr1"
+                                      style="font-size:12px; background:rgb(250,248,250);">
+                                  <span class="qiti-hl">{{ $t }}</span>
+                                </span>
+                              {{ end }}
+                            </span>
+                          {{ end }}
+                        {{ end }}
+                      </div>
+
+                      <div class="f5 fw6 near-black lh-title">
+                        <a href="{{ $p.RelPermalink }}" class="link near-black dim qiti-hl">
+                          {{ $p.Title }}
+                        </a>
+                      </div>
+
+                      {{ if $blurb }}
+                        <p class="f6 mid-gray mt2 mb1" style="line-height:1.45;">
+                          <span class="qiti-hl">{{ $blurb }}</span>
+                        </p>
+                      {{ end }}
+
+                      <a href="{{ $p.RelPermalink }}" class="qiti-news-hint link dim">Read</a>
+
+                    </div>
+                  </div>
+                {{ end }}
+
+              </div>
+            </div>
+          </div>
+
+        {{ end }}
+
+      {{ else }}
+        <p class="f5 mid-gray">No news items found yet.</p>
+      {{ end }}
+
+      <p class="f6 mid-gray qiti-news-empty" style="display:none; margin-top:8px;">
+        No matches.
+      </p>
+    </section>
+
+  </div>
+</article>
+
+{{ end }}
+
+{{ define "scripts" }}
+  {{ partialCached "site-scripts.html" . }}
+
+  <script>
+    (function () {
+      var search = "";
+
+      function normalize(s) { return (s || "").toLowerCase(); }
+
+      function escapeRegExp(str) {
+        return (str || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }
+
+      function setYearOpen(yearBlock, open) {
+        yearBlock.setAttribute("data-open", open ? "true" : "false");
+        var btn = yearBlock.querySelector(".qiti-year-toggle");
+        if (btn) { btn.setAttribute("aria-expanded", open ? "true" : "false"); }
+      }
+
+      function initYearAccordions() {
+        document.querySelectorAll(".qiti-news-year").forEach(function (yearBlock) {
+          var btn = yearBlock.querySelector(".qiti-year-toggle");
+          if (!btn) { return; }
+
+          btn.addEventListener("click", function () {
+            var isOpen = yearBlock.getAttribute("data-open") === "true";
+            setYearOpen(yearBlock, !isOpen);
+            updateTopBarAlignment();
+          });
+
+          var defOpen = yearBlock.getAttribute("data-open-default") === "true";
+          setYearOpen(yearBlock, defOpen);
+        });
+      }
+
+      function applyHighlights(query) {
+        document.querySelectorAll(".qiti-hl").forEach(function (el) {
+          if (!el.hasAttribute("data-orightml")) {
+            el.setAttribute("data-orightml", el.innerHTML);
+          } else {
+            el.innerHTML = el.getAttribute("data-orightml");
+          }
+        });
+
+        if (!query) { return; }
+
+        var terms = query.split(/\s+/).filter(function (t) { return t.length > 0; });
+        if (terms.length === 0) { return; }
+
+        var pattern = terms.map(escapeRegExp).join("|");
+        var re = new RegExp("(" + pattern + ")", "ig");
+
+        document.querySelectorAll(".qiti-hl").forEach(function (el) {
+          var html = el.getAttribute("data-orightml") || el.innerHTML;
+          el.innerHTML = html.replace(re, "<mark>$1</mark>");
+        });
+      }
+
+      function updateTopBarAlignment() {
+        var wrap = document.getElementById("qiti-news-searchwrap");
+        if (!wrap) { return; }
+
+        var leftRef = document.querySelector(".pv3 .f5");
+        if (!leftRef) { return; }
+
+        var wrapped = wrap.getBoundingClientRect().top > leftRef.getBoundingClientRect().top + 2;
+
+        if (wrapped) {
+          wrap.classList.add("qiti-wrap-left");
+        } else {
+          wrap.classList.remove("qiti-wrap-left");
+        }
+      }
+
+      function applyFilter() {
+        var items = document.querySelectorAll(".qiti-news-item");
+        var shown = 0;
+
+        items.forEach(function (el) {
+          var title = normalize(el.getAttribute("data-title"));
+          var text  = normalize(el.getAttribute("data-text"));
+          var ok = !search || (title.indexOf(search) >= 0) || (text.indexOf(search) >= 0);
+
+          el.style.display = ok ? "" : "none";
+          if (ok) { shown++; }
+        });
+
+        var counter = document.getElementById("qiti-news-count");
+        if (counter) {
+          counter.textContent = "(" + shown + ")";
+        }
+
+        var filteringActive = !!search;
+
+        // Year blocks: update counts + hide empty years while searching
+        document.querySelectorAll(".qiti-news-year").forEach(function (yearBlock) {
+          var visible = 0;
+          yearBlock.querySelectorAll(".qiti-news-item").forEach(function (it) {
+            if (it.style.display !== "none") { visible++; }
+          });
+
+          var yearCount = yearBlock.querySelector('[data-role="yearcount"]');
+          if (yearCount) {
+            if (filteringActive) {
+              yearCount.textContent = "(" + visible + ")";
+            } else {
+              var total = parseInt(yearBlock.getAttribute("data-total") || "0", 10);
+              yearCount.textContent = "(" + total + ")";
+            }
+          }
+
+          if (filteringActive) {
+            yearBlock.style.display = visible > 0 ? "" : "none";
+            setYearOpen(yearBlock, visible > 0);
+          } else {
+            yearBlock.style.display = "";
+            setYearOpen(yearBlock, yearBlock.getAttribute("data-open-default") === "true");
+          }
+        });
+
+        // Page-level empty message
+        var anyVisible = shown > 0;
+        var emptyMsg = document.querySelector(".qiti-news-empty");
+        if (emptyMsg) {
+          emptyMsg.style.display = (filteringActive && !anyVisible) ? "" : "none";
+        }
+
+        applyHighlights(search);
+        updateTopBarAlignment();
+      }
+
+      var searchBox = document.getElementById("qiti-news-search");
+      if (searchBox) {
+        searchBox.addEventListener("input", function () {
+          search = normalize(searchBox.value).trim();
+          applyFilter();
+        });
+      }
+
+      var clearBtn = document.getElementById("qiti-news-clear");
+      if (clearBtn && searchBox) {
+        clearBtn.addEventListener("click", function () {
+          searchBox.value = "";
+          search = "";
+          applyFilter();
+          searchBox.focus();
+        });
+      }
+
+      window.addEventListener("resize", updateTopBarAlignment);
+
+      initYearAccordions();
+      applyFilter();
+      updateTopBarAlignment();
+    })();
+  </script>
+{{ end }}

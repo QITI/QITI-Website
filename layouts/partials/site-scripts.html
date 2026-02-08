@@ -1,6 +1,124 @@
-{{/* Site scripts - empty by default */}}
+{{/* Site scripts */}}
 {{ $script := .Site.Data.webpack_assets.app }}
 {{ with $script.js }}
   <script src="{{ relURL (printf "%s%s" "dist/" .) }}"></script>
 {{ end }}
 
+<script>
+(function(){
+  var track = document.getElementById("qiti-group-track");
+  if (!track) { return; }
+
+  var thumbs = Array.prototype.slice.call(track.querySelectorAll(".qiti-carousel-thumb"));
+  var lightbox = document.getElementById("qiti-lightbox");
+  var lightboxImg = document.getElementById("qiti-lightbox-img");
+  var lightboxCaption = document.getElementById("qiti-lightbox-caption");
+  var index = 0;
+
+  function openLightbox(i){
+    index = i;
+    var t = thumbs[index];
+    lightboxImg.src = t.getAttribute("src");
+    lightboxImg.alt = t.getAttribute("alt") || "";
+    lightboxCaption.textContent = t.getAttribute("data-caption") || "";
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeLightbox(){
+    lightbox.setAttribute("aria-hidden", "true");
+    lightboxImg.src = "";
+    document.body.style.overflow = "";
+  }
+
+  function showNext(delta){
+    index = (index + delta + thumbs.length) % thumbs.length;
+    openLightbox(index);
+  }
+
+  thumbs.forEach(function(t, i){
+    t.addEventListener("click", function(){ openLightbox(i); });
+  });
+
+  lightbox.addEventListener("click", function(e){
+    if (e.target && e.target.getAttribute("data-close") === "1") {
+      closeLightbox();
+    }
+  });
+
+  var prevBtn = lightbox.querySelector(".qiti-lightbox-prev");
+  var nextBtn = lightbox.querySelector(".qiti-lightbox-next");
+  prevBtn.addEventListener("click", function(){ showNext(-1); });
+  nextBtn.addEventListener("click", function(){ showNext(1); });
+
+  document.addEventListener("keydown", function(e){
+    if (!lightbox || lightbox.getAttribute("aria-hidden") !== "false") { return; }
+    if (e.key === "Escape") { closeLightbox(); }
+    if (e.key === "ArrowLeft") { showNext(-1); }
+    if (e.key === "ArrowRight") { showNext(1); }
+  });
+
+  var cPrev = document.querySelector(".qiti-prev");
+  var cNext = document.querySelector(".qiti-next");
+  function scrollByAmount(dir){
+    var w = track.clientWidth;
+    track.scrollBy({ left: dir * Math.round(w * 0.9), behavior: "smooth" });
+  }
+  if (cPrev) { cPrev.addEventListener("click", function(){ scrollByAmount(-1); }); }
+  if (cNext) { cNext.addEventListener("click", function(){ scrollByAmount(1); }); }
+})();
+</script>
+{{/* Site scripts */}}
+{{ $script := .Site.Data.webpack_assets.app }}
+{{ with $script.js }}
+  <script src="{{ relURL (printf "%s%s" "dist/" .) }}"></script>
+{{ end }}
+
+<script>
+(function () {
+  function ready(fn) {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", fn);
+    } else {
+      fn();
+    }
+  }
+
+  ready(function () {
+    var btn = document.querySelector(".qiti-burger");
+    var menu = document.getElementById("qiti-mobile-menu");
+    if (!btn || !menu) return;
+
+    function closeMenu() {
+      if (!menu.classList.contains("dn")) menu.classList.add("dn");
+      btn.setAttribute("aria-expanded", "false");
+    }
+
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      var isOpen = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", String(!isOpen));
+      menu.classList.toggle("dn");
+    });
+
+    // Close when a menu link is clicked
+    menu.addEventListener("click", function (e) {
+      var a = e.target.closest("a");
+      if (a) closeMenu();
+    });
+
+    // Close on Escape
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") closeMenu();
+    });
+
+    // Close if you click outside the nav/menu
+    document.addEventListener("click", function (e) {
+      if (!menu.classList.contains("dn")) {
+        var nav = e.target.closest(".qiti-nav");
+        if (!nav) closeMenu();
+      }
+    });
+  });
+})();
+</script>

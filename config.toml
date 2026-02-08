@@ -9,11 +9,14 @@ theme = "ananke"
 summaryLength = 50
 
 [Params]
+custom_css = ["css/myStyle.css"]
 background_color_class = "bg-gray"
-featured_image = "images/header/ion_addressing_linear_bg_sub.gif"
+featured_image = "images/header/Bloodstone_33_ions.jpg"
 homeList = ["news", "publications"]
 favicon = "images/favicon.ico"
-custom_css = ["css/myStyle.css"]
+featured_news_id = "lightflow"
+
+
 
 [markup]
   [markup.goldmark]
@@ -36,39 +39,51 @@ custom_css = ["css/myStyle.css"]
 
 [menu]
 
- [[menu.mainmenu]]
-    identifier = "Members"
-    name = "Members"
-    title = "Members"
-    url = "/members/"
-    weight = 2
-
   [[menu.mainmenu]]
-    identifier = "Group"
-    name = "Group"
-    title = "Group"
-    url = "/group/"
-    parent = "Members"
-    weight = 1
-
-  [[menu.mainmenu]]
-    identifier = "Publications"
-    name = "Publications"
-    title = "Publications"
-    url = "/publications/"
-    weight = 3
-
- [[menu.mainmenu]]
-    identifier = "Research"
     name = "Research"
-    title = "Publication"
-    url = "/research/"
-    #parent = "Publications"
-    weight = 1
+    identifier = "research"
+    url = "#"
+    weight = 10
 
- [[menu.mainmenu]]
-    identifier = "News"
+    [[menu.mainmenu]]
+    name = "Research Themes"
+    parent = "research"
+    url = "/research/"
+    weight = 11
+
+   [[menu.mainmenu]]
+    name = "Our Processors"
+    parent = "research"
+    url = "/processors/"
+    weight = 12
+[[menu.mainmenu]]
+    name = "Members"
+    url = "/members/"
+    weight = 20
+
+  [[menu.mainmenu]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 30
+
+  [[menu.mainmenu]]
     name = "News"
-    title = "News"
     url = "/news/"
-    weight = 4
+    weight = 40
+
+  [[menu.mainmenu]]
+    name = "Join"
+    url = "/join/"
+    weight = 50
+
+
+[permalinks]
+  news = "/news/:contentbasename/"
+  publications = "/publications/:contentbasename/"
+  members = "/members/:contentbasename/"
+
+[taxonomies]
+  tag = "tags"
+  research_area = "research-areas"
+
+

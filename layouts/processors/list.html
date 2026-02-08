@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+<article class="qiti-flat dark-gray pv3 ph0 mh2 center" style="background-color: rgb(250,248,250)">
+  <div class="center mw8 ph3 ph4-ns">
+
+    {{/* Page title + intro */}}
+  
+    {{ if .Content }}
+      <section class="pb3">
+        <div class="ba b--black-10 bg-white pa3">
+          <div class="lh-copy f5 dark-gray">
+            {{ .Content }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+    {{/* All processor pages */}}
+    {{ $procs := .Pages.ByWeight }}
+
+{{/* ===== Overview blocks (2-col on large, no duplication) ===== */}}
+<div class="flex flex-wrap nl2 nr2">
+  {{ range $procs }}
+    {{ $p := . }}
+
+    <section class="w-100 w-50-l ph2 pt3 pb2">
+      <div class="ba b--black-10 bg-white h-100">
+
+        {{ with $p.Params.hero_image }}
+          <div class="qiti-proc-card-media">
+            <a href="{{ $p.RelPermalink }}" class="link">
+              <img
+                src="{{ . | absURL }}"
+                alt="{{ $p.Title }}"
+                loading="lazy"
+                decoding="async"
+              >
+            </a>
+          </div>
+        {{ end }}
+
+        <div class="pa3 pa4-ns">
+          <h2 class="f3 fw6 near-black mt0 mb2">
+            <a href="{{ $p.RelPermalink }}" class="link near-black dim">
+              {{ $p.Title }}
+            </a>
+          </h2>
+
+          {{ with $p.Params.summary }}
+            <p class="f5 mid-gray mt0 mb2 lh-copy">
+              {{ . }}
+            </p>
+          {{ end }}
+
+         <div class="qiti-card-cta mt3">
+            <a href="{{ $p.RelPermalink }}" class="link dib ph3 pv2 white bg-dark-gray dim">
+                {{ with $p.Params.cta_label }}{{ . }}{{ else }}Explore{{ end }}
+            </a>
+</div>
+
+        </div>
+
+      </div>
+    </section>
+  {{ end }}
+</div>
+
+
+</article>
+
+{{ end }}
