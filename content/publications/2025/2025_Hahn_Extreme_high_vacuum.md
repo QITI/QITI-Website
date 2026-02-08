@@ -14,6 +14,7 @@ tags:
 image: "images/publications/Hahn2025_XHV.jpg"
 blurb: "Increasing ion lifetime by lowering background pressure is key for scaling quantum processors. Here, we demonstrate near–extreme-high-vacuum pressures in a room-temperature apparatus forming the core of the Bloodstone quantum processor, avoiding cryogenic complexity while enabling greater optical access for individual qubit control."
 research_areas: ["bloodstone"]
+processors: ["bloodstone"]
 url: /publications/2024-Hahn-XHV/
 ---
 

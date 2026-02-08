@@ -10,6 +10,7 @@ draft: false
 arXiv: "2206.13685"
 tags:
  - "QITI" 
+research_areas: ["quantum-simulation"]
 image: "images/publications/Lewis2023_state_transfer_image.jpg"
 
 ---

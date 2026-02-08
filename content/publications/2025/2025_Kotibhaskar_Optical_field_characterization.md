@@ -11,6 +11,7 @@ draft: false
 arXiv: 
 tags:
  - "QITI" 
+processors: ["amethyst"]
 image: "images/publications/kotibhaskar2025_optical_sensor.JPG"
 blurb: "We use a single trapped ion as a sub-wavelength sensor to map a 370 nm laser field’s intensity and polarization with fundamental spatial resolution, and we show a neural-network inversion that accelerates the readout by five orders of magnitude for practical field deployment."
 url: /publications/2025-kotibhaskar-optical-field/

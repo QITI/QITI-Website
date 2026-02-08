@@ -11,6 +11,7 @@ draft: false
 arXiv: "2106.03769"
 tags:
  - "QITI" 
+research_areas: ["quantum-simulation"]
 image: "images/publications/2021-Czichek_MPT.png"
 ---
 

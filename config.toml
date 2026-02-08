@@ -45,19 +45,18 @@ featured_news_id = "lightflow"
     url = "#"
     weight = 10
 
-  [[menu.mainmenu]]
-    name = "Processors"
-    parent = "research"
-    url = "/processors/"
-    weight = 11
-
-  [[menu.mainmenu]]
-    name = "Research Directions"
+    [[menu.mainmenu]]
+    name = "Research Themes"
     parent = "research"
     url = "/research/"
-    weight = 12
+    weight = 11
 
-  [[menu.mainmenu]]
+   [[menu.mainmenu]]
+    name = "Our Processors"
+    parent = "research"
+    url = "/processors/"
+    weight = 12
+[[menu.mainmenu]]
     name = "Members"
     url = "/members/"
     weight = 20

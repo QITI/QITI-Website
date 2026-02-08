@@ -11,6 +11,7 @@ draft: false
 arXiv: "2302.14711"
 tags:
  - "QITI" 
+processor: ["beryl"]
 research_areas: ["optical-addressing"]
 image: "images/publications/binai-motlagh2023-a-guided-light.jpg"
 ---

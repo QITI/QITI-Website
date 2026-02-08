@@ -10,4 +10,4 @@ At the core of the Bloodstone processor is a segmented blade electrode ion trap 
 
 <!You can include additional images:>
 
-![Some caption](/images/processors/bloodstone/some-figure.webp)
+<!-- ![Some caption](/images/processors/bloodstone/some-figure.webp) -->

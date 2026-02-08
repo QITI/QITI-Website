@@ -11,6 +11,9 @@ draft: false
 arXiv: 
 tags:
  - "QITI" 
+research_areas: ["quantum-simulation"]
+processors: ["amethyst"]
+url: "Kotibhaskar2024_Programmable_XY"
 image: "images/publications/Kotibhaskar2023_XY_image.jpg"
 ---
 

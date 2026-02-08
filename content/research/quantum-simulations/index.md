@@ -1,6 +1,8 @@
 ---
 title: "Quantum Simulations"
 draft: false
+research_area: "quantum-simulation"
+image: "images/publications/2021-Czichek_MPT.png"
 summary: "Trapped ions allow us to simulate a variety of quantum systems that are otherwise intractable."
 weight: 10
 ---
@@ -22,22 +24,9 @@ We are interested in several kinds of quantum simulations in our research:
 - quantum simulation of open systems that exchange energy with environment at a controlled rate.
 - quantum simulation of monitored systems, i.e., where entanglement generation and measurement compete with each other.
 
-We encode spin-1/2 degrees of freedom (qubit states) in the ground-state hyperfine energy levels of a trapped ion. The spin can be manipulated without measuring it by applying laser beams or microwave radiation on the ions. We are developing optical controls, using acousto-optic deflectors, that enable programmable controls over individual spins. 
+More details coming soon.
 
----
+<!-- ### Representative publications
+{{< publist 2023-Kotibhaskar-XY-paper.md >}}
+{{< publist 2019-Dynamic-Hamiltonian-engineering-of-2D-rectangular-lattices-in-a-one-dimensional-ion-chain.md >}} -->
 
-### Example figures
-![Schematic placeholder](schematic.png)
-
-![Ion chain placeholder](ions-chain.jpg)
-
-### Representative publications
-(Replace filenames with your actual publication markdown filenames.)
-
-{{< publist 2019-Dynamic-Hamiltonian-engineering-of-2D-rectangular-lattices-in-a-one-dimensional-ion-chain.md >}}
-{{< publist 2024-PLACEHOLDER-simulation-paper.md >}}
-
-### Connections to platforms
-Link to related topic pages:
-- Trapped ion platform: /research/trapped-ions/
-- Algorithmic tools: /research/quantum-algorithms/

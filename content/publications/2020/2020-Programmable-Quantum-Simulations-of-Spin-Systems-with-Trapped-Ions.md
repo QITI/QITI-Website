@@ -11,6 +11,7 @@ draft: false
 arXiv: "1912.07845"
 tags:
  - "QITI" 
+research_areas: ["quantum-simulation"]
 image: "images/publications/2020-MonroeReview.png"
 ---
 

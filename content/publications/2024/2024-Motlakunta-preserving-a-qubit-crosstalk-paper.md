@@ -10,7 +10,8 @@ DOI:
 draft: false
 arXiv: 
 tags:
- - "QITI" 
+ - "QITI"
+processors: ["amethyst"] 
 image: "images/publications/Motlakunta2023_preserving_image.jpg"
 url: "publications/Motlakunta2024_preserving_a_qubit"
 ---

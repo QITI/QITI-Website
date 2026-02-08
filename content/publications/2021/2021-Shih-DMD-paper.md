@@ -12,6 +12,7 @@ arXiv:
 tags:
  - "QITI" 
 research_areas: ["optical-addressing"]
+processors: ["amethyst"]
 image: "images/publications/2021-Shih-DMD.png"
 ---
 

@@ -1,0 +1,152 @@
+{{/* layouts/processors/single.html */}}
+{{ define "header" }}{{ partial "site-navigation.html" . }}{{ end }}
+
+{{ define "main" }}
+
+{{/* ===== Determine processor term for filtering publications (use slug) ===== */}}
+{{ $term := "" }}
+{{ with .Params.slug }}
+  {{ $term = . }}
+{{ else }}
+  {{ if .File }}{{ $term = .File.TranslationBaseName }}{{ end }}
+{{ end }}
+
+
+{{/* ===== Gather publications and filter by processor tags (robust to a couple of param names) ===== */}}
+{{ $pubSection := site.GetPage "section" "publications" }}
+{{ $pubs := slice }}
+{{ if $pubSection }}
+  {{ $pubs = $pubSection.RegularPagesRecursive }}
+{{ end }}
+
+{{ $matchesA := where $pubs ".Params.processors" "intersect" (slice $term) }}
+{{ $matchesB := where $pubs ".Params.processor" "eq" $term }}
+{{ $matches := $matchesA | append $matchesB }}
+{{ $matches = sort $matches "Date" "desc" }}
+
+{{/* ===== Hero image logic (parallel to Research single) ===== */}}
+{{ $showImg := false }}
+{{ $imgURL := "" }}
+
+{{/* Option A: front matter image under /static/ */}}
+{{ if .Params.image }}
+  {{ if (fileExists (printf "%s%s" "static/" .Params.image)) }}
+    {{ $showImg = true }}
+    {{ $imgURL = .Params.image | relURL }}
+  {{ end }}
+{{ end }}
+
+{{/* Option A2: hero_image under /static/ */}}
+{{ if and (not $showImg) .Params.hero_image }}
+  {{ if (fileExists (printf "%s%s" "static/" .Params.hero_image)) }}
+    {{ $showImg = true }}
+    {{ $imgURL = .Params.hero_image | relURL }}
+  {{ end }}
+{{ end }}
+
+{{/* Option B: page bundle resource (featured*, cover*, hero*) */}}
+{{ if not $showImg }}
+  {{ with (.Resources.GetMatch "featured*") }}
+    {{ $showImg = true }}
+    {{ $imgURL = .RelPermalink }}
+  {{ else }}
+    {{ with (.Resources.GetMatch "cover*") }}
+      {{ $showImg = true }}
+      {{ $imgURL = .RelPermalink }}
+    {{ else }}
+      {{ with (.Resources.GetMatch "hero*") }}
+        {{ $showImg = true }}
+        {{ $imgURL = .RelPermalink }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<article class="qiti-flat dark-gray pv3 ph0 mh2 center" style="background-color: rgb(250,248,250)">
+  <div class="center mw8 ph3 ph4-ns">
+
+    {{/* Back link */}}
+    <div class="pt2 pb2">
+      <a href="{{ "/processors/" | relURL }}" class="link dim dark-gray f6">
+        ← Back to Processors
+      </a>
+    </div>
+
+    {{/* =========================
+        Row 1: Image | Title+Summary
+        (parallel to Research single)
+       ========================= */}}
+    <section class="pb3">
+      <div class="flex flex-column flex-row-ns nl2 nr2 items-stretch">
+
+        {{ if $showImg }}
+          <div class="w-100 w-third-ns ph2 mb3">
+            <div class="ba b--black-10 bg-white pa3 h-100">
+              <img
+                src="{{ $imgURL }}"
+                alt="Image for {{ .Title }}"
+                loading="lazy"
+                decoding="async"
+                style="display:block; width:100%; height:auto;"
+              >
+            </div>
+          </div>
+        {{ end }}
+
+        <div class="w-100 {{ if $showImg }}w-two-thirds-ns{{ end }} ph2 mb3">
+          <div class="ba b--black-10 bg-white pa3 h-100 qiti-hero-card">
+            <h1 class="f4 f3-l fw7 near-black mt2 mb2 lh-title">
+              {{ .Title }}
+            </h1>
+
+            {{ with .Params.summary }}
+              <p class="f5 mid-gray mt0 mb0">
+                {{ . }}
+              </p>
+            {{ end }}
+
+            </div>
+        </div>
+
+      </div>
+    </section>
+
+    {{/* Main content (same longform container as Research single) */}}
+    <section class="pb4">
+      <div class="pa0 qiti-longform">
+        <div class="lh-copy f5 dark-gray">
+          {{ .Content }}
+        </div>
+      </div>
+    </section>
+
+    {{/* Related publications (same card partial as Research single) */}}
+    <section class="pb5">
+      <div class="flex items-center justify-between flex-wrap">
+        <h2 class="f3 fw6 near-black mt0 mb2">Related publications</h2>
+        {{ if gt (len $matches) 0 }}
+          <div class="f6 mid-gray mb2">
+            Showing {{ len $matches }} item(s)
+          </div>
+        {{ end }}
+      </div>
+
+      {{ if gt (len $matches) 0 }}
+        <div class="flex flex-wrap nl2 nr2 items-stretch">
+          {{ range first 12 $matches }}
+            {{ partial "qiti-pub-card.html" . }}
+          {{ end }}
+        </div>
+      {{ else }}
+        <div class="ba b--black-10 bg-white pa3">
+          <p class="f6 mid-gray mt0 mb0">
+            No publications have been tagged for this processor yet.
+          </p>
+        </div>
+      {{ end }}
+    </section>
+
+  </div>
+</article>
+
+{{ end }}
