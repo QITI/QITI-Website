@@ -52,6 +52,6 @@ Co-founder and Chief Scientific Advisor, [Lightflow Optics Inc.](https://lightfl
 
 Dr. Islam is actively involved with several science outreach efforts.
  His activities at IQC include developing demonstration experiments (such as a 'dust ion trap') and conducting lab visits especially for young students.
- He is a co-founder of [bigyan.org.in](https://bigyan.org.in), a leading online science outreach platform in the Bengali (বাংলা) language. Bigyan (বিজ্ঞান, means science in Bengali) initiatives have been highlighted in Indian national media (such as [NDTV](https://www.ndtv.com/education/national-science-day-origami-paper-microscopes-to-be-given-to-rural-schools-by-bengali-science-porta-1664177) and [IndiaBioscience](https://indiabioscience.org/columns/indian-scenario/bigyan-org-in-a-science-outreach-platform-by-researchers-in-bengali)).
+ He is a co-founder of [bigyan.org](https://bigyan.org), a leading online science outreach platform in the Bengali (বাংলা) language. Bigyan (বিজ্ঞান, means science in Bengali) initiatives have been highlighted in Indian national media (such as [NDTV](https://www.ndtv.com/education/national-science-day-origami-paper-microscopes-to-be-given-to-rural-schools-by-bengali-science-porta-1664177) and [IndiaBioscience](https://indiabioscience.org/columns/indian-scenario/bigyan-org-in-a-science-outreach-platform-by-researchers-in-bengali)).
 
 <hr>
