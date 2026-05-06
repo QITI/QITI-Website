@@ -4,10 +4,10 @@ date: 2025-05-09 02:00:00
 draft: false
 email: kmacrobb@uwaterloo.ca
 extention: null
-image: images/people/kmacrobb.jpg
+image: images/people/kmacrobb.webp
 office: null
 previousInstitution: ''
-tags: [kmacrobb, COOP]
+tags: [kmacrobb, COOP, alumn]
 tenure: Undergraduate Volunteer (Fall 2025, Physics and Astronomy 4B), co-op student (Spring 2025)
 title: Kyle MacRobbie
 ---

@@ -7,7 +7,7 @@ extention: null
 image: images/people/r3paul.png
 office: null
 previousInstitution: ''
-tags: [r3paul, COOP]
+tags: [r3paul, COOP,alumn]
 tenure: Undergrad co-op student (Fall 2025, Mechatronics Eng. 3A)
 title: Riddhiman Paul
 ---

@@ -7,7 +7,7 @@ extention: null
 image: images/people/dgoel.png
 office: null
 previousInstitution: ''
-tags: [dgoel, COOP]
+tags: [dgoel, COOP, alumn]
 tenure: Undergrad co-op student (Fall 2025, Mechatronics Eng. 3A)
 title: Dhairya Goel
 ---

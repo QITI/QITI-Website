@@ -7,7 +7,7 @@ extention: null
 image: images/people/bmcneil.jpg
 office: null
 previousInstitution: ''
-tags: [bmcneil, COOP]
+tags: [bmcneil, COOP,alumn]
 tenure: Undergrad co-op student (Fall 2025, Math Phys 2B)
 title: Bryan McNeil
 ---

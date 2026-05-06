@@ -7,7 +7,7 @@ extention: null
 image: images/people/s29chawl.jpg
 office: null
 previousInstitution: ''
-tags: [s29chawl, COOP]
+tags: [s29chawl, COOP, alumn]
 tenure: Undergraduate volunteer (Fall 2025), co-op student (Fall 2023-Spring 2025)
 title: Siddharth Chawla
 ---
