@@ -1,14 +1,14 @@
 ---
 currentInstitution: University of Waterloo
 date: 2026-04-04 00:00:00
-draft: True
+draft: False
 email: koketso.gaborekwe@uwaterloo.ca
 extention: null
-image: images/people/kokentogaborekwe.webp
+image: images/people/kggabore.webp
 office: null
 previousInstitution: ''
-tags: [koketsogaborekwe, COOP]
+tags: [kggabore, COOP]
 tenure: Undergrad co-op student (Spring 2026, Mechatronics Engineering) 
 title: Koketso Gaborekwe
 ---
-Koketso's blurb
+I am a mechatronics engineering student at UWaterloo and like to build robots.  In my spare time I enjoying playing soccer.
