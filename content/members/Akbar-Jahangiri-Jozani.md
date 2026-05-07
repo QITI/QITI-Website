@@ -4,7 +4,7 @@ date: 2020-09-01 00:00:00
 draft: false
 email: a2jahang@uwaterloo.ca
 extention: null
-image: images/people/a2jahang.jpg
+image: images/people/a2jahang.webp
 office: null
 previousInstitution: ''
 tags: [a2jahang, postDoc]

@@ -8,7 +8,7 @@ extention: null
 image: images/people/hpcfung.jpg
 office: null
 previousInstitution: ''
-tags: [hpcfung, grad]
+tags: [hpcfung, grad, alumn]
 tenure: MSc student (2024-), Undergraduate researcher (Winter 2024)
 title: Hin Pok Cyrus Fung
 ---
