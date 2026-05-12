@@ -13,7 +13,7 @@
 
     {{/* Current-member sections */}}
     {{ $positions := slice "postDoc" "grad" "RA" "COOP" }}
-    {{ $titleCards := slice "Postdocts" "Grad Students" "Research Assistants" "Undergrads" }}
+    {{ $titleCards := slice "Postdocs" "Grad Students" "Research Assistants" "Undergrads" }}
 
     {{/* Alumni sets for filtering and alumni display */}}
     {{ $alumn := where $membersPages ".Params.tags" "intersect" (slice "alumn") }}
