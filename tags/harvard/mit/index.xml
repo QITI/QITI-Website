@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harvard/MIT on QUANTUM INFORMATION WITH TRAPPED IONS</title><link>https://qiti.iqc.uwaterloo.ca/tags/harvard/mit/</link><description>Recent content in Harvard/MIT on QUANTUM INFORMATION WITH TRAPPED IONS</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 25 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://qiti.iqc.uwaterloo.ca/tags/harvard/mit/index.xml" rel="self" type="application/rss+xml"/><item><title>Single-Atom Heat Machines Enabled by Energy Quantization</title><link>https://qiti.iqc.uwaterloo.ca/publications/2018-single-atom-heat-machines-enabled-by-energy-quantization/</link><pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate><guid>https://qiti.iqc.uwaterloo.ca/publications/2018-single-atom-heat-machines-enabled-by-energy-quantization/</guid><description>&lt;p&gt;Quantization of energy is a quintessential characteristic of quantum systems.
+Here we analyze its effects on the operation of Otto cycle heat machines and
+show that energy quantization alone may alter and increase machine performance
+in terms of output power, efficiency, and even operation mode. Our results
+demonstrate that quantum thermodynamics enable the realization of classically
+inconceivable Otto machines, such as those with an incompressible working
+fluid. We propose to measure these effects experimentally using a laser-cooled
+trapped ion as a microscopic heat machine.&lt;/p&gt;</description></item><item><title>Ultra-precise holographic beam shaping for microscopic quantum control</title><link>https://qiti.iqc.uwaterloo.ca/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</link><pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate><guid>https://qiti.iqc.uwaterloo.ca/publications/2016-ultra-precise-holographic-beam-shaping-for-microscopic-quantum-control/</guid><description>&lt;p&gt;High-resolution addressing of individual ultracold atoms, trapped ions or
+solid state emitters allows for exquisite control in quantum optics
+experiments. This becomes possible through large aperture magnifying optics
+that project microscopic light patterns with diffraction limited performance.
+We use programmable amplitude holograms generated on a digital micromirror
+device to create arbitrary microscopic beam shapes with full phase and
+amplitude control. The system self-corrects for aberrations of up to several
+$\lambda$ and reduces them to $\lambda/50$, leading to light patterns with a
+precision on the $10^{-4}$ level. We demonstrate aberration-compensated beam
+shaping in an optical lattice experiment and perform single-site addressing in
+a quantum gas microscope for $^{87}$Rb.&lt;/p&gt;</description></item><item><title>Measuring entanglement entropy in a quantum many-body system</title><link>https://qiti.iqc.uwaterloo.ca/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</link><pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate><guid>https://qiti.iqc.uwaterloo.ca/publications/2015-measuring-entanglement-entropy-in-a-quantum-many-body-system/</guid><description>&lt;p&gt;Entanglement is one of the most intriguing features of quantum mechanics. It
+describes non-local correlations between quantum objects, and is at the heart
+of quantum information sciences. Entanglement is rapidly gaining prominence in
+diverse fields ranging from condensed matter to quantum gravity. Despite this
+generality, measuring entanglement remains challenging. This is especially true
+in systems of interacting delocalized particles, for which a direct
+experimental measurement of spatial entanglement has been elusive. Here, we
+measure entanglement in such a system of itinerant particles using quantum
+interference of many-body twins. Leveraging our single-site resolved control of
+ultra-cold bosonic atoms in optical lattices, we prepare and interfere two
+identical copies of a many-body state. This enables us to directly measure
+quantum purity, Renyi entanglement entropy, and mutual information. These
+experiments pave the way for using entanglement to characterize quantum phases
+and dynamics of strongly-correlated many-body systems.&lt;/p&gt;</description></item><item><title>Strongly correlated quantum walks in optical lattices</title><link>https://qiti.iqc.uwaterloo.ca/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</link><pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate><guid>https://qiti.iqc.uwaterloo.ca/publications/2015-strongly-correlated-quantum-walks-in-optical-lattices/</guid><description>&lt;p&gt;Full control over the dynamics of interacting, indistinguishable quantum
+particles is an important prerequisite for the experimental study of strongly
+correlated quantum matter and the implementation of high-fidelity quantum
+information processing. Here we demonstrate such control over the quantum walk&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the quantum mechanical analogue of the classical random walk - in the strong
+interaction regime. Using interacting bosonic atoms in an optical lattice, we
+directly observe fundamental effects such as the emergence of correlations in
+two-particle quantum walks, as well as strongly correlated Bloch oscillations
+in tilted optical lattices. Our approach can be scaled to larger systems,
+greatly extending the class of problems accessible via quantum walks&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

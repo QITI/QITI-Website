@@ -1,0 +1,677 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/* ==========================================================================
+   QITI Website Custom Styles (myStyle.css)
+   Purpose: Override theme defaults and add QITI-specific components/styles.
+   Notes:
+   - Keep selector order stable to preserve cascade behavior.
+   - Most overrides are designed to work with Tachyons-based themes.
+   ========================================================================== */
+
+
+/* ==========================================================================
+   1) CSS Variables + Global Typography
+   ========================================================================== */
+
+:root{
+  --qiti-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Fixed nav height (desktop / mobile) */
+  --qiti-nav-h: 50px;
+  --qiti-nav-h-mobile: 60px;
+}
+
+html, body{
+  height: 100%;
+  background: #ffffff; /* Keep page + nav perfectly matched (no tinted band) */
+}
+
+body{
+  font-family: var(--qiti-sans);
+  font-size: 16px;
+  line-height: 1.45;
+  margin: 0;
+
+  /* Sticky footer layout */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* Push content below the fixed nav */
+  padding-top: var(--qiti-nav-h);
+}
+
+@media (max-width: 30em){
+  body{ padding-top: var(--qiti-nav-h-mobile); }
+}
+
+/* Main grows, footer sticks */
+main{ flex: 1 0 auto; }
+footer{ flex-shrink: 0; }
+
+/* Readability */
+article p,
+article li{
+  line-height: 1.55;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: var(--qiti-sans);
+  letter-spacing: -0.01em;
+}
+
+
+/* ==========================================================================
+   2) Scroll Offsets for Anchor Links (fixed header)
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6{
+  scroll-margin-top: var(--qiti-nav-h);
+}
+
+@media (max-width: 30em){
+  h1, h2, h3, h4, h5, h6{ scroll-margin-top: var(--qiti-nav-h-mobile); }
+}
+
+section[id]{ scroll-margin-top: var(--qiti-nav-h); }
+
+@media (max-width: 30em){
+  section[id]{ scroll-margin-top: var(--qiti-nav-h-mobile); }
+}
+
+
+/* ==========================================================================
+   3) Theme Overrides (Background + Fonts)
+   ========================================================================== */
+
+/* Remove tinted band from Tachyons background class */
+body.bg-near-white{
+  background-color: #ffffff !important;
+}
+
+/* Ensure Inter wins over Avenir */
+body.avenir{
+  font-family: var(--qiti-sans) !important;
+}
+
+/* If any container sets a different background, inherit the page bg */
+main{
+  background: transparent;
+}
+
+/* If the theme wraps header with .site-header, keep it consistent */
+header.site-header,
+.site-header{
+  background: #ffffff;
+}
+
+
+/* ==========================================================================
+   4) Persistent Top Navigation (fixed header)
+   ========================================================================== */
+
+.qiti-nav{
+  position: fixed !important;
+  top: 0; left: 0; right: 0;
+  z-index: 100000 !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid rgba(0,0,0,0.08) !important;
+}
+
+/* Desktop dropdown for nav items with children */
+.qiti-nav-dd{
+  position: relative;
+  display: inline-block;
+}
+
+.qiti-nav-dd-summary{
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.qiti-nav-dd-summary::-webkit-details-marker{
+  display: none;
+}
+
+/* Panel */
+.qiti-nav-dd-panel{
+  position: absolute;
+  top: 140%;
+  left: 0;
+  min-width: 220px;
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.12);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.10);
+  border-radius: 10px;
+  padding: 8px 0;
+  z-index: 100001;
+}
+
+/* Links */
+.qiti-nav-dd-link{
+  padding: 10px 14px;
+  line-height: 1.2;
+}
+.qiti-nav-dd-link:hover{
+  background: rgba(0,0,0,0.04);
+}
+
+
+/* ==========================================================================
+   5) Header Behavior: Prevent 3-line title + Earlier Hamburger Breakpoint
+   (Works with layouts/partials/site-navigation.html classes)
+   ========================================================================== */
+
+.qiti-nav-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.qiti-nav-right{
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+/* Clamp title to at most 2 lines */
+.qiti-site-title{
+  flex: 1 1 auto;
+  min-width: 0; /* critical for flex clamping */
+  font-size: 16px;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2; /* standard property for compatibility */
+  overflow: hidden;
+}
+
+@media (max-width: 30em){
+  .qiti-site-title{ font-size: 14px; }
+}
+
+/* Default: burger visible, desktop links hidden */
+.qiti-nav-links{ display: none; }
+.qiti-nav-social{ display: none; }
+.qiti-nav-toggle{ display: inline-flex; }
+
+/* Show desktop menu only when wide enough (tune this number if needed) */
+@media (min-width: 52em){
+  .qiti-nav-links{ display: flex; align-items: center; }
+  .qiti-nav-social{ display: block; }
+  .qiti-nav-toggle{ display: none; }
+}
+
+
+/* ==========================================================================
+   6) Mobile Navigation Components (hamburger + dropdown)
+   ========================================================================== */
+
+.qiti-burger{
+  border: 1px solid rgba(0,0,0,0.14);
+  background: #fff;
+  color: #111;
+  border-radius: 8px;
+  padding: 8px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.qiti-mobile-menu{
+  border-top: 1px solid rgba(0,0,0,0.08);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+/* show dropdown when nav gets "is-open" class (toggled by JS) */
+.qiti-nav.is-open .qiti-mobile-menu{
+  display: block;
+}
+
+
+/* ==========================================================================
+   7) Card Styling Helpers
+   ========================================================================== */
+
+/* Flat tile style (homepage) */
+.qiti-flat .shadow-1,
+.qiti-flat .shadow-2,
+.qiti-flat .shadow-3{
+  box-shadow: none !important;
+}
+
+.qiti-flat .br1,
+.qiti-flat .br2,
+.qiti-flat .br3,
+.qiti-flat .br4{
+  border-radius: 0 !important;
+}
+
+.qiti-flat .ba{
+  border-color: rgba(0,0,0,0.12) !important;
+}
+
+/* Home “What we do” card images */
+.qiti-home-card-media{
+  width: calc(100% + 2rem); 
+  height: 140px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: #fff;
+  margin: -1rem -1rem 1rem -1rem;
+}
+
+.qiti-home-card-media img{
+  display: block;
+  width: 100%;
+  height: 100%;              /* important */
+  object-fit: cover;         /* now it actually crops to fill */
+  object-position: center;   /* keeps it centered */
+}
+
+
+
+/* Bottom-align CTA in cards (desktop only) */
+.qiti-card{ height: 100%; }
+
+@media (min-width: 30em){
+  .qiti-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .qiti-card-cta{
+    margin-top: auto !important;
+  }
+}
+
+/* Member card: clean hover affordance (no bar) */
+/* Static corner cue: card is clickable */
+
+.qiti-member-name{
+  font-size: 1.15rem;       /* slightly smaller */
+  font-weight: 600;         /* calmer than 650/700 */
+  letter-spacing: -0.01em;
+  line-height: 1.18;
+  margin-bottom: 0.35rem;
+  color: rgba(0,0,0,0.78);  /* softer than pure black */
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.qiti-member-meta{
+  font-size: 0.95rem;
+  color: rgba(0,0,0,0.60);
+  line-height: 1.32;
+}
+
+.qiti-card-hint{
+  display: inline-block;
+  margin-top: 0.55rem;
+  font-size: 0.88rem;
+  color: rgba(0,0,0,0.38);
+  text-decoration: none;
+
+  position: relative;
+  z-index: 4;
+}
+/* Processor list card media (NOT the homepage media class) */
+.qiti-proc-card-media{
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.qiti-proc-card-media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* =========================
+   Publications typography
+   ========================= */
+
+   /* Publication card media (used on Research topic pages) */
+.qiti-pub-card-media{
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: #fff;
+}
+.qiti-pub-card-media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.qiti-pub-title{
+  font-size: 1.06rem;
+  font-weight: 600;
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+  color: rgba(0,0,0,0.86);
+}
+
+.qiti-pub-authors{
+  font-size: 0.95rem;
+  font-weight: 450;
+  line-height: 1.35;
+  color: rgba(0,0,0,0.72);
+}
+
+.qiti-pub-journal{
+  font-size: 0.95rem;
+  line-height: 1.35;
+  color: rgba(0,0,0,0.56);
+}
+
+/* Option 1: subtle underline cue for clickable author names */
+.qiti-pub-authors a{
+  color: rgba(0,0,0,0.78);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(0,0,0,0.18);
+  text-underline-offset: 2px;
+}
+
+.qiti-pub-authors a:hover,
+.qiti-pub-authors a:focus-visible{
+  text-decoration-color: rgba(0,0,0,0.35);
+}
+
+/* Neutralize any bolding inside author lists (even if <strong> is outside <a>) */
+.qiti-pub-authors strong,
+.qiti-pub-authors b{
+  font-weight: inherit !important;
+}
+
+/* Publication authors: subtle dotted underline (force dotted) */
+.qiti-author-link{
+  color: rgba(0,0,0,0.72);
+  font-weight: 500;
+
+  text-decoration-line: underline !important;
+  text-decoration-style: dotted !important;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: rgba(0,0,0,0.28) !important;
+  text-decoration-skip-ink: auto;
+}
+
+/* Some themes set anchors to "text-decoration: none" on hover/focus */
+.qiti-author-link:hover,
+.qiti-author-link:focus{
+  text-decoration-style: dotted !important;
+  text-decoration-color: rgba(0,0,0,0.45) !important;
+}
+
+/* Bold only the member being viewed */
+.qiti-author-highlight{
+  font-weight: 650;
+  color: rgba(0,0,0,0.86);
+}
+
+/* If the highlighted name is a link, keep underline subtle */
+a.qiti-author-highlight{
+  text-decoration-color: rgba(0,0,0,0.35) !important;
+}
+
+
+
+
+/* ==========================================================================
+   8) Back-to-top Button
+   ========================================================================== */
+
+.qiti-backtotop{
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #2f2f2f;
+  color: #ffffff;
+  text-decoration: none;
+
+  border: 1px solid rgba(0,0,0,0.25);
+  border-radius: 9999px;
+
+  box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+  opacity: 0.9;
+}
+
+@media (max-width: 30em){
+  .qiti-backtotop{ bottom: 24px; right: 14px; }
+}
+
+
+/* ==========================================================================
+   9) Group Photo Carousel
+   ========================================================================== */
+
+.qiti-carousel{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.qiti-carousel-track{
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding: 0.5rem 0;
+  flex: 1 1 auto;
+}
+
+.qiti-carousel-track::-webkit-scrollbar{
+  height: 10px;
+}
+
+.qiti-carousel-item{
+  scroll-snap-align: start;
+  flex: 0 0 85%;
+  max-width: 720px;
+}
+
+@media (min-width: 30em){
+  .qiti-carousel-item{ flex: 0 0 60%; }
+}
+
+@media (min-width: 60em){
+  .qiti-carousel-item{ flex: 0 0 45%; }
+}
+
+.qiti-carousel-thumb{
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: #fff;
+  cursor: zoom-in;
+}
+
+/* arrows */
+.qiti-carousel-btn{
+  border: 1px solid rgba(0,0,0,0.12);
+  background: #fff;
+  color: #111;
+  width: 42px;
+  height: 42px;
+  line-height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.qiti-carousel-btn:hover{
+  background: rgba(0,0,0,0.04);
+}
+
+@media (max-width: 30em){
+  .qiti-carousel-btn{ display: none; } /* swipe/scroll on mobile */
+}
+
+
+/* ==========================================================================
+   10) Lightbox
+   ========================================================================== */
+
+.qiti-lightbox{
+  display: none;
+  position: fixed;
+  z-index: 200000;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  padding: 0 1rem;
+}
+
+.qiti-lightbox.is-open{
+  display: block;
+}
+
+.qiti-lightbox-panel{
+  position: relative;
+  max-width: 1100px;
+  margin: 4vh auto;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.12);
+
+  /* keep everything inside the viewport */
+  max-height: 92vh;
+  overflow: hidden;
+
+  /* layout: image area + caption area */
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1rem 1rem;
+}
+
+.qiti-lightbox-imgwrap{
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.qiti-lightbox-img{
+  max-width: 100%;
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.qiti-lightbox-caption{
+  margin-top: 0.75rem;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.qiti-lightbox-close{
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  border: 1px solid rgba(0,0,0,0.18);
+  background: #fff;
+  color: #111;
+  width: 36px;
+  height: 36px;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+@media (max-width: 30em){
+  .qiti-lightbox{ padding: 0; }
+
+  .qiti-lightbox-panel{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+    max-width: none;
+
+    overflow: auto;
+    border: none;
+  }
+
+  .qiti-lightbox-img{ max-height: 60vh; }
+}
+
+
+/* ==========================================================================
+   11) Grid Helpers (used by some list pages)
+   ========================================================================== */
+
+.qiti-grid-3{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 30em){
+  .qiti-grid-3{ grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 60em){
+  .qiti-grid-3{ grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ============================================================================
+    12) Section breaks inside Research long-form pages
+   =============================================================================== */
+.qiti-longform h2 {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(0,0,0,0.10);
+}
+
+.qiti-longform h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.qiti-longform h3 {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+.qiti-longform hr {
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,0.10);
+  margin: 2rem 0;
+}
+.qiti-longform {
+  max-width: 75ch;
+}
+
+/* Make the hero title card match the body reading width */
+.qiti-hero-card {
+  max-width: 75ch;
+}
