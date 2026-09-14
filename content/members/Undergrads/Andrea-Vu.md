@@ -7,7 +7,7 @@ extention: null
 image: images/people/a24vu.webp
 office: null
 previousInstitution: ''
-tags: [a24vu, COOP]
+tags: [a24vu, COOP, alumn]
 tenure: Undergrad co-op student (Spring 2026) Undergrad Volunteer (Winter 2026,  4A Physics and Astronomy)
 title: Andrea Vu
 ---

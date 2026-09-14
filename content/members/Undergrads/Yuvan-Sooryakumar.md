@@ -7,7 +7,7 @@ extention: null
 image: images/people/ysooryak.png
 office: null
 previousInstitution: ''
-tags: [ysooryak, COOP]
+tags: [ysooryak, COOP, alumn]
 tenure: Undergrad Researcher (Spring 2026), Co-op student (Winter 2026), Volunteer (Fall 2025)
 title: Yuvan Sooryakumar
 ---

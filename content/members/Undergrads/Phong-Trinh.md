@@ -7,7 +7,7 @@ extention: null
 image: images/people/pttrinh.webp
 office: null
 previousInstitution: ''
-tags: [pttrinh, COOP]
+tags: [pttrinh, COOP, alumn]
 tenure: Undergrad Volunteer (Spring 2026, Winter 2026 3A Mechatronics Engineering)
 title: Phong Trinh
 ---

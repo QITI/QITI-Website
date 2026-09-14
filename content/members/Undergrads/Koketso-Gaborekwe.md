@@ -8,7 +8,7 @@ image: images/people/kggabore.webp
 office: null
 previousInstitution: ''
 tags: [kggabore, COOP]
-tenure: Undergrad co-op student (Spring 2026, Mechatronics Engineering) 
+tenure: Undergrad co-op student (Spring 2026-Fall 2026, Mechatronics Engineering) 
 title: Koketso Gaborekwe
 ---
 I am a mechatronics engineering student at UWaterloo and like to build robots.  In my spare time I enjoying playing soccer.
